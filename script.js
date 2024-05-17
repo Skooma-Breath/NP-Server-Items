@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
             return response.json();
         })
         .then(data => {
-            console.log('Data loaded successfully:', data);
+            // console.log('Data loaded successfully:', data);
             populateTable(data);
             addSorting();
             addSearchFunctionality(data);
