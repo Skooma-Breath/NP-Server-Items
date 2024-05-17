@@ -1,0 +1,89 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2c2824; /* Dark background */
+    color: #d2c9b0; /* Light text for better readability */
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+    /* background-color: #433d37; /* Darker background */ */
+    color: #d2c9b0; /* Light text color */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2; /* Ensure it appears above other content */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 60px auto 20px; /* Adjusted margin to accommodate fixed header */
+    padding: 20px;
+    background-color: #433d37; /* Darker background */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+    overflow: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    background-color: #2c2824; /* Dark background for table header */
+    /* position: sticky; */
+    top: 40px; /* Adjust according to the height of your <h1> */
+    z-index: 1;
+
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #635b53; /* Darker border */
+}
+
+thead th {
+    cursor: pointer;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #433d37; /* Darker background for even rows */
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #2c2824; /* Dark background for odd rows */
+}
+
+th {
+    background-color: #635b53; /* Darker background for table header */
+    color: #d2c9b0; /* Light text color */
+}
+
+/* Existing CSS code */
+
+th {
+    background-color: #635b53; /* Darker background for table header */
+    color: #d2c9b0; /* Light text color */
+    transition: background-color 0.3s; /* Smooth transition effect */
+}
+
+th:hover {
+    background-color: #847763; /* Lighter background on hover */
+}
+
+thead th {
+    cursor: pointer;
+    border-right: 1px solid #433d37; /* Darker border between cells */
+}
+
+thead th:last-child {
+    border-right: none; /* Remove border on the last cell */
+}
