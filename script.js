@@ -124,15 +124,18 @@ function addSearchFunctionality(data) {
         const filteredData = data.filter(item =>
             Object.values(item).some(value => typeof value === 'string' && value.toLowerCase().includes(searchText))
         );
-        updateTable(filteredData);
+        updateTable(data, filteredData);
     });
 }
 
-function updateTable(data) {
+function updateTable(data, filteredData) {
     const tableBody = document.querySelector('#itemsTable tbody');
     tableBody.innerHTML = '';
 
-    data.forEach(item => {
+    // Determine which dataset to use based on whether search filtering is applied
+    const dataset = filteredData ? filteredData : data;
+
+    dataset.forEach(item => {
         const row = document.createElement('tr');
 
         Object.values(item).forEach((text, index) => {
@@ -151,7 +154,35 @@ function updateTable(data) {
 
         tableBody.appendChild(row);
     });
+
+    // Display local images after updating the table
+    displayLocalImages();
 }
+
+
+
+
+function createRow(item) {
+    const row = document.createElement('tr');
+    row.setAttribute('data-item-name', item['Item Name']);
+
+    Object.values(item).forEach((text, index) => {
+        const cell = document.createElement('td');
+        if (index === 1 && text.startsWith("http")) { // Assuming the second column is Image
+            const img = document.createElement('img');
+            img.src = text;
+            img.alt = "Image";
+            img.style.maxWidth = "50px";
+            cell.appendChild(img);
+        } else {
+            cell.textContent = text;
+        }
+        row.appendChild(cell);
+    });
+
+    return row;
+}
+
 
 function displayLocalImages() {
     const table = document.getElementById('itemsTable');
@@ -216,3 +247,32 @@ function displayLargeImage(imageURL) {
     // Prevent scrolling when the overlay is open
     document.body.style.overflow = 'hidden';
 }
+
+// Function to debounce search input
+function debounce(func, delay) {
+    let timeoutId;
+    return function(...args) {
+        clearTimeout(timeoutId);
+        timeoutId = setTimeout(() => {
+            func.apply(this, args);
+        }, delay);
+    };
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    // Existing code...
+
+    // Add debounced input event listener to search bar with minimum input length
+    searchBar.addEventListener('input', debounce(() => {
+        const searchText = searchBar.value.toLowerCase().trim(); // Trim whitespace
+        const minLength = 2; // Minimum input length
+        if (searchText.length >= minLength) {
+            const filteredData = data.filter(item =>
+                Object.values(item).some(value => typeof value === 'string' && value.toLowerCase().includes(searchText))
+            );
+            updateTable(data, filteredData);
+        } else {
+            updateTable(data, data); // Reset table if input length is below minimum
+        }
+    }, 300)); // Adjust delay as needed
+});
