@@ -218,9 +218,26 @@ function displayLocalImages() {
             })
             .catch(error => {
                 console.error(`Error loading image ${imgPath}:`, error);
+                // Use placeholder image if image doesn't exist
+                const imgPathPlaceholder = 'images/caius.png';
+                const img = document.createElement('img');
+                img.src = imgPathPlaceholder;
+                img.alt = "Image";
+                img.style.maxWidth = "50px";
+                img.classList.add('clickable'); // Add clickable class to each image
+
+                const imgCell = row.querySelector('td:nth-child(2)');
+                imgCell.innerHTML = '';
+                imgCell.appendChild(img);
+
+                // Attach click event listener to each image
+                img.addEventListener('click', () => {
+                    displayLargeImage(imgPathPlaceholder);
+                });
             });
     });
 }
+
 
 function displayLargeImage(imageURL) {
     // Create a modal overlay
