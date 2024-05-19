@@ -28,11 +28,33 @@ document.addEventListener('DOMContentLoaded', () => {
             return response.json();
         })
         .then(data => {
-            // console.log('Data loaded successfully:', data);
-            populateTable(data);
-            addSorting();
-            addSearchFunctionality(data);
-            displayLocalImages(data); // Add this line to load and display local images
+            fetch('output.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok ' + response.statusText);
+                    }
+                    return response.json();
+                })
+                .then(outputData => {
+                    const effectsMap = new Map(Object.entries(outputData));
+
+                    data.forEach(item => {
+                        const itemNameWithPng = item['Item Name'] + '.png';
+                        if (effectsMap.has(itemNameWithPng)) {
+                            item['Effects'] = effectsMap.get(itemNameWithPng);
+                        } else {
+                            item['Effects'] = '';
+                        }
+                    });
+
+                    populateTable(data);
+                    addSorting();
+                    addSearchFunctionality(data);
+                    displayLocalImages(); // Load and display local images
+                })
+                .catch(error => {
+                    console.error('Error loading output data:', error);
+                });
         })
         .catch(error => {
             console.error('Error loading data:', error);
@@ -44,7 +66,7 @@ function populateTable(data) {
 
     // Add header row
     const headerRow = document.createElement('tr');
-    const headers = ['Item Name', 'Image', 'Hidden Effect(s)', 'Spec. Req.', 'Lvl Req.', 'Location/Boss/Event', 'Type', 'Slot', 'Other Notes', 'EV', 'Price'];
+    const headers = ['Item Name', 'Image', 'Effects', 'Hidden Effect(s)', 'Spec. Req.', 'Lvl Req.', 'Location/Boss/Event', 'Type', 'Slot', 'Other Notes', 'EV', 'Price'];
     headers.forEach(headerText => {
         const headerCell = document.createElement('th');
         headerCell.textContent = headerText;
@@ -59,16 +81,17 @@ function populateTable(data) {
     data.forEach(item => {
         const row = document.createElement('tr');
 
-        Object.values(item).forEach((text, index) => {
+        headers.forEach((headerText, index) => {
             const cell = document.createElement('td');
-            if (index === 1 && text.startsWith("http")) { // Assuming the second column is Image
+            const cellValue = item[headerText] || '';
+            if (index === 1 && cellValue.startsWith("http")) { // Assuming the second column is Image
                 const img = document.createElement('img');
-                img.src = text;
+                img.src = cellValue;
                 img.alt = "Image";
                 img.style.maxWidth = "50px";
                 cell.appendChild(img);
             } else {
-                cell.textContent = text;
+                cell.textContent = cellValue;
             }
             row.appendChild(cell);
         });
@@ -119,35 +142,40 @@ function sortTableByColumn(columnIndex) {
 
 function addSearchFunctionality(data) {
     const searchBar = document.querySelector('.search-bar');
-    searchBar.addEventListener('input', () => {
-        const searchText = searchBar.value.toLowerCase();
-        const filteredData = data.filter(item =>
-            Object.values(item).some(value => typeof value === 'string' && value.toLowerCase().includes(searchText))
-        );
-        updateTable(data, filteredData);
-    });
+    searchBar.addEventListener('input', debounce(() => {
+        const searchText = searchBar.value.toLowerCase().trim(); // Trim whitespace
+        const minLength = 2; // Minimum input length
+        if (searchText.length >= minLength) {
+            const filteredData = data.filter(item =>
+                Object.values(item).some(value => typeof value === 'string' && value.toLowerCase().includes(searchText))
+            );
+            updateTable(filteredData);
+        } else {
+            updateTable(data); // Reset table if input length is below minimum
+        }
+    }, 300)); // Adjust delay as needed
 }
 
-function updateTable(data, filteredData) {
+function updateTable(data) {
     const tableBody = document.querySelector('#itemsTable tbody');
     tableBody.innerHTML = '';
 
-    // Determine which dataset to use based on whether search filtering is applied
-    const dataset = filteredData ? filteredData : data;
+    const headers = ['Item Name', 'Image', 'Effects', 'Hidden Effect(s)', 'Spec. Req.', 'Lvl Req.', 'Location/Boss/Event', 'Type', 'Slot', 'Other Notes', 'EV', 'Price'];
 
-    dataset.forEach(item => {
+    data.forEach(item => {
         const row = document.createElement('tr');
 
-        Object.values(item).forEach((text, index) => {
+        headers.forEach((headerText, index) => {
             const cell = document.createElement('td');
-            if (index === 1 && text.startsWith("http")) { // Assuming the second column is Image
+            const cellValue = item[headerText] || '';
+            if (index === 1 && cellValue.startsWith("http")) { // Assuming the second column is Image
                 const img = document.createElement('img');
-                img.src = text;
+                img.src = cellValue;
                 img.alt = "Image";
                 img.style.maxWidth = "50px";
                 cell.appendChild(img);
             } else {
-                cell.textContent = text;
+                cell.textContent = cellValue;
             }
             row.appendChild(cell);
         });
@@ -159,30 +187,29 @@ function updateTable(data, filteredData) {
     displayLocalImages();
 }
 
-
-
-
 function createRow(item) {
     const row = document.createElement('tr');
     row.setAttribute('data-item-name', item['Item Name']);
 
-    Object.values(item).forEach((text, index) => {
+    const headers = ['Item Name', 'Image', 'Effects', 'Hidden Effect(s)', 'Spec. Req.', 'Lvl Req.', 'Location/Boss/Event', 'Type', 'Slot', 'Other Notes', 'EV', 'Price'];
+
+    headers.forEach((headerText, index) => {
         const cell = document.createElement('td');
-        if (index === 1 && text.startsWith("http")) { // Assuming the second column is Image
+        const cellValue = item[headerText] || '';
+        if (index === 1 && cellValue.startsWith("http")) { // Assuming the second column is Image
             const img = document.createElement('img');
-            img.src = text;
+            img.src = cellValue;
             img.alt = "Image";
             img.style.maxWidth = "50px";
             cell.appendChild(img);
         } else {
-            cell.textContent = text;
+            cell.textContent = cellValue;
         }
         row.appendChild(cell);
     });
 
     return row;
 }
-
 
 function displayLocalImages() {
     const table = document.getElementById('itemsTable');
@@ -192,52 +219,71 @@ function displayLocalImages() {
         const itemName = row.querySelector('td:first-child').textContent.trim();
         const imgPath = `images/${itemName}.png`;
 
-        fetch(imgPath)
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error(`Failed to fetch ${imgPath}`);
-                }
-                return response.blob();
+        // Check if the image exists before attempting to fetch it
+        checkImageExists(imgPath)
+            .then(() => {
+                // Image exists, fetch it
+                fetch(imgPath)
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('Image not found');
+                        }
+                        return response.blob();
+                    })
+                    .then(blob => {
+                        const imgURL = URL.createObjectURL(blob);
+                        const img = document.createElement('img');
+                        img.src = imgURL;
+                        img.alt = "Image";
+                        img.style.maxWidth = "50px";
+                        img.classList.add('clickable'); // Add clickable class to each image
+
+                        const imgCell = row.querySelector('td:nth-child(2)');
+                        imgCell.innerHTML = '';
+                        imgCell.appendChild(img);
+
+                        // Attach click event listener to each image
+                        img.addEventListener('click', () => {
+                            displayLargeImage(imgURL);
+                        });
+                    })
+                    .catch(error => {
+                        // Display placeholder image
+                        displayPlaceholderImage(row);
+                    });
             })
-            .then(blob => {
-                const imgURL = URL.createObjectURL(blob);
-                const img = document.createElement('img');
-                img.src = imgURL;
-                img.alt = "Image";
-                img.style.maxWidth = "50px";
-                img.classList.add('clickable'); // Add clickable class to each image
-
-                const imgCell = row.querySelector('td:nth-child(2)');
-                imgCell.innerHTML = '';
-                imgCell.appendChild(img);
-
-                // Attach click event listener to each image
-                img.addEventListener('click', () => {
-                    displayLargeImage(imgURL);
-                });
-            })
-            .catch(error => {
-                console.error(`Error loading image ${imgPath}:`, error);
-                // Use placeholder image if image doesn't exist
-                const imgPathPlaceholder = 'images/caius.png';
-                const img = document.createElement('img');
-                img.src = imgPathPlaceholder;
-                img.alt = "Image";
-                img.style.maxWidth = "50px";
-                img.classList.add('clickable'); // Add clickable class to each image
-
-                const imgCell = row.querySelector('td:nth-child(2)');
-                imgCell.innerHTML = '';
-                imgCell.appendChild(img);
-
-                // Attach click event listener to each image
-                img.addEventListener('click', () => {
-                    displayLargeImage(imgPathPlaceholder);
-                });
+            .catch(() => {
+                // Image does not exist, display placeholder image
+                displayPlaceholderImage(row);
             });
     });
 }
 
+function checkImageExists(imageUrl) {
+    return new Promise((resolve, reject) => {
+        const img = new Image();
+        img.onload = () => resolve();
+        img.onerror = () => reject();
+        img.src = imageUrl;
+    });
+}
+
+function displayPlaceholderImage(row) {
+    const img = document.createElement('img');
+    img.src = 'images/caius.png'; // Placeholder image path
+    img.alt = "Placeholder Image";
+    img.style.maxWidth = "50px";
+    img.classList.add('clickable'); // Add clickable class to each image
+
+    const imgCell = row.querySelector('td:nth-child(2)');
+    imgCell.innerHTML = '';
+    imgCell.appendChild(img);
+
+    // Attach click event listener to each image
+    img.addEventListener('click', () => {
+        displayLargeImage(img.src);
+    });
+}
 
 function displayLargeImage(imageURL) {
     // Create a modal overlay
@@ -280,6 +326,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Existing code...
 
     // Add debounced input event listener to search bar with minimum input length
+    const searchBar = document.querySelector('.search-bar');
     searchBar.addEventListener('input', debounce(() => {
         const searchText = searchBar.value.toLowerCase().trim(); // Trim whitespace
         const minLength = 2; // Minimum input length
@@ -287,9 +334,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const filteredData = data.filter(item =>
                 Object.values(item).some(value => typeof value === 'string' && value.toLowerCase().includes(searchText))
             );
-            updateTable(data, filteredData);
+            updateTable(filteredData);
         } else {
-            updateTable(data, data); // Reset table if input length is below minimum
+            updateTable(data); // Reset table if input length is below minimum
         }
     }, 300)); // Adjust delay as needed
 });
