@@ -48,7 +48,8 @@ function populateTable(data) {
     'Health', 'Magicka', 'Fatigue', 'Strength', 'Intelligence', 'Willpower', 'Agility', 'Speed', 'Endurance', 'Personality', 'Luck',
     'Armorer', 'Athletics', 'Axe', 'Block', 'Blunt Weapon', 'Heavy Armor', 'Long Blade', 'Medium Armor', 'Spear', 'Alchemy', 'Alteration', 'Conjuration',
     'Destruction', 'Enchant', 'Illusion', 'Mysticism', 'Restoration', 'Unarmored', 'Stealth', 'Acrobatics', 'Hand-to-hand', 'Light Armor', 'Marksman',
-    'Mercantile', 'Security', 'Short Blade', 'Sneak', 'Speechcraft'
+    'Mercantile', 'Security', 'Short Blade', 'Sneak', 'Speechcraft', 'Fire', 'Frost', 'Shock', 'Poison', 'Disease', 'Reflect', 'Paralyze', 'Light', 'Frenzy Creature',
+    'Frenzy Humanoid', 'Demoralize Creature', 'Demoralize Humanoid'
 ];
 
     headers.forEach(headerText => {
@@ -72,7 +73,8 @@ function populateTable(data) {
                 cell.textContent = Object.entries(stats).map(([key, value]) => `${key}: ${value}`).join(', ');
             } else if (['Health', 'Magicka', 'Fatigue', 'Strength', 'Intelligence', 'Willpower', 'Agility', 'Speed', 'Endurance', 'Personality', 'Luck', 'Armorer', 'Athletics', 'Axe', 'Block', 'Blunt Weapon', 'Heavy Armor', 'Long Blade', 'Medium Armor', 'Spear', 'Alchemy', 'Alteration', 'Conjuration',
             'Destruction', 'Enchant', 'Illusion', 'Mysticism', 'Restoration', 'Unarmored', 'Stealth', 'Acrobatics', 'Hand-to-hand', 'Light Armor', 'Marksman',
-            'Mercantile', 'Security', 'Short Blade', 'Sneak', 'Speechcraft'].includes(headerText)) {
+            'Mercantile', 'Security', 'Short Blade', 'Sneak', 'Speechcraft', 'Fire', 'Frost', 'Shock', 'Poison', 'Disease', 'Reflect', 'Paralyze', 'Light', 'Frenzy Creature',
+            'Frenzy Humanoid', 'Demoralize Creature', 'Demoralize Humanoid'].includes(headerText)) {
                 const effect = item.Effects ? item.Effects.find(e => e.toLowerCase().includes(headerText.toLowerCase())) : '';
                 // cell.textContent = effect ? effect.split(' ').slice(-2).join(' ') : ''; // Extract the value (e.g., "10 pts")
                 cell.textContent = effect ; // Extract the value (e.g., "10 pts")
@@ -171,7 +173,8 @@ function updateTable(data) {
     'Health', 'Magicka', 'Fatigue', 'Strength', 'Intelligence', 'Willpower', 'Agility', 'Speed', 'Endurance', 'Personality', 'Luck',
     'Armorer', 'Athletics', 'Axe', 'Block', 'Blunt Weapon', 'Heavy Armor', 'Long Blade', 'Medium Armor', 'Spear', 'Alchemy', 'Alteration', 'Conjuration',
     'Destruction', 'Enchant', 'Illusion', 'Mysticism', 'Restoration', 'Unarmored', 'Stealth', 'Acrobatics', 'Hand-to-hand', 'Light Armor', 'Marksman',
-    'Mercantile', 'Security', 'Short Blade', 'Sneak', 'Speechcraft'
+    'Mercantile', 'Security', 'Short Blade', 'Sneak', 'Speechcraft', 'Fire', 'Frost', 'Shock', 'Poison', 'Disease', 'Reflect', 'Paralyze', 'Light', 'Frenzy Creature',
+    'Frenzy Humanoid', 'Demoralize Creature', 'Demoralize Humanoid'
 ];
 
 
@@ -185,7 +188,8 @@ function updateTable(data) {
                 cell.textContent = Object.entries(stats).map(([key, value]) => `${key}: ${value}`).join(', ');
             } else if (['Health', 'Magicka', 'Fatigue', 'Strength', 'Intelligence', 'Willpower', 'Agility', 'Speed', 'Endurance', 'Personality', 'Luck', 'Armorer', 'Athletics', 'Axe', 'Block', 'Blunt Weapon', 'Heavy Armor', 'Long Blade', 'Medium Armor', 'Spear', 'Alchemy', 'Alteration', 'Conjuration',
             'Destruction', 'Enchant', 'Illusion', 'Mysticism', 'Restoration', 'Unarmored', 'Stealth', 'Acrobatics', 'Hand-to-hand', 'Light Armor', 'Marksman',
-            'Mercantile', 'Security', 'Short Blade', 'Sneak', 'Speechcraft'].includes(headerText)) {
+            'Mercantile', 'Security', 'Short Blade', 'Sneak', 'Speechcraft', 'Fire', 'Frost', 'Shock', 'Poison', 'Disease', 'Reflect', 'Paralyze', 'Light', 'Frenzy Creature',
+            'Frenzy Humanoid', 'Demoralize Creature', 'Demoralize Humanoid'].includes(headerText)) {
                 const effect = item.Effects ? item.Effects.find(e => e.toLowerCase().includes(headerText.toLowerCase())) : '';
                 cell.textContent = effect ; // Extract the value (e.g., "10 pts")
                 // cell.textContent = effect ? effect.split(' ').slice(-2).join(' ') : ''; // Extract the value (e.g., "10 pts")
@@ -220,7 +224,8 @@ function createRow(item) {
     'Health', 'Magicka', 'Fatigue', 'Strength', 'Intelligence', 'Willpower', 'Agility', 'Speed', 'Endurance', 'Personality', 'Luck',
     'Armorer', 'Athletics', 'Axe', 'Block', 'Blunt Weapon', 'Heavy Armor', 'Long Blade', 'Medium Armor', 'Spear', 'Alchemy', 'Alteration', 'Conjuration',
     'Destruction', 'Enchant', 'Illusion', 'Mysticism', 'Restoration', 'Unarmored', 'Stealth', 'Acrobatics', 'Hand-to-hand', 'Light Armor', 'Marksman',
-    'Mercantile', 'Security', 'Short Blade', 'Sneak', 'Speechcraft'
+    'Mercantile', 'Security', 'Short Blade', 'Sneak', 'Speechcraft', 'Fire', 'Frost', 'Shock', 'Poison', 'Disease', 'Reflect', 'Paralyze', 'Light', 'Frenzy Creature',
+    'Frenzy Humanoid', 'Demoralize Creature', 'Demoralize Humanoid'
 ];
 
 
@@ -231,7 +236,8 @@ function createRow(item) {
             cell.textContent = Object.entries(stats).map(([key, value]) => `${key}: ${value}`).join(', ');
         } else if (['Health', 'Magicka', 'Fatigue', 'Strength', 'Intelligence', 'Willpower', 'Agility', 'Speed', 'Endurance', 'Personality', 'Luck', 'Armorer', 'Athletics', 'Axe', 'Block', 'Blunt Weapon', 'Heavy Armor', 'Long Blade', 'Medium Armor', 'Spear', 'Alchemy', 'Alteration', 'Conjuration',
         'Destruction', 'Enchant', 'Illusion', 'Mysticism', 'Restoration', 'Unarmored', 'Stealth', 'Acrobatics', 'Hand-to-hand', 'Light Armor', 'Marksman',
-        'Mercantile', 'Security', 'Short Blade', 'Sneak', 'Speechcraft'].includes(headerText)) {
+        'Mercantile', 'Security', 'Short Blade', 'Sneak', 'Speechcraft', 'Fire', 'Frost', 'Shock', 'Poison', 'Disease', 'Reflect', 'Paralyze', 'Light', 'Frenzy Creature',
+        'Frenzy Humanoid', 'Demoralize Creature', 'Demoralize Humanoid'].includes(headerText)) {
             const effect = item.Effects ? item.Effects.find(e => e.toLowerCase().includes(headerText.toLowerCase())) : '';
             cell.textContent = effect; // Extract the value (e.g., "10 pts")
             // cell.textContent = effect ? effect.split(' ').slice(-2).join(' ') : ''; // Extract the value (e.g., "10 pts")

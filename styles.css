@@ -19,7 +19,7 @@ h1 {
 }
 
 .container {
-    width: 5000px;
+    width: 6000px;
     /* max-width: 2300px; */
     margin: 60px auto 20px; /* Adjusted margin to accommodate fixed header */
     padding: 20px;

@@ -1855,7 +1855,7 @@
     "Price": "",
     "Effects": [
       "Constant Effect",
-      "Fortify Attribute Serengceh 10 pts",
+      "Fortify Attribute Strength 10 pts",
       "Fortify Health 50 pts",
       "Fortify Magicka 25 pts",
       "Resist Fire 2%",
@@ -3155,7 +3155,7 @@
     "Price": "",
     "Effects": [
       "Cast When Strikes",
-      "Weure Blight Disease in 25 fe on Targee"
+      "Cure Blight Disease in 25 ft on Target"
     ],
     "Stats": {
       "Type": "Marksman",
@@ -6695,7 +6695,7 @@
       "Demoralize Creature 100 pts for 20 secs on Target",
       "Drain Magicka 1000 pts for 20 sec on Target",
       "Frenzy Humanoid 100 pts for 20 secs on Target",
-      "WFrenzy Creature 100 pts For 20 secs on Target",
+      "Frenzy Creature 100 pts For 20 secs on Target",
       "Frost Damage 25 pts for 20 secs on Target",
       "Paralyze for 1 sec on Target",
       "Paralyze for 15 secs on Target"
