@@ -10,7 +10,6 @@ h1 {
     text-align: center;
     margin: 0;
     padding: 10px 0;
-    /* background-color: #433d37; /* Darker background */ */
     color: #d2c9b0; /* Light text color */
     position: absolute;
     top: 0;
@@ -20,14 +19,14 @@ h1 {
 }
 
 .container {
-    width: 90%;
-    max-width: 1200px;
+    width: 5000px;
+    /* max-width: 2300px; */
     margin: 60px auto 20px; /* Adjusted margin to accommodate fixed header */
     padding: 20px;
     background-color: #433d37; /* Darker background */
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
-    overflow: auto;
+    /* overflow: auto; */
 }
 
 table {
@@ -38,7 +37,6 @@ table {
 
 thead {
     background-color: #2c2824; /* Dark background for table header */
-    /* position: sticky; */
     top: 40px; /* Adjust according to the height of your <h1> */
     z-index: 1;
 }
@@ -119,7 +117,6 @@ body.no-scroll {
 /* Custom scrollbar styles */
 body::-webkit-scrollbar {
     width: 25px;
-    /* height: 900px; /* Adjust the height as needed */ */
 }
 
 body::-webkit-scrollbar-track {
@@ -131,9 +128,35 @@ body::-webkit-scrollbar-thumb {
     background-color: #9d9d9d;
     border: 2px solid #9d9d9d; /* Vibrant blue border */
     border-radius: 10px;
-
 }
 
 body::-webkit-scrollbar-thumb:hover {
     background-color: #1d1f1d;
+}
+
+/* Custom horizontal scrollbar styles */
+.scroll-container::-webkit-scrollbar {
+    height: 25px;
+}
+
+.scroll-container::-webkit-scrollbar-track {
+    background: #1d1f1d;
+    border-top: 2px solid #9d9d9d; /* Vibrant blue border */
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+    background-color: #9d9d9d;
+    border: 2px solid #9d9d9d; /* Vibrant blue border */
+    border-radius: 10px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb:hover {
+    background-color: #1d1f1d;
+}
+
+/* Ensure horizontal scrollbar is always visible */
+.scroll-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 25px; /* Space for the scrollbar */
 }

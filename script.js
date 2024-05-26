@@ -28,33 +28,10 @@ document.addEventListener('DOMContentLoaded', () => {
             return response.json();
         })
         .then(data => {
-            fetch('output.json')
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error('Network response was not ok ' + response.statusText);
-                    }
-                    return response.json();
-                })
-                .then(outputData => {
-                    const effectsMap = new Map(Object.entries(outputData));
-
-                    data.forEach(item => {
-                        const itemNameWithPng = item['Item Name'] + '.png';
-                        if (effectsMap.has(itemNameWithPng)) {
-                            item['Effects'] = effectsMap.get(itemNameWithPng);
-                        } else {
-                            item['Effects'] = '';
-                        }
-                    });
-
-                    populateTable(data);
-                    addSorting();
-                    addSearchFunctionality(data);
-                    displayLocalImages(); // Load and display local images
-                })
-                .catch(error => {
-                    console.error('Error loading output data:', error);
-                });
+            populateTable(data);
+            addSorting();
+            addSearchFunctionality(data);
+            displayLocalImages(); // Load and display local images
         })
         .catch(error => {
             console.error('Error loading data:', error);
@@ -66,7 +43,14 @@ function populateTable(data) {
 
     // Add header row
     const headerRow = document.createElement('tr');
-    const headers = ['Item Name', 'Image', 'Effects', 'Hidden Effect(s)', 'Spec. Req.', 'Lvl Req.', 'Location/Boss/Event', 'Type', 'Slot', 'Other Notes', 'EV', 'Price'];
+    const headers = [
+    'Item Name', 'Image', 'Stats', 'Hidden Effect(s)', 'Spec. Req.', 'Lvl Req.', 'Location/Boss/Event', 'Type', 'Slot', 'Other Notes', 'EV', 'Price',
+    'Health', 'Magicka', 'Fatigue', 'Strength', 'Intelligence', 'Willpower', 'Agility', 'Speed', 'Endurance', 'Personality', 'Luck',
+    'Armorer', 'Athletics', 'Axe', 'Block', 'Blunt Weapon', 'Heavy Armor', 'Long Blade', 'Medium Armor', 'Spear', 'Alchemy', 'Alteration', 'Conjuration',
+    'Destruction', 'Enchant', 'Illusion', 'Mysticism', 'Restoration', 'Unarmored', 'Stealth', 'Acrobatics', 'Hand-to-hand', 'Light Armor', 'Marksman',
+    'Mercantile', 'Security', 'Short Blade', 'Sneak', 'Speechcraft'
+];
+
     headers.forEach(headerText => {
         const headerCell = document.createElement('th');
         headerCell.textContent = headerText;
@@ -83,15 +67,26 @@ function populateTable(data) {
 
         headers.forEach((headerText, index) => {
             const cell = document.createElement('td');
-            const cellValue = item[headerText] || '';
-            if (index === 1 && cellValue.startsWith("http")) { // Assuming the second column is Image
-                const img = document.createElement('img');
-                img.src = cellValue;
-                img.alt = "Image";
-                img.style.maxWidth = "50px";
-                cell.appendChild(img);
+            if (headerText === 'Stats' && item.Stats) {
+                const stats = item.Stats;
+                cell.textContent = Object.entries(stats).map(([key, value]) => `${key}: ${value}`).join(', ');
+            } else if (['Health', 'Magicka', 'Fatigue', 'Strength', 'Intelligence', 'Willpower', 'Agility', 'Speed', 'Endurance', 'Personality', 'Luck', 'Armorer', 'Athletics', 'Axe', 'Block', 'Blunt Weapon', 'Heavy Armor', 'Long Blade', 'Medium Armor', 'Spear', 'Alchemy', 'Alteration', 'Conjuration',
+            'Destruction', 'Enchant', 'Illusion', 'Mysticism', 'Restoration', 'Unarmored', 'Stealth', 'Acrobatics', 'Hand-to-hand', 'Light Armor', 'Marksman',
+            'Mercantile', 'Security', 'Short Blade', 'Sneak', 'Speechcraft'].includes(headerText)) {
+                const effect = item.Effects ? item.Effects.find(e => e.toLowerCase().includes(headerText.toLowerCase())) : '';
+                // cell.textContent = effect ? effect.split(' ').slice(-2).join(' ') : ''; // Extract the value (e.g., "10 pts")
+                cell.textContent = effect ; // Extract the value (e.g., "10 pts")
             } else {
-                cell.textContent = cellValue;
+                const cellValue = item[headerText] || '';
+                if (index === 1 && cellValue.startsWith("http")) { // Assuming the second column is Image
+                    const img = document.createElement('img');
+                    img.src = cellValue;
+                    img.alt = "Image";
+                    img.style.maxWidth = "50px";
+                    cell.appendChild(img);
+                } else {
+                    cell.textContent = cellValue;
+                }
             }
             row.appendChild(cell);
         });
@@ -112,7 +107,7 @@ function addSorting() {
     });
 }
 
-let sortAscending = true; // Track sorting order
+let sortAscending = true;  // Add this global variable to keep track of sorting order
 
 function sortTableByColumn(columnIndex) {
     const table = document.getElementById('itemsTable');
@@ -123,9 +118,15 @@ function sortTableByColumn(columnIndex) {
         const aValue = a.querySelector(`td:nth-child(${columnIndex + 1})`).textContent.trim();
         const bValue = b.querySelector(`td:nth-child(${columnIndex + 1})`).textContent.trim();
 
-        if (!isNaN(parseFloat(aValue)) && !isNaN(parseFloat(bValue))) {
-            return sortAscending ? parseFloat(aValue) - parseFloat(bValue) : parseFloat(bValue) - parseFloat(aValue);
+        // Extract numbers from the strings
+        const aNum = parseFloat(aValue.match(/-?\d+(\.\d+)?/));
+        const bNum = parseFloat(bValue.match(/-?\d+(\.\d+)?/));
+
+        // Check if both values are numbers
+        if (!isNaN(aNum) && !isNaN(bNum)) {
+            return sortAscending ? aNum - bNum : bNum - aNum;
         } else {
+            // If not both are numbers, fall back to string comparison
             return sortAscending ? aValue.localeCompare(bValue) : bValue.localeCompare(aValue);
         }
     });
@@ -140,15 +141,20 @@ function sortTableByColumn(columnIndex) {
     sortAscending = !sortAscending;
 }
 
+
 function addSearchFunctionality(data) {
     const searchBar = document.querySelector('.search-bar');
     searchBar.addEventListener('input', debounce(() => {
         const searchText = searchBar.value.toLowerCase().trim(); // Trim whitespace
         const minLength = 2; // Minimum input length
         if (searchText.length >= minLength) {
-            const filteredData = data.filter(item =>
-                Object.values(item).some(value => typeof value === 'string' && value.toLowerCase().includes(searchText))
-            );
+            const filteredData = data.filter(item => {
+                const statsString = item.Stats ? Object.entries(item.Stats).map(([key, value]) => `${key}: ${value}`).join(', ') : '';
+                const effectsString = item.Effects ? item.Effects.join(' ') : '';
+                return Object.values(item).some(value => typeof value === 'string' && value.toLowerCase().includes(searchText)) ||
+                       statsString.toLowerCase().includes(searchText) ||
+                       effectsString.toLowerCase().includes(searchText);
+            });
             updateTable(filteredData);
         } else {
             updateTable(data); // Reset table if input length is below minimum
@@ -160,22 +166,40 @@ function updateTable(data) {
     const tableBody = document.querySelector('#itemsTable tbody');
     tableBody.innerHTML = '';
 
-    const headers = ['Item Name', 'Image', 'Effects', 'Hidden Effect(s)', 'Spec. Req.', 'Lvl Req.', 'Location/Boss/Event', 'Type', 'Slot', 'Other Notes', 'EV', 'Price'];
+    const headers = [
+    'Item Name', 'Image', 'Stats', 'Hidden Effect(s)', 'Spec. Req.', 'Lvl Req.', 'Location/Boss/Event', 'Type', 'Slot', 'Other Notes', 'EV', 'Price',
+    'Health', 'Magicka', 'Fatigue', 'Strength', 'Intelligence', 'Willpower', 'Agility', 'Speed', 'Endurance', 'Personality', 'Luck',
+    'Armorer', 'Athletics', 'Axe', 'Block', 'Blunt Weapon', 'Heavy Armor', 'Long Blade', 'Medium Armor', 'Spear', 'Alchemy', 'Alteration', 'Conjuration',
+    'Destruction', 'Enchant', 'Illusion', 'Mysticism', 'Restoration', 'Unarmored', 'Stealth', 'Acrobatics', 'Hand-to-hand', 'Light Armor', 'Marksman',
+    'Mercantile', 'Security', 'Short Blade', 'Sneak', 'Speechcraft'
+];
+
 
     data.forEach(item => {
         const row = document.createElement('tr');
 
         headers.forEach((headerText, index) => {
             const cell = document.createElement('td');
-            const cellValue = item[headerText] || '';
-            if (index === 1 && cellValue.startsWith("http")) { // Assuming the second column is Image
-                const img = document.createElement('img');
-                img.src = cellValue;
-                img.alt = "Image";
-                img.style.maxWidth = "50px";
-                cell.appendChild(img);
+            if (headerText === 'Stats' && item.Stats) {
+                const stats = item.Stats;
+                cell.textContent = Object.entries(stats).map(([key, value]) => `${key}: ${value}`).join(', ');
+            } else if (['Health', 'Magicka', 'Fatigue', 'Strength', 'Intelligence', 'Willpower', 'Agility', 'Speed', 'Endurance', 'Personality', 'Luck', 'Armorer', 'Athletics', 'Axe', 'Block', 'Blunt Weapon', 'Heavy Armor', 'Long Blade', 'Medium Armor', 'Spear', 'Alchemy', 'Alteration', 'Conjuration',
+            'Destruction', 'Enchant', 'Illusion', 'Mysticism', 'Restoration', 'Unarmored', 'Stealth', 'Acrobatics', 'Hand-to-hand', 'Light Armor', 'Marksman',
+            'Mercantile', 'Security', 'Short Blade', 'Sneak', 'Speechcraft'].includes(headerText)) {
+                const effect = item.Effects ? item.Effects.find(e => e.toLowerCase().includes(headerText.toLowerCase())) : '';
+                cell.textContent = effect ; // Extract the value (e.g., "10 pts")
+                // cell.textContent = effect ? effect.split(' ').slice(-2).join(' ') : ''; // Extract the value (e.g., "10 pts")
             } else {
-                cell.textContent = cellValue;
+                const cellValue = item[headerText] || '';
+                if (index === 1 && cellValue.startsWith("http")) { // Assuming the second column is Image
+                    const img = document.createElement('img');
+                    img.src = cellValue;
+                    img.alt = "Image";
+                    img.style.maxWidth = "50px";
+                    cell.appendChild(img);
+                } else {
+                    cell.textContent = cellValue;
+                }
             }
             row.appendChild(cell);
         });
@@ -191,19 +215,37 @@ function createRow(item) {
     const row = document.createElement('tr');
     row.setAttribute('data-item-name', item['Item Name']);
 
-    const headers = ['Item Name', 'Image', 'Effects', 'Hidden Effect(s)', 'Spec. Req.', 'Lvl Req.', 'Location/Boss/Event', 'Type', 'Slot', 'Other Notes', 'EV', 'Price'];
+    const headers = [
+    'Item Name', 'Image', 'Stats', 'Hidden Effect(s)', 'Spec. Req.', 'Lvl Req.', 'Location/Boss/Event', 'Type', 'Slot', 'Other Notes', 'EV', 'Price',
+    'Health', 'Magicka', 'Fatigue', 'Strength', 'Intelligence', 'Willpower', 'Agility', 'Speed', 'Endurance', 'Personality', 'Luck',
+    'Armorer', 'Athletics', 'Axe', 'Block', 'Blunt Weapon', 'Heavy Armor', 'Long Blade', 'Medium Armor', 'Spear', 'Alchemy', 'Alteration', 'Conjuration',
+    'Destruction', 'Enchant', 'Illusion', 'Mysticism', 'Restoration', 'Unarmored', 'Stealth', 'Acrobatics', 'Hand-to-hand', 'Light Armor', 'Marksman',
+    'Mercantile', 'Security', 'Short Blade', 'Sneak', 'Speechcraft'
+];
+
 
     headers.forEach((headerText, index) => {
         const cell = document.createElement('td');
-        const cellValue = item[headerText] || '';
-        if (index === 1 && cellValue.startsWith("http")) { // Assuming the second column is Image
-            const img = document.createElement('img');
-            img.src = cellValue;
-            img.alt = "Image";
-            img.style.maxWidth = "50px";
-            cell.appendChild(img);
+        if (headerText === 'Stats' && item.Stats) {
+            const stats = item.Stats;
+            cell.textContent = Object.entries(stats).map(([key, value]) => `${key}: ${value}`).join(', ');
+        } else if (['Health', 'Magicka', 'Fatigue', 'Strength', 'Intelligence', 'Willpower', 'Agility', 'Speed', 'Endurance', 'Personality', 'Luck', 'Armorer', 'Athletics', 'Axe', 'Block', 'Blunt Weapon', 'Heavy Armor', 'Long Blade', 'Medium Armor', 'Spear', 'Alchemy', 'Alteration', 'Conjuration',
+        'Destruction', 'Enchant', 'Illusion', 'Mysticism', 'Restoration', 'Unarmored', 'Stealth', 'Acrobatics', 'Hand-to-hand', 'Light Armor', 'Marksman',
+        'Mercantile', 'Security', 'Short Blade', 'Sneak', 'Speechcraft'].includes(headerText)) {
+            const effect = item.Effects ? item.Effects.find(e => e.toLowerCase().includes(headerText.toLowerCase())) : '';
+            cell.textContent = effect; // Extract the value (e.g., "10 pts")
+            // cell.textContent = effect ? effect.split(' ').slice(-2).join(' ') : ''; // Extract the value (e.g., "10 pts")
         } else {
-            cell.textContent = cellValue;
+            const cellValue = item[headerText] || '';
+            if (index === 1 && cellValue.startsWith("http")) { // Assuming the second column is Image
+                const img = document.createElement('img');
+                img.src = cellValue;
+                img.alt = "Image";
+                img.style.maxWidth = "50px";
+                cell.appendChild(img);
+            } else {
+                cell.textContent = cellValue;
+            }
         }
         row.appendChild(cell);
     });
@@ -331,9 +373,13 @@ document.addEventListener('DOMContentLoaded', () => {
         const searchText = searchBar.value.toLowerCase().trim(); // Trim whitespace
         const minLength = 2; // Minimum input length
         if (searchText.length >= minLength) {
-            const filteredData = data.filter(item =>
-                Object.values(item).some(value => typeof value === 'string' && value.toLowerCase().includes(searchText))
-            );
+            const filteredData = data.filter(item => {
+                const statsString = item.Stats ? Object.entries(item.Stats).map(([key, value]) => `${key}: ${value}`).join(', ') : '';
+                const effectsString = item.Effects ? item.Effects.join(' ') : '';
+                return Object.values(item).some(value => typeof value === 'string' && value.toLowerCase().includes(searchText)) ||
+                       statsString.toLowerCase().includes(searchText) ||
+                       effectsString.toLowerCase().includes(searchText);
+            });
             updateTable(filteredData);
         } else {
             updateTable(data); // Reset table if input length is below minimum

@@ -1,0 +1,5397 @@
+{
+    "Abysmal Neckguard": {
+        "Weight": "1",
+        "Value": "7100",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Strength 18 pts",
+            "Fortify Attribute Endurance 18 pts",
+            "Fortify Health 75 pts"
+        ],
+        "Stats": null
+    },
+    "Adventurer's Left Bracer": {
+        "Weight": "1.5 (Light)",
+        "Value": "4978",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Skill Athletics 12 pts",
+            "Fortify Attribute Speed 10 pts",
+            "Fortify Fatigue 50 pts",
+            "Resist Magicka 8%"
+        ],
+        "Stats": {
+            "Armor Rating": "6",
+            "Condition": "325/325"
+        }
+    },
+    "Adventurer's Right Bracer": {
+        "Weight": "15 (Light)",
+        "Value": "4978",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Skill Athletics 12 pts",
+            "Fortify Attribute Speed 10 pts",
+            "rorrify Fatigue 50 pts",
+            "Resist Magicka 8%"
+        ],
+        "Stats": {
+            "Armor Rating": "30",
+            "Condition": "325/325"
+        }
+    },
+    "Aegisbane": {
+        "Weight": "30",
+        "Value": "14600",
+        "Effects": [
+            "Chop 1-30 ",
+            "Speed 100%",
+            "Cast When Strikes",
+            "Frost Damage 5 pts for 1 sec on Touch",
+            "Damage Health 5 pts for 1 se on Touch",
+            "Damage Fatigue 5 pts for 1 sec on Touch",
+            "Drain Attribute Speed $0 pts for 3 secs on Touch"
+        ],
+        "Stats": {
+            "Type": "Blunt Weapon, Two Handed",
+            "Charge": "200"
+        }
+    },
+    "Amulet of Akatosh": {
+        "Weight": "1",
+        "Value": "89",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Skill Destruction 10 pts"
+        ],
+        "Stats": null
+    },
+    "Amulet of Arkay": {
+        "Weight": "1",
+        "Value": "114",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Health 10 pts"
+        ],
+        "Stats": null
+    },
+    "Amulet of Articulation": {
+        "Weight": "}",
+        "Value": null,
+        "Effects": [
+            "Value; 2052",
+            "Constant Effect",
+            "Fortify Skill Speechcraft 35 pts"
+        ],
+        "Stats": null
+    },
+    "Amulet of Dibella": {
+        "Weight": "1",
+        "Value": "118",
+        "Effects": [
+            "Constant Effect",
+            "A Fortify Skill Speechcraft 15 pts"
+        ],
+        "Stats": null
+    },
+    "Amulet of Julianos": {
+        "Weight": "1",
+        "Value": "108",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Magicka 10 pts"
+        ],
+        "Stats": null
+    },
+    "Amulet of Kynareth": {
+        "Weight": "1",
+        "Value": "96",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Fatigue 10 pts"
+        ],
+        "Stats": null
+    },
+    "Amulet of Mara": {
+        "Weight": "1",
+        "Value": "316",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Skill Restoration 10 pts"
+        ],
+        "Stats": null
+    },
+    "Amulet of Necropotence [Lv.60]": {
+        "Weight": "1",
+        "Value": "6366",
+        "Effects": [
+            "Constant Effect",
+            "Fority Attribute Intelligence 70 pts",
+            "Drain Health 100 pts",
+            "Resist Magicka 15%"
+        ],
+        "Stats": null
+    },
+    "Amulet of Stendarr": {
+        "Weight": "1",
+        "Value": "196",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Skill Block 10 pts"
+        ],
+        "Stats": null
+    },
+    "Amulet of Talos": {
+        "Weight": "1",
+        "Value": "25",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Skill Athletics 10 pts"
+        ],
+        "Stats": null
+    },
+    "Amulet of Zenithar": {
+        "Weight": "|",
+        "Value": "511",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Skill Mercantile 10 pts"
+        ],
+        "Stats": null
+    },
+    "Ancient Scale Breastplate": {
+        "Weight": null,
+        "Value": "3216",
+        "Effects": [
+            "Constrane Sffeer",
+            "Restore Health"
+        ],
+        "Stats": {
+            "Armor Racing": "66",
+            "Condition": "1800/1800",
+            "Weighte": "24 (Medium)"
+        }
+    },
+    "Ancient Shrouded Anklee": {
+        "Weight": "2 (Light)",
+        "Value": "3050",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Skill Sneak 35 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "46",
+            "Condition": "600/600"
+        }
+    },
+    "Ancient Shrouded Armor": {
+        "Weight": "6 (Light)",
+        "Value": "3730",
+        "Effects": [
+            "Constant Effect",
+            "Resist Poison 60%"
+        ],
+        "Stats": {
+            "Armor Rating": "65",
+            "Condition": "900/900"
+        }
+    },
+    "Ancient Shrouded Boots": {
+        "Weight": "2 (Light)",
+        "Value": "3050",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Skill Sneak 35 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "46",
+            "Condition": "600/600"
+        }
+    },
+    "Ancient Shrouded Cowl (Maskless)": {
+        "Weight": "1 (Light)",
+        "Value": "6770",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Skill Marksman 35 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "55",
+            "Condition": "900/900"
+        }
+    },
+    "we Ancient Shrouded Cowl": {
+        "Weight": "1 (Light)",
+        "Value": "6770",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Skill Marksman 35 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "55",
+            "Condition": "900/900"
+        }
+    },
+    "Ancient Shrouded Greaves": {
+        "Weight": "3 (Light)",
+        "Value": "3275",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Skill Athletics 35 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "48",
+            "Condition": "750/750"
+        }
+    },
+    "Ancient Shrouded Left Glove": {
+        "Weight": "1 (Light)",
+        "Value": "1250",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Skill Short Blade 17 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "46",
+            "Condition": "300/300"
+        }
+    },
+    "Ancient Shrouded Left Pauldron": {
+        "Weight": "1 (Light)",
+        "Value": "1250",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Skill Lighe Armor 17 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "46",
+            "Condicion": "750/750"
+        }
+    },
+    "Ancient Shrouded Right Glove": {
+        "Weight": "1 (Light)",
+        "Value": "1250",
+        "Effects": [
+            "Constant Effect",
+            "GD) Fortify Skill Short Blade 17 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "46",
+            "Condition": "300/300"
+        }
+    },
+    "Ancient Shrouded Right Pauldron": {
+        "Weight": "1 (Light)",
+        "Value": "1250",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Skill Light Armor 17 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "46",
+            "Condition": "750/750"
+        }
+    },
+    "Anklet of Leaping": {
+        "Weight": "0.1",
+        "Value": "3000",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Skill Acrobatics 25 pts"
+        ],
+        "Stats": null
+    },
+    "Anklet of Traversing (3)": {
+        "Weight": "0.1",
+        "Value": "3000",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Skill Achletics 25 pts"
+        ],
+        "Stats": null
+    },
+    "Arcane BlacksmichÃ¢â‚¬â„¢'s Apron": {
+        "Weight": "1",
+        "Value": "656",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Skill Armorer 20 pts",
+            "Fortify Skill Enchant 20 pts"
+        ],
+        "Stats": null
+    },
+    "Arctus Spear": {
+        "Weight": "18",
+        "Value": "12000",
+        "Effects": [
+            "Care When Strikes",
+            "Frost Damage 15 to 45 pts for 6 secs on Touch"
+        ],
+        "Stats": {
+            "Type": "Spear, Two Manded",
+            "Chop": "2",
+            "Condition": "1500",
+            "Range": "108 ft",
+            "Speed": "150%",
+            "Charge": "350"
+        }
+    },
+    "Arm of the Moon": {
+        "Weight": "8",
+        "Value": "1273",
+        "Stats": {
+            "Type": "Blunt Weapon, Two Handed",
+            "Chop": "3 - 12",
+            "Slash": "2 - 10",
+            "Thrust": "1-9",
+            "Condition": "3500/3500",
+            "Range": "10.8 fr",
+            "Speed": "175%"
+        }
+    },
+    "Arm of the Sun": {
+        "Weight": "8",
+        "Value": "1627",
+        "Stats": {
+            "Type": "Blunt Weapon, Two Handed",
+            "Chop": "3 - 12",
+            "Slash": "2 - 10",
+            "Thrust": "1 - 9",
+            "Condition": "3500/3500",
+            "Range": "10.8 fre",
+            "Speed": "175%"
+        }
+    },
+    "Armor of Retribution": {
+        "Weight": "38 (Heavy)",
+        "Stats": {
+            "Armor Rating": "15",
+            "Condition": "1200"
+        }
+    },
+    "Augur's Tunic": {
+        "Weight": "9 (Light)",
+        "Effects": [
+            "Condition: 600",
+            "Constant Effect",
+            "Fortify Attribute Agility 8 pts",
+            "Fortify Attribute Personality 8 pts",
+            "Fortify Attribute Intelligence 16 pts",
+            "Fortify Magicka 30 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "8"
+        }
+    },
+    "Aurabound Belt": {
+        "Weight": "1",
+        "Effects": [
+            "Value; 4005",
+            "Constant Effect",
+            "Fortify Attribute Willpower 16 pts",
+            "Fortify Magicka 125 pts"
+        ],
+        "Stats": {}
+    },
+    "Aurabound Boots": {
+        "Weight": "18 (Medium)",
+        "Value": "4377",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Endurance 7 pts",
+            "Fortify Attribute Speed 7 pts",
+            "Fortify Attribute Willpower 7 pts",
+            "Fortify Attribute Personality 7 pts",
+            "Fortify Masgicka 70 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "40",
+            "Condition": "940/940"
+        }
+    },
+    "Aurabound Breastplace": {
+        "Weight": "22 (Medium)",
+        "Value": "3870",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Willpower 13 pts",
+            "Bvorrity Arrribure Personality 12 pts",
+            "BFortify Magicka 100 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "46",
+            "Condition": "940/940"
+        }
+    },
+    "Aurabound Helm": {
+        "Weight": "4 (Medium)",
+        "Value": "4356",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Willpower 10 pts",
+            "Fortify Attribute Intelligence 10 pts",
+            "KG Resist Poison 4%",
+            "Resist Common Disease 4%",
+            "Resist Blight Disease 4%",
+            "Resist Fire 4%",
+            "Resist Frost 4%",
+            "HA Resist Shock 4%",
+            "Resist Magicka 4%"
+        ],
+        "Stats": {
+            "Armor Rating": "66",
+            "Condition": "1000/1000"
+        }
+    },
+    "Aurabound Left Gauntlet": {
+        "Weight": "4 (Medium)",
+        "Value": "3711",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Artribure Endurance 7 pts",
+            "Fortify Attribute Speed 15 pts",
+            "Fortify Attribute Willpower 15 pts",
+            "Fortify Magicka 50 pts",
+            " Resist Poison 2%",
+            "Resist Fire 4%",
+            "fd Resist Frost 4%",
+            "5] Resist Shock 2%",
+            "Resist Magicka 2%"
+        ],
+        "Stats": {
+            "Armor Rating": "86",
+            "Gondirion": "920/920"
+        }
+    },
+    "Aurabound Left Pauldron": {
+        "Weight": "8 (Medium)",
+        "Value": "4202",
+        "Effects": [
+            "Constant Effect",
+            ") Fortify Attribute Endurance 7 pts",
+            "Fortify Attribute Speed 7 pts",
+            "Fortify Attribute Willpower 7 pts",
+            "Fortify Attribute Personality 7 pts",
+            "Fortify Health 20 pts",
+            "BlFortify Magicka 20 pts",
+            "Resist Shock 7%",
+            "a Resist Magicka 7%"
+        ],
+        "Stats": {
+            "Armor Rating": "6!",
+            "Condition": "980/980"
+        }
+    },
+    "Aurabound Leggings": {
+        "Weight": "12 (Medium)",
+        "Value": "4877",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Strength 6 pts",
+            "Fortify Attribute Endurance 6 pts",
+            "Fortify Arrribure Speed 6 pts",
+            "Fortify Attribute Willpower 15 pts",
+            "Fortify Artribure Personality 6 pts",
+            "Fortify Magicka 30 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "33",
+            "Condition": "1000/1000"
+        }
+    },
+    "Aurabound Mace": {
+        "Weight": "15",
+        "Value": "4247",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Willpower 15 pts",
+            "BFortify Magicka 100 pts",
+            "Resist Shock 15%"
+        ],
+        "Stats": {
+            "Type": "Blunt Weapon, One Handed",
+            "Chop": "5) - 51",
+            "Slash": "51 - 5!",
+            "Thrust": "7 - 7",
+            "Condition": "1980/1980",
+            "Range": "6 fr",
+            "Speed": "130%"
+        }
+    },
+    "Aurabound Right Gauntlet": {
+        "Weight": "4 (Medium)",
+        "Value": "3711",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Endurance 7 pts",
+            "Fortify Attribute Speed 15 pts",
+            "Fortify Attribute Willpower 15 pts",
+            "DD Fortify Magicka 50 pts",
+            "Resist Poison 2%",
+            "Resist Fire 4%",
+            "Ed Resist Frost 4%",
+            "Resist Shock 2%",
+            "Resist Magicka 2%"
+        ],
+        "Stats": {
+            "Armor Rating": "86",
+            "Condition": "920/920"
+        }
+    },
+    "Aurabound Right Pauldron": {
+        "Weight": "8 (Medium)",
+        "Value": "4292",
+        "Effects": [
+            "Constant Effect",
+            "A Fortify Attribute Endurance 7 pts",
+            "Fortify Artribure Speed 7 pts",
+            "Fortify Artribure Willpower 7 pts",
+            "Fortify Attribute Personality 7 pts",
+            "Fortify Health 20 pts",
+            "Fortify Magicka 20 pts",
+            "7d Resist Shock 7%",
+            "mw Resist Magicka 7%"
+        ],
+        "Stats": {
+            "Armor Rating": "61",
+            "Condition": "980/980"
+        }
+    },
+    "Aurabound Ring": {
+        "Weight": "01",
+        "Value": "4215",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Willpower 10 pts",
+            "Fortify Health 30 pts",
+            "Fortify Magicka 100 pts",
+            "Resist Poison 4%",
+            "Resist Common Disease 4%",
+            "Q Resist Blight Disease 4%",
+            "Resist Shock 4%",
+            "Resist Magicka 4%"
+        ],
+        "Stats": null
+    },
+    "Aurabound Shield": {
+        "Weight": "12 (Medium)",
+        "Value": "4494",
+        "Effects": [
+            "Constant Effect",
+            "A Fortify Attribute Willpower 25 pts",
+            "Fortify Magicka 100 pts",
+            "Resist Magicka 20%"
+        ],
+        "Stats": {
+            "Armor Rating": "58",
+            "Condition": "1000/1000"
+        }
+    },
+    "Beaming Belt": {
+        "Weight": "1",
+        "Value": "2180",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Agility 10 pts",
+            "Fortify Attribute Willpower 15 pts",
+            "Fortify Magicka 50 pts",
+            "Hi Resist Shock 10%",
+            "Resist Magicka 7%"
+        ],
+        "Stats": null
+    },
+    "Bear Claw Boots": {
+        "Weight": "14 (Medium)",
+        "Value": "5100",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Endurance 10 pts",
+            "H Fortify Attribute Willpower 10 pts",
+            "Fortify Health 25 pts",
+            "Ql Resist Frost 10%"
+        ],
+        "Stats": {
+            "Armor Raring": "35",
+            "Condition": "675/675"
+        }
+    },
+    "Bear Tribe Spear (4)": {
+        "Weight": "15",
+        "Value": "9200",
+        "Effects": [
+            "Chop; 3 - 6",
+            "Constant Effect",
+            "Fortify Attribute Strength 5 pts",
+            "H Fortify Attribute Endurance 15 pts",
+            "Fortify Attribute Willpower 10 pts",
+            "Fortify Health 50 pts",
+            "Resist Frost 10%"
+        ],
+        "Stats": {
+            "Type": "Spear, Two Handed",
+            "Slash": "3 - 6",
+            "Thrust": "6 - 38",
+            "Condition": "1200/1200",
+            "Range": "10.8 ft",
+            "Speed": "100%"
+        }
+    },
+    "Year Tribe Tunic (2)": {
+        "Weight": "25 (Medium)",
+        "Value": "6700",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Artribute QEndurance 10 pts",
+            "Fortify Attribute Agility 5 pts",
+            "Fortify Attribute Willpower 5 pts",
+            "Fortify Health 25 pts",
+            "Fortify Magicka 25 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "17",
+            "Condition": "$25/825"
+        }
+    },
+    "Beckoner's Charm": {
+        "Weight": "1",
+        "Value": "1385",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Strength 20 pts",
+            "Resist Common Disease 14%"
+        ],
+        "Stats": null
+    },
+    "Belt of Abandon": {
+        "Weight": "1",
+        "Value": "4798",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Strength $0 pts",
+            "Drain Attribute Agility 30 pts"
+        ],
+        "Stats": null
+    },
+    "Belt of Flowing Ice": {
+        "Weight": "1",
+        "Value": null,
+        "Effects": [
+            "Value; 2367",
+            "Constant Effect",
+            "Fortify Artribure Speed 5 pts",
+            "Lortify Attribute Intelligence 10 pts",
+            "Fortify Health 25 pts",
+            "Resist Frost 10%"
+        ],
+        "Stats": null
+    },
+    "Belt of the Dessicator [Lv.50)": {
+        "Weight": "1",
+        "Value": "4800",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Endurance 15 pts",
+            "Fortify Skill Destruction 14 pts",
+            "Fortify Health 68 pts",
+            "Resist Fire 8%",
+            "Resist Frost 7%"
+        ],
+        "Stats": null
+    },
+    "Belt of rhe Spider": {
+        "Weight": "1",
+        "Value": "2320",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Agility 12 pts",
+            "Fortify Attribute Speed 12 pts",
+            "KG Resist Poison 15%"
+        ],
+        "Stats": null
+    },
+    "Biohazzard in a Bottle [No Trade]": {
+        "Weight": "0.2",
+        "Value": null,
+        "Effects": [
+            "Type Marksman",
+            "Attack 2 - 16",
+            "Cast When Strikes",
+            "Weakness to Poison 20% for 30 secs in 20 feet on Touch",
+            "Poison 5 pts for 30 secs in 20 ft on Touch"
+        ],
+        "Stats": {
+            "Speed": "100%",
+            "Charge": "1"
+        }
+    },
+    "Black Flamed Candle [No Trade]": {
+        "Weight": "2",
+        "Value": null,
+        "Effects": null,
+        "Stats": null
+    },
+    "Black Scale Ring": {
+        "Weight": "0.1",
+        "Value": "688",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Endurance 5 pts",
+            "Resist Magicka 11%"
+        ],
+        "Stats": null
+    },
+    "Black Soul Gem": {
+        "Weight": "2",
+        "Value": "200",
+        "Effects": null,
+        "Stats": null
+    },
+    "Blackwater Blade (5)": {
+        "Weight": "24",
+        "Value": "6670",
+        "Effects": [
+            "Cast When Strikes",
+            "Absorb Fatigue 20 pts for 3 secs on Touch"
+        ],
+        "Stats": {
+            "Type": "Long Blade, One Handed",
+            "Chop": "4 Ã‚Â« Pa",
+            "Slash": "12 - 24",
+            "Thrust": "2 - 18",
+            "Condition": "1450/1450",
+            "Range": "6 ft",
+            "Speed": "135%",
+            "Charge": "2000"
+        }
+    },
+    "Blade of Brawn (4)": {
+        "Weight": "12",
+        "Value": "5001",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Strength 22 pts"
+        ],
+        "Stats": {
+            "Type": "Long Blade, One Handed",
+            "Chop": "2 - 24",
+            "Slash": "1 - 33",
+            "Thrust": "4 - 30",
+            "Condition": "875/875",
+            "Range": "6 ft",
+            "Speed": "135%"
+        }
+    },
+    "Blessed Belt": {
+        "Weight": "1",
+        "Value": "3249",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Endurance 8 pts",
+            "Fortify Attribute Agility 8 pts",
+            "Fortify Attribute Willpower 8 pts",
+            "Resist Fire 4%",
+            "ied Resist Frost 8%",
+            "Resist Magicka 8%"
+        ],
+        "Stats": null
+    },
+    "Bloodscythe": {
+        "Weight": "10",
+        "Value": null,
+        "Effects": [
+            "Cast When Strikes",
+            "Absorb Health 15 pts for 1 sec on Touch",
+            "Disintegrate Armor 8 pts for 15 secs on Touch"
+        ],
+        "Stats": {
+            "Type": "Long Blade, One Handed",
+            "Chop": "5 - 18",
+            "Slash": "4 - 16",
+            "Thrust": "1 - 4",
+            "Condition": "700",
+            "Range": "6 ft",
+            "Speed": "140%"
+        }
+    },
+    "Bloodstained Ring": {
+        "Weight": "0.1",
+        "Value": "1120",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Personality 7 pr",
+            "Fortify Magicka 7 pts"
+        ],
+        "Stats": null
+    },
+    "Bloodthorn": {
+        "Weight": "3",
+        "Value": "183",
+        "Effects": [
+            "Cast When Strikes",
+            "BS Soultrap for 3 sccs on Touch",
+            "9 Drain Health 10 pts for 1 sec on Touch"
+        ],
+        "Stats": {
+            "Type": "Short Blade, One Handed",
+            "Chop": "4-5",
+            "Slash": "4-5",
+            "Thrust": "5-5",
+            "Condition": "400/400",
+            "Range": "6 fr",
+            "Speed": "250%",
+            "Charge": "259"
+        }
+    },
+    "Bolarâ€™s Oathblade": {
+        "Weight": "18",
+        "Value": "1014",
+        "Effects": [
+            "Chop 3 - 20",
+            "Range 6 ft",
+            "Cast When Strikes",
+            "Damage Fatigue 25 pts for 1 sec secTouch",
+            "Demoralize Humanoid 12 pts for 30 sec on Touch",
+            "Demoralize Creature 12 pts for 30 sec on Touch"
+        ],
+        "Stats": {
+            "Type": "Long Bade, One Handed",
+            "Slash": "1 - 18",
+            "Thrust": "1 - 6",
+            "Condition": "1800",
+            "Speed": "150%",
+            "Charge": "300"
+        }
+    },
+    "Bone-Clasped Girdle": {
+        "Weight": "1",
+        "Value": "7350",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Willpower 40 pts",
+            "Fortify Attribute Intelligence 20 pts",
+            "Resist Magicka 20%",
+            "Fortify Magicka 125 pts"
+        ],
+        "Stats": null
+    },
+    "Bonckeeper Chestguard [No Trade] (2)": {
+        "Weight": "25 (Medium)",
+        "Value": null,
+        "Effects": null,
+        "Stats": {
+            "Armor Rating": "80",
+            "Condition": "13000/13000"
+        }
+    },
+    "Boneshaver": {
+        "Weight": "9.5",
+        "Value": "1605",
+        "Effects": [
+            "Caste When Strikes",
+            "Damage Health 3 pts for 4 secs on Touch"
+        ],
+        "Stats": {
+            "Type": "Long Blade, One Handed",
+            "Chop": "1 - 18",
+            "Slash": "8 - 16",
+            "Thrust": "1-4",
+            "Condition": "1100/1100",
+            "Range": "6 ft",
+            "Speed": "140%",
+            "Charge": "20000"
+        }
+    },
+    "Book of Fables [No Trade]": {
+        "Weight": "5",
+        "Value": null,
+        "Effects": [
+            "Cast When Used",
+            "Fortify Attribute Lock 99 pts for 65 secs on Self",
+            "Fortify Attribute Intelligence 10 pts for 65 secs on Self",
+            "Fortify Magicka 25 pts for 05 secs on Self",
+            "Resist Magicka 12% for 65 secs on Self"
+        ],
+        "Stats": {
+            "Type": "Blunt Weapon, One Handed",
+            "Charge": "135"
+        }
+    },
+    "Book of Morice [No Trade]": {
+        "Weight": null,
+        "Value": null,
+        "Effects": [
+            "Type Blunt Weapon, One Handed",
+            "Fortify Attribute Endurance 10 pts for 65 sec secBel",
+            "Fortify Aceritore Willpower 10 pts for 65 secs on Self",
+            "Fortlly Magica 2 pts for 05 secs on Bef",
+            "Resist Magicka 12% for 65 secs on Self",
+            "Charge: 125"
+        ],
+        "Stats": null
+    },
+    "Boots of Goblinkind": {
+        "Weight": "4 (Light)",
+        "Value": null,
+        "Effects": [
+            "Condition; 225/225",
+            "Constant Effect",
+            "Fortify Attribute Agility 5 pts",
+            "Fortify Attribute Willpower 7 pts",
+            "Fortify HAeeribuee Intelligence 10 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "7"
+        }
+    },
+    "Bracer of Holding": {
+        "Weight": null,
+        "Value": "6354",
+        "Effects": [
+            "Constant Effect",
+            "Porciry Arceribuee Endurance 10 pts",
+            "Porciry Aeeribuce Agility 15 pts",
+            "(O Fortify Magicka 30 pts",
+            "Fortify Attribute Speed 10 pts",
+            "Resist Magicka 10%",
+            "Fortify Health 100 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "17",
+            "Condition": "1018/1080",
+            "weight": "3 (Light)"
+        }
+    },
+    "Bracer of Miscontent": {
+        "Weight": "3 (Light)",
+        "Value": "6278",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Strength 15 pts",
+            "Fortify Attribute Endurance 10 pts",
+            "Fortify Magicka 35 pts",
+            "Kd Resist Frost 10%",
+            "Fortify Health 100 pts"
+        ],
+        "Stats": {
+            "Armor Raring": "0",
+            "Condition": "912/1080"
+        }
+    },
+    "Bright And Shiny Left Pauldron": {
+        "Weight": "3 (Light)",
+        "Value": "3149",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Serengceh 10 pts",
+            "Fortify Health 50 pts",
+            "Fortify Magicka 25 pts",
+            "Resist Fire 2%",
+            "Resist Frost 2%",
+            "Resist Shock 2%"
+        ],
+        "Stats": {
+            "Armor Raring": "58",
+            "Condition": "620/620"
+        }
+    },
+    "Bright And Shiny Right Pauldron": {
+        "Weight": "3 (Light)",
+        "Value": null,
+        "Effects": [
+            "Value; 3149",
+            "Constant Effect",
+            "A Fortify Attribute Strength 10 pts",
+            "Wi Fortify Health 50 pts",
+            "Fortify Magicka 25 pts",
+            "Resist Pire 2%",
+            "Wl Resist Frost 2%",
+            "Resist Shock 2%"
+        ],
+        "Stats": {
+            "Armor Rating": "58",
+            "Condition": "620/620"
+        }
+    },
+    "Brown Scale Ring": {
+        "Weight": "0.1",
+        "Value": "688",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Endurance 5 pts",
+            "Resist Shock 11%"
+        ],
+        "Stats": null
+    },
+    "Brutal Headaxe (4)": {
+        "Weight": "14.4",
+        "Value": "4280",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Srrengeh 10 pts",
+            "Fortify Attribute Agility 10 pts"
+        ],
+        "Stats": {
+            "Type": "Axe, One Handed",
+            "Chop": "1 - 33",
+            "Slash": "1 - 18",
+            "Thrust": "1 - 5",
+            "Condicion": "960/960",
+            "Range": "6 fr",
+            "Speed": "125%"
+        }
+    },
+    "Bulbor's Cleaver": {
+        "Weight": "72",
+        "Value": "8100",
+        "Effects": null,
+        "Stats": {
+            "Type": "Axe, One Handed",
+            "Chop": "1 - 48",
+            "Slash": "1 - 24",
+            "Thrust": "1 - 6",
+            "Condition": "3800/3800",
+            "Range": "6 ft",
+            "Speed": "125%"
+        }
+    },
+    "Bulbors cooking Knife": {
+        "Weight": "60",
+        "Value": "$100",
+        "Effects": [
+            "Constant Effect",
+            "A Fortify Attribute Strength 30 pts",
+            "G) Fortify Aecribure Endurance 30 pts"
+        ],
+        "Stats": {
+            "Type": "Long Blade, One Handed",
+            "Chop": "2 - 32",
+            "Slash": "1 - 46",
+            "Thrust": "4 - 40",
+            "Condition": "3800/3800",
+            "Range": "6 fr",
+            "Speed": "135%"
+        }
+    },
+    "Ceremonial Bones": {
+        "Weight": null,
+        "Value": "5001",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Agility 5 pts",
+            "Fortify Health 50 pts",
+            "Fortify Magicka 100 pts",
+            "88 Resist Common Disease 5%"
+        ],
+        "Stats": {
+            "weight": "1"
+        }
+    },
+    "Ceremonial Chestplate": {
+        "Weight": "27 (Medium)",
+        "Value": "4011",
+        "Effects": [
+            "Constant Effect",
+            "WFortify Attribute Endurance 25 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "26",
+            "Condition": "1200/1200"
+        }
+    },
+    "Ceremonial Pendant": {
+        "Weight": "1",
+        "Value": "1543",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Agility 5 pts",
+            "rority Attribute Personality 15 pts",
+            "Fortify Health 25 pts",
+            "Fortify Magicka 25 pts"
+        ],
+        "Stats": null
+    },
+    "CharlatanÃ¢â‚¬â„¢s Left Glove [No Trade]": {
+        "Weight": "4.5 (Medium)",
+        "Value": null,
+        "Effects": [
+            "Constance Effect",
+            "Fortify Attribute Endurance 8 pts",
+            "Fortify Attribute Agility & pts",
+            "Fortify Health 15 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "58",
+            "Condition": "725/725"
+        }
+    },
+    "Charmed Necklace": {
+        "Weight": "0.5",
+        "Value": "100",
+        "Effects": [
+            "Constant OEffect",
+            "Feather 25 pts"
+        ],
+        "Stats": null
+    },
+    "Cheseguard of Vigor": {
+        "Weight": "30 (Heavy)",
+        "Value": "6189",
+        "Effects": [
+            "Constant OEffect",
+            "Fortify Attribute Endurance 30 pts",
+            "Fortify Health 75 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "76",
+            "Condition": "1975/1975"
+        }
+    },
+    "Chilling Fur Tunic": {
+        "Weight": "15 (Light)",
+        "Value": "9000",
+        "Effects": [
+            "Constant Qffeer",
+            "Resist Brose 15%",
+            "Fortify Artribute Inrclligence 25 pts",
+            "Fortify Attribute Willpower 12 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "1",
+            "Condicion": "584/725"
+        }
+    },
+    "Chillrend [No Trade]": {
+        "Weight": "14",
+        "Value": null,
+        "Effects": [
+            "Gast When Strikes",
+            "WErost Damage 30 pts for 1 tc on Touch",
+            "Paralyze for 2 secs on Touch"
+        ],
+        "Stats": {
+            "Type": "Long, Blade, One Handed",
+            "Chop": "5 - 27",
+            "lash": "3-%",
+            "Thrust": "7 - 33",
+            "Condition": "480/480",
+            "Range": "6 fr",
+            "Speed": "135%"
+        }
+    },
+    "Chronium Dendanr": {
+        "Weight": "1",
+        "Value": "4232",
+        "Effects": [
+            "Contant Effect",
+            "drain Attribute Srrengeh 5 pts",
+            "Drain Aerribure Intelligence 5 pts",
+            "Drain Attribute Willpower 5 pts",
+            "Gi Drain Attribute Agility 5 pts",
+            "drain Attribute Specd 5 pts",
+            "drain Attribute Endurance 5 pts",
+            "drain Attribute Personality 5 pts",
+            "Drain Attribute Luck 5 pts",
+            "US Restore Health",
+            "QW Restore Magicka"
+        ],
+        "Stats": null
+    },
+    "Combine Band": {
+        "Weight": "01",
+        "Value": "992",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Srrengeh 1 pt",
+            "MFortify Acevibure Intelligence 1 pt",
+            "Fortify Attribute Willpower 1 pt",
+            "Fortify Attribute Agility 1 pr",
+            "Fortify Attribute Speed 1 pt",
+            "Fortify Attribute Endurance 1 pt",
+            "Fortify Attribute Personality 1 pt",
+            "Fortify Aerribute Luck 1 pe",
+            "Fortify Health 12 pts",
+            "Fortify Magicka 12 pts"
+        ],
+        "Stats": null
+    },
+    "Coralium Chestplate": {
+        "Weight": "20 (Medium)",
+        "Value": "108000",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Magicka 24 pts",
+            "Resist Poison 7%"
+        ],
+        "Stats": {
+            "Armor Rating": "44",
+            "Condition": "2200/2200"
+        }
+    },
+    "Cowl of che Druid": {
+        "Weight": "3 (Light)",
+        "Value": null,
+        "Effects": [
+            "Constant Effect",
+            "Fortify Skill Marksman 50 pts",
+            "Fortify Skill Marksman",
+            "Fortify Skill Alchemy 25 pts",
+            ") Fortify Skill Alchemy",
+            "Detect Animal 100 ft"
+        ],
+        "Stats": {
+            "Armor Rating": "7",
+            "Condition": "1600"
+        }
+    },
+    "Crimson Robe": {
+        "Weight": "3",
+        "Value": "20",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Intelligence 40 pts",
+            "Fortify Magicka 175 pts",
+            "Resist Prose 17%"
+        ],
+        "Stats": null
+    },
+    "Crushing @dge": {
+        "Weight": "30",
+        "Value": "4218",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Strength 15 pts",
+            "Fortify Attribute Agility 15 pts",
+            "Fortify Health 25 pts",
+            "Resist Common Disease 5%"
+        ],
+        "Stats": {
+            "Type": "Long Blade, Two Handed",
+            "Chop": "1 - 34",
+            "Slash": "1 - 22",
+            "Thrust": "1 - 18",
+            "Condition": "1917/1917",
+            "Range": "6 ft",
+            "Speed": "125%"
+        }
+    },
+    "Cuirass of Jagged Rust": {
+        "Weight": "24 (Medium)",
+        "Value": "6333",
+        "Effects": [
+            "Constant Effect",
+            "Resist Poison 30%",
+            "Resist Common Disease 10%"
+        ],
+        "Stats": {
+            "Armor Rating": "44",
+            "Condition": "920/920"
+        }
+    },
+    "Cuirass of the Saviors Hide": {
+        "Weight": "15 (Light)",
+        "Value": null,
+        "Effects": [
+            "Constant Effect",
+            "Resist Magicka 60%"
+        ],
+        "Stats": {
+            "Armor Rating": "133",
+            "Condition": "2400/2400"
+        }
+    },
+    "Dagger of Shielding": {
+        "Weight": "18",
+        "Value": null,
+        "Effects": [
+            "Constant Effect",
+            "Resist Fire 10%",
+            "KW Resist Frost 10%",
+            "fd Resist Shock 10%",
+            "Resist Magicka 10%",
+            "Resist Common Disease 10%",
+            "N Resist Blight Disease 10%",
+            "Ed Resist Poison 10%"
+        ],
+        "Stats": {
+            "Type": "Short Blade, One Handed",
+            "Chop": "6 - 15",
+            "Slash": "6 - 15",
+            "Thrust": "6 - 12",
+            "Condition": "758/760",
+            "Range": "6 ft",
+            "Speed": "250%"
+        }
+    },
+    "Dagger of Vengeance": {
+        "Weight": "24",
+        "Value": "7355",
+        "Effects": [
+            "Slash; 4-7",
+            "Constant Effect",
+            "vFortify Attribute Agility 40 pts",
+            "Fortify Health 40 pts",
+            "Fortify Magicka 75 pts"
+        ],
+        "Stats": {
+            "Type": "Short Blade, One Handed",
+            "Chop": "4-7",
+            "Thrust": "5 - 7",
+            "Condition": "1160/1160",
+            "Range": "6 ft",
+            "Speed": "250%"
+        }
+    },
+    "Dancing Blade": {
+        "Weight": "15",
+        "Value": "4276",
+        "Effects": [
+            "Chop; 5 - 28",
+            "Slash; 4 - 23",
+            "Constant Effect",
+            "i Fortify Attribute Endurance 15 pts",
+            "Fortify Attribute Agility 20 pts",
+            "Ha Resist Shock 5%",
+            "Resist Magicka 10%"
+        ],
+        "Stats": {
+            "Type": "Long Blade, One Handed",
+            "Thrust": "1-8",
+            "Condition": "1716/1820",
+            "Range": "6 ft",
+            "Speed": "140%"
+        }
+    },
+    "Dark Band of Wonder": {
+        "Weight": "04",
+        "Value": "6000",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Willpower 25 pts",
+            "Fortify Attribute Intelligence 25 pts",
+            "Fortify Health 100 pts"
+        ],
+        "Stats": null
+    },
+    "Dark Deserr Ring": {
+        "Weight": "0.1",
+        "Value": "4200",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Health 100 pts"
+        ],
+        "Stats": null
+    },
+    "WR Dark Necklace of Wonder": {
+        "Weight": "0.1",
+        "Value": null,
+        "Effects": [
+            "Value; 6000",
+            "Constant Effect",
+            "Fortify Attribute Endurance 25 pts",
+            "Fortify Aecribure Agility 25 pts",
+            "Fortify Health 100 pts"
+        ],
+        "Stats": null
+    },
+    "ve Dark Ring of Wonder": {
+        "Weight": "0.1",
+        "Value": "6000",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Speed 25 pts",
+            "korrity Attribute Personalilty 25 pts",
+            "Fortify Health 100 pts"
+        ],
+        "Stats": null
+    },
+    "Dawnfang": {
+        "Weight": "47",
+        "Value": "3750",
+        "Effects": [
+            "Cast When Strikes",
+            "Fire Damage 15 pts for 1 sec on Touch",
+            "Absorb Health 7 pts for 1 sec on Touch"
+        ],
+        "Stats": {
+            "Type": "Long Blade, One Handed",
+            "Chop": "8 - 12",
+            "Slash": "15 - 32",
+            "Thrust": "15 - 32",
+            "Condition": "3825/3825",
+            "Range": "6 ft",
+            "Speed": "125%",
+            "Charge": "SOOT)"
+        }
+    },
+    "Dawnguard War Axe (2)": {
+        "Weight": "24",
+        "Value": "550",
+        "Effects": [
+            "Cast When Strikes",
+            "Sun Damage 15 pts for 1 sec on Touch"
+        ],
+        "Stats": {
+            "Type": "Axe, One Handed",
+            "Chop": "1 - 20",
+            "Slash": "1-11",
+            "Thrust": "1 - 3",
+            "Condition": "1800/1800",
+            "Range": "6 fr",
+            "Speed": "125%",
+            "Charge": "2"
+        }
+    },
+    "Decrepit Cage": {
+        "Weight": "50 (Heavy)",
+        "Value": "4798",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Strength 5 pts",
+            "Fortify Attribute Endurance 5 pts",
+            "Fortify Health 25 pts",
+            "Resist Common Disease 3%",
+            "Restore Health",
+            "Restore Magicka"
+        ],
+        "Stats": {
+            "Armor Rating": "53",
+            "Condition": "962/967"
+        }
+    },
+    "Diminutive Breastplate": {
+        "Weight": "27 (Medium)",
+        "Value": "6499",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Speed 15 pts",
+            "Fortify Attribute Personalilty 5 pts",
+            "Fortify Health 50 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "85",
+            "Condicion": "1475"
+        }
+    },
+    "Divine Robe": {
+        "Weight": "3",
+        "Value": "5565",
+        "Effects": [
+            "Constant Effect",
+            "1 Fortify Attribute Endurance 8 pts",
+            "Fortify Attribute Agility 8 pts",
+            "Fortify Attribute Willpower 25 pts",
+            "Fortify Attribute Personality 8 pts"
+        ],
+        "Stats": null
+    },
+    "Dragonbane": {
+        "Weight": "20",
+        "Value": "1560",
+        "Effects": [
+            "Cast When Strikes",
+            "shock Damage 10 pts for 1 sec on Touch"
+        ],
+        "Stats": {
+            "Type": "Long Blade, Two Handed",
+            "Chop": "1 - 27",
+            "Slash": "1 - 23",
+            "Thrust": "1 - 14",
+            "Condition": "2700/2700",
+            "Range": "6 ft",
+            "Speed": "135%"
+        }
+    },
+    "Dragonslayer Spear": {
+        "Weight": "28",
+        "Value": "1000",
+        "Effects": [
+            "Cast When Strikes",
+            "Weakness to Shock for 4 secs on Touch",
+            "Shock Damage 2 to 30 pts for 1 sec on Touch"
+        ],
+        "Stats": {
+            "Type": "Spear, Two Handed",
+            "Chop": "2 - 8",
+            "Slash": "2 - 8",
+            "Thrust": "7 - 42",
+            "Condition": "1800",
+            "Range": "108 ft",
+            "Speed": "100%",
+            "Charge": "120"
+        }
+    },
+    "Dreugh Stalker Helm [Lv.60] [No Trade]": {
+        "Weight": "3 (Light)",
+        "Value": null,
+        "Effects": [
+            "Constant Effect",
+            "Gi Warer Breathing",
+            "Swift Swim 30 pts",
+            "Fortify Skill Spear 35 pts",
+            "Fortify Skill Athletics 20 pts",
+            "Fortify Health 75 pts",
+            "Fortify Magicka 85 pts",
+            "Resist Shock 35%",
+            "Drain Attribute Personality 50 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "90",
+            "Condition": "950/950"
+        }
+    },
+    "Daskfang": {
+        "Weight": "47",
+        "Value": null,
+        "Effects": [
+            "Value; 3750",
+            "Cast When Strikes",
+            "Frost Damage 15 pts for 1 sec on Touch",
+            "Absorb Magicka 7 pts for 1 sec on Touch"
+        ],
+        "Stats": {
+            "Type": "Long Blade, One Handed",
+            "Chop": "8 - 12",
+            "Slash": "15 - 32",
+            "Thrust": "15 - 32",
+            "Condition": "3825/3825",
+            "Range": "6 fr",
+            "Speed": "125%",
+            "Charge": "3600)"
+        }
+    },
+    "Dwarven Black Bow of Pare [No Trade]": {
+        "Weight": "16",
+        "Value": null,
+        "Effects": [
+            "Cast When Used",
+            "Absorb Health 25 pts for 1 sec on Target",
+            "Absorb Magicka 25 pts for 1 sec on Target",
+            "Absorb Fatigue 25 pts for 1 sec on Target"
+        ],
+        "Stats": {
+            "Condition": "1000/1000",
+            "Speed": "100%",
+            "Charge": "11"
+        }
+    },
+    "Dwarven Bolt (12)": {
+        "Weight": "0.2",
+        "Value": "6",
+        "Effects": null,
+        "Stats": {
+            "Type": "Marksman",
+            "Actack": "3 - 8"
+        }
+    },
+    "EagleÃ¢â‚¬â„¢s Fury": {
+        "Weight": "24",
+        "Value": "7600",
+        "Effects": [
+            "Constant Effect",
+            ") Fortify Attribute Agility 45 pts"
+        ],
+        "Stats": {
+            "Type": "Marksman",
+            "Attack": "5 - 45",
+            "Condition": "1250/1250",
+            "Speed": "100%"
+        }
+    },
+    "Ebony Band": {
+        "Weight": "0.1",
+        "Value": "632",
+        "Effects": [
+            "Constant Effect",
+            "DN Fortify Attribute Personality 5 pts",
+            "( Fortify Health 15 pts",
+            "Fortify Health 15 pts"
+        ],
+        "Stats": null
+    },
+    "Ebony Bade": {
+        "Weight": "40",
+        "Value": null,
+        "Effects": [
+            "Cast When Strikes",
+            "Absorb Health 10 to 30 pts for 1 sec on Touch"
+        ],
+        "Stats": {
+            "Type": "Long Blade, One Handed",
+            "Chop": "2 - 27",
+            "Slash": "1 - 57",
+            "Thrust": "4 + 34",
+            "Condition": "1400/1000",
+            "Range": "6 ft",
+            "Speed": "135%",
+            "Charge": "200"
+        }
+    },
+    "Ebony Gladius": {
+        "Weight": "16",
+        "Value": "2435",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Endurance 15 pts",
+            "Fortify Attribute Agility 13 pts"
+        ],
+        "Stats": {
+            "Type": "Short Blade, One Handed",
+            "Chop": "10 - 20",
+            "Slash": "10 - 22",
+            "Thrust": "15 - 25",
+            "Condition": "1600/1600",
+            "Range": "6 ft",
+            "Speed": "200%"
+        }
+    },
+    "Electrum Plated Belt": {
+        "Weight": "1",
+        "Value": "3822",
+        "Effects": [
+            "Constant Effect",
+            "Resist Fire 7%",
+            "Resist Frost 7%",
+            "Resist Shock 7%",
+            "Resist Magicka 7%"
+        ],
+        "Stats": null
+    },
+    "Gcched Bronze Ring (3)": {
+        "Weight": "0.1",
+        "Value": "525",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Health 12 pts",
+            "Resist Poison 1%",
+            "Resist Common Disease 1%",
+            "Resist Fire 1%",
+            "Resist Frost 1%",
+            "Resist Shock 1%",
+            "rcsise Magicka 1%"
+        ],
+        "Stats": null
+    },
+    "Everflame Torch [No Trade]": {
+        "Weight": "1",
+        "Value": null,
+        "Effects": null,
+        "Stats": null
+    },
+    "Eversnow Left Bracer": {
+        "Weight": "1.5 (Light)",
+        "Value": "536",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Willpower 5 pts",
+            "Fortify Attribute Personality 5 pts",
+            "Fortify Magicka 12 pts",
+            "Resist Frost 5%"
+        ],
+        "Stats": {
+            "Armor Rating": "0",
+            "Condition": "275/275"
+        }
+    },
+    "Eversnow Right Bracer": {
+        "Weight": "1.5 (Light)",
+        "Value": "530",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Willpower 5 pts",
+            "Fortify Attribute Personality 5 pts",
+            "Fortify Magicka 12 pts",
+            "Resist Frost 5%"
+        ],
+        "Stats": null
+    },
+    "Exploding Shot Bow [No Trade]": {
+        "Weight": "7",
+        "Value": null,
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Strength 12 pts",
+            "Fortify Attribute Agility 12 pts",
+            "Fortify Health 35 pts"
+        ],
+        "Stats": {
+            "Type": "Marksman",
+            "Attack": "1 - 46",
+            "Condition": "1130/1130",
+            "Speed": "100%"
+        }
+    },
+    "Faith": {
+        "Weight": "12 (Medium)",
+        "Value": "4950",
+        "Effects": [
+            "Constant Qffece",
+            "vortity Acctribure Endurance 10 pts",
+            "Fortify Skill Restoration 20 pts",
+            "Fortify Magicka 100 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "73",
+            "e Condition": "2640/2800"
+        }
+    },
+    "Fire Arrow (50)": {
+        "Weight": null,
+        "Value": null,
+        "Effects": [
+            "Cast When Strikes",
+            "kire Damage 120 pts for 3 secs secTouch"
+        ],
+        "Stats": {
+            "Type": "Marksman",
+            "Attack": "8-8",
+            "Valoc": "2"
+        }
+    },
+    "Fire Newt Splint": {
+        "Weight": "15 (Light)",
+        "Value": "4720",
+        "Effects": [
+            "Constant Effect",
+            "B) Resist Fire 15%",
+            "Fortify Attribute Intelligence 30 pts",
+            "Fortify Attribute Willpower 7 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "30",
+            "Condition": "725/725"
+        }
+    },
+    "Fireracer (Cure) [No Trade}": {
+        "Weight": "3",
+        "Value": null,
+        "Effects": [
+            "Cast When Strikes",
+            "Weure Blight Disease in 25 fe on Targee"
+        ],
+        "Stats": {
+            "Type": "Marksman",
+            "Attack": "0-0"
+        }
+    },
+    "Fireracer (Feather) (No Trade]": {
+        "Weight": "3",
+        "Value": null,
+        "Effects": [
+            "Cast When Srrikes",
+            "Feather in 25 fe on Target"
+        ],
+        "Stats": {
+            "Type": "Marksman",
+            "Attack": "0-0"
+        }
+    },
+    "Fircracer (Light) (No Trade}": {
+        "Weight": "3",
+        "Value": null,
+        "Effects": [
+            "Cast When Strikes",
+            "Light in 25 ft on Target"
+        ],
+        "Stats": {
+            "Type": "Marksman",
+            "Attack": "0-0"
+        }
+    },
+    "Fireracer Launcher [No Trade}": {
+        "Weight": "10",
+        "Value": null,
+        "Effects": [
+            "Cast When Strikes",
+            "ight in 25 fe on Target"
+        ],
+        "Stats": {
+            "Type": "Marksman",
+            "Artack": "0-0",
+            "Condition": "2499/2500",
+            "Speed": "10000%",
+            "Charge": "EO)"
+        }
+    },
+    "Firescale Belt": {
+        "Weight": "f",
+        "Value": "711",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Agility 7 pts",
+            "Fortify Attribute Intelligence 7 pro",
+            "Resist Fire 7%"
+        ],
+        "Stats": null
+    },
+    "Pirinicl's Gnd": {
+        "Weight": "7",
+        "Value": null,
+        "Effects": [
+            "Cast Whan Used",
+            "(Ã‚Â© Frese Damage 20 pts for 1 sec on Target",
+            "Dh Drain Attribute Speed 50 pee for 3 secs on Target"
+        ],
+        "Stats": {
+            "Type": "Markeman",
+            "Attack": "1 Ã‚Â«30",
+            "Condiaten": "200700",
+            "Bpced": "100%",
+            "Valor": "162"
+        }
+    },
+    "Flawless Cathartic Belt [No Trade]": {
+        "Weight": "1",
+        "Value": null,
+        "Effects": [
+            "Constant Effect",
+            "GD Fortify Attribute Willpower 10 pts",
+            "ortify Magicka 15 pts",
+            "Restore Magicka"
+        ],
+        "Stats": null
+    },
+    "Flawless Regenerative Belt [No Trade}": {
+        "Weight": "1",
+        "Value": null,
+        "Effects": [
+            "Constant Qffece",
+            "Fortify Attribute Endurance 10 pts",
+            "Fortify Health 15 pts",
+            "is Restore Health"
+        ],
+        "Stats": null
+    },
+    "Flawless Rejuvenative Belt [No Trade]": {
+        "Weight": "1",
+        "Value": null,
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Agilicry 10 pts",
+            "Fortify Health 15 pts"
+        ],
+        "Stats": null
+    },
+    "Flawless Restorative Belt [No Trade]": {
+        "Weight": "1",
+        "Value": null,
+        "Effects": [
+            "Constant @ffeet",
+            "Fortify Attribute Inrclligence 10 pts",
+            "Fortify Magicka 15 pts"
+        ],
+        "Stats": null
+    },
+    "Forest Gi": {
+        "Weight": "6",
+        "Value": "5713",
+        "Effects": [
+            "Constant Effect",
+            "DFortify Attribute Agility 20 pts",
+            "Fortify Attribute Speed 15 pts",
+            "eFortify Health 50 pts",
+            "Fortify Magicka 40 pts"
+        ],
+        "Stats": null
+    },
+    "Forgetful Club (5)": {
+        "Weight": "6",
+        "Value": "1613",
+        "Effects": [
+            "Constant Effect",
+            "A Fortify Attribute Willpower 20 pts",
+            "drain Attribute Intelligence 10 pts"
+        ],
+        "Stats": {
+            "Type": "Blunt Weapon, One Handed",
+            "Chop": "3 - 13",
+            "Slash": "2 - 12",
+            "Thrust": "1 - 12",
+            "Condition": "330/330",
+            "Range": "6 fr",
+            "Speed": "150%"
+        }
+    },
+    "Frost Gtched Belt (5)": {
+        "Weight": "1",
+        "Value": "5217",
+        "Effects": [
+            "Constant Effect",
+            "Enhancement 30 pts",
+            "Fortify Health 115 pts",
+            "Resist Frost 30%"
+        ],
+        "Stats": null
+    },
+    "Frost Spiral Tunic": {
+        "Weight": "9 (Light)",
+        "Value": "1989",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Agility 15 pts",
+            "Fortify Attribute Intelligence 10 pts",
+            "GFortify Magicka 15 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "|",
+            "Condition": "602/602"
+        }
+    },
+    "Frostiron Charm": {
+        "Weight": "1",
+        "Value": "1059",
+        "Effects": [
+            "Constant Offeet",
+            "Fortify Arrribure Agiliey 5 pts",
+            "Fortify Health 50 pts"
+        ],
+        "Stats": null
+    },
+    "Frostleaf Tunic": {
+        "Weight": "21 (Medium)",
+        "Value": "1708",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Willpower 5 pts",
+            "Fortify Attribute Personality 15 pts",
+            "Fortify Magicka 50 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "4",
+            "Condition": "542/542"
+        }
+    },
+    "Frostwind [No Tradc}": {
+        "Weight": "19.2",
+        "Value": null,
+        "Effects": [
+            "Constant Effect",
+            "WMFortify Attribute Endurance 22 pts",
+            "Fortify Attribute Willpower 22 pts"
+        ],
+        "Stats": {
+            "Type": "Axe, One Handed",
+            "Chop": "1 - 32",
+            "Slash": "1 - 15",
+            "Thrust": "1-4",
+            "Condition": "3000/3000",
+            "Range": "6 fr",
+            "Speed": "125%"
+        }
+    },
+    "Gavldur Blackbow": {
+        "Weight": "16",
+        "Value": "1972",
+        "Effects": [
+            "Cast When Used",
+            "Gi Drain Magicka 30 pts for 1 sec secTarget"
+        ],
+        "Stats": {
+            "Type": "Marksman",
+            "FAireack": "2 - 35",
+            "Condition": "1000",
+            "Speed": "100%",
+            "Charge": "SOO]"
+        }
+    },
+    "Gem Encrusted Helm": {
+        "Weight": "3 (Light)",
+        "Value": "1225",
+        "Effects": [
+            "Constant Effect",
+            "roreity Attribute Agility 10 pts",
+            "Fortify Artribute Intelligence 10 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "3",
+            "Condition": "625"
+        }
+    },
+    "Glacier Splitter": {
+        "Weight": "35",
+        "Value": null,
+        "Effects": [
+            "Condition; 4000/4000",
+            "Cast When Strikes",
+            "Dweakness to Frost 15% for 10 secs on Touch",
+            "Frost Damage 10 pts fort sec on Touch",
+            "Resist Prose 15% for 10 secs on Sclf"
+        ],
+        "Stats": {
+            "Type": "Axe, One Handed",
+            "Chop": "15 - 40",
+            "Slash": "15 - 50",
+            "Thrust": "10 - 15",
+            "Range": "6 ft",
+            "Speed": "125%",
+            "Valoc": "25000",
+            "Charge": "ESOS"
+        }
+    },
+    "Glancing Sash": {
+        "Weight": "1",
+        "Value": null,
+        "Effects": [
+            "Value; 3219",
+            "Constant Effect",
+            "Fortify Attribute Agility 25 pts",
+            "Fortify Magicka 25 pts",
+            "Resist Fire 5%",
+            "Resist Frost 5%"
+        ],
+        "Stats": null
+    },
+    "Gloomlantern [No Trade]": {
+        "Weight": "0.1",
+        "Value": null,
+        "Effects": null,
+        "Stats": null
+    },
+    "Golden Prayer Robe": {
+        "Weight": "3",
+        "Value": "6198",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Willpower 15 pts",
+            "Restore Health",
+            "iy] Restore Magicka"
+        ],
+        "Stats": null
+    },
+    "Golem's Breastplate": {
+        "Weight": "40 (Heavy)",
+        "Value": "5103",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Endurance 30 pts",
+            "Fortify Health 100 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "42",
+            "Condition": "1140/1140"
+        }
+    },
+    "Greater Charged Pike": {
+        "Weight": "24",
+        "Value": null,
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Strength 10 pts",
+            "G Fortify Attribute Speed 10 pts",
+            "Fortify Health 50 pts"
+        ],
+        "Stats": {
+            "Type": "Spear, Two Handed",
+            "Chop": "3 - 17",
+            "Slash": "1 - 13",
+            "Thrust": "5 - 34",
+            "Condition": "1800/1800",
+            "Range": "108 fr",
+            "Speed": "100%"
+        }
+    },
+    "Green Seale Ring": {
+        "Weight": "0.1",
+        "Value": "688",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Endurance 5 pts",
+            "Resist Poison 11%"
+        ],
+        "Stats": null
+    },
+    "Griffon Fur Boots": {
+        "Weight": "6 (Light)",
+        "Value": "2216",
+        "Effects": [
+            "Constant Effect",
+            "Gi Fortify Attribute Endurance 8 pts",
+            "BMFortify Attribute Agility 8 pts",
+            "Fortify Attribute Intelligence 8 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "12",
+            "Condition": "380/380"
+        }
+    },
+    "Grimblade (2)": {
+        "Weight": "19",
+        "Value": "6200",
+        "Effects": [
+            "Cast When Strikes",
+            "drain Health 20 pts on Touch"
+        ],
+        "Stats": {
+            "Type": "Long Blade, Two Handed",
+            "Chop": "2 - 12",
+            "Slash": "1 - 26",
+            "Thrust": "4 - 16",
+            "Condition": "3800/3800",
+            "Range": "6 ft",
+            "Speed": "130%"
+        }
+    },
+    "Grimsever": {
+        "Weight": "12",
+        "Value": "1350",
+        "Effects": [
+            "Cast When Sertkes",
+            "Drove Damage 1 to 15 pts for 1 sec on Touch",
+            "Damage Health 1 to 15 pee for 1 sec on Touch",
+            "Damage Fatigue 1 to 15 pts for 2 sec on Touch"
+        ],
+        "Stats": {
+            "Type": "Long Blade, One Handed",
+            "Chop": "2 - 24",
+            "Mask": "1 - 33",
+            "Thrust": "4 - 30",
+            "Condition": "800",
+            "Range": "6 ft",
+            "Speed": "135%",
+            "Charge": "Ty"
+        }
+    },
+    "Gypsy Honor Ring (No Trade]": {
+        "Weight": "1",
+        "Value": null,
+        "Effects": [
+            "Constant Effect",
+            "Fortify Arceribuee Strength 15 pts",
+            "Fortify Attribute Intelligence 15 pts"
+        ],
+        "Stats": null
+    },
+    "Ã¢â‚¬Å“<= Hallowed Leather Belt": {
+        "Weight": "1",
+        "Value": "373",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Willpower 3 p",
+            "Resist Poison 2%",
+            "Resist Common Disease 2%",
+            "Resist Frost 2%",
+            "BG Resist Magicka 2%"
+        ],
+        "Stats": null
+    },
+    "Hallowed Leather Boots": {
+        "Weight": "8 (Light)",
+        "Value": "269",
+        "Effects": [
+            "Constance Sffece",
+            "Fortify Attribute Willpower 2 p",
+            "|Forvify Attribute Personality 4 |",
+            "Resist Poison 5%"
+        ],
+        "Stats": {
+            "Armor Rating": "6",
+            "Condition": "225/225"
+        }
+    },
+    "Hallowed Leather Cap": {
+        "Weight": "3 (Ligh)",
+        "Value": "363",
+        "Effects": [
+            "Constance Effect",
+            "ortity Attribute Willpower 6 pts",
+            "Fortify Attribute Intelligence 3 pts",
+            "Resist Poison 3%",
+            "& Resist Magicka 4%"
+        ],
+        "Stats": {
+            "Armor Rating": "6",
+            "Condicion": "225/225"
+        }
+    },
+    "Hallowed Leather Left Dauldr": {
+        "Weight": "4 (Light)",
+        "Value": "95",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Screngch 2 pr",
+            "Fortify Attribute Endurance | |",
+            "WN Fortify Attribute Willpower 2 p"
+        ],
+        "Stats": {
+            "Armor Rating": "6",
+            "Condition": "225/225"
+        }
+    },
+    "Hallowed Leather Leggings": {
+        "Weight": "7 (Light)",
+        "Value": "340",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Agility 4 pts",
+            "Fortify Attribute Willpower 7 p"
+        ],
+        "Stats": {
+            "Armor Rating": "6",
+            "Condition": "225/225"
+        }
+    },
+    "Hallowed Leather Right Dauldi": {
+        "Weight": "4 (Light)",
+        "Value": "95",
+        "Effects": [
+            "Constant Effect",
+            "fil Forvify Attribute Srrengcrh 2 pt",
+            "Forvify Attribute Endurance | |",
+            "Fortify Attribute Willpower 2 p"
+        ],
+        "Stats": {
+            "Armor Rating": "6",
+            "Condition": "225/225"
+        }
+    },
+    "= Hallowed Leather Tunic": {
+        "Weight": "12 (Light)",
+        "Value": "714",
+        "Effects": [
+            "Constant Effect",
+            "} Fortify Attribute Endurance 4 p",
+            "Fortify Attribute Willpower 8 p",
+            "Resist Common Disease 5%",
+            "BS Resist Magicka 5%"
+        ],
+        "Stats": {
+            "Armor Rating": "6",
+            "Condition": "225/225"
+        }
+    },
+    "Harbinger (No Tradc]": {
+        "Weight": "10",
+        "Value": null,
+        "Effects": [
+            "Constant Effect",
+            "MW Drain Attribute Endurance 10 pts",
+            "Fortify Fatigue 150 pts",
+            "Fortify Attribute Strength 20 pts",
+            "Fortify Attribute Agility 24 pts"
+        ],
+        "Stats": {
+            "Type": "Marksman",
+            "Attack": "45 - 45",
+            "Condition": "1325/1325",
+            "Speed": "100%"
+        }
+    },
+    "Hard Packed Snowball": {
+        "Weight": "0.2",
+        "Value": null,
+        "Effects": null,
+        "Stats": {
+            "Type": "Marksman",
+            "Artack": "2 - 2",
+            "Speed": "400%"
+        }
+    },
+    "Hatecrux": {
+        "Weight": "30",
+        "Value": null,
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Srrengeh 25 pts",
+            "Fortify Health 65 pts"
+        ],
+        "Stats": {
+            "Type": "Blunt Weapon, One Handed",
+            "Condition": "3600/3600",
+            "Range": "6 ft",
+            "Specd": "150%"
+        }
+    },
+    "Heart Sleeve Shield [No Trade]": {
+        "Weight": "1 (Light)",
+        "Value": null,
+        "Effects": null,
+        "Stats": {
+            "Armor Rating": "0",
+            "Condition": "800"
+        }
+    },
+    "HeartÃ¢â‚¬â„¢s Day Bouquet": {
+        "Weight": "3",
+        "Value": null,
+        "Effects": null,
+        "Stats": {
+            "Type": "Blunt Weapon, Two Handed",
+            "Chop": "1 - 2",
+            "Slash": "0 - 0",
+            "Thrust": "0 - 0",
+            "Condition": "300",
+            "Range": "10.8 ft",
+            "Speed": "175%"
+        }
+    },
+    "Helm of the Thaumaturge [No Trade]": {
+        "Weight": "15 (Light)",
+        "Value": null,
+        "Effects": [
+            "Constant Effect",
+            "BFortify Attribute Endurance & pre",
+            "B) oreit, Attribute Agility 8 pts",
+            "cFortify Attribute Intelligence 16 pts",
+            "roreity Health 3 pre"
+        ],
+        "Stats": {
+            "Armor Rating": "43",
+            "Condition": "500"
+        }
+    },
+    "Holyglow Hammer": {
+        "Weight": "15",
+        "Value": "3225",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Endurance 5 pts",
+            "Fortify Attribute Willpower 10 pts",
+            "G Fortify Attribute Personality 5 pts",
+            "Fortify Health 25 pts",
+            "Fortify Magicka 50 pts",
+            "Resist Magicka 15%"
+        ],
+        "Stats": {
+            "Type": "Blunt Weapon, One Handed",
+            "Chop": "8 - 45",
+            "Slash": "8 - 30",
+            "Thrust": "4-8",
+            "Condition": "7550/7550",
+            "Range": "6 ft",
+            "Speed": "100%"
+        }
+    },
+    "Hunger Skin Leggings": {
+        "Weight": "7 (Light)",
+        "Value": null,
+        "Effects": [
+            "Value; 5215",
+            "Constant Effect",
+            "Fortify Attribute Endurance 20 pts",
+            ") Fortify Attribute Agility 17 pts",
+            "Fortify Health 85 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "27",
+            "Condition": "725/725"
+        }
+    },
+    "Tee Arrow (100)": {
+        "Weight": null,
+        "Value": "2",
+        "Effects": [
+            "Cast When Strikes",
+            "Drain Attribute Speed 50 pts for 1 sec on Touch",
+            "Drain Skill Athletics 50 pts for 1 sec on Touch",
+            "Frost Damage 40 pts for 1 sec on Touch"
+        ],
+        "Stats": {
+            "Type": "Marksman",
+            "Attack": "8-8",
+            "Charge": "1/1"
+        }
+    },
+    "lee Crystal Sash": {
+        "Weight": "1",
+        "Value": "3351",
+        "Effects": [
+            "Constant Effect",
+            "WFortify Attribute Endurance 15 pts",
+            "Fortify Attribute Personality 15 pts",
+            "( Fortify Health 50 pts",
+            "Resist Magicka 10%"
+        ],
+        "Stats": null
+    },
+    "Ice Giant's Bele": {
+        "Weight": "1",
+        "Value": "2111",
+        "Effects": [
+            "Constant Effect",
+            "BFortify Attribute Strength 35 pts",
+            "( Drain Attribute Agility 20 pts",
+            "Resist Frost 10%"
+        ],
+        "Stats": null
+    },
+    "Ieebear Girdle": {
+        "Weight": "1",
+        "Value": "3600",
+        "Effects": [
+            "Constant Effectr",
+            "Fortify Attribute Strength 5 pts",
+            "DW Fortify Attribute Willpower 10 pts",
+            "Fortify Attribute Personality 5 pts",
+            "Fortify Magicka 50 pts",
+            "Resist Frost 15%"
+        ],
+        "Stats": null
+    },
+    "Icelake Necklace": {
+        "Weight": "1",
+        "Value": "1479",
+        "Effects": [
+            "Constant Effect",
+            "GI Fortify Attribute Willpower 10 pts",
+            "Fortify Attribute Personality 10 pts"
+        ],
+        "Stats": null
+    },
+    "Icelong Amuler": {
+        "Weight": "1",
+        "Value": "1986",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Strength 9 pts",
+            "Fortify Attribute Agility 0 pts",
+            "Fortify Attribute Speed 5 pts"
+        ],
+        "Stats": null
+    },
+    "Icemight Tower": {
+        "Weight": "14 (Heavy)",
+        "Value": "7862",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Strength 15 pts",
+            "Fortify Attribute Endurance 20 pts",
+            "Fortify Health 50 pts",
+            "Resist Frost 20%"
+        ],
+        "Stats": {
+            "Armor Rating": "83",
+            "Condition": "1145/1145"
+        }
+    },
+    "* Icespike, Mace": {
+        "Weight": "60",
+        "Value": "6500",
+        "Effects": [
+            "Condition; 7200/7200",
+            "Constant Effect",
+            "Fortify Attribute Endurance 10 pts",
+            "Fortify Attribute Willpower 10 pts",
+            "Fortify Health 20 pts"
+        ],
+        "Stats": {
+            "Type": "Blunt Weapon, One Handed",
+            "Chop": "15 - 45",
+            "Slash": "15 - 45",
+            "Thrust": "5 - 5",
+            "Range": "9.6 fr",
+            "Speed": "100%"
+        }
+    },
+    "Illuminated Robe": {
+        "Weight": "3",
+        "Value": "2507",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Agility 5 pts",
+            "Fortify Attribute Intelligence 15 pts",
+            "Fortify Attribute Personality 10 pts"
+        ],
+        "Stats": null
+    },
+    "Incandescent Belt": {
+        "Weight": "1",
+        "Value": "4434",
+        "Effects": [
+            "Constant Effect",
+            "vFortify Attribute Endurance 7 pts",
+            "Fortify Attribute Speed 3 pts",
+            "Fortify Attribute Agility 7 pts",
+            "Fortify Attribute Willpower 7 pts",
+            "Fortify Attribute Intelligence 2 pts",
+            "Fortify Attribute Personality 5 pts",
+            "Restore Magicka"
+        ],
+        "Stats": null
+    },
+    "Insidious Glacial Staff": {
+        "Weight": "10",
+        "Value": "6502",
+        "Effects": [
+            "Constant Effect",
+            "Bvoreity Attribute Endurance 10 pts",
+            "Fortify Aeeribuee Agility 15 pts",
+            "Fortify Attribute Intelligence 25 pts",
+            "Fortify Health $0 pts",
+            "@) Fority Magicka 100 pts",
+            "Resist Frost 10%",
+            "Resist Poison 10%"
+        ],
+        "Stats": {
+            "Type": "Blunt Weapon, Two Handed",
+            "Chop": "$ - 12",
+            "Slash": "1 - 12",
+            "Thrust": "5 - 18",
+            "Condition": "1875/1875",
+            "Range": "108 ft",
+            "Speed": "175%"
+        }
+    },
+    "Ironclad Boots": {
+        "Weight": "19 (Heavy)",
+        "Value": "3297",
+        "Effects": [
+            "Constant Effece",
+            "DP Fortify Attribute Agility 24 pts",
+            "l Fortify Magicka 48 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "14",
+            "Condition": "780/780"
+        }
+    },
+    "Jronhand Left Gaunrlet": {
+        "Weight": "7 (Heavy)",
+        "Value": "444",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Skill Blunt Weapon 5 pts",
+            "Fortify Skill Long Blade 5 pts",
+            "Fortify Skill Hxe 5 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "7",
+            "Condition": "200/200"
+        }
+    },
+    "Jronhand Right Gauntlet": {
+        "Weight": "7 (Heavy)",
+        "Value": "444",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Skill Blunt Weapon 5 pts",
+            "Fortify Skill Long Blade 8 pts",
+            "vority Skill Axe 5 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "7",
+            "Condircion": "200/200"
+        }
+    },
+    "Jack's Ripper [No Trade}": {
+        "Weight": "35",
+        "Value": null,
+        "Effects": [
+            "Cast When Used",
+            "Weakness to Poison 25% for 6 secs on Target",
+            "Dotson 15 pts for 6 secs on Target",
+            "Doeours 50 pts for 6 secs secTarget"
+        ],
+        "Stats": {
+            "Type": "Long Blade, One Handed",
+            "Chop": "31-31",
+            "Blah": "20 - 2",
+            "Ã¢â‚¬ËœThrust": "10 - 10",
+            "Condition": "4400/5400",
+            "Range": "6 fr",
+            "Spccd": "125%"
+        }
+    },
+    "Jewel Gncrested Sabre": {
+        "Weight": "15",
+        "Value": null,
+        "Effects": [
+            "Value; 5722",
+            "Constant Effect",
+            "Fortify Artribure Strength 7 pts",
+            "Forciry Attribute Agility 20 pts",
+            "PD Fortify Attribute Speed 10 pts",
+            "Fortify Health 45 pts",
+            "Fortify Magicka 65 pts"
+        ],
+        "Stats": {
+            "Type": "Long Blade, One Handed",
+            "Chop": "5 - 33",
+            "Slash": "4 - 30",
+            "Thrust": "1 - 24",
+            "Condition": "960/960",
+            "Range": "6 ft",
+            "Speed": "140%"
+        }
+    },
+    "Kwama Sundas Shocs [No Trade] (2)": {
+        "Weight": "3",
+        "Value": null,
+        "Effects": [
+            "Constant Effect",
+            "Drain Skill Herobarics 35 pts"
+        ],
+        "Stats": null
+    },
+    "Kyne's Token (2)": {
+        "Weight": "|",
+        "Value": "325",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Skill Marksman 15 pts"
+        ],
+        "Stats": null
+    },
+    "q Lavaskin Jerkin": {
+        "Weight": "24 (Medium)",
+        "Value": null,
+        "Effects": [
+            "Value; 2877",
+            "Constant Effect",
+            "Fortify Attribute Endurance 20 pts",
+            "Fortify Magicka 30 pts",
+            "B) Resist Fire 20%"
+        ],
+        "Stats": {
+            "Armor Rating": "40",
+            "Condition": "640/640"
+        }
+    },
+    "Left Abysmal Gaunelet": {
+        "Weight": "15 (Heavy)",
+        "Value": "3440",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Endurance 9 pts",
+            "Fortify Attribute Agility 9 pts",
+            "Fortify Health 30 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "43",
+            "Condition": "$25/825"
+        }
+    },
+    "& Left Bracer of Mise": {
+        "Weight": "4 (Medium)",
+        "Value": "4720",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Strength 16 pts",
+            "Fortify Arccribute Agility 5 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "40",
+            "Condition": "675/675"
+        }
+    },
+    "Left Bracer of Wailing Wind": {
+        "Weight": "4 (Medium)",
+        "Value": null,
+        "Effects": [
+            "Value; 3312",
+            "Constant Effect",
+            "Fortify Arcetribute Endurance 5 pts",
+            "Fortify Attribute Agility 5 pts",
+            "Fortify Skill Athletics 10 pts",
+            "Resist Poison 5%",
+            "Wl Resist Common Disease 5%"
+        ],
+        "Stats": {
+            "Armor Rating": "25",
+            "Condition": "675/675"
+        }
+    },
+    "Lefr Glove of Despair": {
+        "Weight": "15 (Heavy)",
+        "Value": "4998",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Serengrh 12 pts",
+            "voreify Attribute Agility 10 pts",
+            "Fortify Health 50 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "30",
+            "Condition": "1260/1260"
+        }
+    },
+    "Fd Left Glove of Dismay": {
+        "Weight": "1 (Light)",
+        "Value": "4989",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Arceribute Agility 10 pts",
+            "DI Fortify Attribute Intelligence 15 pts",
+            "Ol Fortify Magicka 50 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "46",
+            "Condition": "1260/1260"
+        }
+    },
+    "Left Glove of the Dugilisr": {
+        "Weight": "15 (Light)",
+        "Value": "194",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Skill Hand-ro-hand 10 pts"
+        ],
+        "Stats": {
+            "Ã‚Â» Armor Rating": "8",
+            "Condition": "150/150"
+        }
+    },
+    "Left Mercenary Armguard [No Trade]": {
+        "Weight": "4.4 (Medium)",
+        "Value": null,
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Agility 8 pts",
+            "Fortify Attribute Strength 8 pts",
+            "Fortify Health 15 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "40",
+            "Condition": "725/725"
+        }
+    },
+    "Leggings of Charm": {
+        "Weight": "9 (Light)",
+        "Value": "4032",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Agility 10 pts",
+            "Fortify Attribute Intelligence 10 pts",
+            "Fortify Attribute Personality 10 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "31",
+            "Condition": "800/800"
+        }
+    },
+    "Leggings of Dismay": {
+        "Weight": "3 (Light)",
+        "Value": "9056",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Agility 20 pts",
+            "Fortify Attribute Intelligence 25 pts",
+            "Fortify Magicka 100 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "46",
+            "Condition": "1260/1260"
+        }
+    },
+    "Lifescourge [No Trade]": {
+        "Weight": "30",
+        "Value": null,
+        "Effects": [
+            "Thrust; 6 - 9",
+            "Constant Effect",
+            "Drain Attribute Endurance 25 pts",
+            "Fortify Magicka 75 pts",
+            "Fortify Attribute Intelligence 24 pts",
+            "Fortify Attribute Willpower 24 pts"
+        ],
+        "Stats": {
+            "Type": "Short Blade, One Handed",
+            "Chop": "9 - 28",
+            "Slash": "9 - 23",
+            "Condition": "46000/46000",
+            "Range": "6 fr",
+            "Speed": "225%"
+        }
+    },
+    "Lightning Arrow (80)": {
+        "Weight": null,
+        "Value": "2",
+        "Effects": [
+            "Cast When Strikes",
+            "AShock Damage 120 pts for 3 eccs on Touch",
+            "Chas gÃ‚Â¢"
+        ],
+        "Stats": {
+            "Type": "Marksman",
+            "Attack": "8-8"
+        }
+    },
+    "Locket of Saint Jiub": {
+        "Weight": "0.5",
+        "Value": "2422",
+        "Effects": [
+            "Constant Effect",
+            "Feather 50 pts",
+            "Fortify Fatigue 50 pts"
+        ],
+        "Stats": null
+    },
+    "Loewe Dottew No. 0 [No Trad)": {
+        "Weight": null,
+        "Value": null,
+        "Effects": [
+            "Fortify Aceridure Personality 00 pts for 90 sees",
+            "Brorrify Aceeitece Leck 90 pts for 00 sees"
+        ],
+        "Stats": {
+            "weight": "025"
+        }
+    },
+    "Lowers Arrow (No Trade} (6)": {
+        "Weight": "01",
+        "Value": null,
+        "Effects": [
+            "Cast When Used",
+            "B3 charm I to 100 pts for 4 ccs on Target"
+        ],
+        "Stats": {
+            "Type": "Marksman",
+            "Attack": "1-3"
+        }
+    },
+    "Lupine Tunic": {
+        "Weight": "9 (Light)",
+        "Value": "2849",
+        "Effects": [
+            "Constant Effect",
+            "DD Fortify Attribute Speed 10 pts",
+            "Fortify Attribute Willpower 20 pts",
+            "Fortify Health 50 pts",
+            "Resist Frost 5%"
+        ],
+        "Stats": {
+            "Armor Rating": "3",
+            "Condition": "737/737"
+        }
+    },
+    "Mace of the Crusader (6)": {
+        "Weight": "18",
+        "Value": "2501",
+        "Effects": [
+            "Cast When Strikes",
+            "Fire Damage 15 pts for 2 secs on Touch",
+            "Turn Undead 20 pts for 5 ses on Touch"
+        ],
+        "Stats": {
+            "Type": "Blunt Weapon, One Handed",
+            "Chop": "8 - 26",
+            "Slash": "8 ~ 26",
+            "Thrust": "3-8",
+            "Condition": "3600/3600",
+            "Range": "6 ft",
+            "Speed": "100%",
+            "Charge": "3000)"
+        }
+    },
+    "Mark of Dibella (2)": {
+        "Weight": "0.2",
+        "Value": "300",
+        "Effects": null,
+        "Stats": null
+    },
+    "Martial Band [Lv.60 Combat/Stealth]": {
+        "Weight": "0.1",
+        "Value": null,
+        "Effects": [
+            "Value; 6437",
+            "Constant Effect",
+            "Fortify Attribute Endurance 15 pts",
+            "Fortify Health 150 pts",
+            "Hlenhancemene 15 pts"
+        ],
+        "Stats": null
+    },
+    "Martyr's Breasrplare [No Trade]": {
+        "Weight": "28 (Heavy)",
+        "Value": null,
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Strength 12 pts",
+            "Fortify Attribute Endurance 12 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "36",
+            "Condition": "3400/3400"
+        }
+    },
+    "Mask: Skull (Blazing) [No Trade]": {
+        "Weight": "3 (Light)",
+        "Value": null,
+        "Effects": [
+            "Contant Effect",
+            "Light 5 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "0",
+            "Condition": "20000"
+        }
+    },
+    "Mask: Skull (Bondage) [No Trade]": {
+        "Weight": "3 (Light)",
+        "Value": null,
+        "Effects": [
+            "Constant Effect",
+            "Light 5 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "0",
+            "Condition": "20000"
+        }
+    },
+    "Mask:Ã‚Â Skull (Everflame) [No Trade]": {
+        "Weight": "3 (Light)",
+        "Value": null,
+        "Effects": [
+            "Constant Effect",
+            "Light 5 pts"
+        ],
+        "Stats": {
+            "ARmor Rating": "0",
+            "Condition": "20000"
+        }
+    },
+    "Medics Boots [No Trade}": {
+        "Weight": "20 (Heavy)",
+        "Value": null,
+        "Effects": [
+            "Condition; 825/825",
+            "Constant Effect",
+            "Fortify Attribute Willpower 15 pts",
+            "Fortify Attribute Personality 15 pts",
+            "Fortify Magicka 30 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "10"
+        }
+    },
+    "Melodic Sash": {
+        "Weight": "1",
+        "Value": "2968",
+        "Effects": [
+            "Constant Effect",
+            "G vorrity Aerribure Endurance 10 pts",
+            "Fortify Attribute Agility 10 pts",
+            "Fortify Attribute Speed 10 pts"
+        ],
+        "Stats": null
+    },
+    "Morrowcen Hide Shire [No Trade]": {
+        "Weight": "2",
+        "Value": null,
+        "Effects": null,
+        "Stats": null
+    },
+    "Moss Covered Mace": {
+        "Weight": "30",
+        "Value": "3647",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Health 90 pts",
+            "Fortify Magicka 40 pts"
+        ],
+        "Stats": {
+            "Type": "Blunt Weapon, One Handed",
+            "Chop": "8 - 46",
+            "Slash": "8 - 46",
+            "Thrust": "1 - 7",
+            "Condition": "4500/4500",
+            "Range": "6 ft",
+            "Speed": "130%"
+        }
+    },
+    "Movarth's Boots": {
+        "Weight": "6 (Light)",
+        "Value": "792",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Skill Sneak 15 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "3",
+            "Condition": "220/220"
+        }
+    },
+    "Murk Claw Ring [Lv Combat/Stealth]": {
+        "Weight": "i",
+        "Value": "4764",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Endurance 17 pts",
+            "Fortify Health 125 pts",
+            "Enhancement 31 pts",
+            "Fortify Attribute Agility 17 pts"
+        ],
+        "Stats": null
+    },
+    "Murk Claw Spear [v.60 Combat/Srealth}": {
+        "Weight": "8",
+        "Value": "10738",
+        "Effects": [
+            "Thrust; 32 - 76",
+            "Constance Effect",
+            "Fortify Skill Athleeies 28 pts",
+            "( Fortify Skill Spear 24 pts",
+            "Fortify Attribute Agility 16 pts",
+            "Resist Shock 15%",
+            "Fortify Health 130 pts"
+        ],
+        "Stats": {
+            "Type": "Spear, Two Handed",
+            "Chop": "18 - 26",
+            "Slash": "18 - 26",
+            "Condition": "6450/6450",
+            "Range": "10.8 fr",
+            "Speed": "125%"
+        }
+    },
+    "5 Musicians Lute": {
+        "Weight": "3",
+        "Value": "2021",
+        "Effects": [
+            "Thrust; 1 - 2"
+        ],
+        "Stats": {
+            "Type": "Spear, Two Handed",
+            "Chop": "5 - 10",
+            "Slash": "2- 4",
+            "Condition": "600/600",
+            "Range": "6 fr",
+            "Speed": "100%"
+        }
+    },
+    "Myrmidon Spear [No Trade]": {
+        "Weight": "14",
+        "Value": null,
+        "Effects": [
+            "Chem 2-5",
+            "Cast When Srrtkes",
+            "Frost Damage 10 to 40 pts for 3 secs on Touch",
+            "Chars:"
+        ],
+        "Stats": {
+            "Type": "Bpcar, Two Handed",
+            "Mask": "2-5",
+            "Thrust": "8 - 23",
+            "Condizion": "2000/2000",
+            "Range": "108 ft",
+            "Speed": "120%"
+        }
+    },
+    "Necklace of the Keeper [Lv.50]": {
+        "Weight": "1",
+        "Value": "3500",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Artribute Speed 13 pts",
+            "Fortify Skill Destruction 13 pts",
+            "Fortify Magicka 100 pts"
+        ],
+        "Stats": null
+    },
+    "Ã‚Â¥ Necklace of the Weaver": {
+        "Weight": "0.1",
+        "Value": "4978",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Endurance 20 pts",
+            "Fortify Attribute Speed 25 pts",
+            "Fortify Health 100 pts"
+        ],
+        "Stats": null
+    },
+    "Nerveshareer (4)": {
+        "Weight": "29",
+        "Value": null,
+        "Effects": [
+            "Cast When Strikes",
+            "shock Damage 30 pts for 1 sec on Touch",
+            "Damage Magicka 15 pts for 1 sec on Touch"
+        ],
+        "Stats": {
+            "Type": "Blunt Weapon, Two Handed",
+            "Chop": "1 -69",
+            "Slash": "1 - 24",
+            "Thrust": "1-4",
+            "Condition": "4000/4000",
+            "Range": "9 ft",
+            "Speed": "100%",
+            "Valoc": "3235",
+            "Charge": "3000"
+        }
+    },
+    "New Life Festival Ring": {
+        "Weight": "0.1",
+        "Value": null,
+        "Effects": null,
+        "Stats": null
+    },
+    "New Life Festival Robe (17)": {
+        "Weight": "3",
+        "Value": null,
+        "Effects": null,
+        "Stats": null
+    },
+    "New Life Festival Shirt (8)": {
+        "Weight": "2",
+        "Value": null,
+        "Effects": null,
+        "Stats": null
+    },
+    "NightweaverÃ¢â‚¬â„¢s Band": {
+        "Weight": "0.1",
+        "Value": "1131",
+        "Effects": [
+            "Constant Effect",
+            "B) Fortify Skill Sneak 10 pts",
+            "A Fortify Skill Destruction 10 pts"
+        ],
+        "Stats": null
+    },
+    "Nordic Silver Bartleaxe": {
+        "Weight": "22",
+        "Value": "800",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attack 10 pts",
+            ") Fortify Skill Axe 10 pts",
+            "Resist Common Disease 75%"
+        ],
+        "Stats": {
+            "Type": "Axe, Two Handed",
+            "Chop": "25 - 45",
+            "Slash": "20 - 30",
+            "Thrust": "1 - 5",
+            "Condition": "1398/1400",
+            "Range": "8.4 fr",
+            "Speed": "200%"
+        }
+    },
+    "Notched Pickaxe": {
+        "Weight": "20",
+        "Value": "303",
+        "Effects": [
+            "Cast When Strikes",
+            "Shock Damage 5 pts for 1 sec on Touch"
+        ],
+        "Stats": {
+            "Type": "Axe, One Handed",
+            "Chop": "2-14",
+            "Slash": "1-9",
+            "Thrust": "1-3",
+            "Condition": "400/400",
+            "Range": "6 ft",
+            "Speed": "100%",
+            "Charge": "500"
+        }
+    },
+    "Oakensoul Ring": {
+        "Weight": "0",
+        "Value": null,
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Strength 40 pts",
+            "Fortify Attribute Strength",
+            "Fortify Skill Enchant25 pts",
+            "Fortify Skill @nchane",
+            "Poderece Enchantment 100 ft"
+        ],
+        "Stats": null
+    },
+    "Obsidian Etched Choker [Lv.60]": {
+        "Weight": "1",
+        "Value": "8950",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Aeeribuee Strength 35 pts",
+            "Fortify Attribute Speed 10 pts",
+            "Fortify Health 200 pts",
+            "Drain Aecribure Personalicy 40 pts"
+        ],
+        "Stats": null
+    },
+    "Okie": {
+        "Weight": null,
+        "Value": null,
+        "Effects": [
+            "Cast When Series",
+            "Eros Damage 16 pts for 1 #40 on Touch",
+            "Drain Arertlore Speed MH pts for 3 sccv secTouch"
+        ],
+        "Stats": {
+            "Type": "Axe, Que Handed",
+            "Chop": "1 - 18",
+            "Slash": "1 - 1",
+            "Thrust": "1-2",
+            "Condition": "s00ye00",
+            "Charge": "EO)"
+        }
+    },
+    "Omniporent Robe": {
+        "Weight": "3",
+        "Value": "5843",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Intelligence 20 pts",
+            "Borrity Magicka 20 pts"
+        ],
+        "Stats": null
+    },
+    "Ouch": {
+        "Weight": "28",
+        "Value": "4700",
+        "Effects": null,
+        "Stats": {
+            "Type": "Blunt Weapon, Two Hande",
+            "Chop": "1 - 48",
+            "Slash": "1 - 33",
+            "Thrust": "1 - 2",
+            "Condition": "3800/3800",
+            "Range": "9 ft",
+            "Speed": "95%"
+        }
+    },
+    "Dendant of Darkness [Lv.50}": {
+        "Weight": "|",
+        "Value": "3606",
+        "Effects": [
+            "Constant Offect",
+            "DH Fortify Attribute Strength 13 pts",
+            "(A Fortify Skill Destruction 13 pts",
+            "( Fortify Health 100 pts"
+        ],
+        "Stats": null
+    },
+    "Pendant of Wisdom": {
+        "Weight": "1",
+        "Value": "6301",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Willpower 20 pts",
+            "Fortify Health 50 pts",
+            "( voreify Magicka 110 pts",
+            "2) Resist Fire 5%",
+            "Ra Resist Shock 5%",
+            "Resist Magicka 5%"
+        ],
+        "Stats": null
+    },
+    "Reeton of Alacrity (Speed +25 for 30 mins) [No Trade]": {
+        "Weight": "0.25",
+        "Value": null,
+        "Effects": [
+            "Fortify Attribute Speed 25 pts for 1800 secs"
+        ],
+        "Stats": null
+    },
+    "Potion of Anti-Gravity (Levitate +25 for 5 mins) (No Trade}": {
+        "Weight": ".25",
+        "Value": null,
+        "Effects": [
+            "Levicare 25 pts for 300 secs"
+        ],
+        "Stats": null
+    },
+    "Potion of Productivity (x1.5 Tradeskill XP for 1 hour) [No Trade]": {
+        "Weight": "0.5",
+        "Value": null,
+        "Effects": [
+            "Unique Effect"
+        ],
+        "Stats": null
+    },
+    "Potion of Traversing (Athletics +25 for 30 mins) [No Trade]": {
+        "Weight": "0.25",
+        "Value": null,
+        "Effects": [
+            "Fortify Skill Athletics 25 pts for 1800 secs"
+        ],
+        "Stats": null
+    },
+    "Predator's Grace": {
+        "Weight": "6 (Light)",
+        "Value": "1117",
+        "Effects": [
+            "Ã¢â‚¬Å“",
+            "Constant Effect",
+            "Fortify Skill Sneak 10 pts",
+            "Restore Fatigue 1 pt"
+        ],
+        "Stats": {
+            "Armor Rating": "8",
+            "Condition": "220/220"
+        }
+    },
+    "Primeval Iron Girdle [Lv.60 Combat]": {
+        "Weight": "1",
+        "Value": "7200",
+        "Effects": [
+            "Constant Offecc",
+            "2) Resist Fire 15%",
+            "(A Fortify Skill Heavy Armor 31 pts",
+            "Fortify Health 185 pts"
+        ],
+        "Stats": null
+    },
+    "Purewind Bele": {
+        "Weight": "1",
+        "Value": "2343",
+        "Effects": [
+            "Constant Effect",
+            "Resist Poison 15%",
+            "Resist Common Disease 15%"
+        ],
+        "Stats": null
+    },
+    "Purrid Leggings": {
+        "Weight": "5.4 (Light)",
+        "Value": "5900",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Agility 16 pts",
+            "Fortify Attribute Willpower 16 pts",
+            "Fortify Health 20 pts",
+            "G Resist Poison 5%",
+            "Resist Common Disease 5%"
+        ],
+        "Stats": {
+            "Armor Rating": "50",
+            "Condition": "800/800"
+        }
+    },
+    "Pyromantic Staff": {
+        "Weight": "7.2",
+        "Value": "2136",
+        "Effects": [
+            "Thrust; 1 - 8",
+            "Condition; 630/630",
+            "Constant OEffect",
+            "Resist Fire 20%"
+        ],
+        "Stats": {
+            "Type": "Blunt Weapon, Two Handed",
+            "Chop": "2 - 10",
+            "Slash": "3 - 10",
+            "Range": "9 fr",
+            "Speed": "175%"
+        }
+    },
+    "Radiant Shicld": {
+        "Weight": "20 (Heavy)",
+        "Value": "3255",
+        "Effects": [
+            "Constant Effect",
+            "( Fortify Attribute Endurance 6 pts",
+            "Fortify Attribute Speed 6 pts",
+            "Fortify Aerribure Willpower 6 pts",
+            "Fortify Attribute Personalilty 6 pts",
+            "Resist Poison 2%",
+            "Pe] Resist Common Disease 2%",
+            "Resist Fire 2%",
+            "Ha Resist Frost 2%",
+            "BZ Resist Shock 2%",
+            "Resist Magicka 2%"
+        ],
+        "Stats": {
+            "Armor Rating": "40",
+            "Condicion": "1053/1145"
+        }
+    },
+    "Rathestcel Ring (11)": {
+        "Weight": "0.1",
+        "Value": "1552",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Endurance 10 pts",
+            "Fortify Health 50 pts"
+        ],
+        "Stats": null
+    },
+    "Ravenback Robe [(Glamoured]": {
+        "Weight": "3",
+        "Value": null,
+        "Effects": [
+            "Constant ffeer",
+            "Fortify Attribute Endurance 10 pts",
+            "Fortify Artribure Intelligence 20 pts",
+            "Fortify Health 50 pts",
+            ") Fortify Magicka 50 pts"
+        ],
+        "Stats": null
+    },
+    "Raw Jade Ring": {
+        "Weight": "0.1",
+        "Value": "530",
+        "Effects": [
+            "Constance Effect",
+            "Fortify Attribute Agility 7 pts",
+            "Resist Poison 7%"
+        ],
+        "Stats": null
+    },
+    "Red Eagle's Bane": {
+        "Weight": "15",
+        "Value": "1345",
+        "Effects": [
+            "Cast When Strikes",
+            "Tarn Undead 15 pts for 30 secs on Touch",
+            "Fire Damage 10 pts for 1 see on Touch"
+        ],
+        "Stats": {
+            "Type": "Long Blade, One Handed",
+            "Chop": "6 - 18",
+            "Slash": "2 - 18",
+            "Thrust": "2 - 18",
+            "Condition": "800/800",
+            "Range": "6 ft",
+            "Speed": "125%",
+            "Charge": "500"
+        }
+    },
+    "Red Scale Ring": {
+        "Weight": "0.2",
+        "Value": "688",
+        "Effects": [
+            "Constant Effect",
+            "A Fortify Artribute Endurance 5 pts",
+            "Resist Fire 11%"
+        ],
+        "Stats": null
+    },
+    "Red Wolf Boots": {
+        "Weight": "6 (Light)",
+        "Value": "3128",
+        "Effects": [
+            "Constant Effect",
+            "W) Fortify Attribute Agility 10 pts",
+            "Fortify Attribute Speed 10 pts",
+            "Fortify Health 40 pts",
+            ") Fortify Magicka 40 pts",
+            "Restore Health"
+        ],
+        "Stats": {
+            "Armor Rating": "0",
+            "Condition": "750/750"
+        }
+    },
+    "Red Wolf Right Bracer (2)": {
+        "Weight": "1.5 (Light)",
+        "Value": "1425",
+        "Effects": [
+            "Constant EEffect",
+            "DJ Fortify Attribute Agility 8 pts",
+            "Fortify Aecriburce Willpower 5 pts",
+            "Fortify Health 15 pts",
+            "Fortify Magicka 15 pts"
+        ],
+        "Stats": {
+            "Armor Raring": "0",
+            "Condition": "320/320"
+        }
+    },
+    "Red Wolf Tunic": {
+        "Weight": "9 (Light)",
+        "Value": "3470",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Agility 10 pts",
+            "Fortify Attribute Willpower 10 pts",
+            "@) Fortify Magicka 40 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "0",
+            "Condition": "1050/1050"
+        }
+    },
+    "Right Ã¢â‚¬ËœAbysmal Gaunelee": {
+        "Weight": "15 (Heavy)",
+        "Value": "3440",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Artribute Endurance 9 pts",
+            "Fortify Arceribute Agility 9 pts",
+            "Fortify Healrh 30 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "43",
+            "Condition": "$25/825"
+        }
+    },
+    "Right Bracer of Mist": {
+        "Weight": "4 (Medium)",
+        "Value": "4720",
+        "Effects": [
+            "Constant Effect",
+            "DD Fortify Attribute Srrength 16 pts",
+            "BD) Fortify Attribute Agility 5 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "40",
+            "Condition": "675/675"
+        }
+    },
+    "Right Bracer of Wailing Wind (3)": {
+        "Weight": "4 (Medium)",
+        "Value": "3312",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Endurance 5 pts",
+            "Fortify Attribute Agility 8 pts",
+            "Fortify Skill Achleeics 10 pts",
+            "Resist Poison 5%",
+            "8B Resist Common Disease 5%"
+        ],
+        "Stats": {
+            "Armor Rating": "25",
+            "Condition": "675/675"
+        }
+    },
+    "Right Glove of Dismay": {
+        "Weight": "1 (Light)",
+        "Value": "4989",
+        "Effects": [
+            "Constant Effect",
+            "korcify Attribute Agility 10 pts",
+            "DI Fortify Attribute Intelligence 15 pts",
+            "Wl Fortify Magicka 50 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "46",
+            "Condition": "1260/1260"
+        }
+    },
+    "Right Glove of the Dugilisr": {
+        "Weight": "L5 (Light)",
+        "Value": "194",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Skill Hand-to-hand 10 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "8",
+            "Condition": "150/150"
+        }
+    },
+    "Right Mercenary Hrmguard [No Trade]": {
+        "Weight": "44 (Medium)",
+        "Value": null,
+        "Effects": [
+            "Constant @ffeee",
+            "BW roreity Attribute Agility & pts",
+            "Fortify Attribute Strength 8 pts",
+            "Fortify Health 15 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "40",
+            "Condition": "678/725"
+        }
+    },
+    "Rime Shield": {
+        "Weight": "15 (Heavy)",
+        "Value": "$261",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Serrength 25 pts",
+            "Fortify Attribute Endurance 30 pts",
+            "Fortify Health 75 pts",
+            "Kd Resist Frost 20%"
+        ],
+        "Stats": {
+            "Armor Rating": "84",
+            "Condicion": "1510/1510"
+        }
+    },
+    "Ring of Adoration": {
+        "Weight": "0.1",
+        "Value": null,
+        "Effects": [
+            "Constant Effect",
+            "Restore Health",
+            "Resrore Magicka"
+        ],
+        "Stats": null
+    },
+    "Ring of Ageas": {
+        "Weight": "01",
+        "Value": "4978",
+        "Effects": [
+            "Constant @ffcer",
+            "Wvorrity Attribute Srrengrh 15 pts",
+            "Forriry Health 100 pts",
+            "Resist Magicka 5%",
+            "Fortify Magicks 30 pts",
+            "Fortify Attribute Endurance 10 pts",
+            "Fortify Attribute Speed 10 pts"
+        ],
+        "Stats": null
+    },
+    "Ring of Anguish": {
+        "Weight": "0.1",
+        "Value": "9000",
+        "Effects": [
+            "Constant Effect",
+            "( Fortify Health 210 pts",
+            "(H Fortify Artribute Speed 25 pts",
+            "Fortify Attribute Agility 10 pts",
+            " Resist Poison 30%"
+        ],
+        "Stats": null
+    },
+    "/* Ring of Arcana": {
+        "Weight": "0,25",
+        "Value": "1435",
+        "Effects": null,
+        "Stats": null
+    },
+    "Ring of Devotion": {
+        "Weight": "0.1",
+        "Value": null,
+        "Effects": [
+            "Constant Qffece",
+            "Fortify Artribute Agility 35 pts",
+            "DW Fortify Attribute Personality 20 pts"
+        ],
+        "Stats": null
+    },
+    "Ring of Disbelief": {
+        "Weight": "0.1",
+        "Value": "9000",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Health 210 pts",
+            "Fortify Attribute Endurance 10 pts",
+            "Fortify Attribute Willpower 25 pts",
+            "Resist Shock 30%"
+        ],
+        "Stats": null
+    },
+    "Ring of Kings": {
+        "Weight": "0.1",
+        "Value": "4894",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Artribure Speed 5 pts",
+            "Wrorciry Arceribuce Willpower 10 pts",
+            "Fortify Health 25 pts",
+            "(Fortify Magicka 35 pts"
+        ],
+        "Stats": null
+    },
+    "Ring of Love": {
+        "Weight": "a1",
+        "Value": null,
+        "Effects": [
+            "Constant Effect",
+            "BFortify Attribute Agiliey 20 pts",
+            "3 WFortify Arceribute Personality 35 pts"
+        ],
+        "Stats": null
+    },
+    "Ring of Masser": {
+        "Weight": "0.1",
+        "Value": null,
+        "Effects": [
+            "Value; 5211",
+            "Consrant Effect",
+            "Fortify Skill Musion 30 pts",
+            "Fortify Fatigue 20 pts",
+            "Fortify Skill Sneak 20 pts"
+        ],
+        "Stats": null
+    },
+    "Ring of Namira": {
+        "Weight": "0.1",
+        "Value": "3000",
+        "Effects": [
+            "1",
+            "1",
+            "Constant Effect",
+            "Reflect 15%"
+        ],
+        "Stats": null
+    },
+    "Ring of the Ancient": {
+        "Weight": "0.1",
+        "Value": "1473",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Strength 6 pts",
+            "Fortify Attribute Personality 5 pts",
+            "Resist Fire 7%"
+        ],
+        "Stats": null
+    },
+    "Ring of Truth": {
+        "Weight": "0.2",
+        "Value": "6304",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Intelligence 10 pts",
+            "Fortify Health 50 pts",
+            "Fortify Magicka 25 pts",
+            "Resist Fire 5%",
+            "Kd Resist Prose 5%",
+            "Resist Shock 5%"
+        ],
+        "Stats": null
+    },
+    "Rising Sun Ring": {
+        "Weight": "01",
+        "Value": "1447",
+        "Effects": [
+            "Constant Effect",
+            "vorciry Attribute Willpower 8 pts",
+            "Fortify Attribute Strength 8 pts"
+        ],
+        "Stats": null
+    },
+    "Robe of Evocation": {
+        "Weight": "3",
+        "Value": "5411",
+        "Effects": [
+            "Constant Effect",
+            "HFortify Attribute Speed 15 pts",
+            "Fortify Attribute Intelligence 15 pts",
+            "B) Resist fire 5%",
+            "Ed Resist Shock 10%",
+            "Resist Magicka 10%"
+        ],
+        "Stats": null
+    },
+    "Robe of Eyes": {
+        "Weight": "3",
+        "Value": "2458",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Agility 30 pts"
+        ],
+        "Stats": null
+    },
+    "Robe of the Deep One": {
+        "Weight": "3",
+        "Value": "$235",
+        "Effects": [
+            "Constant Effect",
+            "roreify Attribute Endurance 10 pts",
+            "Fortify Attribute Intelligence 35 pts",
+            "Resist Magicka 5%",
+            "eroreity Magicka 115 pts"
+        ],
+        "Stats": null
+    },
+    "Robe of Thormanil": {
+        "Weight": "3",
+        "Value": "4026",
+        "Effects": [
+            "Constant Effect",
+            "orcify Attribute Intelligence 15 pts"
+        ],
+        "Stats": null
+    },
+    "Rotweave Tunic": {
+        "Weight": "9 (Light)",
+        "Value": "3500",
+        "Effects": [
+            "Condition; 1500/1500",
+            "Cast When Used",
+            "Wa Damage Health 6 pts for 15 secs on Touch",
+            "Restore Magicks 4 pts for 15 secs on Self"
+        ],
+        "Stats": {
+            "Armor Rating": "30"
+        }
+    },
+    "Round Shield": {
+        "Weight": "10 (Medium)",
+        "Value": "12",
+        "Effects": null,
+        "Stats": {
+            "Armor Rating": "33",
+            "Condition": "410/410"
+        }
+    },
+    "Ruins Edge": {
+        "Weight": "14",
+        "Value": "7500",
+        "Effects": [
+            "Cast When Strikes",
+            "Demoralize Humanoid 100 pts for 20 secs on Target",
+            "Demoralize Creature 100 pts for 20 secs on Target",
+            "Drain Magicka 1000 pts for 20 sec on Target",
+            "Frenzy Humanoid 100 pts for 20 secs on Target",
+            "WFrenzy Creature 100 pts For 20 secs on Target",
+            "Frost Damage 25 pts for 20 secs on Target",
+            "Paralyze for 1 sec on Target",
+            "Paralyze for 15 secs on Target"
+        ],
+        "Stats": {
+            "Type": "Marksman",
+            "Attack": "2-12",
+            "Condition": "1340",
+            "Bored": "100%",
+            "Charge": "-1"
+        }
+    },
+    "Runic Plated Belt": {
+        "Weight": "1",
+        "Value": "4144",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Endurance 35 pts"
+        ],
+        "Stats": null
+    },
+    "Savos ArenÃ¢â‚¬â„¢s Amulet": {
+        "Weight": "|",
+        "Value": "818",
+        "Effects": [
+            "Constant Effect",
+            "D] Fortify Magicka 50 pts"
+        ],
+        "Stats": null
+    },
+    "Scorpion Band": {
+        "Weight": "04",
+        "Value": "5200",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Strength 10 pts",
+            "kortity Artribute Endurance 10 pts",
+            "Fortify Attribute Agility 10 pts",
+            "Fortify Magicka 25 pts"
+        ],
+        "Stats": null
+    },
+    "Seasick Crocodile Tears": {
+        "Weight": "0.75",
+        "Value": null,
+        "Effects": [
+            "Unique Effect"
+        ],
+        "Stats": null
+    },
+    "Sccret Master's Alembic": {
+        "Weight": "3",
+        "Value": null,
+        "Effects": null,
+        "Stats": {
+            "Quality": "2"
+        }
+    },
+    "Secret Mastcr's Calcinator": {
+        "Weight": "6",
+        "Value": null,
+        "Effects": null,
+        "Stats": {
+            "Qualiry": "2"
+        }
+    },
+    "Sceret Master's Mortar and ptstle": {
+        "Weight": "1",
+        "Value": null,
+        "Effects": null,
+        "Stats": {
+            "Qualiry": "2"
+        }
+    },
+    "Sccret Master's Retort": {
+        "Weight": "2",
+        "Value": null,
+        "Effects": null,
+        "Stats": {
+            "Quality": "2"
+        }
+    },
+    "Scer's Right Bracelet [No Trade}": {
+        "Weight": "1.5 (Light)",
+        "Value": null,
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Endurance 8 pts",
+            "DP) Fortify Attribute Agility 8 pts",
+            "Fortify Magicka 15 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "8",
+            "Condition": "525/525"
+        }
+    },
+    "Shadus O'YardleÃ¢â‚¬â„¢s Danes [No Trade]": {
+        "Weight": "|",
+        "Value": null,
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Personality 25 pts",
+            "Fortify Arceribuce Luck 25 pts"
+        ],
+        "Stats": null
+    },
+    "Lae Shaccered Fang Axe": {
+        "Weight": "16",
+        "Value": "3421",
+        "Effects": [
+            "Cast When Strikes",
+            "Poison 75 pts for 1 sec on Touch"
+        ],
+        "Stats": {
+            "Type": "Axe, One Handed Ã¢â‚¬Ëœ",
+            "Chop": "1 - 37",
+            "Slash": "1 - 19",
+            "Thrust": "1 - 3",
+            "Condition": "2850/2850",
+            "Range": "6 ft",
+            "Speed": "135%",
+            "Charge": "(EN ZB0/ 20)"
+        }
+    },
+    "% Sheen Blue Shire": {
+        "Weight": null,
+        "Value": null,
+        "Effects": [
+            "Value; 3128",
+            "Constant Effect",
+            "Fortify Skill Unarmored 25 pts",
+            "@) Fortify Skill Athletics 18 pts"
+        ],
+        "Stats": {
+            "Weighte": "2"
+        }
+    },
+    "Shicld of Rainbow Hues": {
+        "Weight": "15 (Heavy)",
+        "Value": "5100",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Magicka 75 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "95",
+            "Condition": "1850/1850"
+        }
+    },
+    "Shield of Sure Shor": {
+        "Weight": "10 (Medium)",
+        "Value": "4659",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Agility 17 pts",
+            "Fortify Skill Marksman 17 pts",
+            "Fortify Health 75 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "44",
+            "Condition": "825/825"
+        }
+    },
+    "Shicld of Ysgramor": {
+        "Weight": "20 (Heavy)",
+        "Value": "1715",
+        "Effects": [
+            "Constant OEffect",
+            "YW Resist Magicka 20%",
+            "Fortify Health 20 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "73",
+            "Condition": "1400/1400"
+        }
+    },
+    "3) Shiny Leather Boots": {
+        "Weight": "8 (Light)",
+        "Value": "153",
+        "Effects": [
+            "Constant Effece",
+            "Fortify Attribute Endurance 2 pts",
+            "A Fortify Attribute Willpower 2 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "16",
+            "Condition": "425/425"
+        }
+    },
+    "Shiny Leather Left Bracer": {
+        "Weight": "15 (Light)",
+        "Value": "81",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Willpower 2 pts",
+            "Resist Common Disease 1%"
+        ],
+        "Stats": {
+            "Armor Rating": "I",
+            "Condition": "260/260"
+        }
+    },
+    "Shrouded Armor": {
+        "Weight": "6 (Light)",
+        "Value": null,
+        "Effects": [
+            "Condition; 900/900",
+            "Value; 3730",
+            "Constant Effect",
+            "KResist Poison 45%"
+        ],
+        "Stats": {
+            "Armor Rating": "48"
+        }
+    },
+    "Shrouded Boots": {
+        "Weight": "2 (Light)",
+        "Value": "3050",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Skill Sneak 20 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "30",
+            "Condition": "600/600"
+        }
+    },
+    "Shrouded Cowl": {
+        "Weight": "1 (Light)",
+        "Value": "6770",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Skill Marksman 20 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "38",
+            "Condition": "900/900"
+        }
+    },
+    "Shrouded Greaves": {
+        "Weight": "3 (Light)",
+        "Value": "3275",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Skill Athletics 20 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "31",
+            "Condition": "750/750"
+        }
+    },
+    ". Shrouded Hood": {
+        "Weight": "1 (Light)",
+        "Value": "1485",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Skill Sneak 25 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "50",
+            "Condition": "725/725"
+        }
+    },
+    "Shrouded Left Hand Wrap": {
+        "Weight": "05",
+        "Value": "50",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Skill Short Blade 10 pts",
+            "DFortify Skill Sneak 10 pts"
+        ],
+        "Stats": null
+    },
+    "Shrouded Left Pauldron": {
+        "Weight": "1 (Light)",
+        "Value": "1250",
+        "Effects": [
+            "Constant Effect",
+            ") Fortify Skill Lighe Armor 10 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "30",
+            "Condition": "750/750"
+        }
+    },
+    "Shrouded Right Glove": {
+        "Weight": "1 (Light)",
+        "Value": "1250",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Skill Short Blade 10 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "30",
+            "Condition": "300/300"
+        }
+    },
+    "Shrouded Right Pauldron": {
+        "Weight": "1 (Light)",
+        "Value": "1250",
+        "Effects": [
+            "Constant Effect",
+            "Portiry Skill Lighe Armor 10 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "30",
+            "Condition": "750/750"
+        }
+    },
+    "Shrouded Robes": {
+        "Weight": "0.5",
+        "Value": "711",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Skill Destruction 15 pts"
+        ],
+        "Stats": null
+    },
+    "Silver-Blood Family Ring": {
+        "Weight": "0.1",
+        "Value": "300",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Skill Armorer 15 pts"
+        ],
+        "Stats": null
+    },
+    ". Silverweave Choker": {
+        "Weight": null,
+        "Value": "151",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Endurance 5 pts",
+            "Fortify Health 10 pts"
+        ],
+        "Stats": {
+            "weight": "1"
+        }
+    },
+    "Skeletal Transformative [No Trade]": {
+        "Weight": "0.25",
+        "Value": null,
+        "Effects": [
+            "Unique Effect"
+        ],
+        "Stats": null
+    },
+    "Skull of Jherin [Lv.50) |": {
+        "Weight": "5 (Light)",
+        "Value": "3666",
+        "Effects": [
+            "Constant Effect |",
+            "Fortify Magicka 175 pts",
+            "Resist Poison 25%"
+        ],
+        "Stats": {
+            "Armor Rating": "6",
+            "Condition": "2300/2300 :"
+        }
+    },
+    "Skyfaith Boots": {
+        "Weight": "6 (Light)",
+        "Value": "1542",
+        "Effects": [
+            "Condition; 600/600",
+            "Constance Effect",
+            "Fortify Attribute Screngeh 10 p",
+            "|Fortify Attribute Willpower 10 _",
+            "Resist Fire 13%"
+        ],
+        "Stats": {
+            "Armor Rating": "28"
+        }
+    },
+    "Skyfaith Cap": {
+        "Weight": "1 (Light)",
+        "Value": "1542",
+        "Effects": [
+            "Constant Effect",
+            "DFortify Attribute Willpower 7 p",
+            "JFortify Attribute Intelligence 7 |",
+            "Fortify Artribure Personality 3 p",
+            "ED Resist Frost 6%",
+            "Ed Resist Shock 7%"
+        ],
+        "Stats": {
+            "Armor Rating": "28",
+            "Condition": "600/600"
+        }
+    },
+    "Skyfaith Leggings": {
+        "Weight": "5.4 (Light)",
+        "Value": "1806",
+        "Effects": [
+            "Constant Effect",
+            "AFortify Artribure Strength 8 pr",
+            "Fortify Artribure Willpower 8 p",
+            "|Fortify Artribute Personality 4 |",
+            "Fortify Magicka 50 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "28",
+            "Condition": "600/600"
+        }
+    },
+    "Skyfaith Right Glove": {
+        "Weight": "1 (Light)",
+        "Value": "648",
+        "Effects": [
+            "Constant Effect",
+            "AFortify Attribute Strength 4 pr",
+            "Fortify Attribute Willpower 4 p",
+            "Fortify Health 25 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "28",
+            "Condition": "300/300"
+        }
+    },
+    "Skyfaith Tunic": {
+        "Weight": "6 (Light)",
+        "Value": "1446",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Endurance 10",
+            "Fortify Attribute Willpower 10",
+            "Resist Fire 5%",
+            "Resist Shock 5%"
+        ],
+        "Stats": {
+            "Armor Rating": "28",
+            "Condition": "800/800"
+        }
+    },
+    "Skystrider Boots [Lv.60 Stealth}": {
+        "Weight": "16 (Medium)",
+        "Value": "9000",
+        "Effects": [
+            "Constant Effect",
+            "A Fortify Attribute Speed 45 pts",
+            "Fortify Attribute Strength 15 pts",
+            "Fortify Attribute Agility 5 pts",
+            "Fortify Health 60 pts",
+            "Weakness to Magicka 40%"
+        ],
+        "Stats": {
+            "Armor Rating": "141",
+            "Condition": "6000/6000"
+        }
+    },
+    "Skystrider Glove (Leftr) [L.v.60 Srealeh)": {
+        "Weight": "4 (Medium)",
+        "Value": "9000",
+        "Effects": [
+            "Constant Effect",
+            "korcify Attribute Agility 45 pts",
+            "BFortify Attribute Speed 15 pre",
+            "Fortify Artributce Endurance $ pts",
+            "Fortify Health 00 pts",
+            "Gi weakness to Frost 40%"
+        ],
+        "Stats": {
+            "Armor Rating": "140",
+            "Condition": "6000/6000"
+        }
+    },
+    "Skystrider Glove (Right) (Lv.o0 Srealeh)": {
+        "Weight": "4 (Medium)",
+        "Value": "9000",
+        "Effects": [
+            "Constance Affece",
+            "DB Fortify Actribore Agility 45 pts",
+            "DW ortity Attribute Speed 15 pts",
+            "Fortify Attribute Endurance 8 pts",
+            "BFortify Health 60 pts",
+            "LQ Weakness to Frost 40%"
+        ],
+        "Stats": {
+            "Armor Racing": "140",
+            "Condition": "6000/6000"
+        }
+    },
+    "Skystrider Helm [Lv.60 Stealth]": {
+        "Weight": "4 (Medium)",
+        "Value": "9000",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Endurance 45 pts",
+            "Fortify Attribute Strength 15 pts",
+            "BFortify Attribute Agility 5 pts",
+            "Fortify Magicka 60 pts",
+            "IB Weakness to PDofson 40%"
+        ],
+        "Stats": {
+            "Armor Rating": "143",
+            "Condition": "6000/6000"
+        }
+    },
+    "Skystrider Leggings [Lv.to Srealeth)": {
+        "Weight": "12 (Medium)",
+        "Value": "9000",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Strength 45 pts",
+            "Fortify Attribute Endurance 15 pts",
+            "Fortify Attribute Speed 5 pts",
+            "Fortify Health 60 pts",
+            "a Weakness to Shock 40%"
+        ],
+        "Stats": {
+            "Armor Rating": "148",
+            "Condition": "6000/6000"
+        }
+    },
+    "Skystrider Pauldron (Right) (Lv.60 Stealth)": {
+        "Weight": "8 (Mediem)",
+        "Value": "2000",
+        "Effects": [
+            "Constant Effect",
+            "Fortify AttributeGodurance 45 pts",
+            "Fortify Attribute Agility 15 pre",
+            "Fortify Attribute Speed 5 pts",
+            "Fortify Health 0 pts",
+            "Dweakness to Fire 40%"
+        ],
+        "Stats": {
+            "Armor Rating": "140",
+            "Condition": "6000/6000"
+        }
+    },
+    "z Skystrider Tunic [Lv.60 Srealeh)": {
+        "Weight": "24 (Medium)",
+        "Value": "9000",
+        "Effects": [
+            "Gonseane Effect",
+            "Fortify Attribute Agility 45 pts",
+            "A Fortify Attribute Speed 15 pts",
+            "Fortify Attribute Endurance 5 pts",
+            "Fortify Health 60 pts",
+            "Ii Weakness to Common Disease 40%"
+        ],
+        "Stats": {
+            "Armor Rating": "206",
+            "Condition": "6000/6000"
+        }
+    },
+    "Snowball (940)": {
+        "Weight": "0.2",
+        "Value": null,
+        "Effects": null,
+        "Stats": {
+            "Type": "Marksman",
+            "Attack": "0-0",
+            "Speed": "400%"
+        }
+    },
+    "Snowforge Ring": {
+        "Weight": "0.1",
+        "Value": "4500",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Health 50 pts",
+            "Fortify Magicka 50 pts"
+        ],
+        "Stats": null
+    },
+    "Soul Stealer Arrow": {
+        "Weight": null,
+        "Value": "4",
+        "Effects": [
+            "Cast When Strikes",
+            "Soultrap for 30 secs on Touch",
+            "Absorb Fatigue 15 pts for 30 secs on Touch"
+        ],
+        "Stats": {
+            "Type": "Markeman",
+            "Alreack": "12 - 92",
+            "Charge": "1"
+        }
+    },
+    "Sparkler [No Trade]": {
+        "Weight": "0.1",
+        "Value": null,
+        "Effects": [
+            "Thrust; 0 - 0",
+            "Constant Effect",
+            "Light 5 pts"
+        ],
+        "Stats": {
+            "Type": "Short Blade, One Handed",
+            "Condition": "1/1",
+            "Range": "6 ft"
+        }
+    },
+    "Staff of Aqucus Prorecrion": {
+        "Weight": "10",
+        "Value": "3758",
+        "Effects": [
+            "Constant Effect",
+            "M Swift Swim 30 pts",
+            "Fortify Health 45 pts"
+        ],
+        "Stats": {
+            "Type": "Blunt Weapon, Two Handed",
+            "Chop": "8 - 17",
+            "Slash": "3-8",
+            "Thrust": "8 - 17",
+            "Condition": "5000/5000",
+            "Range": "10.8 fr",
+            "Speed": "175%"
+        }
+    },
+    "Staff of Cinders": {
+        "Weight": "16",
+        "Value": "3087",
+        "Effects": [
+            "Constant Effect",
+            "Resist Fire 20%"
+        ],
+        "Stats": {
+            "Type": "Blunt Weapon, Two Handed",
+            "Chop": "2 - 14",
+            "Slash": "3 - 14",
+            "Thrust": "1 - 8",
+            "Condition": "900/900",
+            "Range": "10.8 ft",
+            "Speed": "175%"
+        }
+    },
+    "Staff of Ehlno Ede": {
+        "Weight": "8",
+        "Value": "1750",
+        "Effects": [
+            "Cast When Used",
+            "Shock Damage 8 pts for 1 sec on Target",
+            "Shock Damage 5 pts for 30 secs in 10 ft on Target",
+            "Drain Fatigue 8 pts for 1 sec on Target"
+        ],
+        "Stats": {
+            "Type": "Bunt Weapon, Two Handed",
+            "Chop": "2 - 10",
+            "Slash": "3 - 10",
+            "Thrust": "1-7",
+            "Condition": "720",
+            "Range": "9 ft",
+            "Speed": "175%",
+            "Charge": "3000"
+        }
+    },
+    "Staff of the Stormweaver": {
+        "Weight": "10",
+        "Value": null,
+        "Effects": [
+            "Cast When Used",
+            "Weakness to Magicka 125% for 3 secs on Target",
+            "weakness to Shock 125% for 3 secs on Target",
+            "Shock Damage 125 pts for 3 secs sec on Target"
+        ],
+        "Stats": {
+            "Type": "Blunt Weapon, Two Handed",
+            "Chop": "5 - 15",
+            "Slash": "10 - 20",
+            "Thrust": "10 - 20",
+            "Condition": "14464/14404",
+            "Range": "108 fr",
+            "Speed": "175%",
+            "Charge": "100"
+        }
+    },
+    "Scalhrim Arrow": {
+        "Weight": "0.3",
+        "Value": "25",
+        "Effects": null,
+        "Stats": {
+            "Type": "Marksman",
+            "Attack": "10 - 16"
+        }
+    },
+    "Sticky Cinnamon Taffy": {
+        "Weight": "0.1",
+        "Value": null,
+        "Effects": [
+            "Attack 2-2",
+            "Cast When Strikes",
+            "Drain Fatigue 100 pts for 30 secs on Target",
+            "Drain Attribute Speed 100 pts for 30 secs on Target",
+            "Drain Athletics 100 pts for 30 secs on Target",
+            "Drain Skill Acrobatics 100 pts for 30 secs on Target"
+        ],
+        "Stats": {
+            "Type": "Marksman",
+            "Speed": "100%",
+            "Charge": "1"
+        }
+    },
+    "Stormfang (Skyrim)": {
+        "Weight": "27",
+        "Value": "1175",
+        "Effects": [
+            "Cast When Strikes",
+            "Shock Damage 1 pts for 1 sec on Touch",
+            "Damage Magicka 15 pts for 1 sec on Touch"
+        ],
+        "Stats": {
+            "Type": "Long Bade, Two Handed",
+            "Chop": "1 - 27",
+            "Slash": "1 - 23",
+            "Thrust": "1 - 16",
+            "Condition": "2100/2100",
+            "Range": "6 ft",
+            "Speed": "125%",
+            "Charge": "2500]"
+        }
+    },
+    "Stormsoul ": {
+        "Weight": "25",
+        "Value": null,
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Strength 20 pts",
+            "Fortify Attribute Speed 20 pts",
+            "Fortify Attribute Agility 5 pts",
+            "Fortify Health 35 pts"
+        ],
+        "Stats": {
+            "Type": "Axe, One Handed",
+            "Chop": "1 - 34",
+            "Slash": "1 - 13",
+            "Thrust": "1 - 5",
+            "Condition": "4000/4000",
+            "Range": "6 ft",
+            "Speed": "125%"
+        }
+    },
+    "Stormweaver's Cavort": {
+        "Weight": "2",
+        "Value": "15",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Fatigue 450 pts",
+            "Damage Magicka"
+        ],
+        "Stats": null
+    },
+    "Strange Amulec": {
+        "Weight": "0.5",
+        "Value": "2635",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Skill Conjuraction 25 pts",
+            "Fortify Magicka 50 pts",
+            "WY Damage Health 75 pts",
+            "Damage Fatigue 75 pts"
+        ],
+        "Stats": null
+    },
+    "Sunsrar Ring": {
+        "Weight": "0.1",
+        "Value": null,
+        "Effects": [
+            "Value; 1241",
+            "Constant Effect",
+            "BlFortify Attribute Intelligence 6 pts",
+            "rFortify Artribure Personality 10 pts"
+        ],
+        "Stats": null
+    },
+    "Sword of Lords": {
+        "Weight": "40",
+        "Value": "7850",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Skill Long Blade 25 pts",
+            "Fortify Skill Speechcraft 15 pts"
+        ],
+        "Stats": {
+            "Type": "Long Blade, One Handed",
+            "hop": "2 - 32",
+            "Slash": "1 - 44",
+            "Thrust": "4 - 40",
+            "Condition": "2400/2400",
+            "Range": "6 fr",
+            "Speed": "135%"
+        }
+    },
+    "Sword of Might": {
+        "Weight": null,
+        "Value": "4800",
+        "Effects": [
+            "Weight; 20",
+            "Constant Effect",
+            "Fortify Attribute Strength 25 pts",
+            "Fortify Health 75 pts"
+        ],
+        "Stats": {
+            "Type": "Long Blade, One Handed",
+            "Chop": "20 - 24",
+            "Slash": "10 - 30",
+            "Thrust": "14 - 28",
+            "Condition": "1742/1800",
+            "Range": "6 ft",
+            "Speed": "135%"
+        }
+    },
+    "Sword of the Crusader": {
+        "Weight": "15",
+        "Value": null,
+        "Effects": [
+            "Value; 2003",
+            "Cast When Strikes",
+            "Fire Damage 15 pts for 2 secs secs on Touch",
+            "Damage Magicka 24 pts for 1 sec on Touch"
+        ],
+        "Stats": {
+            "Type": "Short Blade, One Handed",
+            "Chop": "11 - 19",
+            "Slash": "11 - 19",
+            "Thrust": "11 - 24",
+            "Condition": "3200/3200",
+            "Range": "6 fr",
+            "Speed": "200%",
+            "Charge": "3000"
+        }
+    },
+    "Synergy Robe": {
+        "Weight": "3",
+        "Value": "3541",
+        "Effects": [
+            "Constant Offect",
+            "Fortify Magicka 115 pts"
+        ],
+        "Stats": null
+    },
+    "Tainted Leggings": {
+        "Weight": "10 (Medium)",
+        "Value": "6300",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Endurance 26 pts",
+            "Fortify Attribute Agility 16 pts",
+            "Fortify Health 88 pts"
+        ],
+        "Stats": {
+            "Hrmor Rating": "50",
+            "Condition": "900/900"
+        }
+    },
+    "Tenacious Headband (No Trade} (Glamoured)": {
+        "Weight": "1 (Light)",
+        "Value": null,
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Strength 20 pts",
+            "Wortify Health 170 pre",
+            "Beortiry Attribute Agility 20 pre"
+        ],
+        "Stats": {
+            "Armor Rating": "134",
+            "Condition": "1240/1440"
+        }
+    },
+    "The Foreman's Pick": {
+        "Weight": "20",
+        "Value": null,
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Strength 15 pts",
+            "Fortify Attribute Agility 15 pts",
+            "Fortify Health 175 pts"
+        ],
+        "Stats": {
+            "Type": "Axe, One Handed",
+            "Chop": "14 - 68",
+            "Slash": "6 - 9",
+            "Thrust": "3 - 9",
+            "Condition": "1407/1578",
+            "Range": "6 ft",
+            "Speed": "100%"
+        }
+    },
+    "The Forgemaster's Right Fingers": {
+        "Weight": "7 (Heavy)",
+        "Value": "394",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Skill Armorer 12 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "6",
+            "Condition": "200/200"
+        }
+    },
+    "The Heartstring": {
+        "Weight": "16",
+        "Value": "17400",
+        "Effects": [
+            "Constant Effect",
+            "Drain Health",
+            "Drain Artribure Speed",
+            "Fortify Attribute Strength 50 pts"
+        ],
+        "Stats": {
+            "Type": "Marksman",
+            "Attack": "1 - 100",
+            "Condition": "2000/2000",
+            "Speed": "150%"
+        }
+    },
+    "The Lovers Shirt [No Trade]": {
+        "Weight": null,
+        "Value": null,
+        "Effects": [
+            "Weight"
+        ],
+        "Stats": null
+    },
+    "The Recfel Axe": {
+        "Weight": "30",
+        "Value": null,
+        "Effects": [
+            "Thrust; 1-3",
+            "Cast When Strikes",
+            "Damage Fatigue 20 pts for 1 sc on Touch",
+            "Char gc:"
+        ],
+        "Stats": {
+            "Type": "Axe, Two Handed",
+            "Chop": "1 - %",
+            "Slash": "1 - 27",
+            "Condition": "1800/1800",
+            "Range": "6 ft",
+            "Speed": "100%",
+            "Valve": "1183"
+        }
+    },
+    "The Shining Polaris": {
+        "Weight": "20",
+        "Value": "18000",
+        "Effects": [
+            "Cast When Strikes",
+            "Frost Damage 15 to 45 pts for 1 sec on Touch"
+        ],
+        "Stats": {
+            "Type": "Long Wade, One Handed",
+            "Chop": "50 - 65",
+            "Slash": "45 - 60",
+            "Thrust": "20 - 40",
+            "Condition": "3000/3000",
+            "Range": "6 ft",
+            "Speed": "125%",
+            "Charge": "220"
+        }
+    },
+    "Throwing Skull [No Trade] (48)": {
+        "Weight": "0.5",
+        "Value": null,
+        "Effects": null,
+        "Stats": {
+            "Type": "Marksman",
+            "Arceack": "2 - 2",
+            "Speed": "200%"
+        }
+    },
+    "Tidal Splash Staff": {
+        "Weight": "7",
+        "Value": "2083",
+        "Effects": [
+            "Cast When Used",
+            "Poison 35 pts for 6 sec in 10 ft on Target"
+        ],
+        "Stats": {
+            "Type": "Blunt Weapon, Two Handed",
+            "Chop": "2 - 10",
+            "Slash": "3 - 10",
+            "Thrust": "1-8",
+            "Condition": "1700",
+            "Range": "9 ft",
+            "Speed": "175%",
+            "Charge": "320"
+        }
+    },
+    "Transcendence Ring": {
+        "Weight": "0.1",
+        "Value": "1806",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Intelligence 15 pts",
+            "Fortify Magicka 40 pts"
+        ],
+        "Stats": null
+    },
+    "Transcendent Shicld": {
+        "Weight": "15 (Heavy)",
+        "Value": "3766",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Endurance 6 pts",
+            "Fortify Attribute Speed 6 pts",
+            "Fortify Attribute Willpower 6 pts",
+            "Fortify Attribute Personality 6 pts",
+            "Wl Fortify Magicka 50 pts",
+            "Resist Fire 5%",
+            "Resist Frost 5%",
+            "Resist Magicka 5%"
+        ],
+        "Stats": {
+            "Armor Rating": "53",
+            "Condition": "1200/1200"
+        }
+    },
+    "Tribal Ice Spear": {
+        "Weight": "7",
+        "Value": "7200",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Agility 25 pts"
+        ],
+        "Stats": {
+            "Type": "Spear, Two Handed",
+            "Chop": "2-8",
+            "Slash": "2-8",
+            "Thrust": "5 - 42",
+            "Condition": "1200/1200",
+            "Range": "108 fr",
+            "Speed": "100%"
+        }
+    },
+    "Tristar Ring": {
+        "Weight": "01",
+        "Value": "785",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Agility 8 pts",
+            "Fortify Attribute Personality 8 pts"
+        ],
+        "Stats": null
+    },
+    "True Steel Cuirass": {
+        "Weight": "30 (Heavy)",
+        "Value": "150",
+        "Effects": null,
+        "Stats": {
+            "Armor Rating": "9",
+            "Condition": "450/450"
+        }
+    },
+    "Trucscecl Helm": {
+        "Weight": "5 (Heavy)",
+        "Value": "1657",
+        "Effects": [
+            "Constant Effect",
+            "MFortify Attribute Agility 12 pts",
+            "Fortify Attribute Willpower 8 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "26",
+            "Condition": "375/375"
+        }
+    },
+    "Tumblerbane Left Glove": {
+        "Weight": "3 (Light)",
+        "Value": "325",
+        "Effects": [
+            "Constant Effect",
+            "BFortify Skill Security 10 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "6",
+            "Condition": "150/150"
+        }
+    },
+    "Tumblerbane Right Glove 2)": {
+        "Weight": "3 (Light)",
+        "Value": "325",
+        "Effects": [
+            "Constance Effect",
+            "Fortify Skill Securiry 10 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "0",
+            "Condition": "150/150"
+        }
+    },
+    "Tundra Left Bracer": {
+        "Weight": "1.5 (Light)",
+        "Value": "647",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Agility 5 pts",
+            "BFortify Attribute Intelligence 10 pts",
+            "Resist Frost 5%"
+        ],
+        "Stats": {
+            "Armor Rating": "13",
+            "Condition": "275/275"
+        }
+    },
+    "Tundra Right Bracer": {
+        "Weight": "1.5 (Light)",
+        "Value": "647",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Agility 5 pts",
+            "Fortify Attribute Intelligence 10 pts",
+            "Resist Frost 5%"
+        ],
+        "Stats": {
+            "Armor Racing": "6",
+            "Condition": "256/275"
+        }
+    },
+    "Twilight Legplaces (Glamoured}": {
+        "Weight": "36 (Heavy)",
+        "Value": null,
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Endurance 20 pts",
+            "Fortify Attribute Agility 10 pts",
+            "Fortify Health 100 pts",
+            "@) Fortify Magicka 58 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "120",
+            "Condition": "925/925"
+        }
+    },
+    "Twilight Pendanr (3)": {
+        "Weight": "1",
+        "Value": null,
+        "Effects": [
+            "Value; 7300",
+            "Constant Effect",
+            "Fortify Attribute Endurance 15 pts",
+            "Fortify Attribute Agility 10 pts",
+            "Fortify Health 100 pts",
+            "Fortify Magicka 58 pts"
+        ],
+        "Stats": null
+    },
+    "TyrantÃ¢â‚¬â„¢s Banc": {
+        "Weight": "30",
+        "Value": "1233",
+        "Effects": [
+            "Cast When Strikes",
+            "Fire Damage 45 pts for 1 sec on Touch",
+            "Weakness to Fire 10% for 1 see on Touch"
+        ],
+        "Stats": {
+            "Type": "Fixe, One Handed",
+            "Chop": "1 - 47",
+            "Slash": "1 - 20",
+            "Thrust": "1-5",
+            "Condition": "1600/1600",
+            "Range": "6 fr",
+            "Speed": "125%"
+        }
+    },
+    "Unicorn Ring": {
+        "Weight": "0.1",
+        "Value": "2413",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Personality 12 pts",
+            "Fortify Magicka 10 pts"
+        ],
+        "Stats": null
+    },
+    "VannakaÃ¢â‚¬â„¢s Steel Zweihander": {
+        "Weight": "27",
+        "Value": "13800",
+        "Effects": [
+            "Condition; 4200/4200",
+            "Constant Effect",
+            "Fortify Attribute Strength 25 pts"
+        ],
+        "Stats": {
+            "Type": "Long Blade, One Handed",
+            "Chop": "1 - 70",
+            "Slash": "1 - 50",
+            "Thrust": "1 - 65",
+            "Range": "6 ft",
+            "Speed": "125%"
+        }
+    },
+    "Volendrung (Skyrim) [No Trade]": {
+        "Weight": "66",
+        "Value": null,
+        "Effects": [
+            "Cast When Strikes",
+            "Absorb Fatigue 50 pts for 1 sec on Touch"
+        ],
+        "Stats": {
+            "Type": "Blunt Weapon, Two Handed",
+            "Chop": "1 - 60",
+            "Slash": "1 - 48",
+            "Thrust": "1-3",
+            "Condition": "8000/8000",
+            "Range": "9 fr",
+            "Speed": "100%",
+            "Charge": "300"
+        }
+    },
+    "Whirlwind Staff": {
+        "Weight": "8",
+        "Value": "1206",
+        "Effects": [
+            "Thrust 2-5",
+            "Cast When Used",
+            "Fortify Skill Athletics 15 pts for 60 secs on Self"
+        ],
+        "Stats": {
+            "Type": "Blunt Weapon, Two Handed",
+            "Chop": "2-7",
+            "Slash": "3-7",
+            "Condition": "600/",
+            "Range": "10.8 ft",
+            "Speed": "175%",
+            "Charge": "6"
+        }
+    },
+    "White Scale Ring": {
+        "Weight": "0.1",
+        "Value": "688",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Endurance 5 pts",
+            "Ee Resist Frost 11%"
+        ],
+        "Stats": null
+    },
+    "White Wind Boots [Lv.60 Magic]": {
+        "Weight": "8 (Light)",
+        "Value": "9000",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Speed 50 pts",
+            "Fortify Aceribuece Willpower 15 pts",
+            "BFortify Magicka 90 pts",
+            "Weakness to Shock 40%"
+        ],
+        "Stats": {
+            "Armor Rating": "100",
+            "Condition": "6000/6000"
+        }
+    },
+    "White Wind Bracer (Left) [Lv.60 Magic]": {
+        "Weight": "2 (Light)",
+        "Value": "9000",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Agility $0 pts",
+            "Fortify Attribute Intelligence 15 pts",
+            "BFortify Masgicka 90 pee",
+            "Weakness to Frost 40%"
+        ],
+        "Stats": {
+            "Armor Racing": "88",
+            "Condition": "6000/6000"
+        }
+    },
+    "Whice Wind Bracer (Right) [Lv.60 Magic)": {
+        "Weight": "2 (Light)",
+        "Value": "9000",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Agility 50 pts",
+            "Droreify Atritere Intelligence 15 pts",
+            "Fortify Magicka 90 pee",
+            "Waakncss to Frost 40%"
+        ],
+        "Stats": {
+            "Armor Rating": "88",
+            "Condition": "60006000"
+        }
+    },
+    "White Wind Helm [v.60 Magic]": {
+        "Weight": "2 (Light)",
+        "Value": null,
+        "Effects": [
+            "Value; 9000",
+            "Constant Effect",
+            "Fortify Attribute Willpower 50 pts",
+            "Fortify Attribute Intelligence 15 pts",
+            "oreity Masgicka 90 pts",
+            "Giweakness to Poison 40%"
+        ],
+        "Stats": {
+            "Armor Rating": "95",
+            "Condition": "6000/6000"
+        }
+    },
+    "White Wind Leggings [Lv.60 Magic]": {
+        "Weight": "6 (Light)",
+        "Value": "9000",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Intelligence 50 pts",
+            "Fortify Attribute Willpower 15 pts",
+            "Fortify Magicka 90 pts",
+            "Ii Weakness to Shock 40%"
+        ],
+        "Stats": {
+            "Armor Rating": "91",
+            "Condition": "6000/6000"
+        }
+    },
+    "White Wind Pauldron (Left) (Lv.60 Magic]": {
+        "Weight": "4 (Light)",
+        "Value": "9000",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Endurance 50 pts",
+            "Fortify Attribute Agility 15 pts",
+            "Fortify Magicka 90 pts",
+            "Weakness to Bire 40%"
+        ],
+        "Stats": {
+            "Armor Rating": "88",
+            "Condition": "6000/6000"
+        }
+    },
+    "SY Woice wing Pauldron (Right) [Lvs0 Magic!": {
+        "Weight": "4 (Light)",
+        "Value": "9000",
+        "Effects": [
+            "Constance Effect",
+            "Fortify Attribute Endurance $0 pts",
+            "Fortify Attribute Agility 15 pts",
+            "Beoreify Magicka 90 pee",
+            "Dwreakwess to Fire 40%"
+        ],
+        "Stats": {
+            "Armor Racing": "88",
+            "Condition": "GOO\\6000"
+        }
+    },
+    "White Wind Tunic (Lv.60 Magic]": {
+        "Weight": "12 (Light)",
+        "Value": "9000",
+        "Effects": [
+            "Constance Effect",
+            "Fortify Attribute Intelligence 50 pts",
+            "Fortify Attribute Willpower 15 pts",
+            "Fortify Masgicka 125 pts",
+            "Weakness to Common Disease 40%"
+        ],
+        "Stats": {
+            "Armor Rating": "100",
+            "Condition": "6000/6000"
+        }
+    },
+    "Wind Golem Boots [Combat]": {
+        "Weight": "20 (Heavy)",
+        "Value": "9000",
+        "Effects": [
+            "Condition; 6000/6000",
+            "Constant Effect",
+            "Fortify Attribute Agility 30 pts",
+            "A) Fortify Attribute Endurance 10 pts",
+            "Fortify Health 90 pts",
+            "Fortify Magicka 30 pts",
+            "Fortify Fatigue 50 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "195"
+        }
+    },
+    "Wind Golem Breastplace (Combat}": {
+        "Weight": "35 (Heavy)",
+        "Value": "9000",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Strength 30 pts",
+            "Fortify Attribute Endurance 10 pts",
+            "Fortify Health 90 pts",
+            "Fortify Magicka 30 pts",
+            "Fortify Fatigue 50 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "238",
+            "Condition": "6000/6000"
+        }
+    },
+    "Wind Golem Glove (Left) [Combat]": {
+        "Weight": "8 (Heavy)",
+        "Value": "9000",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Agility 30 pts",
+            "Fortify Attribute Endurance 10 pts",
+            "Fortify Health 90 pts",
+            "() Fortify Magicka 30 pts",
+            "Y Fortify Fatigue 50 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "173",
+            "Condicion": "6000/6000"
+        }
+    },
+    "Wind Golem Glove (Right) (Combat)": {
+        "Weight": "8 (Heavy)",
+        "Value": "9000",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Agility 30 pts",
+            "Fortify Attribute Endurance 10 pts",
+            "Fortify Health 90 pts",
+            "Fortify Magicka 30 pts",
+            "Beorriry Fatiguc 50 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "173",
+            "Condition": "6000/6000"
+        }
+    },
+    "Wind Golem Greaves [Combat]": {
+        "Weight": null,
+        "Value": "9000",
+        "Effects": [
+            "Weight; 18 (Heavy)",
+            "Constant Effect",
+            ") Fortify Attribute Strength 30 pts",
+            "Fortify Attribute Endurance 10 pts",
+            "Fortify Health 90 pts",
+            "Fortify Magicka 30 pts",
+            "Fortify Parigue 50 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "195",
+            "Condicion": "6000/6000"
+        }
+    },
+    "Wind Golem Helm [Combat]": {
+        "Weight": "15 (Heavy)",
+        "Value": null,
+        "Effects": [
+            "Value; 9000",
+            "Constant Effect",
+            "Fortify Attribute Strength 30 pts",
+            "Fortify Attribute Endurance 10 pts",
+            "Y Fortify Health 90 pts",
+            "Fortify Magicka 30 pts",
+            "(Q Fortify Fatigue 50 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "176",
+            "Condition": "6000/6000"
+        }
+    },
+    "Wind Golem Pauldron (Left) (Combat)": {
+        "Weight": "10 (Heavy)",
+        "Value": "9000",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Endurance 30 pts",
+            "roreity Attribute Agility 10 pts",
+            "H Fortify Health 90 pts",
+            "(Fortify Magicka 30 pts",
+            "Weortiry Fatigac 50 pts"
+        ],
+        "Stats": {
+            "Armor Rating": "173",
+            "Condition": "6000/6000"
+        }
+    },
+    "Wind Golem Pauldron (Right) [Combat]": {
+        "Weight": "10 (Heavy)",
+        "Value": "9000",
+        "Effects": [
+            "Constant Affece",
+            "DFortify Attribute Endurance 30 pts",
+            "Fortify Attribute Agility 10 pts",
+            "Fortify Health 90 pts",
+            "Fortify Magicka 30 pts",
+            "Fortify Fatigue 50 pts"
+        ],
+        "Stats": {
+            "Armor Racing": "173",
+            "Condition": "6000/6000"
+        }
+    },
+    "Windbite": {
+        "Weight": "8",
+        "Value": null,
+        "Effects": [
+            "Attack 2 - 42",
+            "Condition 1300",
+            "Speed 120%",
+            "Value 7200",
+            "Constant Effect",
+            "Fortify Attribute Agility 15 pts",
+            "Fortify Attribute Willpower 20 pts"
+        ],
+        "Stats": {
+            "Type": "Marksman"
+        }
+    },
+    "Wings of the Queen of Bats": {
+        "Weight": "30",
+        "Value": "12000",
+        "Effects": [
+            "Cast When Strikes",
+            "Drain Health 1 to 10 pts for 30 secs on Target"
+        ],
+        "Stats": {
+            "Type": "Axe, Two Handed",
+            "Chop": "1 - 44",
+            "Slash": "1 - 33",
+            "Thrust": "1-44",
+            "Condition": "3000",
+            "Range": "6 ft",
+            "Speed": "125%",
+            "Charge": "500"
+        }
+    },
+    "Winter Wonderland Robe (6)": {
+        "Weight": "3",
+        "Value": null,
+        "Effects": null,
+        "Stats": null
+    },
+    "Witches Robe [No Trade]": {
+        "Weight": "3",
+        "Value": null,
+        "Effects": null,
+        "Stats": null
+    },
+    "WitchesÃ¢â‚¬â„¢ Broom[No Trade]": {
+        "Weight": "3",
+        "Value": null,
+        "Effects": [
+            "Slash; 2 - 3",
+            "Cast When Strikes",
+            "Pd Levirare 100 pts on Self"
+        ],
+        "Stats": {
+            "Type": "Blunt Weapon, One Handed",
+            "Chop": "1 - 1",
+            "Thrust": "1 - 2",
+            "Condition": "1031/1031",
+            "Range": "6 fre",
+            "Charge": "FEROS)"
+        }
+    },
+    "Wolf Fang, Amulet": {
+        "Weight": "1",
+        "Value": "3725",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Strength 15 pts",
+            "Fortify Actribuce Endurance 13 pts",
+            "Fortify Attribute Agility 12 pts",
+            "Fortify Health 25 pts"
+        ],
+        "Stats": null
+    },
+    "Wooden Ring": {
+        "Weight": "0.1",
+        "Value": "216",
+        "Effects": [
+            "Constance Effect",
+            "Fortify Attribute Strength 3 pts",
+            "Fortify Attribute Willpower 3 pts"
+        ],
+        "Stats": null
+    },
+    "Yinsor Ring": {
+        "Weight": "01",
+        "Value": "2552",
+        "Effects": [
+            "Constant Effect",
+            "Fortify Attribute Agility 20 pts",
+            "Fortify Magicka 100 pts"
+        ],
+        "Stats": null
+    },
+    "Zephyr": {
+        "Weight": "12",
+        "Value": "2000",
+        "Effects": null,
+        "Stats": {
+            "Type": "Marksman",
+            "Attack": "2 - 20",
+            "Condition": "500/500",
+            "Speed": "130%"
+        }
+    }
+}
