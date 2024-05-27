@@ -1,3 +1,20 @@
+const headers = [
+  'Item Name', 'Image', 'Stats', 'Hidden Effect(s)', 'Spec. Req.', 'Lvl Req.', 'Location/Boss/Event', 'Type', 'Slot', 'Other Notes', 'EV', 'Price',
+  'Health', 'Magicka', 'Fatigue', 'Strength', 'Intelligence', 'Willpower', 'Agility', 'Speed', 'Endurance', 'Personality', 'Luck',
+  'Armorer', 'Athletics', 'Axe', 'Block', 'Blunt Weapon', 'Heavy Armor', 'Long Blade', 'Medium Armor', 'Spear', 'Alchemy', 'Alteration', 'Conjuration',
+  'Destruction', 'Enchant', 'Illusion', 'Mysticism', 'Restoration', 'Unarmored', 'Stealth', 'Acrobatics', 'Hand-to-hand', 'Light Armor', 'Marksman',
+  'Mercantile', 'Security', 'Short Blade', 'Sneak', 'Speechcraft', 'Fire', 'Frost', 'Shock', 'Poison', 'Disease', 'Reflect', 'Paralyze', 'Light', 'Frenzy Creature',
+  'Frenzy Humanoid', 'Demoralize Creature', 'Demoralize Humanoid'
+];
+
+let checkboxContainer = document.createElement('div');
+checkboxContainer.id = 'checkbox-container';
+
+// Create toggle button
+let toggleButton = document.createElement('button');
+toggleButton.textContent = 'Toggle All Columns';
+toggleButton.className = 'toggle-button';
+
 document.addEventListener('DOMContentLoaded', () => {
     const container = document.createElement('div');
     container.classList.add('container');
@@ -10,14 +27,37 @@ document.addEventListener('DOMContentLoaded', () => {
     searchBar.setAttribute('placeholder', 'Search...');
     searchBar.classList.add('search-bar');
 
+    checkboxContainer.appendChild(toggleButton);
+
     const table = document.createElement('table');
     table.id = 'itemsTable';
 
     container.appendChild(heading);
     container.appendChild(searchBar);
+    container.appendChild(checkboxContainer);
     container.appendChild(table);
 
-    // Insert the container into the body
+    headers.forEach((col, index) => {
+      const th = document.createElement('th');
+      th.textContent = col;
+
+       // Create checkbox for each column
+      const checkbox = document.createElement('input');
+      checkbox.type = 'checkbox';
+      checkbox.className = 'column-checkbox';
+      checkbox.id = `column-checkbox-${index}`;
+      checkbox.dataset.column = index;
+      checkbox.checked = true;
+
+      const label = document.createElement('label');
+      label.htmlFor = `column-checkbox-${index}`;
+      label.className = 'column-label';
+      label.textContent = col;
+
+      checkboxContainer.appendChild(checkbox);
+      checkboxContainer.appendChild(label);
+    });
+
     document.body.appendChild(container);
 
     fetch('items_data.json')
@@ -38,19 +78,44 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+  const columnCheckboxes = document.querySelectorAll('.column-checkbox');
+  const table = document.getElementById('itemsTable');
+
+  let hiddenColumns = [];
+
+  columnCheckboxes.forEach(function(checkbox) {
+    checkbox.addEventListener('change', function() {
+      const columnIndex = parseInt(this.getAttribute('data-column'));
+
+      if (this.checked) {
+        table.querySelectorAll(`th:nth-child(${columnIndex + 1}), td:nth-child(${columnIndex + 1})`).forEach(function(cell) {
+          cell.style.display = '';
+        });
+        hiddenColumns = hiddenColumns.filter(col => col !== columnIndex);
+      } else {
+        table.querySelectorAll(`th:nth-child(${columnIndex + 1}), td:nth-child(${columnIndex + 1})`).forEach(function(cell) {
+          cell.style.display = 'none';
+        });
+        hiddenColumns.push(columnIndex);
+      }
+    });
+  });
+
+  toggleButton.addEventListener('click', function() {
+    const allChecked = Array.from(columnCheckboxes).every(cb => cb.checked);
+    columnCheckboxes.forEach(function(checkbox) {
+      checkbox.checked = !allChecked;
+      checkbox.dispatchEvent(new Event('change'));
+    });
+  });
+});
+
 function populateTable(data) {
     const table = document.querySelector('#itemsTable');
 
     // Add header row
     const headerRow = document.createElement('tr');
-    const headers = [
-    'Item Name', 'Image', 'Stats', 'Hidden Effect(s)', 'Spec. Req.', 'Lvl Req.', 'Location/Boss/Event', 'Type', 'Slot', 'Other Notes', 'EV', 'Price',
-    'Health', 'Magicka', 'Fatigue', 'Strength', 'Intelligence', 'Willpower', 'Agility', 'Speed', 'Endurance', 'Personality', 'Luck',
-    'Armorer', 'Athletics', 'Axe', 'Block', 'Blunt Weapon', 'Heavy Armor', 'Long Blade', 'Medium Armor', 'Spear', 'Alchemy', 'Alteration', 'Conjuration',
-    'Destruction', 'Enchant', 'Illusion', 'Mysticism', 'Restoration', 'Unarmored', 'Stealth', 'Acrobatics', 'Hand-to-hand', 'Light Armor', 'Marksman',
-    'Mercantile', 'Security', 'Short Blade', 'Sneak', 'Speechcraft', 'Fire', 'Frost', 'Shock', 'Poison', 'Disease', 'Reflect', 'Paralyze', 'Light', 'Frenzy Creature',
-    'Frenzy Humanoid', 'Demoralize Creature', 'Demoralize Humanoid'
-];
 
     headers.forEach(headerText => {
         const headerCell = document.createElement('th');
@@ -64,35 +129,7 @@ function populateTable(data) {
     // Add data rows
     const tableBody = document.createElement('tbody');
     data.forEach(item => {
-        const row = document.createElement('tr');
-
-        headers.forEach((headerText, index) => {
-            const cell = document.createElement('td');
-            if (headerText === 'Stats' && item.Stats) {
-                const stats = item.Stats;
-                cell.textContent = Object.entries(stats).map(([key, value]) => `${key}: ${value}`).join(', ');
-            } else if (['Health', 'Magicka', 'Fatigue', 'Strength', 'Intelligence', 'Willpower', 'Agility', 'Speed', 'Endurance', 'Personality', 'Luck', 'Armorer', 'Athletics', 'Axe', 'Block', 'Blunt Weapon', 'Heavy Armor', 'Long Blade', 'Medium Armor', 'Spear', 'Alchemy', 'Alteration', 'Conjuration',
-            'Destruction', 'Enchant', 'Illusion', 'Mysticism', 'Restoration', 'Unarmored', 'Stealth', 'Acrobatics', 'Hand-to-hand', 'Light Armor', 'Marksman',
-            'Mercantile', 'Security', 'Short Blade', 'Sneak', 'Speechcraft', 'Fire', 'Frost', 'Shock', 'Poison', 'Disease', 'Reflect', 'Paralyze', 'Light', 'Frenzy Creature',
-            'Frenzy Humanoid', 'Demoralize Creature', 'Demoralize Humanoid'].includes(headerText)) {
-                const effect = item.Effects ? item.Effects.find(e => e.toLowerCase().includes(headerText.toLowerCase())) : '';
-                // cell.textContent = effect ? effect.split(' ').slice(-2).join(' ') : ''; // Extract the value (e.g., "10 pts")
-                cell.textContent = effect ; // Extract the value (e.g., "10 pts")
-            } else {
-                const cellValue = item[headerText] || '';
-                if (index === 1 && cellValue.startsWith("http")) { // Assuming the second column is Image
-                    const img = document.createElement('img');
-                    img.src = cellValue;
-                    img.alt = "Image";
-                    img.style.maxWidth = "50px";
-                    cell.appendChild(img);
-                } else {
-                    cell.textContent = cellValue;
-                }
-            }
-            row.appendChild(cell);
-        });
-
+        const row = createRow(table, item);
         tableBody.appendChild(row);
     });
 
@@ -100,134 +137,9 @@ function populateTable(data) {
     table.appendChild(tableBody);
 }
 
-function addSorting() {
-    const headers = document.querySelectorAll('#itemsTable th');
-    headers.forEach((header, index) => {
-        header.addEventListener('click', () => {
-            sortTableByColumn(index);
-        });
-    });
-}
-
-let sortAscending = true;  // Add this global variable to keep track of sorting order
-
-function sortTableByColumn(columnIndex) {
-    const table = document.getElementById('itemsTable');
-    const tbody = table.querySelector('tbody');
-    const rows = Array.from(tbody.querySelectorAll('tr'));
-
-    const sortedRows = rows.sort((a, b) => {
-        const aValue = a.querySelector(`td:nth-child(${columnIndex + 1})`).textContent.trim();
-        const bValue = b.querySelector(`td:nth-child(${columnIndex + 1})`).textContent.trim();
-
-        // Extract numbers from the strings
-        const aNum = parseFloat(aValue.match(/-?\d+(\.\d+)?/));
-        const bNum = parseFloat(bValue.match(/-?\d+(\.\d+)?/));
-
-        // Check if both values are numbers
-        if (!isNaN(aNum) && !isNaN(bNum)) {
-            return sortAscending ? aNum - bNum : bNum - aNum;
-        } else {
-            // If not both are numbers, fall back to string comparison
-            return sortAscending ? aValue.localeCompare(bValue) : bValue.localeCompare(aValue);
-        }
-    });
-
-    while (tbody.firstChild) {
-        tbody.removeChild(tbody.firstChild);
-    }
-
-    tbody.append(...sortedRows);
-
-    // Toggle sorting order
-    sortAscending = !sortAscending;
-}
-
-
-function addSearchFunctionality(data) {
-    const searchBar = document.querySelector('.search-bar');
-    searchBar.addEventListener('input', debounce(() => {
-        const searchText = searchBar.value.toLowerCase().trim(); // Trim whitespace
-        const minLength = 2; // Minimum input length
-        if (searchText.length >= minLength) {
-            const filteredData = data.filter(item => {
-                const statsString = item.Stats ? Object.entries(item.Stats).map(([key, value]) => `${key}: ${value}`).join(', ') : '';
-                const effectsString = item.Effects ? item.Effects.join(' ') : '';
-                return Object.values(item).some(value => typeof value === 'string' && value.toLowerCase().includes(searchText)) ||
-                       statsString.toLowerCase().includes(searchText) ||
-                       effectsString.toLowerCase().includes(searchText);
-            });
-            updateTable(filteredData);
-        } else {
-            updateTable(data); // Reset table if input length is below minimum
-        }
-    }, 300)); // Adjust delay as needed
-}
-
-function updateTable(data) {
-    const tableBody = document.querySelector('#itemsTable tbody');
-    tableBody.innerHTML = '';
-
-    const headers = [
-    'Item Name', 'Image', 'Stats', 'Hidden Effect(s)', 'Spec. Req.', 'Lvl Req.', 'Location/Boss/Event', 'Type', 'Slot', 'Other Notes', 'EV', 'Price',
-    'Health', 'Magicka', 'Fatigue', 'Strength', 'Intelligence', 'Willpower', 'Agility', 'Speed', 'Endurance', 'Personality', 'Luck',
-    'Armorer', 'Athletics', 'Axe', 'Block', 'Blunt Weapon', 'Heavy Armor', 'Long Blade', 'Medium Armor', 'Spear', 'Alchemy', 'Alteration', 'Conjuration',
-    'Destruction', 'Enchant', 'Illusion', 'Mysticism', 'Restoration', 'Unarmored', 'Stealth', 'Acrobatics', 'Hand-to-hand', 'Light Armor', 'Marksman',
-    'Mercantile', 'Security', 'Short Blade', 'Sneak', 'Speechcraft', 'Fire', 'Frost', 'Shock', 'Poison', 'Disease', 'Reflect', 'Paralyze', 'Light', 'Frenzy Creature',
-    'Frenzy Humanoid', 'Demoralize Creature', 'Demoralize Humanoid'
-];
-
-
-    data.forEach(item => {
-        const row = document.createElement('tr');
-
-        headers.forEach((headerText, index) => {
-            const cell = document.createElement('td');
-            if (headerText === 'Stats' && item.Stats) {
-                const stats = item.Stats;
-                cell.textContent = Object.entries(stats).map(([key, value]) => `${key}: ${value}`).join(', ');
-            } else if (['Health', 'Magicka', 'Fatigue', 'Strength', 'Intelligence', 'Willpower', 'Agility', 'Speed', 'Endurance', 'Personality', 'Luck', 'Armorer', 'Athletics', 'Axe', 'Block', 'Blunt Weapon', 'Heavy Armor', 'Long Blade', 'Medium Armor', 'Spear', 'Alchemy', 'Alteration', 'Conjuration',
-            'Destruction', 'Enchant', 'Illusion', 'Mysticism', 'Restoration', 'Unarmored', 'Stealth', 'Acrobatics', 'Hand-to-hand', 'Light Armor', 'Marksman',
-            'Mercantile', 'Security', 'Short Blade', 'Sneak', 'Speechcraft', 'Fire', 'Frost', 'Shock', 'Poison', 'Disease', 'Reflect', 'Paralyze', 'Light', 'Frenzy Creature',
-            'Frenzy Humanoid', 'Demoralize Creature', 'Demoralize Humanoid'].includes(headerText)) {
-                const effect = item.Effects ? item.Effects.find(e => e.toLowerCase().includes(headerText.toLowerCase())) : '';
-                cell.textContent = effect ; // Extract the value (e.g., "10 pts")
-                // cell.textContent = effect ? effect.split(' ').slice(-2).join(' ') : ''; // Extract the value (e.g., "10 pts")
-            } else {
-                const cellValue = item[headerText] || '';
-                if (index === 1 && cellValue.startsWith("http")) { // Assuming the second column is Image
-                    const img = document.createElement('img');
-                    img.src = cellValue;
-                    img.alt = "Image";
-                    img.style.maxWidth = "50px";
-                    cell.appendChild(img);
-                } else {
-                    cell.textContent = cellValue;
-                }
-            }
-            row.appendChild(cell);
-        });
-
-        tableBody.appendChild(row);
-    });
-
-    // Display local images after updating the table
-    displayLocalImages();
-}
-
-function createRow(item) {
+function createRow(table, item) {
     const row = document.createElement('tr');
     row.setAttribute('data-item-name', item['Item Name']);
-
-    const headers = [
-    'Item Name', 'Image', 'Stats', 'Hidden Effect(s)', 'Spec. Req.', 'Lvl Req.', 'Location/Boss/Event', 'Type', 'Slot', 'Other Notes', 'EV', 'Price',
-    'Health', 'Magicka', 'Fatigue', 'Strength', 'Intelligence', 'Willpower', 'Agility', 'Speed', 'Endurance', 'Personality', 'Luck',
-    'Armorer', 'Athletics', 'Axe', 'Block', 'Blunt Weapon', 'Heavy Armor', 'Long Blade', 'Medium Armor', 'Spear', 'Alchemy', 'Alteration', 'Conjuration',
-    'Destruction', 'Enchant', 'Illusion', 'Mysticism', 'Restoration', 'Unarmored', 'Stealth', 'Acrobatics', 'Hand-to-hand', 'Light Armor', 'Marksman',
-    'Mercantile', 'Security', 'Short Blade', 'Sneak', 'Speechcraft', 'Fire', 'Frost', 'Shock', 'Poison', 'Disease', 'Reflect', 'Paralyze', 'Light', 'Frenzy Creature',
-    'Frenzy Humanoid', 'Demoralize Creature', 'Demoralize Humanoid'
-];
-
 
     headers.forEach((headerText, index) => {
         const cell = document.createElement('td');
@@ -359,36 +271,107 @@ function displayLargeImage(imageURL) {
     document.body.style.overflow = 'hidden';
 }
 
-// Function to debounce search input
-function debounce(func, delay) {
-    let timeoutId;
-    return function(...args) {
-        clearTimeout(timeoutId);
-        timeoutId = setTimeout(() => {
-            func.apply(this, args);
-        }, delay);
-    };
+function addSorting() {
+    const headers = document.querySelectorAll('#itemsTable th');
+    headers.forEach((header, index) => {
+        header.addEventListener('click', () => {
+            sortTableByColumn(index);
+        });
+    });
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-    // Existing code...
+let sortAscending = true;
 
-    // Add debounced input event listener to search bar with minimum input length
+function sortTableByColumn(columnIndex) {
+    const table = document.getElementById('itemsTable');
+    const tbody = table.querySelector('tbody');
+    const rows = Array.from(tbody.querySelectorAll('tr'));
+
+    const sortedRows = rows.sort((a, b) => {
+        const aValue = a.querySelector(`td:nth-child(${columnIndex + 1})`).textContent.trim();
+        const bValue = b.querySelector(`td:nth-child(${columnIndex + 1})`).textContent.trim();
+
+        const aNum = parseFloat(aValue.match(/-?\d+(\.\d+)?/));
+        const bNum = parseFloat(bValue.match(/-?\d+(\.\d+)?/));
+
+        if (!isNaN(aNum) && !isNaN(bNum)) {
+            return sortAscending ? aNum - bNum : bNum - aNum;
+        } else {
+            return sortAscending ? aValue.localeCompare(bValue) : bValue.localeCompare(aValue);
+        }
+    });
+
+    while (tbody.firstChild) {
+        tbody.removeChild(tbody.firstChild);
+    }
+
+    tbody.append(...sortedRows);
+
+    sortAscending = !sortAscending;
+}
+
+function addSearchFunctionality(data) {
     const searchBar = document.querySelector('.search-bar');
     searchBar.addEventListener('input', debounce(() => {
-        const searchText = searchBar.value.toLowerCase().trim(); // Trim whitespace
-        const minLength = 2; // Minimum input length
+        const searchText = searchBar.value.toLowerCase().trim();
+        const minLength = 2;
         if (searchText.length >= minLength) {
             const filteredData = data.filter(item => {
-                const statsString = item.Stats ? Object.entries(item.Stats).map(([key, value]) => `${key}: ${value}`).join(', ') : '';
-                const effectsString = item.Effects ? item.Effects.join(' ') : '';
-                return Object.values(item).some(value => typeof value === 'string' && value.toLowerCase().includes(searchText)) ||
-                       statsString.toLowerCase().includes(searchText) ||
-                       effectsString.toLowerCase().includes(searchText);
+                return Object.values(item).some(value => {
+                    if (typeof value === 'string') {
+                        return value.toLowerCase().includes(searchText);
+                    }
+                    if (typeof value === 'object' && value !== null) {
+                        return Object.values(value).some(subValue => {
+                            return typeof subValue === 'string' && subValue.toLowerCase().includes(searchText);
+                        });
+                    }
+                    return false;
+                });
             });
             updateTable(filteredData);
         } else {
-            updateTable(data); // Reset table if input length is below minimum
+            updateTable(data);
         }
-    }, 300)); // Adjust delay as needed
-});
+    }, 300));
+}
+
+function updateTable(data) {
+    const table = document.querySelector('#itemsTable');
+
+    // Clear existing rows
+    const tbody = table.querySelector('tbody');
+    while (tbody.firstChild) {
+        tbody.removeChild(tbody.firstChild);
+    }
+
+    // Add new rows
+    data.forEach(item => {
+        const row = createRow(table, item);
+        tbody.appendChild(row);
+    });
+
+    // Update column visibility
+    const columnCheckboxes = document.querySelectorAll('.column-checkbox');
+    columnCheckboxes.forEach(checkbox => {
+        const columnIndex = parseInt(checkbox.dataset.column);
+        const isChecked = checkbox.checked;
+        const cells = table.querySelectorAll(`th:nth-child(${columnIndex + 1}), td:nth-child(${columnIndex + 1})`);
+        cells.forEach(cell => {
+            cell.style.display = isChecked ? '' : 'none';
+        });
+    });
+
+    // Display local images for updated table
+    displayLocalImages();
+}
+
+
+function debounce(func, wait) {
+    let timeout;
+    return function(...args) {
+        const context = this;
+        clearTimeout(timeout);
+        timeout = setTimeout(() => func.apply(context, args), wait);
+    };
+}

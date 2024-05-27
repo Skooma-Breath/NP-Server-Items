@@ -30,7 +30,7 @@ h1 {
 }
 
 table {
-    width: 100%;
+    width: 1%;
     border-collapse: collapse;
     margin-top: 20px;
 }
@@ -45,6 +45,7 @@ th, td {
     padding: 10px;
     text-align: left;
     border: 1px solid #635b53; /* Darker border */
+    width: 200px; /* Fixed width for columns */
 }
 
 thead th {
@@ -160,3 +161,49 @@ body::-webkit-scrollbar-thumb:hover {
     white-space: nowrap;
     padding-bottom: 25px; /* Space for the scrollbar */
 }
+
+ #checkbox-container {
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .toggle-button {
+    margin-right: 20px;
+    padding: 1px 17px;
+    background-color: #6b6b6b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .toggle-button:hover {
+    background-color: #6b6b6b;
+    /* color: #00ff46; */
+    transform: scale(1.1);
+  }
+  .column-checkbox {
+    display: none;
+  }
+  .column-label {
+    cursor: pointer;
+    margin-right: 20px;
+    font-size: 16px;
+    color: #888888;
+    transition: transform 0.2s, color 0.2s;
+  }
+  .column-checkbox:checked + .column-label {
+    color: #ffffff;
+  }
+  .column-label:hover {
+    transform: scale(1.1);
+  }
+  .search-bar {
+    /* padding: 10px; */
+    /* border: 2px solid #007BFF; */
+    border-radius: 5px;
+    font-size: 16px;
+    width: 300px;
+    margin-bottom: 10px;
+    margin-top: -10px; /* Move the search bar up slightly */
+  }
