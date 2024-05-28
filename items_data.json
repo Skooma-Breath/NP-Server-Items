@@ -1372,7 +1372,7 @@
       "Constant Effect",
       "Fortify Attribute Agility 12 pts",
       "Fortify Attribute Speed 12 pts",
-      "KG Resist Poison 15%"
+      "Resist Poison 15%"
     ],
     "Stats": null
   },
@@ -2068,7 +2068,7 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Constance Effect",
+      "Constant Effect",
       "Fortify Attribute Endurance 8 pts",
       "Fortify Attribute Agility & pts",
       "Fortify Health 15 pts"
@@ -3845,7 +3845,7 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Constance Sffece",
+      "Constant Effect",
       "Fortify Attribute Willpower 2 p",
       "|Forvify Attribute Personality 4 |",
       "Resist Poison 5%"
@@ -3868,7 +3868,7 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Constance Effect",
+      "Constant Effect",
       "Fortify Attribute Willpower 6 pts",
       "Fortify Attribute Intelligence 3 pts",
       "Resist Poison 3%",
@@ -5218,9 +5218,8 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Thrust: 32 - 76",
-      "Constance Effect",
-      "Fortify Skill Athleeies 28 pts",
+      "Constant Effect",
+      "Fortify Skill Athletics 28 pts",
       "Fortify Skill Spear 24 pts",
       "Fortify Attribute Agility 16 pts",
       "Resist Shock 15%",
@@ -5230,6 +5229,7 @@
       "Type": "Spear, Two Handed",
       "Chop": "18 - 26",
       "Slash": "18 - 26",
+      "Thrust: 32 - 76",
       "Condition": "6450/6450",
       "Range": "10.8 fr",
       "Speed": "125%"
@@ -5891,7 +5891,7 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Constance Effect",
+      "Constant Effect",
       "Fortify Attribute Agility 7 pts",
       "Resist Poison 7%"
     ],
@@ -7362,7 +7362,7 @@
     "Price": "",
     "Effects": [
       "Condition; 600/600",
-      "Constance Effect",
+      "Constant Effect",
       "Fortify Attribute Screngeh 10 p",
       "Fortify Attribute Willpower 10 _",
       "Resist Fire 13%"
@@ -7530,7 +7530,7 @@
     "EV": "",
     "Price": "x Dark Ebony Ingots, 1 Blue Diamond, 1 Armor Mold",
     "Effects": [
-      "Constance Affece",
+      "Constant Effect",
       "Fortify Attribute Agility 45 pts",
       "Fortify Attribute Speed 15 pts",
       "Fortify Attribute Endurance 8 pts",
@@ -8139,12 +8139,12 @@
     "Effects": [
       "Constant Effect",
       "Fortify Attribute Strength 20 pts",
-      "Wortify Health 170 pre",
-      "Beortiry Attribute Agility 20 pre"
+      "Fortify Health 170 pts",
+      "Fortify Attribute Agility 20 pts"
     ],
     "Stats": {
       "Armor Rating": "134",
-      "Condition": "1240/1440"
+      "Condition": "1440"
     }
   },
   {
@@ -8518,7 +8518,7 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Constance Effect",
+      "Constant Effect",
       "Fortify Skill Securiry 10 pts"
     ],
     "Stats": {
@@ -8921,7 +8921,7 @@
     "EV": "",
     "Price": "x Dark Ebony Ingots, 1 Mindflow Crystal, 1 Armor Mold",
     "Effects": [
-      "Constance Effect",
+      "Constant Effect",
       "Fortify Attribute Endurance $0 pts",
       "Fortify Attribute Agility 15 pts",
       "Beoreify Magicka 90 pee",
@@ -8945,7 +8945,7 @@
     "EV": "",
     "Price": "x Dark Ebony Ingots, 1 Mindflow Crystal, 1 Armor Mold",
     "Effects": [
-      "Constance Effect",
+      "Constant Effect",
       "Fortify Attribute Intelligence 50 pts",
       "Fortify Attribute Willpower 15 pts",
       "Fortify Masgicka 125 pts",
@@ -9146,7 +9146,7 @@
     "EV": "",
     "Price": "x Dark Ebony Ingots, 1 Dwemorblood Alloy, 1 Armor Mold",
     "Effects": [
-      "Constant Affece",
+      "Constant Effect",
       "DFortify Attribute Endurance 30 pts",
       "Fortify Attribute Agility 10 pts",
       "Fortify Health 90 pts",
@@ -9307,7 +9307,7 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Constance Effect",
+      "Constant Effect",
       "Fortify Attribute Strength 3 pts",
       "Fortify Attribute Willpower 3 pts"
     ],
