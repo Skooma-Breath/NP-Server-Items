@@ -1323,12 +1323,11 @@
     "Slot": "Belt",
     "Other Notes": "",
     "EV": "",
-    "Price": "",
+    "Price": "2367",
     "Effects": [
-      "Value; 2367",
       "Constant Effect",
       "Fortify Attribute Speed 5 pts",
-      "Lortify Attribute Intelligence 10 pts",
+      "Fortify Attribute Intelligence 10 pts",
       "Fortify Health 25 pts",
       "Resist Frost 10%"
     ],
