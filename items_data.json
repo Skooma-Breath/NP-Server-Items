@@ -1307,7 +1307,7 @@
     "Price": "",
     "Effects": [
       "Constant Effect",
-      "Fortify Attribute Strength $0 pts",
+      "Fortify Attribute Strength 50 pts",
       "Drain Attribute Agility 30 pts"
     ],
     "Stats": null
