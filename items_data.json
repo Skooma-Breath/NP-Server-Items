@@ -1,5 +1,192 @@
 [
   {
+    "Item Name": "Necklace of Bewilderment",
+    "Image": "",
+    "Hidden Effect(s)": "?",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "50",
+    "Location/Boss/Event": "Tomb of the Dessicator",
+    "Type": "Clothing",
+    "Slot": "Amulet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "3200",
+    "Effects": [
+      "Constant Effect",
+      "Drain Attribute Intelligence 50 pts",
+      "Fortify Health 200 pts",
+      "Weakness to Magicka 30%"
+    ],
+    "Stats": {
+      "Weight": "1",
+      "Value": "3200"
+    }
+  },
+  {
+    "Item Name": "Sword of Zilwind",
+    "Image": "",
+    "Hidden Effect(s)": "?",
+    "Spec. Req.": "Combat/Stealth",
+    "Lvl Req.": "50",
+    "Location/Boss/Event": "Tomb of the Dessicator",
+    "Type": "Long Blade",
+    "Slot": "Weapon One - Hand",
+    "Other Notes": "Enhancement = armor",
+    "EV": "",
+    "Price": "1024",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Endurance 25 pts",
+      "Fortify Attribute Speed 10 pts",
+      "Fortify Health 100 pts"
+    ],
+    "Stats": {
+      "Chop": "3 - 36",
+      "Slash": "2 - 54",
+      "Thrust": "3 - 39",
+      "Condition": "3600",
+      "Range": "6 ft",
+      "Speed": "125%",
+      "Weight": "18",
+      "Value": "6100"
+    }
+  },
+  {
+    "Item Name": "Rune Etched Choker",
+    "Image": "",
+    "Hidden Effect(s)": "?",
+    "Spec. Req.": "Combat/Stealth",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Koal Cave - Dreugh Camp Boss",
+    "Type": "Clothing",
+    "Slot": "Amulet",
+    "Other Notes": "Enhancement = armor",
+    "EV": "",
+    "Price": "1024",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Strength 35 pts",
+      "Enhancement 22 pts",
+      "Fortify Attribute Speed 10 pts",
+      "Fortify Health 200 pts",
+      "Drain Attribute Personality 40 pts"
+    ],
+    "Stats": {
+      "Weight": "3",
+      "Value": "1024"
+    }
+  },
+  {
+    "Item Name": "Axe of Betrayal",
+    "Image": "",
+    "Hidden Effect(s)": "?",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Scion Cave",
+    "Type": "Axe",
+    "Slot": "Weapon 2 - Hand",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "6854",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Strength 28 pts",
+      "Fortify Skill Athletics 7 pts",
+      "Resist Common Disease 5%",
+      "Resist Normal Weapons 20%",
+      "Fortify Health 100 pts"
+    ],
+    "Stats": {
+      "Chop": "1 - 98",
+      "Slash": "1 - 66",
+      "Thrust": "1 - 9",
+      "Condition": "6800",
+      "Range": "6 ft",
+      "Speed": "100%",
+      "Weight": "60",
+      "Value": "6854"
+    }
+  },
+  {
+    "Item Name": "Odylic Dagger",
+    "Image": "",
+    "Hidden Effect(s)": "?",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Scion Cave",
+    "Type": "Short Blade",
+    "Slot": "Weapon 1 - Hand",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "3563",
+    "Effects": null,
+    "Stats": {
+      "Chop": "18 - 22",
+      "Slash": "18 - 22",
+      "Thrust": "21 - 34",
+      "Condition": "1960",
+      "Range": "6 ft",
+      "Speed": "250%",
+      "Weight": "3",
+      "Value": "3563"
+    }
+  },
+  {
+    "Item Name": "Bloodstained Sword",
+    "Image": "",
+    "Hidden Effect(s)": "?",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Scion Cave",
+    "Type": "Long Blade",
+    "Slot": "Weapon 1 - Hand",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "4800",
+    "Effects": [
+      "Cast When Strikes",
+      "Absorb Health 20 pts for 3 secs on Touch",
+      "Fortify Atrribute Strength 25 pts for 900 secs on Self",
+      "Fortify Health 80 pts for 900 secs on Self",
+      "Resist Fire 15% for 900 secs on Self"
+    ],
+    "Stats": {
+      "Type": "Long Blade, One Handed",
+      "Chop": "2 - 32",
+      "Slash": "1 - 46",
+      "Thrust": "3 - 36",
+      "Condition": "7409",
+      "Range": "6 ft",
+      "Speed": "140%",
+      "Weight": "60",
+      "Value": "4800",
+      "Charge": "800"
+    }
+  },
+  {
+    "Item Name": "Webbed Tunic",
+    "Image": "",
+    "Hidden Effect(s)": "\"Invisible\" - No worn graphic",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Kolbjorn barrow - draugr",
+    "Type": "Armor",
+    "Slot": "Chest",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "4860",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Skill Medium Armor 19 pts",
+      "Fortify Skill Hand-to-hand 14 pts"
+    ],
+    "Stats": {
+      "Armor Rating": "36",
+      "Condition": "1120",
+      "Weight": "19 (Medium)"
+    }
+  },
+  {
     "Item Name": "Robe of the Deep One",
     "Image": "",
     "Hidden Effect(s)": "",
@@ -13,10 +200,10 @@
     "Price": "",
     "Effects": [
       "Constant Effect",
-      "FortifyAttribute Endurance 10 pts",
+      "Fortify Attribute Endurance 10 pts",
       "Fortify Attribute Intelligence 35 pts",
       "Resist Magicka 5%",
-      "eroreity Magicka 115 pts"
+      "Fortify Magicka 115 pts"
     ],
     "Stats": null
   },
