@@ -1,5 +1,31 @@
 [
   {
+    "Item Name": "Northwolf Tunic",
+    "Image": "",
+    "Hidden Effect(s)": "?",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Frost Giant Camp",
+    "Type": "Armor",
+    "Slot": "Chestguard",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "1989",
+    "Effects": [
+      "Constant Effect",
+      "Drain Attribute Agility 10 pts",
+      "Drain Attribute Willpower 20 pts",
+      "Fortify Magicka 50 pts",
+      "Resist Fire 10%"
+    ],
+    "Stats": {
+      "Armor Rating": "45",
+      "Condition": "825",
+      "Weight": "9",
+      "Value": "6700"
+    }
+  },
+  {
     "Item Name": "Necklace of Bewilderment",
     "Image": "",
     "Hidden Effect(s)": "?",
