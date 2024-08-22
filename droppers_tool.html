@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NP Calculators</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <style>
+
+        .heading-container {
+            display: flex;
+            justify-content: flex-start;
+            align-items: baseline;
+            gap: 15px; /* Optional: Adds space between links */
+            margin-top: 10px;
+            flex-direction: row
+        }
+
+        .heading-container a {
+            text-decoration: none;
+            color: inherit; /* Use the existing text color */
+            font-weight: bold;
+        }
+
+        /* Additional styling for centering content */
+        .calculator-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full height of the viewport */
+            text-align: center;
+        }
+
+        .calculator-form {
+            background-color: #433d37; /* Matches your container background */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+            max-width: 400px; /* Optional: limits the width of the form */
+            width: 100%;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #d2c9b0; /* Light text color */
+        }
+
+        input[type="number"], input[type="text"], select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 20px;
+            background-color: #2c2824; /* Dark input background */
+            color: #d2c9b0; /* Light text color */
+            border: 1px solid #635b53; /* Matches the theme */
+            border-radius: 4px;
+        }
+
+        h2 {
+            margin-top: 20px;
+            color: #d2c9b0; /* Light text color */
+        }
+
+        p {
+            color: #d2c9b0; /* Light text color */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="heading-container">
+        <a href="https://nerevarine-prophecies.fandom.com/wiki/Mastery_Points" class="npmp-wiki">Wiki</a>
+        <a href="index.html" class="np-calculators-link">Custom items table</a>
+        <a href="https://tes3recipes.sidke.com/" class="alchemie">Alchemie's Recipe Finder</a>
+    </div>
+
+    <div class="calculator-container">
+        <div class="calculator-form">
+            <h1>NP Calculators</h1>
+            <form id="calculatorForm">
+                <label for="skill">Skill:</label>
+                <input type="number" id="skill" name="skill" value="350">
+
+                <label for="will">Will:</label>
+                <input type="number" id="will" name="will" value="100">
+
+                <label for="luck">Luck:</label>
+                <input type="number" id="luck" name="luck" value="100">
+
+                <label for="bonusSelect">Bonus +Cast Chance CM perk value:</label>
+                <select id="bonusSelect">
+                    <option value="20">Sorcerer (+20)</option>
+                    <option value="40">Channeler (+40)</option>
+                    <option value="0">Any Mage (+0)</option>
+                    <option value="-25">Combat (-25)</option>
+                    <option value="-50">Stealth (-50)</option>
+                </select>
+                <input type="text" id="bonus" name="bonus" value="20">
+
+                <h2>Results:</h2>
+                <p>Full Fatigue 100% Success MP Cost: <span id="fullFatigueResult">670</span></p>
+                <p>No Fatigue 100% Success MP Cost: <span id="noFatigueResult">616</span></p>
+            </form>
+        </div>
+    </div>
+
+    <script>
+    const bonusSelect = document.getElementById('bonusSelect');
+    const bonusInput = document.getElementById('bonus');
+
+    // Update text input when dropdown changes
+    bonusSelect.addEventListener('change', function() {
+        bonusInput.value = bonusSelect.value;
+        calculateResults(); // Recalculate whenever the value changes
+    });
+
+    // Recalculate results whenever the form changes
+    document.getElementById('calculatorForm').addEventListener('input', calculateResults);
+
+    function calculateResults() {
+        let skill = parseFloat(document.getElementById('skill').value) || 0;
+        let will = parseFloat(document.getElementById('will').value) || 0;
+        let luck = parseFloat(document.getElementById('luck').value) || 0;
+        let bonus = parseFloat(document.getElementById('bonus').value) || 0;
+
+        // Perform calculations
+        let fullFatigueResult = Math.floor((skill * 2) + (will / 5) + (luck / 10) + bonus - 80);
+        let noFatigueResult = Math.floor((skill * 2) + (will / 5) + (luck / 10) + bonus - ((4 / 3) * 100));
+
+        // Update results
+        document.getElementById('fullFatigueResult').textContent = fullFatigueResult;
+        document.getElementById('noFatigueResult').textContent = noFatigueResult;
+    }
+
+    // Initialize calculation
+    calculateResults();
+    </script>
+
+</body>
+</html>

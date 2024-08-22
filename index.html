@@ -5,8 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Items Table</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Align links next to each other */
+        .heading-container {
+            display: flex;
+            justify-content: flex-start;
+            align-items: baseline;
+            gap: 15px; /* Optional: Adds space between links */
+            margin-top: 10px;
+            flex-direction: row
+        }
+
+        .heading-container a {
+            text-decoration: none;
+            color: inherit; /* Use the existing text color */
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
+    <div class="heading-container">
+        <a href="https://nerevarine-prophecies.fandom.com/wiki/Mastery_Points" class="npmp-wiki">Wiki</a>
+        <a href="droppers_tool.html" class="np-calculators-link">Droppers Spell Chance Calculator</a>
+        <a href="https://tes3recipes.sidke.com/" class="alchemie">Alchemie's Recipe Finder</a>
+    </div>
+
+    <h1>Items Table</h1>
+
+    <!-- Your existing content here -->
     <script src="script.js"></script>
 </body>
 </html>
