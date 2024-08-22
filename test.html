@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hide Table Columns</title>
+<style>
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  #checkbox-container {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .toggle-button {
+    margin-right: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .toggle-button:hover {
+    background-color: #0056b3;
+  }
+  .column-checkbox {
+    display: none;
+  }
+  .column-label {
+    cursor: pointer;
+    margin-right: 20px;
+    font-size: 16px;
+    color: black;
+    transition: transform 0.2s, color 0.2s;
+  }
+  .column-checkbox:checked + .column-label {
+    color: #007BFF;
+  }
+  .column-label:hover {
+    transform: scale(1.1);
+  }
+</style>
+</head>
+<body>
+
+<h2>Hide Table Columns</h2>
+
+<div id="app"></div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const app = document.getElementById('app');
+
+  // Create checkbox container
+  const checkboxContainer = document.createElement('div');
+  checkboxContainer.id = 'checkbox-container';
+
+  // Create toggle button
+  const toggleButton = document.createElement('button');
+  toggleButton.textContent = 'Toggle All Columns';
+  toggleButton.className = 'toggle-button';
+
+  // Append toggle button to checkbox container
+  checkboxContainer.appendChild(toggleButton);
+
+  // Create checkboxes for each column
+  const columns = ['Column 1', 'Column 2', 'Column 3'];
+  columns.forEach((col, index) => {
+    const checkbox = document.createElement('input');
+    checkbox.type = 'checkbox';
+    checkbox.className = 'column-checkbox';
+    checkbox.id = `column-checkbox-${index}`;
+    checkbox.dataset.column = index;
+    checkbox.checked = true;
+
+    const label = document.createElement('label');
+    label.htmlFor = `column-checkbox-${index}`;
+    label.className = 'column-label';
+    label.textContent = col;
+
+    checkboxContainer.appendChild(checkbox);
+    checkboxContainer.appendChild(label);
+  });
+
+  // Append checkbox container to the app div
+  app.appendChild(checkboxContainer);
+
+  // Create table
+  const table = document.createElement('table');
+  table.id = 'myTable';
+
+  // Create table header
+  const thead = document.createElement('thead');
+  const headerRow = document.createElement('tr');
+
+  columns.forEach((col, index) => {
+    const th = document.createElement('th');
+    th.textContent = col;
+    headerRow.appendChild(th);
+  });
+
+  thead.appendChild(headerRow);
+  table.appendChild(thead);
+
+  // Create table body
+  const tbody = document.createElement('tbody');
+  const rowsData = [
+    ['Row 1, Column 1', 'Row 1, Column 2', 'Row 1, Column 3'],
+    ['Row 2, Column 1', 'Row 2, Column 2', 'Row 2, Column 3'],
+    ['Row 3, Column 1', 'Row 3, Column 2', 'Row 3, Column 3']
+  ];
+
+  rowsData.forEach(rowData => {
+    const row = document.createElement('tr');
+    rowData.forEach(cellData => {
+      const td = document.createElement('td');
+      td.textContent = cellData;
+      row.appendChild(td);
+    });
+    tbody.appendChild(row);
+  });
+
+  table.appendChild(tbody);
+
+  // Append table to the app div
+  app.appendChild(table);
+
+  // Add event listeners to checkboxes
+  const columnCheckboxes = document.querySelectorAll('.column-checkbox');
+  columnCheckboxes.forEach(function(checkbox) {
+    checkbox.addEventListener('change', function() {
+      const columnIndex = parseInt(this.getAttribute('data-column'));
+
+      if (this.checked) {
+        table.querySelectorAll(`th:nth-child(${columnIndex + 1}), td:nth-child(${columnIndex + 1})`).forEach(function(cell) {
+          cell.style.display = '';
+        });
+      } else {
+        table.querySelectorAll(`th:nth-child(${columnIndex + 1}), td:nth-child(${columnIndex + 1})`).forEach(function(cell) {
+          cell.style.display = 'none';
+        });
+      }
+    });
+  });
+
+  // Toggle all checkboxes when the button is clicked
+  toggleButton.addEventListener('click', function() {
+    const allChecked = Array.from(columnCheckboxes).every(cb => cb.checked);
+    columnCheckboxes.forEach(function(checkbox) {
+      checkbox.checked = !allChecked;
+      checkbox.dispatchEvent(new Event('change'));
+    });
+  });
+});
+</script>
+
+</body>
+</html>

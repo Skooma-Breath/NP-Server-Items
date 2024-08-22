@@ -246,3 +246,13 @@ body::-webkit-scrollbar-thumb:hover {
   text-decoration: none;
   margin-left: 5px;
 }
+
+.spreadsheet:hover {
+  text-decoration: underline;
+}
+
+.spreadsheet {
+  color: #d2c9b0;
+  text-decoration: none;
+  margin-left: 5px;
+}
