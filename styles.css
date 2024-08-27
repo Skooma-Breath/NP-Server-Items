@@ -107,6 +107,7 @@ img.clickable {
 .overlay img {
     max-width: 90vw;
     max-height: 90vh;
+    min-width: 250px;
     object-fit: contain; /* Ensure the image maintains its aspect ratio */
     border: 2px solid white; /* Add a border for better visibility */
 }
