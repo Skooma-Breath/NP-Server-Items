@@ -3488,7 +3488,7 @@
   {
     "Item Name": "Flawless Cathartic Belt",
     "Image": "",
-    "Hidden Effect(s)": "",
+    "Hidden Effect(s)": "+15 MOT",
     "Spec. Req.": "Any",
     "Lvl Req.": "",
     "Location/Boss/Event": "Storyteller",
@@ -3499,7 +3499,7 @@
     "Price": "",
     "Effects": [
       "Constant Effect",
-      "GD Fortify Attribute Willpower 10 pts",
+      "Fortify Attribute Willpower 10 pts",
       "ortify Magicka 15 pts",
       "Restore Magicka"
     ],
@@ -3508,7 +3508,7 @@
   {
     "Item Name": "Flawless Regenerative Belt",
     "Image": "",
-    "Hidden Effect(s)": "",
+    "Hidden Effect(s)": "+15 HOT",
     "Spec. Req.": "Any",
     "Lvl Req.": "",
     "Location/Boss/Event": "Storyteller",
@@ -3528,7 +3528,7 @@
   {
     "Item Name": "Flawless Rejuvenative Belt",
     "Image": "",
-    "Hidden Effect(s)": "HoT?, MoT?",
+    "Hidden Effect(s)": "+15 HOT",
     "Spec. Req.": "Any",
     "Lvl Req.": "",
     "Location/Boss/Event": "Storyteller",
@@ -3547,7 +3547,7 @@
   {
     "Item Name": "Flawless Restorative Belt",
     "Image": "",
-    "Hidden Effect(s)": "+x MoT",
+    "Hidden Effect(s)": "+15 MoT",
     "Spec. Req.": "Any",
     "Lvl Req.": "",
     "Location/Boss/Event": "Storyteller",
@@ -3614,7 +3614,7 @@
   {
     "Item Name": "Frost Etched Belt",
     "Image": "",
-    "Hidden Effect(s)": "+x MoT",
+    "Hidden Effect(s)": "?",
     "Spec. Req.": "Any",
     "Lvl Req.": "",
     "Location/Boss/Event": "Frost Giants",
