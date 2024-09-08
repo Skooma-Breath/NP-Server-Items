@@ -26,6 +26,34 @@
     }
   },
   {
+  "Item Name": "Howling Spear",
+  "Image": "",
+  "Hidden Effect(s)": "?",
+  "Spec. Req.": "Any",
+  "Lvl Req.": "",
+  "Location/Boss/Event": "Red Wolf Boss",
+  "Type": "Weapon",
+  "Slot": "Two Handed",
+  "Other Notes": "",
+  "EV": "",
+  "Price": "3356",
+  "Effects": [
+    "Constant Effect",
+    "Fortify Attribute Agility 5 pts",
+    "Fortify Attribute Speed 10 pts"
+  ],
+  "Stats": {
+    "Chop": "1 - 4",
+    "Slash": "1 - 4",
+    "Thrust": "9 - 45",
+    "Condition": "4100",
+    "Range": "10.8 ft",
+    "Speed": "100%",
+    "Weight": "14",
+    "Value": "3356"
+  }
+},
+  {
     "Item Name": "Necklace of Bewilderment",
     "Image": "",
     "Hidden Effect(s)": "?",
