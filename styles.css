@@ -16,6 +16,7 @@ h1 {
     left: 0;
     width: 100%;
     z-index: 2; /* Ensure it appears above other content */
+
 }
 
 .container {
@@ -216,12 +217,18 @@ body::-webkit-scrollbar-thumb:hover {
   align-items: flex-start;
   position: relative;
   z-index: 1000;
+  font-weight: normal !important; /* Forces the text to not be bold */
+}
+
+.heading-container a {
+  font-weight: normal;
 }
 
 .np-calculators-link {
   color: #d2c9b0;
   text-decoration: none;
   margin-left: 5px;
+
 }
 
 .np-calculators-link:hover {
@@ -236,6 +243,7 @@ body::-webkit-scrollbar-thumb:hover {
   color: #d2c9b0;
   text-decoration: none;
   margin-left: 5px;
+
 }
 
 .alchemie:hover {
@@ -246,6 +254,7 @@ body::-webkit-scrollbar-thumb:hover {
   color: #d2c9b0;
   text-decoration: none;
   margin-left: 5px;
+
 }
 
 .spreadsheet:hover {
@@ -256,6 +265,7 @@ body::-webkit-scrollbar-thumb:hover {
   color: #d2c9b0;
   text-decoration: none;
   margin-left: 5px;
+
 }
 
 .item_finder:hover {
@@ -266,4 +276,5 @@ body::-webkit-scrollbar-thumb:hover {
   color: #d2c9b0;
   text-decoration: none;
   margin-left: 5px;
+
 }
