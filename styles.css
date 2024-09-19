@@ -257,3 +257,13 @@ body::-webkit-scrollbar-thumb:hover {
   text-decoration: none;
   margin-left: 5px;
 }
+
+.item_finder:hover {
+  text-decoration: underline;
+}
+
+.item_finder {
+  color: #d2c9b0;
+  text-decoration: none;
+  margin-left: 5px;
+}
