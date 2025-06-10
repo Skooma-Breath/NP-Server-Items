@@ -127,5 +127,31 @@
       "Weight": "16",
       "Value": "3087"
     }
+  },
+  {
+    "Item Name": "Scurvy Peg Leg",
+    "Image": "",
+    "Hidden Effect(s)": ": FIRE",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "druid boss",
+    "Type": "Blunt Weapon, Two Handed",
+    "Slot": "Weapon",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "620",
+    "Effects": [
+      "Constant Effect",
+      "Oi Baga has taag cet auy sae te"
+    ],
+    "Stats": {
+      "Chop": "10 - 14",
+      "Slash": "6 - 8",
+      "Thrust": "4 - 6",
+      "Condition": "550/550",
+      "Range": "6 ft",
+      "Speed": "150%",
+      "Value": "620"
+    }
   }
 ]
