@@ -153,5 +153,33 @@
       "Speed": "150%",
       "Value": "620"
     }
+  },
+  {
+    "Item Name": "Book of Myths",
+    "Image": "",
+    "Hidden Effect(s)": ": poop",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "storyteller",
+    "Type": "Blunt Weapon, Two Handed",
+    "Slot": "Weapon",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Cast When Used",
+      "Fortify Attribute Luck 10 eee S eee el",
+      "Oi Baga paestraalet rs Willpower 10 pts for 65 secs on Self",
+      "Fortify Magicka 25 pts for 65 secs on Self",
+      "Resist Magicka 12% for 65 secs on Self"
+    ],
+    "Stats": {
+      "Chop": "1 - 20",
+      "Thrust": "1 - 1",
+      "Condition": "270/270",
+      "Speed": "130%",
+      "Weight": "3",
+      "Charge": "1 135/135"
+    }
   }
 ]
