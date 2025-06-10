@@ -1,0 +1,25 @@
+[
+  {
+    "Item Name": "Ancient Helm of the Unburned",
+    "Image": "",
+    "Hidden Effect(s)": ": Unknown",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "place",
+    "Type": "Armor",
+    "Slot": "Head",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "841",
+    "Effects": [
+      "Constant Effect",
+      "PDB erties Fire 40%"
+    ],
+    "Stats": {
+      "Armor rating": "31",
+      "Condition": "640/640",
+      "Weight": "8 (Heavy)",
+      "Value": "841"
+    }
+  }
+]
