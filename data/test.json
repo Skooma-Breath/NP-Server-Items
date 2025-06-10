@@ -103,5 +103,29 @@
       "Speed": "130%",
       "Weight": "30"
     }
+  },
+  {
+    "Item Name": "Staff of Cinders",
+    "Image": "",
+    "Hidden Effect(s)": ": FIRE",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "druid boss",
+    "Type": "Blunt Weapon, Two Handed",
+    "Slot": "Weapon",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "3087",
+    "Effects": [],
+    "Stats": {
+      "Chop": "2 - 14",
+      "Slash": "3 - 14",
+      "Thrust": "1 - 8",
+      "Condition": "900/900",
+      "Range": "10.8 ft",
+      "Speed": "175%",
+      "Weight": "16",
+      "Value": "3087"
+    }
   }
 ]
