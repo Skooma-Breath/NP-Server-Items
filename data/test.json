@@ -181,5 +181,34 @@
       "Weight": "3",
       "Charge": "1 135/135"
     }
+  },
+  {
+    "Item Name": "Steel Battle3axe of Fiery Souls",
+    "Image": "",
+    "Hidden Effect(s)": ": poop",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "turd",
+    "Type": "Axe, Two Handed",
+    "Slot": "Weapon",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "320",
+    "Effects": [
+      "Cast When Strikes",
+      "Peete) mee T. oe eel aa!",
+      "1) Bates Damage 10 pts for 1 sec on Touch",
+      "DI Weakness to Fire 10% for 15 secs on Touch"
+    ],
+    "Stats": {
+      "Chop": "1 - 36",
+      "Slash": "1 - 27",
+      "Thrust": "1-4",
+      "Range": "6 ft",
+      "Speed": "100%",
+      "Weight": "30",
+      "Value": "320",
+      "Charge": "[ 1000/1000"
+    }
   }
 ]
