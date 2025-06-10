@@ -210,5 +210,34 @@
       "Value": "320",
       "Charge": "[ 1000/1000"
     }
+  },
+  {
+    "Item Name": "Steel Battleaxe of Fiery Souls",
+    "Image": "",
+    "Hidden Effect(s)": ": poop",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "turd",
+    "Type": "Axe, Two Handed",
+    "Slot": "Weapon",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "320",
+    "Effects": [
+      "Cast When Strikes",
+      "Boultrap for 5 secs on Touch",
+      "ufirc Damage 10 pts for 1 sec on Touch",
+      "u_] Weakness to Fire 10% for 15 secs on Touch"
+    ],
+    "Stats": {
+      "Chop": "1 - 36",
+      "Slash": "1 - 27",
+      "Condition": "1800/1800",
+      "Range": "6 ft",
+      "Speed": "100%",
+      "Weight": "30",
+      "Value": "320",
+      "Charge": "[ 1000/1000"
+    }
   }
 ]
