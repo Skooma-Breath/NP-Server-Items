@@ -79,5 +79,29 @@
       "Value": "1222)",
       "Charge": "[ 30/30"
     }
+  },
+  {
+    "Item Name": "Moss Covered Mace",
+    "Image": "",
+    "Hidden Effect(s)": ": Unknown",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "a place",
+    "Type": "Blunt Weapon, One Handed",
+    "Slot": "Weapon",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "bases pace amare ad",
+      "COP eeates Magicka 40 pts"
+    ],
+    "Stats": {
+      "Chop": "8 - 46",
+      "Condition": "4500/4500",
+      "Speed": "130%",
+      "Weight": "30"
+    }
   }
 ]
