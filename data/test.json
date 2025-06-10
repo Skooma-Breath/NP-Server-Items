@@ -21,5 +21,33 @@
       "Weight": "8 (Heavy)",
       "Value": "841"
     }
+  },
+  {
+    "Item Name": "Book of Sages [No Trade]",
+    "Image": "",
+    "Hidden Effect(s)": ": Unknown",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Storyteller",
+    "Type": "Blunt Weapon, One Handed",
+    "Slot": "Weapon",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Cast When Strikes",
+      "Constant Effect",
+      "Reta aes eat Sashes Ce oe te Ld",
+      "Fortify Magicka 25 pts for 65 secs on Self",
+      "Resise Magicka 12% for 65 secs on Self",
+      "(on iY t+ -7s A FJ) 6 >"
+    ],
+    "Stats": {
+      "Chop": "1 - 20",
+      "Slash": "1-1",
+      "Thrust": "1-1",
+      "Condition": "270/270",
+      "Speed": "130%"
+    }
   }
 ]
