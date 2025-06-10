@@ -49,5 +49,35 @@
       "Condition": "270/270",
       "Speed": "130%"
     }
+  },
+  {
+    "Item Name": "Whitefang",
+    "Image": "",
+    "Hidden Effect(s)": ": Unknown",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Joobmass",
+    "Type": "Long Blade, Two Handed",
+    "Slot": "Weapon",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "1222)",
+    "Effects": [
+      "Cast When Used",
+      "El Lighc 35 pts for 30 secs on Target",
+      "erred lam eee ee Xa",
+      "OR as stacey ae ese Sa"
+    ],
+    "Stats": {
+      "Type": "Long Blade, Two Handed",
+      "Chop": "1 - 40",
+      "Slash": "1 - 25",
+      "Thrust": "1 - 18",
+      "Range": "6 ft",
+      "Speed": "125%",
+      "Weight": "30",
+      "Value": "1222)",
+      "Charge": "[ 30/30"
+    }
   }
 ]
