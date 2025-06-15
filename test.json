@@ -1304,5 +1304,35 @@
       "Speed": "135%",
       "Weight": "70"
     }
+  },
+  {
+    "Item Name": "Tidal Dagger",
+    "Image": "test_images/Tidal Dagger.png",
+    "Hidden Effect(s)": "unknown",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Grazelands Fishing Crate",
+    "Type": "Dagger",
+    "Slot": "weapon",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "4800",
+    "Effects": [
+      "Fortify Attribute Agility 14 pts",
+      "Fortify Attribute Strength 7 pts",
+      "Fortify Health 25 pts",
+      "Fortify Magicka 20 pts",
+      "Resist Fire 8%",
+      "Resist Shock 4%"
+    ],
+    "Stats": {
+      "Chop": "5 - 18",
+      "Slash": "5 - 18",
+      "Thrust": "5 - 14",
+      "Condition": "550/550",
+      "Range": "6 ft",
+      "Speed": "250%",
+      "Weight": "1.8"
+    }
   }
 ]
