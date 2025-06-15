@@ -1141,5 +1141,28 @@
     "Stats": {
       "Weight": "0.5"
     }
+  },
+  {
+    "Item Name": "Nightstrider Belt",
+    "Image": "test_images/Nightstrider Belt.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Fishing [Jagged Reef Crate] - Sheogorad",
+    "Type": "clothing",
+    "Slot": "belt",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "1500",
+    "Effects": [
+      "Fortify Skill Short Blade 25 pts",
+      "Fortify Skill Marksmen 25 pts",
+      "Fortify Skill Athletics 20 pts",
+      "Fortify Skill Acrobatics 20 pts",
+      "Fortify Health 85 pts"
+    ],
+    "Stats": {
+      "Weight": "1"
+    }
   }
 ]
