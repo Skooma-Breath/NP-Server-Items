@@ -55,5 +55,22 @@
       "Speed": "135%",
       "Weight": "70"
     }
+  },
+  {
+    "Item Name": "Pro Left/Right Fishing Glove",
+    "Image": "",
+    "Hidden Effect(s)": "Fishing Benefits (quicker reel-times?)",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Craftable, Recipe found in Crate from fishing",
+    "Type": "Clothing",
+    "Slot": "Right Glove",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "12",
+    "Effects": [],
+    "Stats": {
+      "Weight": "1"
+    }
   }
 ]
