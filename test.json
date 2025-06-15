@@ -768,5 +768,22 @@
     "Stats": {
       "Weight": "1"
     }
+  },
+  {
+    "Item Name": "Basic Fishing Gloves Recipe",
+    "Image": "test_images/Basic Fishing Gloves Recipe.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Message in a Bottle",
+    "Type": "Recipe",
+    "Slot": "Gloves",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Weight": "01"
+    }
   }
 ]
