@@ -252,5 +252,20 @@
     "Stats": {
       "Weight": "2"
     }
+  },
+  {
+    "Item Name": "Redware Lamp",
+    "Image": "test_images/Redware Lamp.png",
+    "Hidden Effect(s)": "None",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Heart's Day event",
+    "Type": "Light",
+    "Slot": "torch/lamp",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {}
   }
 ]
