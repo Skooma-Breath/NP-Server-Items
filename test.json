@@ -1057,5 +1057,27 @@
       "Learning Unlocks Recipe(s): Advanced Fishing Gloves"
     ],
     "Stats": {}
+  },
+  {
+    "Item Name": "Tidal Choker",
+    "Image": "test_images/Tidal Choker.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Fishing Crates(Grazelands)",
+    "Type": "clothing",
+    "Slot": "amulet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "2400",
+    "Effects": [
+      "Fortify Attribute Intelligence 20 pts",
+      "Fortify Magicka 17 pts",
+      "Resist Magicka 2%\"",
+      "Final Summary: The image presents two distinct sections. The top section depicts a circular emblem on a dark backdrop, while the bottom section lists the attributes and values of a fictional item named \"T tidal Choker.\" It describes the item's weight, value, constant effect, attribute intelligence points, magicka points, and resistance percentage."
+    ],
+    "Stats": {
+      "Weight": "1"
+    }
   }
 ]
