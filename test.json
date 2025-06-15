@@ -1,1 +1,31 @@
-[]
+[
+  {
+    "Item Name": "Murk Claw Spear [Lv60 Combat/Stealth]",
+    "Image": "",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "Combat/Stealth",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "",
+    "Type": "spear",
+    "Slot": "weapon",
+    "Other Notes": "smells like shit",
+    "EV": "69",
+    "Price": "10738",
+    "Effects": [
+      "Fortify Skill Athletics 28 pts",
+      "Fortify Skill Spear 24 pts",
+      "Fortify Attribute Agility 16 pts",
+      "Resist Shock 15%",
+      "Fortify Health 130 pts"
+    ],
+    "Stats": {
+      "Chop": "18 - 26",
+      "Slash": "18 - 26",
+      "Thrust": "32 - 76",
+      "Condition": "6450/6450",
+      "Range": "10.5 ft.",
+      "Speed": "125%",
+      "Weight": "8"
+    }
+  }
+]
