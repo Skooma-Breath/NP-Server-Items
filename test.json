@@ -196,5 +196,23 @@
       "Weight": "15",
       "Charge": "500/500"
     }
+  },
+  {
+    "Item Name": "Jagged Crown",
+    "Image": "test_images/Jagged Crown.png",
+    "Hidden Effect(s)": "Thorns Damage, around 7 pts. Thanks Dropper",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Skyrim Loot Cache",
+    "Type": "Heavy Armor",
+    "Slot": "Helmet",
+    "Other Notes": "Very rare, (purple); Nordic Mail Helmet skin",
+    "EV": "",
+    "Price": "5000",
+    "Effects": [],
+    "Stats": {
+      "Armor Rating": "136",
+      "Condition": "1050/1050"
+    }
   }
 ]
