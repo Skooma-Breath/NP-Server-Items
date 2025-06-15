@@ -480,5 +480,31 @@
       "Weight": "32",
       "Constant": "800"
     }
+  },
+  {
+    "Item Name": "Fishbone Tunic",
+    "Image": "test_images/Fishbone Tunic.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Crate, obtained by fishing in Khuul [Stonehewn Crate]",
+    "Type": "Chest Armor (light)",
+    "Slot": "Cuirass",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "7800",
+    "Effects": [
+      "Weight: 18 (Light)",
+      "Fortify Attribute Strength 15 pts",
+      "Fortify Attribute Endurance 4 pts",
+      "Fortify Health 35 pts",
+      "Fortify Magicka 13 pts",
+      "Resist Common Disease 2%",
+      "Resist Frost 10%"
+    ],
+    "Stats": {
+      "Armor Rating": "66",
+      "Condition": "1200/1200"
+    }
   }
 ]
