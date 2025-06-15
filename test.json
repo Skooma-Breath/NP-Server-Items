@@ -654,5 +654,29 @@
       "Penetration": "175%",
       "Weight": "7.2"
     }
+  },
+  {
+    "Item Name": "Cotidal Garb",
+    "Image": "test_images/Cotidal Garb.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Fishing, Stonehewn Crate",
+    "Type": "Clothing",
+    "Slot": "shirt",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "2500",
+    "Effects": [
+      "Fortify Attribute Speech 5 pts",
+      "Fortify Attribute Intelligence 14 pts",
+      "Fortify Health 20 pts",
+      "Fortify Magicka 65 pts",
+      "Resist Fire 5%",
+      "Resist Shock 10%"
+    ],
+    "Stats": {
+      "Weight": "1"
+    }
   }
 ]
