@@ -72,5 +72,25 @@
       "Weight": "24",
       "Charge": "300/300"
     }
+  },
+  {
+    "Item Name": "Helm of Yngol",
+    "Image": "test_images/Helm of Yngol.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Skyrim Loot Cache",
+    "Type": "Heavy Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Resist Frost 30%"
+    ],
+    "Stats": {
+      "Armor Rating": "2",
+      "Condition": "800/800"
+    }
   }
 ]
