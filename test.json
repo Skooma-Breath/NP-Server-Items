@@ -848,5 +848,22 @@
       "Armor Rating": "96",
       "Condition": "450/450"
     }
+  },
+  {
+    "Item Name": "Rusty Broken Dwemer Blade Pieces (x2)",
+    "Image": "test_images/Rusty Broken Dwemer Blade Pieces (x2).png",
+    "Hidden Effect(s)": "Creates a hype",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Crate, obtained by fishing in West Gash (Stonehewn Crate)",
+    "Type": "Hype",
+    "Slot": "",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "5",
+    "Effects": [],
+    "Stats": {
+      "Weight": "1"
+    }
   }
 ]
