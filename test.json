@@ -402,5 +402,28 @@
     "Stats": {
       "Weight": "1"
     }
+  },
+  {
+    "Item Name": "Eagles Fury",
+    "Image": "test_images/Eagles Fury.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Skeleton Camp (only from Skeleton Sharpshooters)",
+    "Type": "Bow",
+    "Slot": "Weapon",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "7600",
+    "Effects": [
+      "Type: Marksman",
+      "Fortify Attribute Agility 45 pts"
+    ],
+    "Stats": {
+      "Attack": "5 -45",
+      "Condition": "125/1250",
+      "Speed": "100%",
+      "Weight": "24"
+    }
   }
 ]
