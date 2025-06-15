@@ -605,5 +605,28 @@
       "Speed": "150%",
       "Weight": "10.8"
     }
+  },
+  {
+    "Item Name": "Bog Rune Chestplate",
+    "Image": "test_images/Bog Rune Chestplate.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "fish crate (dagon fel / sheogorad)",
+    "Type": "medium armor",
+    "Slot": "cuirass",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "3200",
+    "Effects": [
+      "Fortify Attribute Willpower 15 pts",
+      "Fortify Attribute Personality 15 pts",
+      "Fortify Skill Medium Armor 10 pts",
+      "Fortify Magicika 25 pts"
+    ],
+    "Stats": {
+      "Armor Rating": "113",
+      "Condition": "1200/1200"
+    }
   }
 ]
