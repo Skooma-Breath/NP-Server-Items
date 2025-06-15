@@ -999,5 +999,26 @@
       "Weight": "15",
       "Charge": "120/120"
     }
+  },
+  {
+    "Item Name": "Bogwater Robe",
+    "Image": "test_images/Bogwater Robe.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Fishing Crates",
+    "Type": "clothing",
+    "Slot": "Robe",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "160",
+    "Effects": [
+      "Fortify Attribute Intelligence 14 pts",
+      "Fortify Attribute Agility 14 pts",
+      "Fortify Magicka 35 pts"
+    ],
+    "Stats": {
+      "Weight": "3"
+    }
   }
 ]
