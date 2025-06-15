@@ -808,5 +808,22 @@
       "Armor Rating": "108",
       "Condition": "60/600"
     }
+  },
+  {
+    "Item Name": "[Tradeskill Fishing Recipe]: Dwemer Surge Protector",
+    "Image": "test_images/_Tradeskill Fishing Recipe__ Dwemer Surge Protector.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Oceanic Crate(Fishing in wilderness)",
+    "Type": "Recipe",
+    "Slot": "",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Weight": "0.1"
+    }
   }
 ]
