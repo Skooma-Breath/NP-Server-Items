@@ -141,5 +141,32 @@
     "Stats": {
       "Charge": "3000/300"
     }
+  },
+  {
+    "Item Name": "Red Eagle's Fury",
+    "Image": "test_images/Red Eagle's Fury.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Skyrim Loot Cache",
+    "Type": "One-handed Longsword",
+    "Slot": "weapon",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "197",
+    "Effects": [
+      "Fire Damage 5 pts for 1 sec on Touch",
+      "Weakness to Fire 10% for 15 secs on Touch"
+    ],
+    "Stats": {
+      "Chop": "4 - 16",
+      "Slash": "1 - 16",
+      "Thrust": "1 - 16",
+      "Consonant": "800/800",
+      "Range": "6 ft.",
+      "Speed": "125%",
+      "Weight": "12",
+      "Charge": "250/250"
+    }
   }
 ]
