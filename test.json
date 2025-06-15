@@ -1,5 +1,4 @@
 [
- 
   {
     "Item Name": "Whitefang",
     "Image": "test_images/Whitefang.png",
@@ -26,6 +25,26 @@
       "Speed": "125%",
       "Weight": "30",
       "Charge": "30/30"
+    }
+  },
+  {
+    "Item Name": "Ring of the Beast",
+    "Image": "test_images/Ring of the Beast.png",
+    "Hidden Effect(s)": "None",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Skyrim Crates (Rare)",
+    "Type": "Ring",
+    "Slot": "Ring",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "1927",
+    "Effects": [
+      "Fortify Health 100 pts",
+      "Fortify Skill Hand-to-hand 20 pts"
+    ],
+    "Stats": {
+      "Weight": "0.1"
     }
   }
 ]
