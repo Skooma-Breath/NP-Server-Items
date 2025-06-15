@@ -166,5 +166,27 @@
       "Speed": "150%",
       "Weight": "5"
     }
+  },
+  {
+    "Item Name": "Flame Etched Chestguard",
+    "Image": "test_images/Flame Etched Chestguard.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "",
+    "Type": "Heavy Armor",
+    "Slot": "Cuirass",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "7648",
+    "Effects": [
+      "Resist Fire 15%",
+      "Fortify Attribute Endurance 20 pts",
+      "Fortify Attribute Strength 17 pts"
+    ],
+    "Stats": {
+      "Armor Rating": "52",
+      "Condition": "1250/1250"
+    }
   }
 ]
