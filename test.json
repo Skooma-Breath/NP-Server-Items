@@ -335,5 +335,29 @@
     "Stats": {
       "Weight": "0.1"
     }
+  },
+  {
+    "Item Name": "Chromatic Scale Ring",
+    "Image": "test_images/Chromatic Scale Ring.png",
+    "Hidden Effect(s)": "Probably None (testing will follow)",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "",
+    "Type": "Ring",
+    "Slot": "Ring",
+    "Other Notes": "recipe costs 5 Grandmaster Marks",
+    "EV": "",
+    "Price": "3440",
+    "Effects": [
+      "Forify Attribute Endurance 25 pts",
+      "Resist Fire 11%",
+      "Resist Frost 11%",
+      "Resist Shock 11%",
+      "Resist Magicks 11%",
+      "Resist Poison 11%"
+    ],
+    "Stats": {
+      "Weight": "01"
+    }
   }
 ]
