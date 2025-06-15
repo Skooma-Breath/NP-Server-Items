@@ -1102,5 +1102,27 @@
       "Armor Rating": "108",
       "Condition": "600/600"
     }
+  },
+  {
+    "Item Name": "Eel Skin Belt",
+    "Image": "test_images/Eel Skin Belt.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Ascadian isles fishing crates",
+    "Type": "clothing",
+    "Slot": "belt",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "1130",
+    "Effects": [
+      "Fortify Attribute Endurance 10 pts",
+      "Fortify Attribute Intelligence 15 pts",
+      "Fortify Magicka 45 pts",
+      "Resist Common Disease 10%"
+    ],
+    "Stats": {
+      "Weight": "1"
+    }
   }
 ]
