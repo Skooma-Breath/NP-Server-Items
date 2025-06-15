@@ -865,5 +865,28 @@
     "Stats": {
       "Weight": "1"
     }
+  },
+  {
+    "Item Name": "Splintered Oar",
+    "Image": "test_images/Splintered Oar.png",
+    "Hidden Effect(s)": "unknown",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "wilderness sheogorath region, [Jagged Rust Crate]",
+    "Type": "Blunt Weapon, Two Handed",
+    "Slot": "weapon",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Chop": "2 - 9",
+      "Slash": "3 - 10",
+      "Thrust": "1 - 7",
+      "Condition": "255/255",
+      "Range": "11.4 ft",
+      "Speed": "175%",
+      "Weight": "10"
+    }
   }
 ]
