@@ -208,5 +208,33 @@
       "Armor Rating": "31",
       "Condition": "64/640"
     }
+  },
+  {
+    "Item Name": "Whitefang",
+    "Image": "test_images/Whitefang.png",
+    "Hidden Effect(s)": "Equipping the sword summons Wolf Fang, a snow wolf spirit to fight by your side using a frost spell (15-30 pts for 1 sec)",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Jiubsmas",
+    "Type": "Two-handed Longsword",
+    "Slot": "Weapon",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "1221",
+    "Effects": [
+      "Light 35 pts for 30 secs on Target",
+      "Paralyze for 1 sec on Target",
+      "Fortify Attack 50 pts for 30 secs on Self"
+    ],
+    "Stats": {
+      "Chop": "1 - 40",
+      "Slash": "1 - 25",
+      "Thrust": "1 - 18",
+      "Condition": "6400/6400",
+      "Range": "6 ft.",
+      "Speed": "125%",
+      "Weight": "30",
+      "Charge": "30/30"
+    }
   }
 ]
