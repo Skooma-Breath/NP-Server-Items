@@ -1334,5 +1334,27 @@
       "Speed": "250%",
       "Weight": "1.8"
     }
+  },
+  {
+    "Item Name": "Aegisbane",
+    "Image": "test_images/Aegisbane.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Skyrim Loot Caches",
+    "Type": "Two-handed Hammer",
+    "Slot": "weapon",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Frost Damage 5 pts for 1 sec on Touch",
+      "Damage Health 5 pts for 1 sec on Touch",
+      "Damage Fatigue 5 pts for 1 sec on Touch",
+      "Drain Attribute Speed 50 pts for 3 secs on Touch"
+    ],
+    "Stats": {
+      "Charge": "200/200"
+    }
   }
 ]
