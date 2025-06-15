@@ -27,5 +27,33 @@
       "Speed": "125%",
       "Weight": "8"
     }
+  },
+  {
+    "Item Name": "Frozenmorn [Lv60 Combat]",
+    "Image": "",
+    "Hidden Effect(s)": "occasionally procs 450 Frost DMG (And it most certainly hungers)",
+    "Spec. Req.": "Combat",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Fishing Crates (Solstheim)",
+    "Type": "Sword (2h)",
+    "Slot": "Weapon",
+    "Other Notes": "highest raw damage weapon",
+    "EV": "",
+    "Price": "14400",
+    "Effects": [
+      "Fortify Attribute Agility 10 pts",
+      "Fortify Skill Long Blade 25 pts",
+      "Fortify Skill Heavy Armor 15 pts",
+      "Fortify Health 55 pts"
+    ],
+    "Stats": {
+      "Chop": "8 - 90",
+      "Slash": "8 - 95",
+      "Thrust": "9 - 90",
+      "Condition": "750/750",
+      "Range": "7.2 ft.",
+      "Speed": "135%",
+      "Weight": "70"
+    }
   }
 ]
