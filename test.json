@@ -267,5 +267,27 @@
     "Price": "",
     "Effects": [],
     "Stats": {}
+  },
+  {
+    "Item Name": "Robe of Awe",
+    "Image": "test_images/Robe of Awe.png",
+    "Hidden Effect(s)": "none",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "",
+    "Type": "Clothing",
+    "Slot": "Robe",
+    "Other Notes": "extremely rare",
+    "EV": "",
+    "Price": "6760",
+    "Effects": [
+      "Fortify Attribute Intelligence 30 pts",
+      "Fortify Attribute Personality 15 pts",
+      "Fortify Magicka 25 pts",
+      "Resist Magicka 15%"
+    ],
+    "Stats": {
+      "Weight": "3"
+    }
   }
 ]
