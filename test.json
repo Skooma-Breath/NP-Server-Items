@@ -46,5 +46,31 @@
     "Stats": {
       "Weight": "0.1"
     }
+  },
+  {
+    "Item Name": "Nightingale Bow [No Trade]",
+    "Image": "test_images/Nightingale Bow _No Trade_.png",
+    "Hidden Effect(s)": "None",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Skyrim Crates (Rare)",
+    "Type": "Bow",
+    "Slot": "Weapon",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Type: Marksmen",
+      "Frost Damage 30 pts for 1 sec on Target",
+      "Shock Damage 15 pts for 1 sec on Target",
+      "Drain Attribute Speed 50 pts for 3 secs on Target"
+    ],
+    "Stats": {
+      "Attack": "2-50",
+      "Condition": "1000/1000",
+      "Speed": "100%",
+      "Weight": "24",
+      "Charge": "300/300"
+    }
   }
 ]
