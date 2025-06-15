@@ -303,24 +303,17 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Damage Health 25 pts for 1 see on Touch",
-      "You deal 61 physical damage.",
-      "You deal 1 physical damage.",
-      "You deal 61 physical damage.",
-      "Your Champion's Chaos deals 6 fire damage.",
-      "Your Champion's Chaos deals 25 frost damage.",
-      "Your Champion's Chaos deals 25 shock damage.",
-      "Shane Allen (5) was killed by Blighted Nix-Hound."
+      "Damage Health 25 pts for 1 sec on Touch"
     ],
     "Stats": {
       "Chop": "1 - 32",
       "Slash": "1 - 27",
-      "Thrust": "1-2",
-      "Condition": "299/3000",
-      "Range": "0 ft",
+      "Thrust": "1 - 2",
+      "Condition": "2995/3000",
+      "Range": "9 ft",
       "Speed": "100%",
       "Weight": "27",
-      "Armour": "35"
+      "Charge": "52/52"
     }
   }
 ]
