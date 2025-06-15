@@ -520,7 +520,6 @@
     "EV": "",
     "Price": "4890",
     "Effects": [
-      "Weight: 2 (Light)",
       "Fortify Attribute Strength 18 pts",
       "Fortify Attribute Endurance 4 pts",
       "B Fortify Health 42 pts",
@@ -530,7 +529,8 @@
     ],
     "Stats": {
       "Armor Rating": "14",
-      "Condition": "100/100"
+      "Condition": "100/100",
+      "Weight": "2 (Light)",
     }
   }
 ]
