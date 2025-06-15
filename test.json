@@ -1164,5 +1164,28 @@
     "Stats": {
       "Weight": "1"
     }
+  },
+  {
+    "Item Name": "Alit Tooth Necklace",
+    "Image": "test_images/Alit Tooth Necklace.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Ashwood Crates (Fishing in Ashlands)",
+    "Type": "clothing",
+    "Slot": "amulet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "1560",
+    "Effects": [
+      "Fortify Attribute Agility 8 pts",
+      "Fortify Attribute Speed 8 pts",
+      "Fortify Attribute Willpower 8 pts",
+      "Fortify Health 25 pts",
+      "Fortify Magicka 25 pts"
+    ],
+    "Stats": {
+      "Weight": "1"
+    }
   }
 ]
