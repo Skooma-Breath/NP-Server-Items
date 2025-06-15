@@ -747,5 +747,26 @@
       "Speed": "150%",
       "Weight": "5"
     }
+  },
+  {
+    "Item Name": "Swampweed Belt",
+    "Image": "test_images/Swampweed Belt.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Fishing Crate (Bitter Coast)",
+    "Type": "clothing",
+    "Slot": "belt",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "1480",
+    "Effects": [
+      "Fortify Attribute Endurance 15 pts",
+      "Fortify Attribute Willpower 6 pts",
+      "Fortify Magicka 5 pts"
+    ],
+    "Stats": {
+      "Weight": "1"
+    }
   }
 ]
