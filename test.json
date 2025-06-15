@@ -1354,7 +1354,8 @@
       "Drain Attribute Speed 50 pts for 3 secs on Touch"
     ],
     "Stats": {
-      "Charge": "200/200"
+      "Charge": "200/200",
+      "weight": "30"
     }
   }
 ]
