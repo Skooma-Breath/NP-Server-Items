@@ -214,5 +214,26 @@
       "Armor Rating": "136",
       "Condition": "1050/1050"
     }
+  },
+  {
+    "Item Name": "Movarth's Boots",
+    "Image": "test_images/Movarth's Boots.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Skyrim Loot Cache",
+    "Type": "Light Armor",
+    "Slot": "Boots",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "792",
+    "Effects": [
+      "Weight: 6 (Light)",
+      "Fortify Skill Sneak 15 pts"
+    ],
+    "Stats": {
+      "Armor Rating": "8",
+      "Condition": "220/220"
+    }
   }
 ]
