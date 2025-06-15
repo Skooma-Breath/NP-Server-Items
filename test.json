@@ -1211,5 +1211,27 @@
     "Stats": {
       "Weight": "3"
     }
+  },
+  {
+    "Item Name": "Murky Fungus Robe",
+    "Image": "test_images/Murky Fungus Robe.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Fishing Crates (Muck Covered)",
+    "Type": "clothing",
+    "Slot": "robe",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "1800",
+    "Effects": [
+      "Fortify Attribute Endurance 5 pts",
+      "Fortify Attribute Speed 12 pts",
+      "Fortify Attribute Intelligence 8 pts",
+      "Fortify Magicka 35 pts"
+    ],
+    "Stats": {
+      "Weight": "3"
+    }
   }
 ]
