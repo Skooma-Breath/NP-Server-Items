@@ -678,5 +678,25 @@
     "Stats": {
       "Weight": "1"
     }
+  },
+  {
+    "Item Name": "Seafarer's Staff",
+    "Image": "test_images/Seafarer's Staff.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Fishing, Azuras Coast",
+    "Type": "Blunt, two-handed",
+    "Slot": "weapon",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Fortify Attribute Intelligence 15 pts",
+      "Fortify Attribute Personality 8 pts",
+      "Fortify Skill Destruction 12 pts",
+      "Fortify Magicka 55 pts"
+    ],
+    "Stats": {}
   }
 ]
