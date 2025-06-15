@@ -289,6 +289,31 @@
     "Stats": {
       "Weight": "3"
     }
+  },
+  {
+    "Item Name": "Champion's Cudgel",
+    "Image": "test_images/Champion's Cudgel.png",
+    "Hidden Effect(s)": "Champion's Chaos [Chance to deal 25 fire/frost/shock Damage (resistances apply)]",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "",
+    "Type": "2h Hammer",
+    "Slot": "Weapon",
+    "Other Notes": "Extremely Rare (orange/legendary)",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Damage Health 25 pts for 1 sec on Touch"
+    ],
+    "Stats": {
+      "Chop": "1 - 32",
+      "Slash": "1 - 27",
+      "Thrust": "1 - 2",
+      "Condition": "2995/3000",
+      "Range": "9 ft",
+      "Speed": "100%",
+      "Weight": "27",
+      "Charge": "52/52"
+    }
   }
- 
 ]
