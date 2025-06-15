@@ -89,5 +89,30 @@
       "<td colspan=\"2\">Damage Fatigue 20 pts for 1 sec on Touch</td>"
     ],
     "Stats": {}
+  },
+  {
+    "Item Name": "Staff of Cinders",
+    "Image": "",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "",
+    "Type": "Blunt Weapon, Two Handed",
+    "Slot": "Weapon",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "3087",
+    "Effects": [
+      "Resist Fire 20%"
+    ],
+    "Stats": {
+      "Chop": "2 - 14",
+      "Slash": "3 - 14",
+      "Thrust": "1 - 8",
+      "Condition": "90/900",
+      "Range": "10.8 ft.",
+      "Speed": "175%",
+      "Weight": "16"
+    }
   }
 ]
