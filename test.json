@@ -1124,5 +1124,22 @@
     "Stats": {
       "Weight": "1"
     }
+  },
+  {
+    "Item Name": "Wooden Inscribed \"There Is No\" Spoon",
+    "Image": "test_images/Wooden Inscribed _There Is No_ Spoon.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "West Gash fishing [Stonehewn Crate]",
+    "Type": "Meme",
+    "Slot": "",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "1",
+    "Effects": [],
+    "Stats": {
+      "Weight": "0.5"
+    }
   }
 ]
