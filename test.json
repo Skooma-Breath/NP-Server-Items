@@ -449,5 +449,36 @@
       "Weight": "7",
       "Charge": "55/55"
     }
+  },
+  {
+    "Item Name": "Cotidal Hammer",
+    "Image": "test_images/Cotidal Hammer.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Frost Crate, obtained by fishing in Solstheim",
+    "Type": "Blunt, one-handed",
+    "Slot": "weapon",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "6800",
+    "Effects": [
+      "Fortify Attribute Strength 13 pts",
+      "Fortify Attribute Agility 4 pts",
+      "Fortify Health 42 pts",
+      "Fortify Magicka 16 pts",
+      "Resist Fire 2%",
+      "Resist Magicka 8%"
+    ],
+    "Stats": {
+      "Chop": "1 - 30",
+      "Slash": "1 - 23",
+      "Thrust": "1 - 3",
+      "Condition": "3000/3000",
+      "Range": "6 ft",
+      "Speed": "100%",
+      "Weight": "32",
+      "Constant": "800"
+    }
   }
 ]
