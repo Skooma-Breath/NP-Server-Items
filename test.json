@@ -92,5 +92,33 @@
       "Armor Rating": "2",
       "Condition": "800/800"
     }
+  },
+  {
+    "Item Name": "Dawnbreaker [No Trade]",
+    "Image": "test_images/Dawnbreaker _No Trade_.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Skyrim Loot Cache",
+    "Type": "Two-handed Longsword (Uses the Chrysamere model)",
+    "Slot": "Weapon",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Fire Damage 10 pts for 1 sec on Touch",
+      "Burn Damage 10 pts for 1 sec on Touch",
+      "Turn Undead 25 pts for 30 secs in 15 ft on Touch"
+    ],
+    "Stats": {
+      "Chop": "10 - 65",
+      "Blash": "10 - 50",
+      "Thrust": "5 - 25",
+      "Condition": "6000/6000",
+      "Range": "6 ft.",
+      "Speed": "12%",
+      "Weight": "50",
+      "Charge": "500/500"
+    }
   }
 ]
