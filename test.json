@@ -1040,5 +1040,22 @@
     "Stats": {
       "Weight": "3"
     }
+  },
+  {
+    "Item Name": "[Tradeskill Tailor Recipe]: Advanced Fishing Gloves [No Trade]",
+    "Image": "test_images/_Tradeskill Tailor Recipe__ Advanced Fishing Gloves _No Trade_.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Message in a Bottle",
+    "Type": "Recipe",
+    "Slot": "Gloves",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Learning Unlocks Recipe(s): Advanced Fishing Gloves"
+    ],
+    "Stats": {}
   }
 ]
