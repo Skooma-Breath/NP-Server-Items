@@ -785,5 +785,28 @@
     "Stats": {
       "Weight": "01"
     }
+  },
+  {
+    "Item Name": "Bog Rune Right Pauldron",
+    "Image": "test_images/Bog Rune Right Pauldron.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Crate, obtained by fishing in West Gash (Stonehewn Crate)",
+    "Type": "Pauldron",
+    "Slot": "Right Pauldron",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "3800",
+    "Effects": [
+      "Fortify Attribute Strength 20 pts",
+      "Fortify Attribute Endurance 15 pts",
+      "Fortify Skill Axe 10 pts",
+      "Fortify Health 30 pts"
+    ],
+    "Stats": {
+      "Armor Rating": "108",
+      "Condition": "60/600"
+    }
   }
 ]
