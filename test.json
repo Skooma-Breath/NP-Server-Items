@@ -315,5 +315,25 @@
       "Weight": "27",
       "Charge": "52/52"
     }
+  },
+  {
+    "Item Name": "Ring of the Erudite",
+    "Image": "test_images/Ring of the Erudite.png",
+    "Hidden Effect(s)": "None",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "",
+    "Type": "Ring",
+    "Slot": "Ring",
+    "Other Notes": "Rare (purple/epic)",
+    "EV": "",
+    "Price": "1803",
+    "Effects": [
+      "Fortify Magicka 100 prs",
+      "Restore Magika"
+    ],
+    "Stats": {
+      "Weight": "0.1"
+    }
   }
 ]
