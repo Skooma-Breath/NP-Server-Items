@@ -93,7 +93,7 @@
   {
     "Item Name": "Staff of Cinders",
     "Image": "",
-    "Hidden Effect(s)": "",
+    "Hidden Effect(s)": "rng proc fire dmg",
     "Spec. Req.": "",
     "Lvl Req.": "",
     "Location/Boss/Event": "",
