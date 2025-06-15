@@ -896,20 +896,20 @@
     "Spec. Req.": "",
     "Lvl Req.": "",
     "Location/Boss/Event": "Stonehewn Crate, got it by fishing in Khuul",
-    "Type": "Light Armor, Helmet",
-    "Slot": "helmoet",
+    "Type": "Light Armor",
+    "Slot": "helmet",
     "Other Notes": "",
     "EV": "",
     "Price": "1880",
     "Effects": [
-      "Weight: 1 (Light)",
       "Fortify Attribute Speed 15 pts",
       "Fortify Attribute Intelligence 10 pts",
       "Fortify Magicka 10 pts"
     ],
     "Stats": {
       "Armour Rating": "2",
-      "Condition": "110/110"
+      "Condition": "110/110",
+      "Weight": "10"
     }
   }
 ]
