@@ -1020,5 +1020,25 @@
     "Stats": {
       "Weight": "3"
     }
+  },
+  {
+    "Item Name": "Oaken Moss Robe",
+    "Image": "test_images/Oaken Moss Robe.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Fishing Crates",
+    "Type": "clothing",
+    "Slot": "robe",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "100",
+    "Effects": [
+      "Fortify Attribute Endurance 18 pts",
+      "Fortify Magicka 15 pts"
+    ],
+    "Stats": {
+      "Weight": "3"
+    }
   }
 ]
