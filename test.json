@@ -580,5 +580,30 @@
     "Stats": {
       "Weight": "1"
     }
+  },
+  {
+    "Item Name": "Scurvy Peg Leg",
+    "Image": "test_images/Scurvy Peg Leg.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "fishing crate",
+    "Type": "Blunt weapon",
+    "Slot": "Weapon",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "620",
+    "Effects": [
+      "Fortify Attribute Strength 20 pts"
+    ],
+    "Stats": {
+      "Chop": "10 - 14",
+      "Slash": "6 - 8",
+      "Thrust": "4 - 6",
+      "Condition": "550/550",
+      "Range": "6 ft",
+      "Speed": "150%",
+      "Weight": "10.8"
+    }
   }
 ]
