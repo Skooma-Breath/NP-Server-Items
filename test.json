@@ -698,5 +698,28 @@
       "Fortify Magicka 55 pts"
     ],
     "Stats": {}
+  },
+  {
+    "Item Name": "Mud Covered Robe",
+    "Image": "test_images/Mud Covered Robe.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Fishing, dagon fel / sheogorad",
+    "Type": "Clothing",
+    "Slot": "robe",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "1250",
+    "Effects": [
+      "Fortify Attribute Agility 5 pts",
+      "Fortify Attribute Intelligence 5 pts",
+      "Fortify Magicka 25 pts",
+      "Resist Frost 10%",
+      "Resists Fire 10%"
+    ],
+    "Stats": {
+      "Weight": "3"
+    }
   }
 ]
