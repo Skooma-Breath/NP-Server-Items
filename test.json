@@ -506,5 +506,31 @@
       "Condition": "1200/1200",
       "Weight": "18 (Light)"
     }
+  },
+  {
+    "Item Name": "Crab Shell Helm",
+    "Image": "test_images/Crab Shell Helm.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Fishing Crates",
+    "Type": "Light Armor (full helm)",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "4890",
+    "Effects": [
+      "Weight: 2 (Light)",
+      "Fortify Attribute Strength 18 pts",
+      "Fortify Attribute Endurance 4 pts",
+      "B Fortify Health 42 pts",
+      "Fortify Magicka 18 pts",
+      "Resist Poison 12%",
+      "Resist Common Disease 4%"
+    ],
+    "Stats": {
+      "Armor Rating": "14",
+      "Condition": "100/100"
+    }
   }
 ]
