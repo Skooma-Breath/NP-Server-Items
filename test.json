@@ -532,5 +532,29 @@
       "Condition": "100/100",
       "Weight": "2 (Light)"
     }
+  },
+  {
+    "Item Name": "Sea Foam Soiled Robe",
+    "Image": "test_images/Sea Foam Soiled Robe.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Fishing crates (grazelands)",
+    "Type": "Clothing",
+    "Slot": "Robe",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "160",
+    "Effects": [
+      "Fortify Attribute Endurance 3 pts",
+      "Fortify Attribute Willpower 12 pts",
+      "Fortify Health 13 pts",
+      "Fortify Magicka 35 pts",
+      "Resist Shock 3%",
+      "Resist Magika 7%"
+    ],
+    "Stats": {
+      "Weight": "3"
+    }
   }
 ]
