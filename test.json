@@ -958,5 +958,20 @@
     "Stats": {
       "Weight": "2"
     }
+  },
+  {
+    "Item Name": "Rusty Dwemer Artifact",
+    "Image": "test_images/Rusty Dwemer Artifact.png",
+    "Hidden Effect(s)": "Creates a hype",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Crate, obtained by fishing in West Gash (Stonehewn Crate, jagged reef crate)",
+    "Type": "Hype (that as well as the rusty blades prly dont do anything)",
+    "Slot": "",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {}
   }
 ]
