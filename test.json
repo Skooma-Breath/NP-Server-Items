@@ -556,5 +556,29 @@
     "Stats": {
       "Weight": "3"
     }
+  },
+  {
+    "Item Name": "Oceanborn belt",
+    "Image": "test_images/Oceanborn belt.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "fishing crate",
+    "Type": "clothing",
+    "Slot": "belt",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "1600",
+    "Effects": [
+      "Fortify Attribute Intelligence 11 pts",
+      "Fortify Attribute Personality 4 pts",
+      "Fortify Health 18 pts",
+      "Fortify Magicka 43 pts",
+      "Resist Poison 8%",
+      "Resist Fire 4%"
+    ],
+    "Stats": {
+      "Weight": "1"
+    }
   }
 ]
