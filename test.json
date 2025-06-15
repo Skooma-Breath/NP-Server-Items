@@ -628,5 +628,31 @@
       "Armor Rating": "113",
       "Condition": "1200/1200"
     }
+  },
+  {
+    "Item Name": "Driftwood Staff",
+    "Image": "test_images/Driftwood Staff.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Crate, obtained by fishing in Khuul [Stonehewn Crate]",
+    "Type": "Staff",
+    "Slot": "weapon",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "520",
+    "Effects": [
+      "Fortify Attribute Intelligence 18 pts",
+      "Fortify Magicka 20 pts"
+    ],
+    "Stats": {
+      "Chop": "2 - 10",
+      "Slash": "3 - 10",
+      "Thrust": "1 - 8",
+      "Condition": "300/300",
+      "Range": "9 ft.",
+      "Penetration": "175%",
+      "Weight": "7.2"
+    }
   }
 ]
