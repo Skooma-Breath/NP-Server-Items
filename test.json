@@ -235,5 +235,22 @@
       "Armor Rating": "8",
       "Condition": "220/220"
     }
+  },
+  {
+    "Item Name": "The Lovers Vest",
+    "Image": "test_images/The Lovers Vest.png",
+    "Hidden Effect(s)": "77 Enchant Value",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Heart's Day event",
+    "Type": "Clothing",
+    "Slot": "Shirt",
+    "Other Notes": "Colloquially knows as \"The Feet Lovers Vest\"; Purchased for 5 heart candy",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Weight": "2"
+    }
   }
 ]
