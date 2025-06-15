@@ -911,5 +911,28 @@
       "Condition": "110/110",
       "Weight": "10"
     }
+  },
+  {
+    "Item Name": "Bog Rune Right Bracer",
+    "Image": "test_images/Bog Rune Right Bracer.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "fishing crates (south of ebonheart)",
+    "Type": "medium armor",
+    "Slot": "right bracer",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "3800",
+    "Effects": [
+      "Fortify Attribute Strength 18 pts",
+      "Fortify Attribute Endurance 12 pts",
+      "Fortify Skill Blunt Weapon 10 pts",
+      "Fortify Health 25 pts"
+    ],
+    "Stats": {
+      "Armor Rating": "113",
+      "Condition": "450/450"
+    }
   }
 ]
