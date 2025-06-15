@@ -120,5 +120,26 @@
       "Weight": "50",
       "Charge": "500/500"
     }
+  },
+  {
+    "Item Name": "The Pale Blade",
+    "Image": "test_images/The Pale Blade.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Skyrim Loot Cache",
+    "Type": "One-handed Longsword",
+    "Slot": "weapon",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Frost Damage 25 pts for 1 sec on Touch",
+      "Demoralize Humanoid 16 pts for 30 secs on Touch",
+      "Demoralize Creature 16 pts for 30 secs on Touch"
+    ],
+    "Stats": {
+      "Charge": "3000/300"
+    }
   }
 ]
