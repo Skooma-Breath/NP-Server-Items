@@ -1187,5 +1187,29 @@
     "Stats": {
       "Weight": "1"
     }
+  },
+  {
+    "Item Name": "Eel Skin Robe",
+    "Image": "test_images/Eel Skin Robe.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Ascadian Wine Crates (Fishing in Ascadian Isles)",
+    "Type": "clothing",
+    "Slot": "robe",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "1200",
+    "Effects": [
+      "Fortify Attribute Intelligence 16 pts",
+      "Fortify Magicka 38 pts",
+      "Resist Common Disease 3%",
+      "Resist Shock 10%",
+      "Fortify Health 16 pts",
+      "Fortify Attribute Personality 4 pts"
+    ],
+    "Stats": {
+      "Weight": "3"
+    }
   }
 ]
