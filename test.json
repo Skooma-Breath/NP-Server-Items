@@ -72,5 +72,22 @@
     "Stats": {
       "Weight": "1"
     }
+  },
+  {
+    "Item Name": "The Rueful Axe",
+    "Image": "",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "",
+    "Type": "Axe, Two Handed",
+    "Slot": "Weapon",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "<td colspan=\"2\">Damage Fatigue 20 pts for 1 sec on Touch</td>"
+    ],
+    "Stats": {}
   }
 ]
