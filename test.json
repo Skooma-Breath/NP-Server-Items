@@ -188,5 +188,25 @@
       "Armor Rating": "52",
       "Condition": "1250/1250"
     }
+  },
+  {
+    "Item Name": "Ancient Helm of the Unburned",
+    "Image": "test_images/Ancient Helm of the Unburned.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "places",
+    "Type": "Heavy Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "841",
+    "Effects": [
+      "Resist Fire 40%"
+    ],
+    "Stats": {
+      "Armor Rating": "31",
+      "Condition": "64/640"
+    }
   }
 ]
