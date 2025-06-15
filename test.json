@@ -425,5 +425,29 @@
       "Speed": "100%",
       "Weight": "24"
     }
+  },
+  {
+    "Item Name": "Froki's Bow",
+    "Image": "test_images/Froki's Bow.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Skyrim Loot Cache",
+    "Type": "Bow",
+    "Slot": "weapon",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "472",
+    "Effects": [
+      "Type: Marksman",
+      "Damage Fatigue 10 pts for 1 sec on Target"
+    ],
+    "Stats": {
+      "Attack": "1 - 30",
+      "Condition": "700/700",
+      "Speed": "100%",
+      "Weight": "7",
+      "Charge": "55/55"
+    }
   }
 ]
