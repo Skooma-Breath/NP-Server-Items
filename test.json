@@ -359,5 +359,28 @@
     "Stats": {
       "Weight": "01"
     }
+  },
+  {
+    "Item Name": "Bloodcursed Ebony Arrow [No Trade]",
+    "Image": "test_images/Bloodcursed Ebony Arrow _No Trade_.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Skyrim Loot Cache",
+    "Type": "Arrow",
+    "Slot": "Ammo",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Type: Marksmen",
+      "Dispel 100% on Touch",
+      "Silence for 3 secs on Touch"
+    ],
+    "Stats": {
+      "Attack": "8 - 14",
+      "Weight": "0.2",
+      "Charge": "210/210"
+    }
   }
 ]
