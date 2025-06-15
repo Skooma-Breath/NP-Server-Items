@@ -825,5 +825,28 @@
     "Stats": {
       "Weight": "0.1"
     }
+  },
+  {
+    "Item Name": "tidal left bracer",
+    "Image": "test_images/tidal left bracer.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "fishing coastal drift crate (east of vos)",
+    "Type": "light armor",
+    "Slot": "left bracer",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "3200",
+    "Effects": [
+      "Weight: 3 (Light)",
+      "Fortify Attribute Intelligence 10 pts",
+      "Fortify Magicka 30 pts",
+      "Resist Frost 4%"
+    ],
+    "Stats": {
+      "Armor Rating": "96",
+      "Condition": "450/450"
+    }
   }
 ]
