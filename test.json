@@ -382,5 +382,25 @@
       "Weight": "0.2",
       "Charge": "210/210"
     }
+  },
+  {
+    "Item Name": "Talisman of Valentina [No Trade]",
+    "Image": "test_images/Talisman of Valentina _No Trade_.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Last Werehunter Quest Reward (Combat Specialization)",
+    "Type": "Clothing",
+    "Slot": "Amulet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Fortify Attribute Intelligence 30 pts",
+      "Fortify Attribute Strength 15 pts"
+    ],
+    "Stats": {
+      "Weight": "1"
+    }
   }
 ]
