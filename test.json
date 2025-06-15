@@ -168,5 +168,33 @@
       "Weight": "12",
       "Charge": "250/250"
     }
+  },
+  {
+    "Item Name": "Eduj",
+    "Image": "test_images/Eduj.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Skyrim Loot Cache",
+    "Type": "One-handed Longsword",
+    "Slot": "weapon",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "1330",
+    "Effects": [
+      "Frost Damage 1 to 10 pts for 1 sec on Touch",
+      "Damage Health 1 to 10 pts for 1 sec on Touch",
+      "Damage Fatigue 1 to 10 pts for 1 sec on Touch"
+    ],
+    "Stats": {
+      "Chop": "6 - 18",
+      "Slash": "2 - 18",
+      "Thrust": "2 - 18",
+      "Condition": "800/800",
+      "Range": "6 ft.",
+      "Speed": "125%",
+      "Weight": "15",
+      "Charge": "500/500"
+    }
   }
 ]
