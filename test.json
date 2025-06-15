@@ -341,7 +341,7 @@
     "Image": "test_images/Chromatic Scale Ring.png",
     "Hidden Effect(s)": "Probably None (testing will follow)",
     "Spec. Req.": "",
-    "Lvl Req.": "",
+    "Lvl Req.": "60",
     "Location/Boss/Event": "",
     "Type": "Ring",
     "Slot": "Ring",
