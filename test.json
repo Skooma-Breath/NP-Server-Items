@@ -1233,5 +1233,31 @@
     "Stats": {
       "Weight": "3"
     }
+  },
+  {
+    "Item Name": "Blackwater Blade",
+    "Image": "test_images/Blackwater Blade.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Jiubsmas",
+    "Type": "One-handed Longsword",
+    "Slot": "weapon",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "6770",
+    "Effects": [
+      "Absorb Factigue 20 pts for 3 secs on Touch"
+    ],
+    "Stats": {
+      "Chop": "4 - 16",
+      "Slash": "12 - 24",
+      "Thrust": "2 - 18",
+      "Condition": "1450/1450",
+      "Range": "6 ft.",
+      "Speed": "135%",
+      "Weight": "24",
+      "Charge": "2000/2000"
+    }
   }
 ]
