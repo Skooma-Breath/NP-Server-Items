@@ -973,5 +973,31 @@
     "Price": "",
     "Effects": [],
     "Stats": {}
+  },
+  {
+    "Item Name": "Seasplitter",
+    "Image": "test_images/Seasplitter.png",
+    "Hidden Effect(s)": "none to my findings",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "West of Hla Oad, BIttercoast Region [Muck Covered Crate]",
+    "Type": "Long blade, One Handed Sword",
+    "Slot": "weapon",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "220",
+    "Effects": [
+      "Demoralize Creature 1 to 10 pts for 30 secs on Target"
+    ],
+    "Stats": {
+      "Chop": "2 - 20",
+      "Slash": "1 - 18",
+      "Thrust": "2 - 6",
+      "Condition": "700/700",
+      "Range": "6 ft",
+      "Speed": "140%",
+      "Weight": "15",
+      "Charge": "120/120"
+    }
   }
 ]
