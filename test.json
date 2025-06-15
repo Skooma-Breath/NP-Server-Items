@@ -1079,5 +1079,28 @@
     "Stats": {
       "Weight": "1"
     }
+  },
+  {
+    "Item Name": "Bog Rune Leggings",
+    "Image": "test_images/Bog Rune Leggings.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Azura's Coast [Coastal Drift Crate]",
+    "Type": "Medium Armour Legs",
+    "Slot": "greaves",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "3470",
+    "Effects": [
+      "Fortify Attribute Strength 18 pts",
+      "Fortify Attribute Endurance 12 pts",
+      "Fortify Skill Aerobatics 10 pts",
+      "Fortify Health 30 pts"
+    ],
+    "Stats": {
+      "Armor Rating": "108",
+      "Condition": "600/600"
+    }
   }
 ]
