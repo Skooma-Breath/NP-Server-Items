@@ -934,5 +934,29 @@
       "Armor Rating": "113",
       "Condition": "450/450"
     }
+  },
+  {
+    "Item Name": "Seafarer's Pantaloons",
+    "Image": "test_images/Seafarer's Pantaloons.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "wilderness East of Tel Branora, [Oceanic Crate]",
+    "Type": "clothing",
+    "Slot": "pants",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "745",
+    "Effects": [
+      "Fortify Attribute Agility 3 pts",
+      "Fortify Attribute Willpower 15 pts",
+      "Fortify Health 13 pts",
+      "Fortify Magicka 28 pts",
+      "Resist Common Disease 13%",
+      "Resist Shock 3%"
+    ],
+    "Stats": {
+      "Weight": "2"
+    }
   }
 ]
