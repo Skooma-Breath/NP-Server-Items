@@ -340,7 +340,7 @@
     "Slot": "weapon",
     "Other Notes": "",
     "EV": "",
-    "Price": "",
+    "Price": "1600",
     "Effects": [
       "Frost Damage 5 pts for 1 sec on Touch",
       "Damage Health 5 pts for 1 sec on Touch",
@@ -348,6 +348,13 @@
       "Drain Attribute Speed 50 pts for 3 secs on Touch"
     ],
     "Stats": {
+      "Chop": "1 - 30",Add commentMore actions
+      "Slash": "1 - 25",
+      "Thrust": "1 - 2",
+      "Condition": "3000/3000",
+      "Range": "9 ft",
+      "Speed": "100%",
+      "Weight": "30",
       "Charge": "200/200",
       "weight": "30"
     }
