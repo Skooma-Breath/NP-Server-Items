@@ -1357,5 +1357,24 @@
       "Charge": "200/200",
       "weight": "30"
     }
+  },
+  {
+    "Item Name": "Ring of Might",
+    "Image": "test_images/Ring of Might.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Sheogorad Loot Crate",
+    "Type": "Clothing",
+    "Slot": "Ring",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "1620",
+    "Effects": [
+      "Forify Attribute Strength 30 pts"
+    ],
+    "Stats": {
+      "Weight": "0.1"
+    }
   }
 ]
