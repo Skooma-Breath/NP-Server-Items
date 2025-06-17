@@ -340,7 +340,7 @@
     "Slot": "weapon",
     "Other Notes": "",
     "EV": "",
-    "Price": "1600",
+    "Price": "",
     "Effects": [
       "Frost Damage 5 pts for 1 sec on Touch",
       "Damage Health 5 pts for 1 sec on Touch",
@@ -348,13 +348,6 @@
       "Drain Attribute Speed 50 pts for 3 secs on Touch"
     ],
     "Stats": {
-      "Chop": "1 - 30",
-      "Slash": "1 - 25",
-      "Thrust": "1 - 2",
-      "Condition": "3000/3000",
-      "Range": "9 ft",
-      "Speed": "100%",
-      "Weight": "30",
       "Charge": "200/200",
       "weight": "30"
     }
@@ -10903,6 +10896,25 @@
       "Range": "6 ft",
       "Speed": "250%",
       "Weight": "1.8"
+    }
+  },
+  {
+    "Item Name": "Ring of Might",
+    "Image": "images/Ring of Might.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Sheogorad Loot Crate",
+    "Type": "Clothing",
+    "Slot": "Ring",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "1620",
+    "Effects": [
+      "Forify Attribute Strength 30 pts"
+    ],
+    "Stats": {
+      "Weight": "0.1"
     }
   }
 ]
