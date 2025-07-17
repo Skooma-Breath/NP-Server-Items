@@ -340,7 +340,7 @@
     "Slot": "weapon",
     "Other Notes": "",
     "EV": "",
-    "Price": "1600",
+    "Price": "",
     "Effects": [
       "Frost Damage 5 pts for 1 sec on Touch",
       "Damage Health 5 pts for 1 sec on Touch",
@@ -348,13 +348,6 @@
       "Drain Attribute Speed 50 pts for 3 secs on Touch"
     ],
     "Stats": {
-      "Chop": "1 - 30",
-      "Slash": "1 - 25",
-      "Thrust": "1 - 2",
-      "Condition": "3000/3000",
-      "Range": "9 ft",
-      "Speed": "100%",
-      "Weight": "30",
       "Charge": "200/200",
       "weight": "30"
     }
@@ -10922,6 +10915,123 @@
     ],
     "Stats": {
       "Weight": "0.1"
+    }
+  },
+  {
+    "Item Name": "Bog Rune Helmet",
+    "Image": "images/Bog Rune Helmet.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Sheogorad Loot Crate (fishing)",
+    "Type": "Medium Armor",
+    "Slot": "helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "3000",
+    "Effects": [
+      "Fortify Attribute Willpower 18 pts",
+      "Fortify Attribute Personality 6 pts",
+      "Fortify Skill Marksman 10 pts",
+      "Fortify Magicka 30 pts"
+    ],
+    "Stats": {
+      "Armor Rating": "108",
+      "Condition": "600/600",
+      "Weight": "4.4"
+    }
+  },
+  {
+    "Item Name": "Putrid Robe",
+    "Image": "images/Putrid Robe.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Sheogorad fish crate",
+    "Type": "Clothing",
+    "Slot": "robe",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "1400",
+    "Effects": [
+      "Fortify Attribute Intelligence 14 pts",
+      "Fortify Attribute Endurance 14 pts",
+      "Fortify Magicka 35 pts"
+    ],
+    "Stats": {
+      "Weight": "3"
+    }
+  },
+  {
+    "Item Name": "Tidal Staff",
+    "Image": "images/Tidal Staff.png",
+    "Hidden Effect(s)": "None? (i hit enemies till it broke, nothing)",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Grazelands loot crate",
+    "Type": "Blunt, Two Handed",
+    "Slot": "weapon",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "5200",
+    "Effects": [
+      "Fortify Attribute Agility 6 pts",
+      "Fortify Attribute Intelligence 15 pts",
+      "Fortify Magicka 45 pts",
+      "Resist Shock 6%",
+      "Resist Magicka 10%"
+    ],
+    "Stats": {
+      "Chop": "3 - 13",
+      "Slash": "4 - 15",
+      "Thrust": "1 - 10",
+      "Condition": "202/360",
+      "Range": "9 ft.",
+      "Speed": "175%",
+      "Weight": "7.2"
+    }
+  },
+  {
+    "Item Name": "Rahl's Robe [Lv60 Magic] [No Trade]",
+    "Image": "images/Rahl's Robe _Lv60 Magic_ _No Trade_.png",
+    "Hidden Effect(s)": "Unknown (Magic only, can\u2019t test it)",
+    "Spec. Req.": "Magic",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Molag Amur Loot Crate (Fishing)",
+    "Type": "clothing",
+    "Slot": "Robe",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Fortify Attribute Intelligence 30 pts",
+      "Fortify Magicka 125 pts",
+      "Fortify Health 25 pts",
+      "Restore Magicka"
+    ],
+    "Stats": {
+      "Weight": "3"
+    }
+  },
+  {
+    "Item Name": "Sage's Garb",
+    "Image": "images/Sage's Garb.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Dreughnaught Boss loot",
+    "Type": "Clothing",
+    "Slot": "shirt",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "8000",
+    "Effects": [
+      "Fortify Health 25 pts",
+      "Fortify Magicka 100 pts",
+      "Fortify Skill Destruction 35 pts"
+    ],
+    "Stats": {
+      "Weight": "3"
     }
   }
 ]
