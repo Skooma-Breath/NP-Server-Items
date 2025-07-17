@@ -1421,5 +1421,34 @@
     "Stats": {
       "Weight": "3"
     }
+  },
+  {
+    "Item Name": "Tidal Staff",
+    "Image": "test_images/Tidal Staff.png",
+    "Hidden Effect(s)": "None? (i hit enemies till it broke, nothing)",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Grazelands loot crate",
+    "Type": "Blunt, Two Handed",
+    "Slot": "weapon",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "5200",
+    "Effects": [
+      "Fortify Attribute Agility 6 pts",
+      "Fortify Attribute Intelligence 15 pts",
+      "Fortify Magicka 45 pts",
+      "Resist Shock 6%",
+      "Resist Magicka 10%"
+    ],
+    "Stats": {
+      "Chop": "3 - 13",
+      "Slash": "4 - 15",
+      "Thrust": "1 - 10",
+      "Condition": "202/360",
+      "Range": "9 ft.",
+      "Speed": "175%",
+      "Weight": "7.2"
+    }
   }
 ]
