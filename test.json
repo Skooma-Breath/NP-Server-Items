@@ -1400,5 +1400,26 @@
       "Condition": "600/600",
       "Weight": "4.4"
     }
+  },
+  {
+    "Item Name": "Putrid Robe",
+    "Image": "test_images/Putrid Robe.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Sheogorad fish crate",
+    "Type": "Clothing",
+    "Slot": "robe",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "1400",
+    "Effects": [
+      "Fortify Attribute Intelligence 14 pts",
+      "Fortify Attribute Endurance 14 pts",
+      "Fortify Magicka 35 pts"
+    ],
+    "Stats": {
+      "Weight": "3"
+    }
   }
 ]
