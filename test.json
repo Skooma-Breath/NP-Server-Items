@@ -1376,5 +1376,28 @@
     "Stats": {
       "Weight": "0.1"
     }
+  },
+  {
+    "Item Name": "Bog Rune Helmet",
+    "Image": "test_images/Bog Rune Helmet.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Sheogorad Loot Crate (fishing)",
+    "Type": "Helmet",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "3000",
+    "Effects": [
+      "Fortify Attribute Willpower 18 pts",
+      "Fortify Attribute Personality 6 pts",
+      "Fortify Skill Marksman 10 pts",
+      "Fortify Magicka 30 pts"
+    ],
+    "Stats": {
+      "Armor Rating": "108",
+      "Condition": "600/600"
+    }
   }
 ]
