@@ -1400,27 +1400,5 @@
       "Condition": "600/600",
       "Weight": "4.4"
     }
-  },
-  {
-    "Item Name": "Rahl's Robe",
-    "Image": "test_images/Rahl's Robe.png",
-    "Hidden Effect(s)": "Unknown (Magic only, can\u2019t test it)",
-    "Spec. Req.": "",
-    "Lvl Req.": "",
-    "Location/Boss/Event": "Molag Amur Loot Crate (Fishing)",
-    "Type": "clothing",
-    "Slot": "Robe",
-    "Other Notes": "",
-    "EV": "",
-    "Price": "",
-    "Effects": [
-      "Fortify Attribute Intelligence 30 pts",
-      "Fortify Magicka 125 pts",
-      "Fortify Health 25 pts",
-      "Restore Magicka"
-    ],
-    "Stats": {
-      "Weight": "3"
-    }
   }
 ]
