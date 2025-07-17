@@ -1472,5 +1472,26 @@
     "Stats": {
       "Weight": "3"
     }
+  },
+  {
+    "Item Name": "Sage's Garb",
+    "Image": "test_images/Sage's Garb.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Dreughnaught Boss loot",
+    "Type": "Clothing",
+    "Slot": "shirt",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "8000",
+    "Effects": [
+      "Fortify Health 25 pts",
+      "Fortify Magicka 100 pts",
+      "Fortify Skill Destruction 35 pts"
+    ],
+    "Stats": {
+      "Weight": "3"
+    }
   }
 ]
