@@ -135,5 +135,32 @@
       "Speed": "100%",
       "Weight": "15"
     }
+  },
+  {
+    "Item Name": "Depth Dweller Shin Guards",
+    "Image": "test_images/Depth Dweller Shin Guards.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "dreugh fish boss",
+    "Type": "medium armor",
+    "Slot": "boots",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Swift Swim 25 pts",
+      "Fortify Skill Medium Armor 25 pts",
+      "Fortify Skill Athletics 20 pts",
+      "Resist Shock 22%",
+      "Resist Poison 16%",
+      "Fortify Health 130 pts",
+      "Drain Attribute Personality 50 pts"
+    ],
+    "Stats": {
+      "Armor Rating": "129",
+      "Condition": "1250/1250",
+      "Weight": "14"
+    }
   }
 ]
