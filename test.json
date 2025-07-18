@@ -67,5 +67,23 @@
     "Stats": {
       "Weight": "3"
     }
+  },
+  {
+    "Item Name": "Diviner's garb",
+    "Image": "test_images/Diviner's garb.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Lil Snappa Boss loot",
+    "Type": "clothing",
+    "Slot": "shirt",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Fortify Skill Restoration 30 pts",
+      "Fortify Magicka 150 pts"
+    ],
+    "Stats": {}
   }
 ]
