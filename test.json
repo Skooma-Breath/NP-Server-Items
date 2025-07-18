@@ -17,5 +17,35 @@
     "Stats": {
       "Weight": "1"
     }
+  },
+  {
+    "Item Name": "Lost Knife of the Arcane",
+    "Image": "test_images/Lost Knife of the Arcane.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "Magic",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Lil Snappa Fish Boss loot",
+    "Type": "Shortblade",
+    "Slot": "weapon",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "8792",
+    "Effects": [
+      "Fortify Attribute Agility 40 pts",
+      "Fortify Attribute Intelligence 30 pts",
+      "Fortify Magicka 100 pts",
+      "Resist Magicka 12%",
+      "Resist Frost 8%",
+      "Resist Fire 5%"
+    ],
+    "Stats": {
+      "Chop": "5 - 42",
+      "Slash": "7 - 45",
+      "Thrust": "9 - 57",
+      "Condition": "2900/2900",
+      "Range": "6 ft.",
+      "Speed": "225%",
+      "Weight": "12"
+    }
   }
 ]
