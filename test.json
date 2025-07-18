@@ -47,5 +47,25 @@
       "Speed": "225%",
       "Weight": "12"
     }
+  },
+  {
+    "Item Name": "Soldier's Legplates",
+    "Image": "test_images/Soldier's Legplates.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "Combat",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Lil Snappa Fish Boss loot",
+    "Type": "clothing",
+    "Slot": "greaves",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "8000",
+    "Effects": [
+      "Fortify Attribute Agility 30 pts",
+      "Fortify Health 150 pts"
+    ],
+    "Stats": {
+      "Weight": "3"
+    }
   }
 ]
