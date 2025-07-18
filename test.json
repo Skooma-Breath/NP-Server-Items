@@ -212,26 +212,5 @@
       "Speed": "250%",
       "Weight": "6"
     }
-  },
-  {
-    "Item Name": "Sage's Leggings (lv. 60 magic)",
-    "Image": "test_images/Sage's Leggings (lv  60 magic).png",
-    "Hidden Effect(s)": "",
-    "Spec. Req.": "",
-    "Lvl Req.": "",
-    "Location/Boss/Event": "Lil Snappa fish boss",
-    "Type": "clothing",
-    "Slot": "Pants",
-    "Other Notes": "",
-    "EV": "",
-    "Price": "8000",
-    "Effects": [
-      "Fortify Health 25 pts",
-      "Fortify Magicka 100 pts",
-      "Fortify Attribute Intelligence 35 pts"
-    ],
-    "Stats": {
-      "Weight": "3"
-    }
   }
 ]
