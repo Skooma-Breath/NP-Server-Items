@@ -85,5 +85,32 @@
       "Fortify Magicka 150 pts"
     ],
     "Stats": {}
+  },
+  {
+    "Item Name": "Depth Dweller Helm [No Trade]",
+    "Image": "test_images/Depth Dweller Helm  No Trade.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Lil Snappa Fish Boss loot",
+    "Type": "medium armor",
+    "Slot": "helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Fortify Attribute Agility 35 pts",
+      "Fortify Skill Medium Armor 25 pts",
+      "Fortify Skill Athletics 20 pts",
+      "Resist Shock 18%",
+      "Resist Poison 18%",
+      "Fortify Health 130 pts",
+      "Drain Attribute Personality 50 pts"
+    ],
+    "Stats": {
+      "Armor Rating": "24",
+      "Condition": "850/850",
+      "Weight": "4.5"
+    }
   }
 ]
