@@ -185,5 +185,32 @@
       "Armor Rating": "91",
       "Condition": "50/500"
     }
+  },
+  {
+    "Item Name": "Syro's Nimble Blade",
+    "Image": "test_images/Syro's Nimble Blade.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "lil snappa fish boss",
+    "Type": "short blade",
+    "Slot": "weapon",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "8840",
+    "Effects": [
+      "Fortify Attribute Agility 15 pts",
+      "Fortify Skill Short Blade 40 pts",
+      "Fortify Health 75 pts"
+    ],
+    "Stats": {
+      "Chop": "4 - 43",
+      "Slash": "6 - 48",
+      "Thrust": "13 - 69",
+      "Condition": "350/350",
+      "Range": "6 ft.",
+      "Speed": "250%",
+      "Weight": "6"
+    }
   }
 ]
