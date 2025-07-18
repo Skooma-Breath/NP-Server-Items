@@ -112,5 +112,28 @@
       "Condition": "850/850",
       "Weight": "4.5"
     }
+  },
+  {
+    "Item Name": "Ichorfang",
+    "Image": "test_images/Ichorfang.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Lil Snappa Fish Boss loot",
+    "Type": "Axe",
+    "Slot": "weapon",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "7238",
+    "Effects": [],
+    "Stats": {
+      "Chop": "1 - 84",
+      "Slash": "1 - 56",
+      "Thrust": "1 - 8",
+      "Condition": "387/3800",
+      "Range": "6 ft.",
+      "Speed": "100%",
+      "Weight": "15"
+    }
   }
 ]
