@@ -162,5 +162,28 @@
       "Condition": "1250/1250",
       "Weight": "14"
     }
+  },
+  {
+    "Item Name": "Reticulated Bracer",
+    "Image": "test_images/Reticulated Bracer.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "dreugh fish boss",
+    "Type": "light armor",
+    "Slot": "Left hand",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "5130",
+    "Effects": [
+      "Weight: 15 (Light)",
+      "Fortify Skill Restoration 40 pts",
+      "Fortify Attribute Personality 15 pts",
+      "Fortify Health 100 pts"
+    ],
+    "Stats": {
+      "Armor Rating": "91",
+      "Condition": "50/500"
+    }
   }
 ]
