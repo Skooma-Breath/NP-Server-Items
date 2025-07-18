@@ -10992,8 +10992,8 @@
     }
   },
   {
-    "Item Name": "Rahl's Robe [Lv60 Magic] [No Trade]",
-    "Image": "images/Rahl's Robe _Lv60 Magic_ _No Trade_.png",
+    "Item Name": "Rahl's Robe",
+    "Image": "images/Rahl's Robe.png",
     "Hidden Effect(s)": "Unknown (Magic only, can\u2019t test it)",
     "Spec. Req.": "Magic",
     "Lvl Req.": "60",
