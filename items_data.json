@@ -11033,5 +11033,26 @@
     "Stats": {
       "Weight": "3"
     }
+  },
+  {
+    "Item Name": "Bravo's Pantaloons [Lv.60 Stealth]",
+    "Image": "images/Bravo's Pantaloons _Lv.60 Stealth_.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Dreughnaught Boss (fishing)",
+    "Type": "Clothing",
+    "Slot": "pants",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "8000",
+    "Effects": [
+      "Fortify Health 100 pts",
+      "Fortify Attribute Agility 35 pts",
+      "Fortify Attribute Strength 10 pts"
+    ],
+    "Stats": {
+      "Weight": "3"
+    }
   }
 ]
