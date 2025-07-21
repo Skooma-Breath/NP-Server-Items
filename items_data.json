@@ -11309,5 +11309,98 @@
     "Stats": {
       "Weight": "3"
     }
+  },
+  {
+    "Item Name": "Bravo's Tunic",
+    "Image": "images/Bravo's Tunic.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "Stealth",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Lil' Snappa Boss Drop",
+    "Type": "clothing",
+    "Slot": "shirt",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "8000",
+    "Effects": [
+      "Fortify Health 100 pts",
+      "Fortify Skill Short Blade 25 pts",
+      "Fortify Skill Marksman 20 pts"
+    ],
+    "Stats": {
+      "Weight": "3"
+    }
+  },
+  {
+    "Item Name": "Depth Dweller Open Helm",
+    "Image": "images/Depth Dweller Open Helm.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Lil' Snappa Boss Drop",
+    "Type": "medium armor",
+    "Slot": "helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Fortify Attribute Agility 35 pts",
+      "Fortify Skill Medium Armor 25 pts",
+      "Fortify Skill Athletics 20 pts",
+      "Resist Shock 18%",
+      "Resist Poison 18%",
+      "Fortify Health 130 pts",
+      "Drain Attribute Personality 50 pts"
+    ],
+    "Stats": {
+      "Armor Rating": "129",
+      "Condition": "850/850",
+      "Weight": "4.5"
+    }
+  },
+  {
+    "Item Name": "Katana of Severing",
+    "Image": "images/Katana of Severing.png",
+    "Hidden Effect(s)": "Can rarely proc 2000 points of Health Damage on hit (resistable, only did like 300 damage on a Tomb mob)",
+    "Spec. Req.": "Combat/Stealth",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Dreughnaut Boss Drop",
+    "Type": "One-handed Longsword",
+    "Slot": "weapon",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "9265",
+    "Effects": [],
+    "Stats": {
+      "Chop": "6 -73",
+      "Slash": "1-38",
+      "Thrust": "1-11",
+      "Condition": "5600",
+      "Range": "6 ft.",
+      "Speed": "150%",
+      "Weight": "6"
+    }
+  },
+  {
+    "Item Name": "Ancient Dreugh Bow",
+    "Image": "images/Ancient Dreugh Bow.png",
+    "Hidden Effect(s)": "CE is 0; procs 50 magicka/magical Damage (10% estimation) - needs more testing im tired, will be updated",
+    "Spec. Req.": "stealth",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Dreughnaut Boss Drop",
+    "Type": "Bow",
+    "Slot": "weapon",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "8236",
+    "Effects": [
+      "Type: Marksman"
+    ],
+    "Stats": {
+      "Attack": "6 - 76",
+      "Condition": "3150",
+      "Speed": "12.5%",
+      "Weight": "14"
+    }
   }
 ]
