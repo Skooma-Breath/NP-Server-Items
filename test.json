@@ -46,5 +46,27 @@
       "Condition": "850/850",
       "Weight": "4.5"
     }
+  },
+  {
+    "Item Name": "Katana of Severing [Lv.60 Combat/Stealth]",
+    "Image": "test_images/Katana of Severing  Lv 60 Combat Stealth.png",
+    "Hidden Effect(s)": "Can rarely proc 2000 points of Health Damage on hit (resistable, only did like 300 damage on a Tomb mob)",
+    "Spec. Req.": "",
+    "Lvl Req.": null,
+    "Location/Boss/Event": "Dreughnaut Boss Drop",
+    "Type": "One-handed Longsword",
+    "Slot": "weapon",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "9265",
+    "Effects": [],
+    "Stats": {
+      "Chop": "6 -73",
+      "Slash": "1-38",
+      "Thrust": "1-11",
+      "Range": "6 ft.",
+      "Speed": "150%",
+      "Weight": "6"
+    }
   }
 ]
