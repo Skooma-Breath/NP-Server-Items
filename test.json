@@ -68,27 +68,5 @@
       "Speed": "150%",
       "Weight": "6"
     }
-  },
-  {
-    "Item Name": "Ancient Dreugh Bow [Lv.60 Stealth]",
-    "Image": "test_images/Ancient Dreugh Bow.png",
-    "Hidden Effect(s)": "CE is 0; procs 50 magicka/magical Damage (10% estimation) - needs more testing im tired, will be updated",
-    "Spec. Req.": "",
-    "Lvl Req.": null,
-    "Location/Boss/Event": "Dreughnaut Boss Drop",
-    "Type": "Bow",
-    "Slot": "weapon",
-    "Other Notes": "",
-    "EV": "",
-    "Price": "8236",
-    "Effects": [
-      "Type: Marksman"
-    ],
-    "Stats": {
-      "Attack": "6 - 76",
-      "Defense": "302/3150",
-      "Speed": "12.5%",
-      "Weight": "14"
-    }
   }
 ]
