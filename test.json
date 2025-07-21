@@ -19,5 +19,32 @@
     "Stats": {
       "Weight": "3"
     }
+  },
+  {
+    "Item Name": "Depth Dweller Open Helm",
+    "Image": "test_images/Depth Dweller Open Helm.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Lil' Snappa Boss Drop",
+    "Type": "medium armor",
+    "Slot": "helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Fortify Attribute Agility 35 pts",
+      "Fortify Skill Medium Armor 25 pts",
+      "Fortify Skill Athletics 20 pts",
+      "Resist Shock 18%",
+      "Resist Poison 18%",
+      "Fortify Health 130 pts",
+      "Drain Attribute Personality 50 pts"
+    ],
+    "Stats": {
+      "Armor Rating": "129",
+      "Condition": "850/850",
+      "Weight": "4.5"
+    }
   }
 ]
