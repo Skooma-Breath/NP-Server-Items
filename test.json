@@ -64,6 +64,7 @@
       "Chop": "6 -73",
       "Slash": "1-38",
       "Thrust": "1-11",
+      "Condition": "5600",
       "Range": "6 ft.",
       "Speed": "150%",
       "Weight": "6"
@@ -86,6 +87,7 @@
     ],
     "Stats": {
       "Attack": "6 - 76",
+      "Condition": "3150",
       "Defense": "302/3150",
       "Speed": "12.5%",
       "Weight": "14"
