@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "Item Name": "Nocholus Breastplate",
+    "Image": "test_images/Nocholus Breastplate.png",
+    "Hidden Effect(s)": "?",
+    "Spec. Req.": "Combat",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Dreughnaut Boss Drop",
+    "Type": "Heavy Armor",
+    "Slot": "Cuirass",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "8770",
+    "Effects": [
+      "Fortify Attribute Endurance 25 pts",
+      "Fortify Skill Heavy Armor 15 pts",
+      "Drain Attribute Intelligence 15 pts",
+      "Fortify Health 125 pts"
+    ],
+    "Stats": {
+      "Armor Rating": "153",
+      "Condition": "7200/7200",
+      "Weight": "35"
+    }
+  }
+]
