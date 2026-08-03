@@ -253,6 +253,14 @@ td:nth-child(2) {
     text-align: center;
 }
 
+th:nth-child(3),
+td:nth-child(3) {
+    min-width: 7rem;
+    width: 7rem;
+    text-align: center;
+    font-variant-numeric: tabular-nums;
+}
+
 th {
     position: sticky;
     top: 0;
@@ -522,13 +530,19 @@ noscript {
     }
 
     th:nth-child(3),
-    td:nth-child(3),
+    td:nth-child(3) {
+        min-width: 6.5rem;
+        width: 6.5rem;
+    }
+
     th:nth-child(4),
     td:nth-child(4),
-    th:nth-child(7),
-    td:nth-child(7),
-    th:nth-child(10),
-    td:nth-child(10) {
+    th:nth-child(5),
+    td:nth-child(5),
+    th:nth-child(8),
+    td:nth-child(8),
+    th:nth-child(11),
+    td:nth-child(11) {
         min-width: 11rem;
     }
 

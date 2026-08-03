@@ -171,8 +171,8 @@ def main() -> None:
                 raise AssertionError(f"Column picker is not alphabetized: {column_labels}")
 
             expected_basic_columns = {
-                "Item Name", "Image", "Stats", "Hidden Effect(s)", "Spec. Req.", "Lvl Req.",
-                "Location/Boss/Event", "Type", "Slot", "Other Notes", "EV"
+                "Item Name", "Image", "Max Damage", "Stats", "Hidden Effect(s)", "Spec. Req.",
+                "Lvl Req.", "Location/Boss/Event", "Type", "Slot", "Other Notes", "EV"
             }
             selected_columns = set(cdp.evaluate("""
                 [...document.querySelectorAll('#checkbox-container .column-checkbox:checked')]
@@ -189,8 +189,36 @@ def main() -> None:
             ))
             cdp.evaluate("document.querySelector('#basic-view').click()")
             wait_for(lambda: cdp.evaluate(
-                "document.querySelectorAll('#checkbox-container .column-checkbox:checked').length === 11"
+                "document.querySelectorAll('#checkbox-container .column-checkbox:checked').length === 12"
             ))
+
+            first_headers = cdp.evaluate(
+                "[...document.querySelectorAll('#itemsTable thead th')].slice(0, 4).map(cell => cell.textContent)"
+            )
+            if first_headers != ["Item Name", "Image", "Max Damage", "Stats"]:
+                raise AssertionError(f"Unexpected leading column order: {first_headers}")
+
+            katana_max_damage = cdp.evaluate(
+                "state.items.find(item => item['Item Name'] === 'Katana of Severing')._maxDamage"
+            )
+            if katana_max_damage != 73:
+                raise AssertionError(f"Unexpected Katana of Severing max damage: {katana_max_damage}")
+
+            cdp.evaluate("document.querySelector('th[data-column=\"2\"]').click()")
+            cdp.evaluate("document.querySelector('th[data-column=\"2\"]').click()")
+            wait_for(lambda: cdp.evaluate(
+                "document.querySelector('th[data-column=\"2\"]').getAttribute('aria-sort') === 'descending'"
+            ))
+            visible_damage = cdp.evaluate("""
+                [...document.querySelectorAll('#itemsTable tbody tr td:nth-child(3)')]
+                    .map(cell => cell.textContent.trim())
+                    .filter(Boolean)
+                    .map(Number)
+            """)
+            if not visible_damage or any(
+                left < right for left, right in zip(visible_damage, visible_damage[1:])
+            ):
+                raise AssertionError(f"Max Damage is not sorted descending: {visible_damage}")
 
             wait_for(lambda: cdp.evaluate(
                 "document.querySelector('#table-scrollbar-spacer').offsetWidth === "

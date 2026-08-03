@@ -1,5 +1,5 @@
 const headers = [
-    'Item Name', 'Image', 'Stats', 'Hidden Effect(s)', 'Spec. Req.', 'Lvl Req.', 'Location/Boss/Event', 'Type', 'Slot', 'Other Notes', 'EV', 'Price',
+    'Item Name', 'Image', 'Max Damage', 'Stats', 'Hidden Effect(s)', 'Spec. Req.', 'Lvl Req.', 'Location/Boss/Event', 'Type', 'Slot', 'Other Notes', 'EV', 'Price',
     'Health', 'Magicka', 'Fatigue', 'Strength', 'Intelligence', 'Willpower', 'Agility', 'Speed', 'Endurance', 'Personality', 'Luck',
     'Armorer', 'Athletics', 'Axe', 'Block', 'Blunt Weapon', 'Heavy Armor', 'Long Blade', 'Medium Armor', 'Spear', 'Alchemy', 'Alteration', 'Conjuration',
     'Destruction', 'Enchant', 'Illusion', 'Mysticism', 'Restoration', 'Unarmored', 'Stealth', 'Acrobatics', 'Hand-to-hand', 'Light Armor', 'Marksman',
@@ -7,10 +7,11 @@ const headers = [
     'Frenzy Humanoid', 'Demoralize Creature', 'Demoralize Humanoid'
 ];
 
-const effectHeaders = new Set(headers.slice(12));
+const effectHeaders = new Set(headers.slice(headers.indexOf('Health')));
 const basicViewHeaders = new Set([
     'Item Name',
     'Image',
+    'Max Damage',
     'Stats',
     'Hidden Effect(s)',
     'Spec. Req.',
@@ -87,6 +88,7 @@ function cacheElements() {
 function prepareItem(item) {
     return {
         ...item,
+        _maxDamage: getMaxDamage(item),
         _searchText: flattenSearchValues(item).join(' ').toLocaleLowerCase()
     };
 }
@@ -102,6 +104,25 @@ function flattenSearchValues(value) {
         return Object.values(value).flatMap(flattenSearchValues);
     }
     return [String(value)];
+}
+
+function getMaxDamage(item) {
+    const stats = item.Stats || {};
+    const damageValues = ['Chop', 'Slash', 'Thrust']
+        .flatMap(stat => extractNumbers(stats[stat]));
+
+    return damageValues.length ? Math.max(...damageValues) : null;
+}
+
+function extractNumbers(value) {
+    if (value === null || value === undefined) {
+        return [];
+    }
+
+    return String(value)
+        .match(/-?\d+(?:\.\d+)?/g)
+        ?.map(Number)
+        .filter(Number.isFinite) || [];
 }
 
 function buildColumnControls() {
@@ -274,7 +295,25 @@ function applyCurrentSort() {
 
     const header = headers[state.sortColumn];
     const direction = state.sortAscending ? 1 : -1;
-    state.filteredItems.sort((left, right) => compareValues(getCellText(left, header), getCellText(right, header)) * direction);
+    state.filteredItems.sort((left, right) => {
+        const leftValue = getCellText(left, header);
+        const rightValue = getCellText(right, header);
+
+        if (header === 'Max Damage') {
+            if (leftValue === '' && rightValue === '') {
+                return 0;
+            }
+            if (leftValue === '') {
+                return 1;
+            }
+            if (rightValue === '') {
+                return -1;
+            }
+            return (Number(leftValue) - Number(rightValue)) * direction;
+        }
+
+        return compareValues(leftValue, rightValue) * direction;
+    });
 }
 
 function compareValues(left, right) {
@@ -376,6 +415,10 @@ function createThumbnail(item) {
 }
 
 function getCellText(item, header) {
+    if (header === 'Max Damage') {
+        return item._maxDamage ?? '';
+    }
+
     if (header === 'Stats') {
         return Object.entries(item.Stats || {})
             .map(([key, value]) => `${key}: ${value}`)
