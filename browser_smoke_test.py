@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import re
 import socket
 import subprocess
 import tempfile
@@ -143,7 +144,17 @@ def main() -> None:
                 count for path, count in initial_request_counts.items() if path.startswith("/images/")
             )
 
-            expected_items = len(json.loads((ROOT / "items_data.json").read_text(encoding="utf-8")))
+            catalog_records = json.loads((ROOT / "items_data.json").read_text(encoding="utf-8"))
+            expected_items = len(catalog_records)
+            expected_max_damage = {}
+            for record in catalog_records:
+                values = []
+                for key in ("Chop", "Slash", "Thrust"):
+                    values.extend(
+                        float(number)
+                        for number in re.findall(r"\d+(?:\.\d+)?", str((record.get("Stats") or {}).get(key, "")))
+                    )
+                expected_max_damage[record.get("Item Name", "")] = max(values) if values else None
             if total_items != expected_items:
                 raise AssertionError(f"Expected {expected_items} items, got {total_items}")
             if initial_rows != 50:
@@ -198,11 +209,38 @@ def main() -> None:
             if first_headers != ["Item Name", "Image", "Max Damage", "Stats"]:
                 raise AssertionError(f"Unexpected leading column order: {first_headers}")
 
-            katana_max_damage = cdp.evaluate(
-                "state.items.find(item => item['Item Name'] === 'Katana of Severing')._maxDamage"
-            )
-            if katana_max_damage != 73:
-                raise AssertionError(f"Unexpected Katana of Severing max damage: {katana_max_damage}")
+            browser_max_damage = cdp.evaluate("""
+                Object.fromEntries(state.items.map(item => [item['Item Name'], item._maxDamage]))
+            """)
+            damage_mismatches = {
+                name: (expected, browser_max_damage.get(name))
+                for name, expected in expected_max_damage.items()
+                if browser_max_damage.get(name) != expected
+            }
+            if damage_mismatches:
+                raise AssertionError(f"Incorrect max damage values: {damage_mismatches}")
+
+            expected_damage_samples = {
+                "Aegisbane": 30,
+                "Nerveshatter": 69,
+                "Notched Pickaxe": 14,
+                "Whirlwind Staff": 7,
+                "Aurabound Mace": 51,
+                "Chillrend": 36,
+                "The Rueful Axe": 36,
+            }
+            actual_damage_samples = {
+                name: browser_max_damage.get(name) for name in expected_damage_samples
+            }
+            if actual_damage_samples != expected_damage_samples:
+                raise AssertionError(f"Unexpected corrected max damage samples: {actual_damage_samples}")
+
+            for new_name in ("Flame Woven Greaves", "Flame Mail Chestpiece", "Lavasteel Tower"):
+                if new_name not in browser_max_damage:
+                    raise AssertionError(f"New video item is missing: {new_name}")
+                image_path = ROOT / "images" / f"{new_name}.png"
+                if not image_path.is_file() or image_path.stat().st_size == 0:
+                    raise AssertionError(f"New video item image is missing: {image_path}")
 
             cdp.evaluate("document.querySelector('th[data-column=\"2\"]').click()")
             cdp.evaluate("document.querySelector('th[data-column=\"2\"]').click()")

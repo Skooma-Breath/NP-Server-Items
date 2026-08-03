@@ -7,6 +7,8 @@ from pathlib import Path
 
 DATA_PATH = Path("items_data.json")
 IMAGE_DIR = Path("images")
+DAMAGE_KEYS = ("Chop", "Slash", "Thrust")
+DAMAGE_RANGE_RE = re.compile(r"^\s*\d+(?:\.\d+)?\s*[-–—]\s*\d+(?:\.\d+)?\s*$")
 
 SUSPECT_PATTERNS = {
     r"\b(?:Gffect|Offect|Offece|Offecr|@ffece|OGffect)\b": "Effect",
@@ -92,6 +94,32 @@ def main() -> None:
     print(f"orphan images: {len(orphan_images)}")
     for name in sorted(orphan_images)[:100]:
         print(f"  ORPHAN IMAGE: {name}")
+
+    damage_records = 0
+    malformed_damage: list[tuple[int, str, str, str]] = []
+    computed_damage: list[tuple[float, str]] = []
+    for index, item in enumerate(data):
+        stats = item.get("Stats") or {}
+        values: list[float] = []
+        for key in DAMAGE_KEYS:
+            if key not in stats:
+                continue
+            text = str(stats[key]).strip()
+            if not DAMAGE_RANGE_RE.fullmatch(text):
+                malformed_damage.append((index, names[index], key, text))
+            values.extend(float(number) for number in re.findall(r"\d+(?:\.\d+)?", text))
+        if values:
+            damage_records += 1
+            computed_damage.append((max(values), names[index]))
+
+    print(f"damage-bearing records: {damage_records}")
+    print(f"malformed damage fields: {len(malformed_damage)}")
+    for index, name, key, text in malformed_damage[:100]:
+        print(f"  [{index}] {name!r} :: {key}: {text!r}")
+    if computed_damage:
+        lowest_damage, lowest_name = min(computed_damage)
+        highest_damage, highest_name = max(computed_damage)
+        print(f"max damage range: {lowest_damage:g} ({lowest_name}) to {highest_damage:g} ({highest_name})")
 
     suspects: list[tuple[int, str, str, str]] = []
     for index, item in enumerate(data):

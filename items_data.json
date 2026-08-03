@@ -1422,12 +1422,14 @@
     ],
     "Stats": {
       "Type": "Blunt Weapon, One Handed",
-      "Chop": "5) - 51",
-      "Slash": "51 - 5!",
+      "Chop": "51 - 51",
+      "Slash": "51 - 51",
       "Thrust": "7 - 7",
       "Condition": "1980/1980",
-      "Range": "6 fr",
-      "Speed": "130%"
+      "Range": "6 ft",
+      "Speed": "130%",
+      "Weight": "15",
+      "Value": "4247"
     }
   },
   {
@@ -1828,7 +1830,7 @@
     ],
     "Stats": {
       "Type": "Long Blade, One Handed",
-      "Chop": "4 Ã‚Â« Pa",
+      "Chop": "4 - 16",
       "Slash": "12 - 24",
       "Thrust": "2 - 18",
       "Condition": "1450/1450",
@@ -2561,7 +2563,7 @@
     "Stats": {
       "Type": "Long, Blade, One Handed",
       "Chop": "5 - 27",
-      "Slash": "3-%",
+      "Slash": "3 - 36",
       "Thrust": "7 - 33",
       "Condition": "480/480",
       "Range": "6 fr",
@@ -3295,9 +3297,9 @@
     "Stats": {
       "Type": "Long Blade, One Handed",
       "Chop": "2 - 27",
-      "Slash": "1 - 57",
-      "Thrust": "4 + 34",
-      "Condition": "1400/1000",
+      "Slash": "1 - 37",
+      "Thrust": "4 - 34",
+      "Condition": "1600/1600",
       "Range": "6 ft",
       "Speed": "135%",
       "Charge": "200"
@@ -4796,7 +4798,7 @@
     ],
     "Stats": {
       "Type": "Blunt Weapon, Two Handed",
-      "Chop": "$ - 12",
+      "Chop": "5 - 12",
       "Slash": "1 - 12",
       "Thrust": "5 - 18",
       "Condition": "1875/1875",
@@ -5372,7 +5374,7 @@
     "Stats": {
       "Type": "Blunt Weapon, One Handed",
       "Chop": "8 - 26",
-      "Slash": "8 ~ 26",
+      "Slash": "8 - 26",
       "Thrust": "3-8",
       "Condition": "3600/3600",
       "Range": "6 ft",
@@ -8776,7 +8778,7 @@
     ],
     "Stats": {
       "Type": "Axe, Two Handed",
-      "Chop": "1 - %",
+      "Chop": "1 - 36",
       "Slash": "1 - 27",
       "Condition": "1800/1800",
       "Range": "6 ft",
@@ -13108,6 +13110,85 @@
       "Condition": "1750/1750",
       "Weight": "10 (Heavy)",
       "Value": "4875"
+    }
+  },
+  {
+    "Item Name": "Flame Woven Greaves",
+    "Image": "images/Flame Woven Greaves.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "Magic",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Flame Atronach Camp",
+    "Type": "Light Armor",
+    "Slot": "Greaves",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Intelligence 10 pts",
+      "Fortify Skill Conjuration 25 pts",
+      "Fortify Health 75 pts",
+      "Resist Fire 10%",
+      "Weakness to Frost 20%"
+    ],
+    "Stats": {
+      "Armor Rating": "105",
+      "Condition": "4800/4800",
+      "Weight": "8 (Light)",
+      "Value": "4500"
+    }
+  },
+  {
+    "Item Name": "Flame Mail Chestpiece",
+    "Image": "images/Flame Mail Chestpiece.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "Stealth",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Flame Atronach Camp",
+    "Type": "Medium Armor",
+    "Slot": "Chest",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Agility 10 pts",
+      "Fortify Skill Athletics 25 pts",
+      "Fortify Health 75 pts",
+      "Resist Fire 10%",
+      "Weakness to Frost 20%"
+    ],
+    "Stats": {
+      "Armor Rating": "325",
+      "Condition": "5600/5600",
+      "Weight": "25 (Medium)",
+      "Value": "4500"
+    }
+  },
+  {
+    "Item Name": "Lavasteel Tower",
+    "Image": "images/Lavasteel Tower.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "Combat/Magic",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Flame Atronach Camp - Blaze (Boss)",
+    "Type": "Heavy Armor",
+    "Slot": "Shield",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Endurance 25 pts",
+      "Fortify Attribute Willpower 10 pts",
+      "Fortify Health 100 pts"
+    ],
+    "Stats": {
+      "Armor Rating": "173",
+      "Condition": "6520/6520",
+      "Weight": "18 (Heavy)",
+      "Value": "5082"
     }
   }
 ]

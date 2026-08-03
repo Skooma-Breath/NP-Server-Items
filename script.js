@@ -120,7 +120,7 @@ function extractNumbers(value) {
     }
 
     return String(value)
-        .match(/-?\d+(?:\.\d+)?/g)
+        .match(/\d+(?:\.\d+)?/g)
         ?.map(Number)
         .filter(Number.isFinite) || [];
 }
