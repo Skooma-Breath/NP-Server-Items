@@ -148,7 +148,7 @@ def main() -> None:
                 raise AssertionError(f"Expected {expected_items} items, got {total_items}")
             if initial_rows != 50:
                 raise AssertionError(f"Expected 50 initial rows, got {initial_rows}")
-            if f"Showing 1–50 of {expected_items} items" not in initial_status:
+            if f"Showing 1-50 of {expected_items} items" not in initial_status:
                 raise AssertionError(f"Unexpected initial status: {initial_status!r}")
             if initial_image_requests > 50:
                 raise AssertionError(f"Too many first-load image requests: {initial_image_requests}")
@@ -362,7 +362,7 @@ def main() -> None:
             wait_for(lambda: cdp.evaluate("document.querySelectorAll('#itemsTable tbody tr').length === 50"))
 
             cdp.evaluate("document.querySelector('#pagination-top button[data-page-action=\"next\"]').click()")
-            wait_for(lambda: "Showing 51–100" in str(cdp.evaluate("document.querySelector('#table-status').textContent")))
+            wait_for(lambda: "Showing 51-100" in str(cdp.evaluate("document.querySelector('#table-status').textContent")))
             page_two_first_item = cdp.evaluate("document.querySelector('#itemsTable tbody tr td').textContent")
             if page_two_first_item == first_item:
                 raise AssertionError("Pagination did not change the visible records")

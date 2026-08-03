@@ -50,7 +50,7 @@ async function init() {
     updateBasicViewButtonState();
 
     try {
-        setStatus('Loading item data…');
+        setStatus('Loading item data...');
         const response = await fetch('items_data.json', { cache: 'no-cache' });
         if (!response.ok) {
             throw new Error(`HTTP ${response.status} ${response.statusText}`);
@@ -521,7 +521,7 @@ function updateStatus(renderedCount) {
     const start = Number.isFinite(state.pageSize) ? ((state.currentPage - 1) * state.pageSize) + 1 : 1;
     const end = start + renderedCount - 1;
     const filteredSuffix = total === state.items.length ? '' : ` (${state.items.length} total)`;
-    setStatus(`Showing ${start}–${end} of ${total} items${filteredSuffix}.`);
+    setStatus(`Showing ${start}-${end} of ${total} items${filteredSuffix}.`);
 }
 
 function setStatus(message, isError = false) {

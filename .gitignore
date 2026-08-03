@@ -1,0 +1,7 @@
+# Local-only archive and editor/tool state
+/archive/
+/.serena/
+
+# Python runtime artifacts
+__pycache__/
+*.py[cod]
