@@ -7,7 +7,7 @@
     "Lvl Req.": "",
     "Location/Boss/Event": "Frost Giant Camp",
     "Type": "Armor",
-    "Slot": "Chestguard",
+    "Slot": "Chest",
     "Other Notes": "",
     "EV": "",
     "Price": "1989",
@@ -33,7 +33,7 @@
     "Lvl Req.": "",
     "Location/Boss/Event": "Red Wolf Boss",
     "Type": "Weapon",
-    "Slot": "Two Handed",
+    "Slot": "Weapon - 2 Hand",
     "Other Notes": "",
     "EV": "",
     "Price": "3356",
@@ -84,7 +84,7 @@
     "Lvl Req.": "50",
     "Location/Boss/Event": "Tomb of the Dessicator",
     "Type": "Long Blade",
-    "Slot": "Weapon One - Hand",
+    "Slot": "Weapon - 1 Hand",
     "Other Notes": "Enhancement = armor",
     "EV": "",
     "Price": "1024",
@@ -138,7 +138,7 @@
     "Lvl Req.": "",
     "Location/Boss/Event": "Scion Cave",
     "Type": "Axe",
-    "Slot": "Weapon 2 - Hand",
+    "Slot": "Weapon - 2 Hand",
     "Other Notes": "",
     "EV": "",
     "Price": "6854",
@@ -169,11 +169,11 @@
     "Lvl Req.": "",
     "Location/Boss/Event": "Scion Cave",
     "Type": "Short Blade",
-    "Slot": "Weapon 1 - Hand",
+    "Slot": "Weapon - 1 Hand",
     "Other Notes": "",
     "EV": "",
     "Price": "3563",
-    "Effects": null,
+    "Effects": [],
     "Stats": {
       "Chop": "18 - 22",
       "Slash": "18 - 22",
@@ -193,7 +193,7 @@
     "Lvl Req.": "",
     "Location/Boss/Event": "Scion Cave",
     "Type": "Long Blade",
-    "Slot": "Weapon 1 - Hand",
+    "Slot": "Weapon - 1 Hand",
     "Other Notes": "",
     "EV": "",
     "Price": "4800",
@@ -259,7 +259,7 @@
       "Resist Magicka 5%",
       "Fortify Magicka 115 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Abysmal Neckguard",
@@ -279,7 +279,7 @@
       "Fortify Attribute Endurance 18 pts",
       "Fortify Health 75 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Adventurer's Left Bracer",
@@ -331,25 +331,28 @@
   },
   {
     "Item Name": "Aegisbane",
-    "Image": "images/Aegisbane.png",
-    "Hidden Effect(s)": "Unknown",
-    "Spec. Req.": "",
+    "Image": "",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "Any",
     "Lvl Req.": "",
-    "Location/Boss/Event": "Skyrim Loot Caches",
-    "Type": "Two-handed Hammer",
-    "Slot": "weapon",
+    "Location/Boss/Event": "Skyrim Crate",
+    "Type": "Blunt Weapon",
+    "Slot": "Weapon - 2 Hand",
     "Other Notes": "",
     "EV": "",
     "Price": "",
     "Effects": [
+      "Cast When Strikes",
       "Frost Damage 5 pts for 1 sec on Touch",
-      "Damage Health 5 pts for 1 sec on Touch",
+      "Damage Health 5 pts for 1 se on Touch",
       "Damage Fatigue 5 pts for 1 sec on Touch",
       "Drain Attribute Speed 50 pts for 3 secs on Touch"
     ],
     "Stats": {
-      "Charge": "200/200",
-      "weight": "30"
+      "Type": "Blunt Weapon, Two Handed",
+      "Chop": "1-30",
+      "Speed": "100%",
+      "Charge": "200"
     }
   },
   {
@@ -368,20 +371,32 @@
       "Constant Effect",
       "Fortify Skill Destruction 10 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Amulet of Anguish",
-    "Image": "",
+    "Image": "images/Amulet of Anguish.png",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
-    "Lvl Req.": "",
+    "Lvl Req.": "60",
     "Location/Boss/Event": "Crafted: Jewelrycraft",
     "Type": "Clothing",
     "Slot": "Amulet",
     "Other Notes": "Recipe costs 5 Grandmaster Crafters Marks",
     "EV": "",
-    "Price": ""
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Health 55 pts",
+      "Fortify Magicka 155 pts",
+      "Fortify Attribute Agility 25 pts",
+      "Fortify Attribute Intelligence 10 pts",
+      "Resist Fire 30%"
+    ],
+    "Stats": {
+      "Weight": "0.1",
+      "Value": "9000"
+    }
   },
   {
     "Item Name": "Amulet of Arkay",
@@ -399,7 +414,7 @@
       "Constant Effect",
       "Fortify Health 10 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Amulet of Articulation",
@@ -414,11 +429,12 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Value; 2052",
       "Constant Effect",
       "Fortify Skill Speechcraft 35 pts"
     ],
-    "Stats": null
+    "Stats": {
+      "Value": "2052"
+    }
   },
   {
     "Item Name": "Amulet of Dibella",
@@ -436,98 +452,179 @@
       "Constant Effect",
       "Fortify Skill Speechcraft 15 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Amulet of Disbelief",
-    "Image": "",
+    "Image": "images/Amulet of Disbelief.png",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
-    "Lvl Req.": "",
+    "Lvl Req.": "60",
     "Location/Boss/Event": "Crafted: Jewelrycraft",
     "Type": "Clothing",
     "Slot": "Amulet",
     "Other Notes": "Recipe costs 5 Grandmaster Crafters Marks",
     "EV": "",
-    "Price": ""
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Health 210 pts",
+      "Fortify Attribute Speed 30 pts",
+      "Fortify Attribute Agility 10 pts",
+      "Resist Poison 30%"
+    ],
+    "Stats": {
+      "Weight": "0.1",
+      "Value": "9000"
+    }
   },
   {
     "Item Name": "Amulet of Discontent",
-    "Image": "",
+    "Image": "images/Amulet of Discontent.png",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
-    "Lvl Req.": "",
+    "Lvl Req.": "60",
     "Location/Boss/Event": "Crafted: Jewelrycraft",
     "Type": "Clothing",
     "Slot": "Amulet",
     "Other Notes": "Recipe costs 5 Grandmaster Crafters Marks",
     "EV": "",
-    "Price": ""
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Health 155 pts",
+      "Fortify Magicka 55 pts",
+      "Fortify Attribute Speed 25 pts",
+      "Fortify Attribute Agility 10 pts",
+      "Resist Magicka 30%"
+    ],
+    "Stats": {
+      "Weight": "0.1",
+      "Value": "9000"
+    }
   },
   {
     "Item Name": "Amulet of Distress",
-    "Image": "",
+    "Image": "images/Amulet of Distress.png",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
-    "Lvl Req.": "",
+    "Lvl Req.": "60",
     "Location/Boss/Event": "Crafted: Jewelrycraft",
     "Type": "Clothing",
     "Slot": "Amulet",
     "Other Notes": "Recipe costs 5 Grandmaster Crafters Marks",
     "EV": "",
-    "Price": ""
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Magicka 210 pts",
+      "Fortify Attribute Speed 25 pts",
+      "Fortify Attribute Willpower 10 pts",
+      "Resist Frost 30%"
+    ],
+    "Stats": {
+      "Weight": "0.1",
+      "Value": "9000"
+    }
   },
   {
     "Item Name": "Amulet of Doubt",
-    "Image": "",
+    "Image": "images/Amulet of Doubt.png",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
-    "Lvl Req.": "",
+    "Lvl Req.": "50",
     "Location/Boss/Event": "Crafted: Jewelrycraft",
     "Type": "Clothing",
     "Slot": "Amulet",
     "Other Notes": "Recipe costs 20 Master Crafters Marks",
     "EV": "",
-    "Price": ""
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Health 130 pts",
+      "Fortify Attribute Strength 25 pts",
+      "Fortify Attribute Endurance 20 pts",
+      "Drain Attribute Personality 50 pts",
+      "Resist Poison 30%"
+    ],
+    "Stats": {
+      "Weight": "0.1",
+      "Value": "7000"
+    }
   },
   {
     "Item Name": "Amulet of Dread",
-    "Image": "",
+    "Image": "images/Amulet of Dread.png",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
-    "Lvl Req.": "",
+    "Lvl Req.": "50",
     "Location/Boss/Event": "Crafted: Jewelrycraft",
     "Type": "Clothing",
     "Slot": "Amulet",
     "Other Notes": "Recipe costs 20 Master Crafters Marks",
     "EV": "",
-    "Price": ""
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Health 130 pts",
+      "Fortify Attribute Speed 25 pts",
+      "Fortify Attribute Personality 25 pts",
+      "Drain Attribute Intelligence 50 pts",
+      "Resist Magicka 30%"
+    ],
+    "Stats": {
+      "Weight": "0.1",
+      "Value": "7000"
+    }
   },
   {
     "Item Name": "Amulet of Fright",
-    "Image": "",
+    "Image": "images/Amulet of Fright.png",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
-    "Lvl Req.": "",
+    "Lvl Req.": "50",
     "Location/Boss/Event": "Crafted: Jewelrycraft",
     "Type": "Clothing",
     "Slot": "Amulet",
     "Other Notes": "Recipe costs 20 Master Crafters Marks",
     "EV": "",
-    "Price": ""
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Magicka 130 pts",
+      "Fortify Attribute Speed 20 pts",
+      "Fortify Attribute Intelligence 25 pts",
+      "Drain Attribute Strength 50 pts",
+      "Resist Frost 30%"
+    ],
+    "Stats": {
+      "Weight": "0.1",
+      "Value": "7000"
+    }
   },
   {
     "Item Name": "Amulet of Horror",
-    "Image": "",
+    "Image": "images/Amulet of Horror.png",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
-    "Lvl Req.": "",
+    "Lvl Req.": "50",
     "Location/Boss/Event": "Crafted: Jewelrycraft",
     "Type": "Clothing",
     "Slot": "Amulet",
     "Other Notes": "Recipe costs 20 Master Crafters Marks",
     "EV": "",
-    "Price": ""
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Health 130 pts",
+      "Fortify Attribute Willpower 50 pts",
+      "Drain Attribute Intelligence 50 pts",
+      "Resist Shock 30%"
+    ],
+    "Stats": {
+      "Weight": "0.1",
+      "Value": "7000"
+    }
   },
   {
     "Item Name": "Amulet of Julianos",
@@ -545,7 +642,7 @@
       "Constant Effect",
       "Fortify Magicka 10 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Amulet of Kynareth",
@@ -563,20 +660,31 @@
       "Constant Effect",
       "Fortify Fatigue 10 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Amulet of Loathing",
-    "Image": "",
+    "Image": "images/Amulet of Loathing.png",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
-    "Lvl Req.": "",
+    "Lvl Req.": "60",
     "Location/Boss/Event": "Crafted: Jewelrycraft",
     "Type": "Clothing",
     "Slot": "Amulet",
     "Other Notes": "Recipe costs 5 Grandmaster Crafters Marks",
     "EV": "",
-    "Price": ""
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Health 210 pts",
+      "Fortify Attribute Willpower 25 pts",
+      "Fortify Attribute Endurance 10 pts",
+      "Resist Shock 30%"
+    ],
+    "Stats": {
+      "Weight": "0.1",
+      "Value": "9000"
+    }
   },
   {
     "Item Name": "Amulet of Mara",
@@ -594,7 +702,7 @@
       "Constant Effect",
       "Fortify Skill Restoration 10 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Amulet of Necropotence",
@@ -614,7 +722,7 @@
       "Drain Health 100 pts",
       "Resist Magicka 15%"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Amulet of Stendarr",
@@ -632,7 +740,7 @@
       "Constant Effect",
       "Fortify Skill Block 10 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Amulet of Talos",
@@ -650,20 +758,33 @@
       "Constant Effect",
       "Fortify Skill Athletics 10 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Amulet of Terror",
-    "Image": "",
+    "Image": "images/Amulet of Terror.png",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
-    "Lvl Req.": "",
+    "Lvl Req.": "50",
     "Location/Boss/Event": "Crafted: Jewelrycraft",
     "Type": "Clothing",
     "Slot": "Amulet",
     "Other Notes": "Recipe costs 20 Master Crafters Marks",
     "EV": "",
-    "Price": ""
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Health 80 pts",
+      "Fortify Magicka 80 pts",
+      "Fortify Attribute Agility 25 pts",
+      "Fortify Attribute Speed 25 pts",
+      "Drain Attribute Personality 50 pts",
+      "Resist Fire 30%"
+    ],
+    "Stats": {
+      "Weight": "0.1",
+      "Value": "7000"
+    }
   },
   {
     "Item Name": "Amulet of Zenithar",
@@ -681,7 +802,7 @@
       "Constant Effect",
       "Fortify Skill Mercantile 10 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Ancient Scale Breastplate",
@@ -696,7 +817,7 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Constrane Sffeer",
+      "Constant Effect",
       "Restore Health"
     ],
     "Stats": {
@@ -931,7 +1052,7 @@
       "Constant Effect",
       "Fortify Skill Acrobatics 25 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Anklet of Traversing",
@@ -947,9 +1068,9 @@
     "Price": "",
     "Effects": [
       "Constant Effect",
-      "Fortify Skill Achletics 25 pts"
+      "Fortify Skill Athletics 25 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Arcane Blacksmith's Apron",
@@ -968,7 +1089,7 @@
       "Fortify Skill Armorer 20 pts",
       "Fortify Skill Enchant 20 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Arctus Spear",
@@ -983,7 +1104,7 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Care When Strikes",
+      "Cast When Strikes",
       "Frost Damage 15 to 45 pts for 6 secs on Touch"
     ],
     "Stats": {
@@ -1006,9 +1127,11 @@
     "Location/Boss/Event": "New Life Festival Gift Crate",
     "Type": "Arrow",
     "Slot": "Ammunition",
-    "Other Notes": "Normally found in the official plugin \u201cArea Effect Arrows\u201d",
+    "Other Notes": "Normally found in the official plugin “Area Effect Arrows”",
     "EV": "",
-    "Price": ""
+    "Price": "",
+    "Effects": [],
+    "Stats": {}
   },
   {
     "Item Name": "Arm of the Moon",
@@ -1087,7 +1210,6 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Condition: 600",
       "Constant Effect",
       "Fortify Attribute Agility 8 pts",
       "Fortify Attribute Personality 8 pts",
@@ -1095,7 +1217,8 @@
       "Fortify Magicka 30 pts"
     ],
     "Stats": {
-      "Armor Rating": "8"
+      "Armor Rating": "8",
+      "Condition": "600"
     }
   },
   {
@@ -1111,12 +1234,13 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Value; 4005",
       "Constant Effect",
       "Fortify Attribute Willpower 16 pts",
       "Fortify Magicka 125 pts"
     ],
-    "Stats": {}
+    "Stats": {
+      "Value": "4005"
+    }
   },
   {
     "Item Name": "Aurabound Boots",
@@ -1213,7 +1337,7 @@
       "Fortify Attribute Speed 15 pts",
       "Fortify Attribute Willpower 15 pts",
       "Fortify Magicka 50 pts",
-      " Resist Poison 2%",
+      "Resist Poison 2%",
       "Resist Fire 4%",
       "Resist Frost 4%",
       "5] Resist Shock 2%",
@@ -1355,8 +1479,8 @@
       "Fortify Attribute Personality 7 pts",
       "Fortify Health 20 pts",
       "Fortify Magicka 20 pts",
-      "7d Resist Shock 7%",
-      "mw Resist Magicka 7%"
+      "Resist Shock 7%",
+      "Resist Magicka 7%"
     ],
     "Stats": {
       "Armor Rating": "61",
@@ -1386,7 +1510,7 @@
       "Resist Shock 4%",
       "Resist Magicka 4%"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Aurabound Shield",
@@ -1431,7 +1555,7 @@
       "Hi Resist Shock 10%",
       "Resist Magicka 7%"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Bear Claw Boots",
@@ -1470,7 +1594,6 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Chop; 3 - 6",
       "Constant Effect",
       "Fortify Attribute Strength 5 pts",
       "Fortify Attribute Endurance 15 pts",
@@ -1484,7 +1607,8 @@
       "Thrust": "6 - 38",
       "Condition": "1200/1200",
       "Range": "10.8 ft",
-      "Speed": "100%"
+      "Speed": "100%",
+      "Chop": "3 - 6"
     }
   },
   {
@@ -1529,7 +1653,7 @@
       "Fortify Attribute Strength 20 pts",
       "Resist Common Disease 14%"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Belt of Abandon",
@@ -1548,7 +1672,7 @@
       "Fortify Attribute Strength 50 pts",
       "Drain Attribute Agility 30 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Belt of Flowing Ice",
@@ -1569,7 +1693,7 @@
       "Fortify Health 25 pts",
       "Resist Frost 10%"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Belt of the Dessicator",
@@ -1591,7 +1715,7 @@
       "Resist Fire 8%",
       "Resist Frost 7%"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Belt of the Spider",
@@ -1611,7 +1735,7 @@
       "Fortify Attribute Speed 12 pts",
       "Resist Poison 15%"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Biohazzard in a Bottle",
@@ -1626,15 +1750,15 @@
     "EV": "",
     "Price": "200",
     "Effects": [
-      "Type Marksman",
-      "Attack 2 - 16",
       "Cast When Strikes",
       "Weakness to Poison 20% for 30 secs in 20 feet on Touch",
       "Poison 5 pts for 30 secs in 20 ft on Touch"
     ],
     "Stats": {
       "Speed": "100%",
-      "Charge": "1"
+      "Charge": "1",
+      "Type": "Marksman",
+      "Attack": "2 - 16"
     }
   },
   {
@@ -1649,8 +1773,8 @@
     "Other Notes": "Unique light effect, infinite duration",
     "EV": "",
     "Price": "",
-    "Effects": null,
-    "Stats": null
+    "Effects": [],
+    "Stats": {}
   },
   {
     "Item Name": "Black Scale Ring",
@@ -1669,7 +1793,7 @@
       "Fortify Attribute Endurance 5 pts",
       "Resist Magicka 11%"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Black Soul Gem",
@@ -1683,33 +1807,34 @@
     "Other Notes": "",
     "EV": "",
     "Price": "",
-    "Effects": null,
-    "Stats": null
+    "Effects": [],
+    "Stats": {}
   },
   {
     "Item Name": "Blackwater Blade",
-    "Image": "images/Blackwater Blade.png",
-    "Hidden Effect(s)": "Unknown",
-    "Spec. Req.": "",
+    "Image": "",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "Any",
     "Lvl Req.": "",
-    "Location/Boss/Event": "Jiubsmas",
-    "Type": "One-handed Longsword",
-    "Slot": "weapon",
+    "Location/Boss/Event": "Skyrim Crate",
+    "Type": "Long Blade",
+    "Slot": "Weapon - 1 Hand",
     "Other Notes": "",
     "EV": "",
-    "Price": "6770",
+    "Price": "",
     "Effects": [
-      "Absorb Factigue 20 pts for 3 secs on Touch"
+      "Cast When Strikes",
+      "Absorb Fatigue 20 pts for 3 secs on Touch"
     ],
     "Stats": {
-      "Chop": "4 - 16",
+      "Type": "Long Blade, One Handed",
+      "Chop": "4 Ã‚Â« Pa",
       "Slash": "12 - 24",
       "Thrust": "2 - 18",
       "Condition": "1450/1450",
-      "Range": "6 ft.",
+      "Range": "6 ft",
       "Speed": "135%",
-      "Weight": "24",
-      "Charge": "2000/2000"
+      "Charge": "2000"
     }
   },
   {
@@ -1759,7 +1884,7 @@
       "ied Resist Frost 8%",
       "Resist Magicka 8%"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Bloodscythe",
@@ -1805,7 +1930,7 @@
       "Fortify Attribute Personality 7 pr",
       "Fortify Magicka 7 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Bloodthorn",
@@ -1836,7 +1961,7 @@
     }
   },
   {
-    "Item Name": "Bolar\u2019s Oathblade",
+    "Item Name": "Bolar’s Oathblade",
     "Image": "",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
@@ -1848,8 +1973,6 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Chop 3 - 20",
-      "Range 6 ft",
       "Cast When Strikes",
       "Damage Fatigue 25 pts for 1 sec secTouch",
       "Demoralize Humanoid 12 pts for 30 sec on Touch",
@@ -1861,7 +1984,9 @@
       "Thrust": "1 - 6",
       "Condition": "1800",
       "Speed": "150%",
-      "Charge": "300"
+      "Charge": "300",
+      "Chop": "3 - 20",
+      "Range": "6 ft"
     }
   },
   {
@@ -1883,7 +2008,7 @@
       "Resist Magicka 20%",
       "Fortify Magicka 125 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Bonekeeper Chestguard",
@@ -1897,7 +2022,7 @@
     "Other Notes": "",
     "EV": "",
     "Price": "",
-    "Effects": null,
+    "Effects": [],
     "Stats": {
       "Armor Rating": "80",
       "Condition": "13000/13000"
@@ -1916,7 +2041,7 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Caste When Strikes",
+      "Cast When Strikes",
       "Damage Health 3 pts for 4 secs on Touch"
     ],
     "Stats": {
@@ -1965,7 +2090,9 @@
     "Slot": "Weapon - 1 Hand",
     "Other Notes": "",
     "EV": "",
-    "Price": "200"
+    "Price": "200",
+    "Effects": [],
+    "Stats": {}
   },
   {
     "Item Name": "Book of Stories",
@@ -1976,18 +2103,27 @@
     "Location/Boss/Event": "Storyteller",
     "Type": "Blunt Weapon",
     "Slot": "Weapon - 1 Hand",
-    "Other Notes": "Weapon model looks like a book",
+    "Other Notes": "Weapon model looks like a book; No Trade",
     "EV": "",
     "Price": "",
     "Effects": [
-      "Type Blunt Weapon, One Handed",
-      "Fortify Attribute Endurance 10 pts for 65 sec secBel",
-      "Fortify Aceritore Willpower 10 pts for 65 secs on Self",
-      "Fortlly Magica 2 pts for 05 secs on Bef",
-      "Resist Magicka 12% for 65 secs on Self",
-      "Charge: 125"
+      "Cast When Used",
+      "Fortify Attribute Endurance 10 pts for 65 secs on Self",
+      "Fortify Attribute Willpower 10 pts for 65 secs on Self",
+      "Fortify Magicka 25 pts for 65 secs on Self",
+      "Resist Magicka 12% for 65 secs on Self"
     ],
-    "Stats": null
+    "Stats": {
+      "Type": "Blunt Weapon, One Handed",
+      "Charge": "125",
+      "Chop": "1 - 20",
+      "Slash": "1 - 1",
+      "Thrust": "1 - 1",
+      "Condition": "270/270",
+      "Range": "6 ft",
+      "Speed": "130%",
+      "Weight": "3"
+    }
   },
   {
     "Item Name": "Boots of Goblinkind",
@@ -2002,14 +2138,14 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Condition; 225/225",
       "Constant Effect",
       "Fortify Attribute Agility 5 pts",
       "Fortify Attribute Willpower 7 pts",
       "Fortify HAeeribuee Intelligence 10 pts"
     ],
     "Stats": {
-      "Armor Rating": "7"
+      "Armor Rating": "7",
+      "Condition": "225/225"
     }
   },
   {
@@ -2066,7 +2202,7 @@
   },
   {
     "Item Name": "Breastplate of Doubt",
-    "Image": "",
+    "Image": "images/Breastplate of Doubt.png",
     "Hidden Effect(s)": "Breastplate model is invisible on wearer",
     "Spec. Req.": "Magic",
     "Lvl Req.": "50",
@@ -2075,7 +2211,20 @@
     "Slot": "Chest",
     "Other Notes": "",
     "EV": "",
-    "Price": ""
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Drain Attribute Personality 50 pts",
+      "Fortify Attribute Intelligence 50 pts",
+      "Fortify Health 80 pts",
+      "Fortify Magicka 60 pts"
+    ],
+    "Stats": {
+      "Armor Rating": "78",
+      "Condition": "2900/2900",
+      "Weight": "35 (Heavy)",
+      "Value": "5490"
+    }
   },
   {
     "Item Name": "Bright and Shiny Left Pauldron",
@@ -2116,7 +2265,6 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Value; 3149",
       "Constant Effect",
       "Fortify Attribute Strength 10 pts",
       "Wi Fortify Health 50 pts",
@@ -2127,7 +2275,8 @@
     ],
     "Stats": {
       "Armor Rating": "58",
-      "Condition": "620/620"
+      "Condition": "620/620",
+      "Value": "3149"
     }
   },
   {
@@ -2147,7 +2296,7 @@
       "Fortify Attribute Endurance 5 pts",
       "Resist Shock 11%"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Brutal Headaxe",
@@ -2188,7 +2337,7 @@
     "Other Notes": "",
     "EV": "",
     "Price": "",
-    "Effects": null,
+    "Effects": [],
     "Stats": {
       "Type": "Axe, One Handed",
       "Chop": "1 - 48",
@@ -2289,7 +2438,7 @@
       "Fortify Health 25 pts",
       "Fortify Magicka 25 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Charlatan's Left Glove",
@@ -2325,7 +2474,9 @@
     "Slot": "Right Bracer/Gauntlet",
     "Other Notes": "",
     "EV": "",
-    "Price": ""
+    "Price": "",
+    "Effects": [],
+    "Stats": {}
   },
   {
     "Item Name": "Charmed Necklace",
@@ -2343,7 +2494,7 @@
       "Constant Effect",
       "Feather 25 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Chestguard of Vigor",
@@ -2430,7 +2581,7 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Contant Effect",
+      "Constant Effect",
       "drain Attribute Srrengeh 5 pts",
       "Drain Aerribure Intelligence 5 pts",
       "Drain Attribute Willpower 5 pts",
@@ -2442,7 +2593,7 @@
       "Restore Health",
       "Restore Magicka"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Combine Band",
@@ -2469,7 +2620,7 @@
       "Fortify Health 12 pts",
       "Fortify Magicka 12 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Coralium Chestplate",
@@ -2534,9 +2685,9 @@
       "Constant Effect",
       "Fortify Attribute Intelligence 40 pts",
       "Fortify Magicka 175 pts",
-      "Resist Prose 17%"
+      "Resist Frost 17%"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Crushing Edge",
@@ -2590,7 +2741,7 @@
     }
   },
   {
-    "Item Name": "Cuirass of the Savior\u2019s Hide",
+    "Item Name": "Cuirass of the Savior’s Hide",
     "Image": "",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
@@ -2612,7 +2763,7 @@
   },
   {
     "Item Name": "Daedric Longspear",
-    "Image": "",
+    "Image": "images/Daedric Longspear.png",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
     "Lvl Req.": "",
@@ -2621,7 +2772,19 @@
     "Slot": "Weapon - 2 Hand",
     "Other Notes": "",
     "EV": "",
-    "Price": ""
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Type": "Spear, Two Handed",
+      "Chop": "2 - 9",
+      "Slash": "3 - 9",
+      "Thrust": "10 - 50",
+      "Condition": "1200/1200",
+      "Range": "11.4 ft",
+      "Speed": "100%",
+      "Weight": "45",
+      "Value": "25000"
+    }
   },
   {
     "Item Name": "Dagger of Shielding",
@@ -2668,7 +2831,6 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Slash; 4-7",
       "Constant Effect",
       "vFortify Attribute Agility 40 pts",
       "Fortify Health 40 pts",
@@ -2680,7 +2842,8 @@
       "Thrust": "5 - 7",
       "Condition": "1160",
       "Range": "6 ft",
-      "Speed": "250%"
+      "Speed": "250%",
+      "Slash": "4-7"
     }
   },
   {
@@ -2696,8 +2859,6 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Chop; 5 - 28",
-      "Slash; 4 - 23",
       "Constant Effect",
       "Fortify Attribute Endurance 15 pts",
       "Fortify Attribute Agility 20 pts",
@@ -2709,7 +2870,9 @@
       "Thrust": "1-8",
       "Condition": "1820",
       "Range": "6 ft",
-      "Speed": "140%"
+      "Speed": "140%",
+      "Chop": "5 - 28",
+      "Slash": "4 - 23"
     }
   },
   {
@@ -2730,7 +2893,7 @@
       "Fortify Attribute Intelligence 25 pts",
       "Fortify Health 100 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Dark Desert Ring",
@@ -2748,7 +2911,7 @@
       "Constant Effect",
       "Fortify Health 100 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Dark Necklace of Wonder",
@@ -2763,13 +2926,14 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Value; 6000",
       "Constant Effect",
       "Fortify Attribute Endurance 25 pts",
       "Fortify Attribute Agility 25 pts",
       "Fortify Health 100 pts"
     ],
-    "Stats": null
+    "Stats": {
+      "Value": "6000"
+    }
   },
   {
     "Item Name": "Dark Ring of Wonder",
@@ -2789,7 +2953,7 @@
       "Fortify Attribute Personalilty 25 pts",
       "Fortify Health 100 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Dawnfang",
@@ -2914,7 +3078,7 @@
       "Fortify Attribute Willpower 25 pts",
       "Fortify Attribute Personality 8 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Dragonbane",
@@ -3011,7 +3175,6 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Value; 3750",
       "Cast When Strikes",
       "Frost Damage 15 pts for 1 sec on Touch",
       "Absorb Magicka 7 pts for 1 sec on Touch"
@@ -3024,7 +3187,8 @@
       "Condition": "3825",
       "Range": "6 fr",
       "Speed": "125%",
-      "Charge": "3600)"
+      "Charge": "3600)",
+      "Value": "3750"
     }
   },
   {
@@ -3063,14 +3227,14 @@
     "Other Notes": "",
     "EV": "",
     "Price": "",
-    "Effects": null,
+    "Effects": [],
     "Stats": {
       "Type": "Marksman",
       "Actack": "3 - 8"
     }
   },
   {
-    "Item Name": "Eagle\u2019s Fury",
+    "Item Name": "Eagle’s Fury",
     "Image": "",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
@@ -3110,7 +3274,7 @@
       "Fortify Health 15 pts",
       "Fortify Health 15 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Ebony Blade",
@@ -3185,7 +3349,7 @@
       "Resist Shock 7%",
       "Resist Magicka 7%"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Etched Bronze Ring",
@@ -3209,7 +3373,7 @@
       "Resist Shock 1%",
       "rcsise Magicka 1%"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Everflame Torch",
@@ -3223,8 +3387,8 @@
     "Other Notes": "",
     "EV": "",
     "Price": "",
-    "Effects": null,
-    "Stats": null
+    "Effects": [],
+    "Stats": {}
   },
   {
     "Item Name": "Eversnow Left Bracer",
@@ -3269,7 +3433,7 @@
       "Fortify Magicka 12 pts",
       "Resist Frost 5%"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Experimental Dwemer Explosive",
@@ -3282,7 +3446,9 @@
     "Slot": "Miscellaneous",
     "Other Notes": "",
     "EV": "",
-    "Price": ""
+    "Price": "",
+    "Effects": [],
+    "Stats": {}
   },
   {
     "Item Name": "Exploding Shot Bow",
@@ -3411,8 +3577,8 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Cast When Srrikes",
-      "Feather in 25 fe on Target"
+      "Cast When Strikes",
+      "Feather in 25 ft on Target"
     ],
     "Stats": {
       "Type": "Marksman",
@@ -3482,7 +3648,7 @@
       "Fortify Attribute Intelligence 7 pro",
       "Resist Fire 7%"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Firiniel's End",
@@ -3497,13 +3663,13 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Cast Whan Used",
-      "(\u00c3\u201a\u00c2\u00a9 Frese Damage 20 pts for 1 sec on Target",
+      "Cast When Used",
+      "(Ã‚Â© Frese Damage 20 pts for 1 sec on Target",
       "Dh Drain Attribute Speed 50 pee for 3 secs on Target"
     ],
     "Stats": {
       "Type": "Markeman",
-      "Attack": "1 \u00c3\u201a\u00c2\u00ab30",
+      "Attack": "1 Ã‚Â«30",
       "Condiaten": "200700",
       "Bpced": "100%",
       "Valor": "162"
@@ -3527,7 +3693,7 @@
       "ortify Magicka 15 pts",
       "Restore Magicka"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Flawless Regenerative Belt",
@@ -3547,7 +3713,7 @@
       "Fortify Health 15 pts",
       "is Restore Health"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Flawless Rejuvenative Belt",
@@ -3566,7 +3732,7 @@
       "Fortify Attribute Agilicry 10 pts",
       "Fortify Health 15 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Flawless Restorative Belt",
@@ -3581,11 +3747,11 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Constant @ffeet",
+      "Constant Effect",
       "Fortify Attribute Intelligence 10 pts",
       "Fortify Magicka 15 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Forest Gi",
@@ -3606,7 +3772,7 @@
       "eFortify Health 50 pts",
       "Fortify Magicka 40 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Forgetful Club",
@@ -3653,7 +3819,7 @@
       "Fortify Health 115 pts",
       "Resist Frost 30%"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Frost Spiral Tunic",
@@ -3691,11 +3857,11 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Constant Offeet",
+      "Constant Effect",
       "Fortify Attribute Agility 5 pts",
       "Fortify Health 50 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Frostleaf Tunic",
@@ -3806,11 +3972,10 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Condition; 4000/4000",
       "Cast When Strikes",
-      "Dweakness to Frost 15% for 10 secs on Touch",
-      "Frost Damage 10 pts fort sec on Touch",
-      "Resist Prose 15% for 10 secs on Sclf"
+      "Weakness to Frost 15% for 10 secs on Touch",
+      "Frost Damage 10 pts for 1 sec on Touch",
+      "Resist Frost 15% for 10 secs on Self"
     ],
     "Stats": {
       "Type": "Axe, One Handed",
@@ -3820,7 +3985,8 @@
       "Range": "6 ft",
       "Speed": "125%",
       "Valoc": "25000",
-      "Charge": "ESOS"
+      "Charge": "ESOS",
+      "Condition": "4000/4000"
     }
   },
   {
@@ -3836,14 +4002,15 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Value; 3219",
       "Constant Effect",
       "Fortify Attribute Agility 25 pts",
       "Fortify Magicka 25 pts",
       "Resist Fire 5%",
       "Resist Frost 5%"
     ],
-    "Stats": null
+    "Stats": {
+      "Value": "3219"
+    }
   },
   {
     "Item Name": "Gloomlantern",
@@ -3857,8 +4024,8 @@
     "Other Notes": "",
     "EV": "",
     "Price": "",
-    "Effects": null,
-    "Stats": null
+    "Effects": [],
+    "Stats": {}
   },
   {
     "Item Name": "Golden Prayer Robe",
@@ -3878,7 +4045,7 @@
       "Restore Health",
       "iy] Restore Magicka"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Golem's Breastplate",
@@ -3947,7 +4114,7 @@
       "Fortify Attribute Endurance 5 pts",
       "Resist Poison 11%"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Griffon Fur Boots",
@@ -4011,7 +4178,7 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Cast When Sertkes",
+      "Cast When Strikes",
       "Drove Damage 1 to 15 pts for 1 sec on Touch",
       "Damage Health 1 to 15 pee for 1 sec on Touch",
       "Damage Fatigue 1 to 15 pts for 2 sec on Touch"
@@ -4044,7 +4211,7 @@
       "Fortify Arceribuee Strength 15 pts",
       "Fortify Attribute Intelligence 15 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Hallowed Leather Belt",
@@ -4066,7 +4233,7 @@
       "Resist Frost 2%",
       "BG Resist Magicka 2%"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Hallowed Leather Boots",
@@ -4239,13 +4406,13 @@
     "Hidden Effect(s)": "Throws quite quickly",
     "Spec. Req.": "Any",
     "Lvl Req.": "",
-    "Location/Boss/Event": "Jiubmas (Da Greensh\u2019s Quest)",
+    "Location/Boss/Event": "Jiubmas (Da Greensh’s Quest)",
     "Type": "Thrown",
     "Slot": "Ammunition",
     "Other Notes": "",
     "EV": "",
     "Price": "",
-    "Effects": null,
+    "Effects": [],
     "Stats": {
       "Type": "Marksman",
       "Artack": "2 - 2",
@@ -4264,6 +4431,7 @@
     "Other Notes": "",
     "EV": "",
     "Price": "",
+    "Effects": [],
     "Stats": {
       "Type": "Blunt Weapon, One Handed",
       "Condition": "3600/3600",
@@ -4283,14 +4451,14 @@
     "Other Notes": "",
     "EV": "225",
     "Price": "6",
-    "Effects": null,
+    "Effects": [],
     "Stats": {
       "Armor Rating": "0",
       "Condition": "800"
     }
   },
   {
-    "Item Name": "Heart\u2019s Day Bouquet",
+    "Item Name": "Heart’s Day Bouquet",
     "Image": "",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
@@ -4301,7 +4469,7 @@
     "Other Notes": "Intended to be placed as furniture, animations are disjointed when wielded; model resembles Timsa-Come-By Flower",
     "EV": "24",
     "Price": "6",
-    "Effects": null,
+    "Effects": [],
     "Stats": {
       "Type": "Blunt Weapon, Two Handed",
       "Chop": "1 - 2",
@@ -4380,7 +4548,6 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Value; 5215",
       "Constant Effect",
       "Fortify Attribute Endurance 20 pts",
       "Fortify Attribute Agility 17 pts",
@@ -4388,7 +4555,8 @@
     ],
     "Stats": {
       "Armor Rating": "27",
-      "Condition": "725/725"
+      "Condition": "725/725",
+      "Value": "5215"
     }
   },
   {
@@ -4402,7 +4570,9 @@
     "Slot": "Ammunition",
     "Other Notes": "",
     "EV": "",
-    "Price": ""
+    "Price": "",
+    "Effects": [],
+    "Stats": {}
   },
   {
     "Item Name": "Ice Crystal Sash",
@@ -4423,7 +4593,7 @@
       "Fortify Health 50 pts",
       "Resist Magicka 10%"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Ice Giant's Belt",
@@ -4443,7 +4613,7 @@
       "Drain Attribute Agility 20 pts",
       "Resist Frost 10%"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Icebear Girdle",
@@ -4458,14 +4628,14 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Constant Effectr",
+      "Constant Effect",
       "Fortify Attribute Strength 5 pts",
       "Fortify Attribute Willpower 10 pts",
       "Fortify Attribute Personality 5 pts",
       "Fortify Magicka 50 pts",
       "Resist Frost 15%"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Icelake Necklace",
@@ -4484,7 +4654,7 @@
       "Fortify Attribute Willpower 10 pts",
       "Fortify Attribute Personality 10 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Icelong Amulet",
@@ -4504,7 +4674,7 @@
       "Fortify Attribute Agility 0 pts",
       "Fortify Attribute Speed 5 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Icemight Tower",
@@ -4515,7 +4685,7 @@
     "Location/Boss/Event": "Frost Giant Camp",
     "Type": "Heavy Armor",
     "Slot": "Shield",
-    "Other Notes": "\u201cTower\u201d instead of \u201cTower Shield\u201d correct per Jiub",
+    "Other Notes": "“Tower” instead of “Tower Shield” correct per Jiub",
     "EV": "",
     "Price": "",
     "Effects": [
@@ -4543,7 +4713,6 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Condition; 7200/7200",
       "Constant Effect",
       "Fortify Attribute Endurance 10 pts",
       "Fortify Attribute Willpower 10 pts",
@@ -4555,7 +4724,8 @@
       "Slash": "15 - 45",
       "Thrust": "5 - 5",
       "Range": "9.6 fr",
-      "Speed": "100%"
+      "Speed": "100%",
+      "Condition": "7200/7200"
     }
   },
   {
@@ -4576,7 +4746,7 @@
       "Fortify Attribute Intelligence 15 pts",
       "Fortify Attribute Personality 10 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Incandescent Belt",
@@ -4600,7 +4770,7 @@
       "Fortify Attribute Personality 5 pts",
       "Restore Magicka"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Insidious Glacial Staff",
@@ -4703,7 +4873,7 @@
     }
   },
   {
-    "Item Name": "Jack\u2019s Ripper",
+    "Item Name": "Jack’s Ripper",
     "Image": "",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
@@ -4724,7 +4894,7 @@
       "Type": "Long Blade, One Handed",
       "Chop": "31-31",
       "Blah": "20 - 2",
-      "\u00c3\u00a2\u00e2\u201a\u00ac\u00cb\u0153Thrust": "10 - 10",
+      "Ã¢â‚¬ËœThrust": "10 - 10",
       "Condition": "4400/5400",
       "Range": "6 fr",
       "Spccd": "125%"
@@ -4739,11 +4909,10 @@
     "Location/Boss/Event": "Universal",
     "Type": "Long Blade",
     "Slot": "Weapon - 1 Hand",
-    "Other Notes": "Intentional derivative spelling of \u201cencrusted\u201d per Jiub",
+    "Other Notes": "Intentional derivative spelling of “encrusted” per Jiub",
     "EV": "",
     "Price": "",
     "Effects": [
-      "Value; 5722",
       "Constant Effect",
       "Fortify Attribute Strength 7 pts",
       "Forciry Attribute Agility 20 pts",
@@ -4758,7 +4927,8 @@
       "Thrust": "1 - 24",
       "Condition": "960/960",
       "Range": "6 ft",
-      "Speed": "140%"
+      "Speed": "140%",
+      "Value": "5722"
     }
   },
   {
@@ -4777,7 +4947,7 @@
       "Constant Effect",
       "Drain Skill Herobarics 35 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Kyne's Token",
@@ -4795,7 +4965,7 @@
       "Constant Effect",
       "Fortify Skill Marksman 15 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Lavaskin Jerkin",
@@ -4810,7 +4980,6 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Value; 2877",
       "Constant Effect",
       "Fortify Attribute Endurance 20 pts",
       "Fortify Magicka 30 pts",
@@ -4818,7 +4987,8 @@
     ],
     "Stats": {
       "Armor Rating": "40",
-      "Condition": "640/640"
+      "Condition": "640/640",
+      "Value": "2877"
     }
   },
   {
@@ -4879,7 +5049,6 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Value; 3312",
       "Constant Effect",
       "Fortify Arcetribute Endurance 5 pts",
       "Fortify Attribute Agility 5 pts",
@@ -4889,7 +5058,8 @@
     ],
     "Stats": {
       "Armor Rating": "25",
-      "Condition": "675/675"
+      "Condition": "675/675",
+      "Value": "3312"
     }
   },
   {
@@ -4901,7 +5071,7 @@
     "Location/Boss/Event": "Universal",
     "Type": "Heavy Armor",
     "Slot": "Left Bracer/Gauntlet",
-    "Other Notes": "Heavy armor despite \u201cglove\u201d in name; drop chance may be specific to Ascadian Isles per player reports",
+    "Other Notes": "Heavy armor despite “glove” in name; drop chance may be specific to Ascadian Isles per player reports",
     "EV": "",
     "Price": "",
     "Effects": [
@@ -4949,7 +5119,9 @@
     "Slot": "Left Glove",
     "Other Notes": "Price is for pair",
     "EV": "",
-    "Price": ""
+    "Price": "",
+    "Effects": [],
+    "Stats": {}
   },
   {
     "Item Name": "Left Glove of the Pugilist",
@@ -4968,7 +5140,7 @@
       "Fortify Skill Hand-ro-hand 10 pts"
     ],
     "Stats": {
-      "\u00c3\u201a\u00c2\u00bb Armor Rating": "8",
+      "Ã‚Â» Armor Rating": "8",
       "Condition": "150/150"
     }
   },
@@ -5054,7 +5226,6 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Thrust; 6 - 9",
       "Constant Effect",
       "Drain Attribute Endurance 25 pts",
       "Fortify Magicka 75 pts",
@@ -5067,7 +5238,8 @@
       "Slash": "9 - 23",
       "Condition": "46000/46000",
       "Range": "6 fr",
-      "Speed": "225%"
+      "Speed": "225%",
+      "Thrust": "6 - 9"
     }
   },
   {
@@ -5085,7 +5257,7 @@
     "Effects": [
       "Cast When Strikes",
       "AShock Damage 120 pts for 3 eccs on Touch",
-      "Chas g\u00c3\u201a\u00c2\u00a2"
+      "Chas gÃ‚Â¢"
     ],
     "Stats": {
       "Type": "Marksman",
@@ -5094,7 +5266,7 @@
   },
   {
     "Item Name": "Locket of Saint Jiub <3",
-    "Image": "",
+    "Image": "images/Locket of Saint Jiub 3.png",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
     "Lvl Req.": "",
@@ -5109,7 +5281,7 @@
       "Feather 50 pts",
       "Fortify Fatigue 50 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Love Potion No. 9",
@@ -5122,10 +5294,12 @@
     "Slot": "Potion",
     "Other Notes": "",
     "EV": "",
-    "Price": "1"
+    "Price": "1",
+    "Effects": [],
+    "Stats": {}
   },
   {
-    "Item Name": "Lover\u2019s Robe",
+    "Item Name": "Lover’s Robe",
     "Image": "",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
@@ -5135,7 +5309,9 @@
     "Slot": "Robe",
     "Other Notes": "",
     "EV": "52",
-    "Price": "5"
+    "Price": "5",
+    "Effects": [],
+    "Stats": {}
   },
   {
     "Item Name": "Lovers Arrow",
@@ -5148,7 +5324,9 @@
     "Slot": "Ammunition",
     "Other Notes": "",
     "EV": "",
-    "Price": "1"
+    "Price": "1",
+    "Effects": [],
+    "Stats": {}
   },
   {
     "Item Name": "Lupine Tunic",
@@ -5214,8 +5392,8 @@
     "Other Notes": "",
     "EV": "",
     "Price": "",
-    "Effects": null,
-    "Stats": null
+    "Effects": [],
+    "Stats": {}
   },
   {
     "Item Name": "Martial Band",
@@ -5230,12 +5408,14 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Value; 6437",
       "Constant Effect",
       "Fortify Attribute Endurance 15 pts",
       "Fortify Health 150 pts",
       "Hlenhancemene 15 pts"
-    ]
+    ],
+    "Stats": {
+      "Value": "6437"
+    }
   },
   {
     "Item Name": "Martyr's Breastplate",
@@ -5260,69 +5440,6 @@
     }
   },
   {
-    "Item Name": "Mask\u00a0: Skull (Blazing)",
-    "Image": "",
-    "Hidden Effect(s)": "",
-    "Spec. Req.": "Any",
-    "Lvl Req.": "",
-    "Location/Boss/Event": "Morroween",
-    "Type": "Light Armor",
-    "Slot": "Helmet",
-    "Other Notes": "",
-    "EV": "",
-    "Price": "",
-    "Effects": [
-      "Contant Effect",
-      "Light 5 pts"
-    ],
-    "Stats": {
-      "Armor Rating": "0",
-      "Condition": "20000"
-    }
-  },
-  {
-    "Item Name": "Mask\u00a0: Skull (Bondage)",
-    "Image": "",
-    "Hidden Effect(s)": "",
-    "Spec. Req.": "Any",
-    "Lvl Req.": "",
-    "Location/Boss/Event": "Morroween",
-    "Type": "Light Armor",
-    "Slot": "Helmet",
-    "Other Notes": "",
-    "EV": "",
-    "Price": "",
-    "Effects": [
-      "Constant Effect",
-      "Light 5 pts"
-    ],
-    "Stats": {
-      "Armor Rating": "0",
-      "Condition": "20000"
-    }
-  },
-  {
-    "Item Name": "Mask\u00a0: Skull (Everflame)",
-    "Image": "",
-    "Hidden Effect(s)": "",
-    "Spec. Req.": "Any",
-    "Lvl Req.": "",
-    "Location/Boss/Event": "Morroween",
-    "Type": "Light Armor",
-    "Slot": "Helmet",
-    "Other Notes": "",
-    "EV": "",
-    "Price": "",
-    "Effects": [
-      "Constant Effect",
-      "Light 5 pts"
-    ],
-    "Stats": {
-      "ARmor Rating": "0",
-      "Condition": "20000"
-    }
-  },
-  {
     "Item Name": "Medic's Boots",
     "Image": "",
     "Hidden Effect(s)": "",
@@ -5335,14 +5452,14 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Condition; 825/825",
       "Constant Effect",
       "Fortify Attribute Willpower 15 pts",
       "Fortify Attribute Personality 15 pts",
       "Fortify Magicka 30 pts"
     ],
     "Stats": {
-      "Armor Rating": "10"
+      "Armor Rating": "10",
+      "Condition": "825/825"
     }
   },
   {
@@ -5363,7 +5480,7 @@
       "Fortify Attribute Agility 10 pts",
       "Fortify Attribute Speed 10 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Morroween Hide Shirt",
@@ -5377,8 +5494,8 @@
     "Other Notes": "Model: Hair Shirt of St. Aralor",
     "EV": "77",
     "Price": "",
-    "Effects": null,
-    "Stats": null
+    "Effects": [],
+    "Stats": {}
   },
   {
     "Item Name": "Moss Covered Mace",
@@ -5408,7 +5525,7 @@
     }
   },
   {
-    "Item Name": "Movarth\u2019s Boots",
+    "Item Name": "Movarth’s Boots",
     "Image": "",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
@@ -5439,7 +5556,9 @@
     "Slot": "Ring",
     "Other Notes": "",
     "EV": "",
-    "Price": ""
+    "Price": "",
+    "Effects": [],
+    "Stats": {}
   },
   {
     "Item Name": "Murk Claw Spear",
@@ -5483,43 +5602,42 @@
     "Other Notes": "",
     "EV": "70",
     "Price": "",
-    "Effects": [
-      "Thrust; 1 - 2"
-    ],
+    "Effects": [],
     "Stats": {
       "Type": "Spear, Two Handed",
       "Chop": "5 - 10",
       "Slash": "2- 4",
       "Condition": "600/600",
       "Range": "6 fr",
-      "Speed": "100%"
+      "Speed": "100%",
+      "Thrust": "1 - 2"
     }
   },
   {
-    "Item Name": "Myrmidon\u2019s Spear",
-    "Image": "",
+    "Item Name": "Myrmidon’s Spear",
+    "Image": "images/Myrmidon's Spear.png",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
     "Lvl Req.": "",
     "Location/Boss/Event": "Skeleton Camp",
     "Type": "Spear",
     "Slot": "Weapon - 2 Hand",
-    "Other Notes": "",
+    "Other Notes": "No Trade",
     "EV": "",
     "Price": "",
     "Effects": [
-      "Chem 2-5",
-      "Cast When Srrtkes",
-      "Frost Damage 10 to 40 pts for 3 secs on Touch",
-      "Chars:"
+      "Cast When Strikes",
+      "Frost Damage 10 to 30 pts for 3 secs on Touch"
     ],
     "Stats": {
-      "Type": "Bpcar, Two Handed",
-      "Mask": "2-5",
+      "Type": "Spear, Two Handed",
+      "Chop": "2 - 5",
+      "Slash": "2 - 5",
       "Thrust": "8 - 23",
-      "Condizion": "2000/2000",
-      "Range": "108 ft",
-      "Speed": "120%"
+      "Condition": "2000/2000",
+      "Range": "10.8 ft",
+      "Speed": "120%",
+      "Weight": "14"
     }
   },
   {
@@ -5540,7 +5658,7 @@
       "Fortify Skill Destruction 13 pts",
       "Fortify Magicka 100 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Necklace of the Weaver",
@@ -5560,7 +5678,7 @@
       "Fortify Attribute Speed 25 pts",
       "Fortify Health 100 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Nerveshatter",
@@ -5603,8 +5721,8 @@
     "Other Notes": "",
     "EV": "140?",
     "Price": "",
-    "Effects": null,
-    "Stats": null
+    "Effects": [],
+    "Stats": {}
   },
   {
     "Item Name": "New Life Festival Robe",
@@ -5618,8 +5736,8 @@
     "Other Notes": "",
     "EV": "52",
     "Price": "",
-    "Effects": null,
-    "Stats": null
+    "Effects": [],
+    "Stats": {}
   },
   {
     "Item Name": "New Life Festival Shirt",
@@ -5633,11 +5751,11 @@
     "Other Notes": "",
     "EV": "77",
     "Price": "",
-    "Effects": null,
-    "Stats": null
+    "Effects": [],
+    "Stats": {}
   },
   {
-    "Item Name": "Nightweaver\u2019s Band",
+    "Item Name": "Nightweaver’s Band",
     "Image": "",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
@@ -5653,7 +5771,7 @@
       "Fortify Skill Sneak 10 pts",
       "Fortify Skill Destruction 10 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Nordic Silver Battleaxe",
@@ -5730,7 +5848,7 @@
       "Fortify Skill Enchant",
       "Poderece Enchantment 100 ft"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Obsidian Etched Choker",
@@ -5751,7 +5869,7 @@
       "Fortify Health 200 pts",
       "Drain Attribute Personalicy 40 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Okin",
@@ -5796,7 +5914,7 @@
       "Fortify Attribute Intelligence 20 pts",
       "Borrity Magicka 20 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Ouch",
@@ -5810,7 +5928,7 @@
     "Other Notes": "",
     "EV": "",
     "Price": "",
-    "Effects": null,
+    "Effects": [],
     "Stats": {
       "Type": "Blunt Weapon, Two Hande",
       "Chop": "1 - 48",
@@ -5839,7 +5957,7 @@
       "Fortify Skill Destruction 13 pts",
       "Fortify Health 100 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Pendant of Wisdom",
@@ -5862,7 +5980,7 @@
       "Resist Shock 5%",
       "Resist Magicka 5%"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Potion of Alacrity",
@@ -5875,7 +5993,9 @@
     "Slot": "Potion",
     "Other Notes": "Price is for Jiub Care Package, which include Potion of Alacrity, Potion of Productivity, Potion of Traversing, and Potion of Mastery",
     "EV": "",
-    "Price": "140"
+    "Price": "140",
+    "Effects": [],
+    "Stats": {}
   },
   {
     "Item Name": "Potion of Anti-Gravity",
@@ -5888,7 +6008,9 @@
     "Slot": "Potion",
     "Other Notes": "Price is for Jiub Care Package, which include Potion of Alacrity, Potion of Productivity, Potion of Traversing, and Potion of Mastery",
     "EV": "",
-    "Price": "140"
+    "Price": "140",
+    "Effects": [],
+    "Stats": {}
   },
   {
     "Item Name": "Potion of Mastery",
@@ -5901,7 +6023,9 @@
     "Slot": "Potion",
     "Other Notes": "Price is for single potion or Jiub Care Package, which include Potion of Alacrity, Potion of Productivity, Potion of Traversing, and Potion of Mastery",
     "EV": "",
-    "Price": "70/140"
+    "Price": "70/140",
+    "Effects": [],
+    "Stats": {}
   },
   {
     "Item Name": "Potion of Productivity",
@@ -5917,7 +6041,8 @@
     "Price": "140",
     "Effects": [
       "Unique Effect"
-    ]
+    ],
+    "Stats": {}
   },
   {
     "Item Name": "Potion of Traversing",
@@ -5930,7 +6055,9 @@
     "Slot": "Potion",
     "Other Notes": "Price is for Jiub Care Package, which include Potion of Alacrity, Potion of Productivity, Potion of Traversing, and Potion of Mastery",
     "EV": "",
-    "Price": "140"
+    "Price": "140",
+    "Effects": [],
+    "Stats": {}
   },
   {
     "Item Name": "Predator's Grace",
@@ -5972,7 +6099,7 @@
       "Fortify Skill Heavy Armor 31 pts",
       "Fortify Health 185 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Purewind belt",
@@ -5991,7 +6118,7 @@
       "Resist Poison 15%",
       "Resist Common Disease 15%"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Putrid Leggings",
@@ -6031,8 +6158,6 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Thrust; 1 - 8",
-      "Condition; 630",
       "Constant Effect",
       "Resist Fire 20%"
     ],
@@ -6041,7 +6166,9 @@
       "Chop": "2 - 10",
       "Slash": "3 - 10",
       "Range": "9 fr",
-      "Speed": "175%"
+      "Speed": "175%",
+      "Thrust": "1 - 8",
+      "Condition": "630"
     }
   },
   {
@@ -6091,7 +6218,7 @@
       "Fortify Attribute Endurance 10 pts",
       "Fortify Health 50 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Ravenback Robe",
@@ -6106,13 +6233,13 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Constant ffeer",
+      "Constant Effect",
       "Fortify Attribute Endurance 10 pts",
       "Fortify Attribute Intelligence 20 pts",
       "Fortify Health 50 pts",
       "Fortify Magicka 50 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Raw Jade Ring",
@@ -6131,7 +6258,7 @@
       "Fortify Attribute Agility 7 pts",
       "Resist Poison 7%"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Red Eagle's Bane",
@@ -6178,7 +6305,7 @@
       "Fortify Attribute Endurance 5 pts",
       "Resist Fire 11%"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Red Wolf Boots",
@@ -6216,7 +6343,9 @@
     "Slot": "Left Bracer/Gauntlet",
     "Other Notes": "",
     "EV": "",
-    "Price": ""
+    "Price": "",
+    "Effects": [],
+    "Stats": {}
   },
   {
     "Item Name": "Red Wolf Right Bracer",
@@ -6231,7 +6360,7 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Constant EEffect",
+      "Constant Effect",
       "Fortify Attribute Agility 8 pts",
       "Fortify Aecriburce Willpower 5 pts",
       "Fortify Health 15 pts",
@@ -6337,16 +6466,28 @@
   },
   {
     "Item Name": "Right Glove of Despair",
-    "Image": "",
+    "Image": "images/Right Glove of Despair.png",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
     "Lvl Req.": "",
     "Location/Boss/Event": "Universal",
     "Type": "Heavy Armor",
     "Slot": "Right Bracer/Gauntlet",
-    "Other Notes": "Heavy armor despite \u201cglove\u201d in name; drop chance may be specific to Ascadian Isles per player reports",
+    "Other Notes": "Heavy armor despite “glove” in name; drop chance may be specific to Ascadian Isles per player reports",
     "EV": "",
-    "Price": ""
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Strength 12 pts",
+      "Fortify Attribute Agility 10 pts",
+      "Fortify Health 50 pts"
+    ],
+    "Stats": {
+      "Armor Rating": "30",
+      "Condition": "1260/1260",
+      "Weight": "15 (Heavy)",
+      "Value": "4998"
+    }
   },
   {
     "Item Name": "Right Glove of Dismay",
@@ -6373,16 +6514,27 @@
   },
   {
     "Item Name": "Right Glove of Divination",
-    "Image": "",
+    "Image": "images/Right Glove of Divination.png",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
     "Lvl Req.": "",
     "Location/Boss/Event": "Storyteller",
-    "Type": "Clothing",
-    "Slot": "Right Glove",
-    "Other Notes": "Price is for pair",
+    "Type": "Light Armor",
+    "Slot": "Right Bracer/Gauntlet",
+    "Other Notes": "Price is for pair; No Trade",
     "EV": "",
-    "Price": ""
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Willpower 8 pts",
+      "Fortify Attribute Intelligence 8 pts",
+      "Fortify Health 15 pts"
+    ],
+    "Stats": {
+      "Armor Rating": "14",
+      "Condition": "375/375",
+      "Weight": "1 (Light)"
+    }
   },
   {
     "Item Name": "Right Glove of the Pugilist",
@@ -6469,7 +6621,7 @@
       "Restore Health",
       "Resrore Magicka"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Ring of Ageas",
@@ -6484,7 +6636,7 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Constant @ffcer",
+      "Constant Effect",
       "Wvorrity Attribute Srrengrh 15 pts",
       "Forriry Health 100 pts",
       "Resist Magicka 5%",
@@ -6492,14 +6644,14 @@
       "Fortify Attribute Endurance 10 pts",
       "Fortify Attribute Speed 10 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Ring of Anguish",
-    "Image": "",
+    "Image": "images/Ring of Anguish.png",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
-    "Lvl Req.": "",
+    "Lvl Req.": "60",
     "Location/Boss/Event": "Crafted: Jewelrycraft",
     "Type": "Clothing",
     "Slot": "Ring",
@@ -6513,7 +6665,10 @@
       "Fortify Attribute Agility 10 pts",
       "Resist Poison 30%"
     ],
-    "Stats": null
+    "Stats": {
+      "Weight": "0.1",
+      "Value": "9000"
+    }
   },
   {
     "Item Name": "Ring of Arcana",
@@ -6527,8 +6682,8 @@
     "Other Notes": "",
     "EV": "",
     "Price": "",
-    "Effects": null,
-    "Stats": null
+    "Effects": [],
+    "Stats": {}
   },
   {
     "Item Name": "Ring of Devotion",
@@ -6547,14 +6702,14 @@
       "Fortify Attribute Agility 35 pts",
       "Fortify Attribute Personality 20 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Ring of Disbelief",
-    "Image": "",
+    "Image": "images/Ring of Disbelief.png",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
-    "Lvl Req.": "",
+    "Lvl Req.": "60",
     "Location/Boss/Event": "Crafted: Jewelrycraft",
     "Type": "Clothing",
     "Slot": "Ring",
@@ -6568,85 +6723,134 @@
       "Fortify Attribute Willpower 25 pts",
       "Resist Shock 30%"
     ],
-    "Stats": null
+    "Stats": {
+      "Weight": "0.1",
+      "Value": "9000"
+    }
   },
   {
     "Item Name": "Ring of Discontent",
-    "Image": "",
+    "Image": "images/Ring of Discontent.png",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
-    "Lvl Req.": "",
+    "Lvl Req.": "60",
     "Location/Boss/Event": "Crafted: Jewelrycraft",
     "Type": "Clothing",
     "Slot": "Ring",
     "Other Notes": "Recipe costs 5 Grandmaster Crafters Marks",
     "EV": "",
-    "Price": ""
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Health 210 pts",
+      "Fortify Attribute Strength 25 pts",
+      "Fortify Attribute Speed 10 pts",
+      "Resist Fire 30%"
+    ],
+    "Stats": {
+      "Weight": "0.1",
+      "Value": "9000"
+    }
   },
   {
     "Item Name": "Ring of Distress",
-    "Image": "",
+    "Image": "images/Ring of Distress.png",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
-    "Lvl Req.": "",
+    "Lvl Req.": "60",
     "Location/Boss/Event": "Crafted: Jewelrycraft",
     "Type": "Clothing",
     "Slot": "Ring",
     "Other Notes": "Recipe costs 5 Grandmaster Crafters Marks",
     "EV": "",
-    "Price": ""
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Health 55 pts",
+      "Fortify Magicka 155 pts",
+      "Fortify Attribute Personality 25 pts",
+      "Fortify Attribute Intelligence 10 pts",
+      "Resist Frost 30%"
+    ],
+    "Stats": {
+      "Weight": "0.1",
+      "Value": "9000"
+    }
   },
   {
     "Item Name": "Ring of Doubt",
-    "Image": "",
+    "Image": "images/Ring of Doubt.png",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
-    "Lvl Req.": "",
+    "Lvl Req.": "50",
     "Location/Boss/Event": "Crafted: Jewelrycraft",
     "Type": "Clothing",
     "Slot": "Ring",
     "Other Notes": "Recipe costs 20 Master Crafters Marks",
     "EV": "",
-    "Price": ""
-  },
-  {
-    "Item Name": "Ring of Dred",
-    "Image": "",
-    "Hidden Effect(s)": "",
-    "Spec. Req.": "Any",
-    "Lvl Req.": "",
-    "Location/Boss/Event": "Crafted: Jewelrycraft",
-    "Type": "Clothing",
-    "Slot": "Ring",
-    "Other Notes": "Recipe costs 20 Master Crafters Marks",
-    "EV": "",
-    "Price": ""
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Health 130 pts",
+      "Fortify Attribute Strength 25 pts",
+      "Fortify Attribute Willpower 20 pts",
+      "Drain Attribute Personality 50 pts",
+      "Resist Shock 30%"
+    ],
+    "Stats": {
+      "Weight": "0.1",
+      "Value": "7000"
+    }
   },
   {
     "Item Name": "Ring of Fright",
-    "Image": "",
+    "Image": "images/Ring of Fright.png",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
-    "Lvl Req.": "",
+    "Lvl Req.": "50",
     "Location/Boss/Event": "Crafted: Jewelrycraft",
     "Type": "Clothing",
     "Slot": "Ring",
     "Other Notes": "Recipe costs 20 Master Crafters Marks",
     "EV": "",
-    "Price": ""
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Health 80 pts",
+      "Fortify Magicka 80 pts",
+      "Fortify Attribute Personality 50 pts",
+      "Drain Attribute Strength 50 pts",
+      "Resist Frost 30%"
+    ],
+    "Stats": {
+      "Weight": "0.1",
+      "Value": "7000"
+    }
   },
   {
     "Item Name": "Ring of Horror",
-    "Image": "",
+    "Image": "images/Ring of Horror.png",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
-    "Lvl Req.": "",
+    "Lvl Req.": "50",
     "Location/Boss/Event": "Crafted: Jewelrycraft",
     "Type": "Clothing",
     "Slot": "Ring",
     "Other Notes": "Recipe costs 20 Master Crafters Marks",
     "EV": "",
-    "Price": ""
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Magicka 130 pts",
+      "Fortify Attribute Endurance 20 pts",
+      "Fortify Attribute Personality 35 pts",
+      "Drain Attribute Strength 50 pts",
+      "Resist Magicka 30%"
+    ],
+    "Stats": {
+      "Weight": "0.1",
+      "Value": "7000"
+    }
   },
   {
     "Item Name": "Ring of Kings",
@@ -6667,20 +6871,31 @@
       "Fortify Health 25 pts",
       "Fortify Magicka 35 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Ring of Loathing",
-    "Image": "",
+    "Image": "images/Ring of Loathing.png",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
-    "Lvl Req.": "",
+    "Lvl Req.": "60",
     "Location/Boss/Event": "Crafted: Jewelrycraft",
     "Type": "Clothing",
     "Slot": "Ring",
     "Other Notes": "Recipe costs 5 Grandmaster Crafters Marks",
     "EV": "",
-    "Price": ""
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Magicka 210 pts",
+      "Fortify Attribute Endurance 20 pts",
+      "Fortify Attribute Personality 15 pts",
+      "Resist Magicka 30%"
+    ],
+    "Stats": {
+      "Weight": "0.1",
+      "Value": "9000"
+    }
   },
   {
     "Item Name": "Ring of Love",
@@ -6699,7 +6914,7 @@
       "Fortify Attribute Agility 20 pts",
       "Fortify Arceribute Personality 35 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Ring of Masser",
@@ -6714,13 +6929,15 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Value; 5211",
-      "Consrant Effect",
+      "Constant Effect",
       "Fortify Skill Illusion 30 pts",
       "Fortify Fatigue 20 pts",
       "Fortify Skill Sneak 20 pts"
     ],
-    "Stats": null
+    "Stats": {
+      "Weight": "0.1",
+      "Value": "5211"
+    }
   },
   {
     "Item Name": "Ring of Namira",
@@ -6738,20 +6955,33 @@
       "Constant Effect",
       "Reflect 15%"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Ring of Terror",
-    "Image": "",
+    "Image": "images/Ring of Terror.png",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
-    "Lvl Req.": "",
+    "Lvl Req.": "50",
     "Location/Boss/Event": "Crafted: Jewelrycraft",
     "Type": "Clothing",
     "Slot": "Ring",
     "Other Notes": "Recipe costs 20 Master Crafters Marks",
     "EV": "",
-    "Price": ""
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Health 60 pts",
+      "Fortify Magicka 80 pts",
+      "Fortify Attribute Endurance 25 pts",
+      "Fortify Attribute Willpower 20 pts",
+      "Drain Attribute Intelligence 50 pts",
+      "Resist Poison 30%"
+    ],
+    "Stats": {
+      "Weight": "0.1",
+      "Value": "7000"
+    }
   },
   {
     "Item Name": "Ring of the Ancient",
@@ -6771,7 +7001,7 @@
       "Fortify Attribute Personality 5 pts",
       "Resist Fire 7%"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Ring of Truth",
@@ -6791,10 +7021,10 @@
       "Fortify Health 50 pts",
       "Fortify Magicka 25 pts",
       "Resist Fire 5%",
-      "Resist Prose 5%",
+      "Resist Frost 5%",
       "Resist Shock 5%"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Rising Sun Ring",
@@ -6813,7 +7043,7 @@
       "Fortify Attribute Willpower 8 pts",
       "Fortify Attribute Strength 8 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Robe of Evocation",
@@ -6835,7 +7065,7 @@
       "Resist Shock 10%",
       "Resist Magicka 10%"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Robe of Eyes",
@@ -6853,7 +7083,7 @@
       "Constant Effect",
       "Fortify Attribute Agility 30 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Robe of Thornamil",
@@ -6871,7 +7101,7 @@
       "Constant Effect",
       "Fortify Attribute Intelligence 15 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Rotweave Tunic",
@@ -6886,13 +7116,13 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Condition; 1500/1500",
       "Cast When Used",
       "Damage Health 6 pts for 15 secs on Touch",
       "Restore Magicks 4 pts for 15 secs on Self"
     ],
     "Stats": {
-      "Armor Rating": "30"
+      "Armor Rating": "30",
+      "Condition": "1500/1500"
     }
   },
   {
@@ -6907,14 +7137,14 @@
     "Other Notes": "",
     "EV": "180",
     "Price": "",
-    "Effects": null,
+    "Effects": [],
     "Stats": {
       "Armor Rating": "33",
       "Condition": "410"
     }
   },
   {
-    "Item Name": "Ruin\u2019s Edge",
+    "Item Name": "Ruin’s Edge",
     "Image": "",
     "Hidden Effect(s)": "No cast on strike, all enchants have separate chance to proc",
     "Spec. Req.": "Any",
@@ -6960,10 +7190,10 @@
       "Constant Effect",
       "Fortify Attribute Endurance 35 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
-    "Item Name": "Savos Aren\u2019s Amulet",
+    "Item Name": "Savos Aren’s Amulet",
     "Image": "",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
@@ -6978,7 +7208,7 @@
       "Constant Effect",
       "Fortify Magicka 50 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Scorpion Band",
@@ -6999,7 +7229,7 @@
       "Fortify Attribute Agility 10 pts",
       "Fortify Magicka 25 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Seasick Crocodile Tears",
@@ -7007,7 +7237,7 @@
     "Hidden Effect(s)": "Creates goblin illusion on player, visible to other players. Reduces player size moderately.  (duration?)",
     "Spec. Req.": "Any",
     "Lvl Req.": "",
-    "Location/Boss/Event": "Jiubmas (Da Greensh\u2019s Quest)",
+    "Location/Boss/Event": "Jiubmas (Da Greensh’s Quest)",
     "Type": "Consumable",
     "Slot": "Potion",
     "Other Notes": "",
@@ -7016,10 +7246,10 @@
     "Effects": [
       "Unique Effect"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
-    "Item Name": "Secret Master\u2019s Alembic",
+    "Item Name": "Secret Master’s Alembic",
     "Image": "",
     "Hidden Effect(s)": "For each potion succesfully brewed, 2 additonal potions will be brewed at no additonal ingredient cost. Potion strength is increased.",
     "Spec. Req.": "Any",
@@ -7030,13 +7260,13 @@
     "Other Notes": "Restored cut content",
     "EV": "",
     "Price": "",
-    "Effects": null,
+    "Effects": [],
     "Stats": {
       "Quality": "2"
     }
   },
   {
-    "Item Name": "Secret Master\u2019s Calcinator",
+    "Item Name": "Secret Master’s Calcinator",
     "Image": "",
     "Hidden Effect(s)": "For each potion succesfully brewed, 2 additonal potions will be brewed at no additonal ingredient cost. Potion strength is increased.",
     "Spec. Req.": "Any",
@@ -7047,13 +7277,13 @@
     "Other Notes": "Restored cut content",
     "EV": "",
     "Price": "",
-    "Effects": null,
+    "Effects": [],
     "Stats": {
       "Quality": "2"
     }
   },
   {
-    "Item Name": "Secret Master\u2019s Mortar and Pestle",
+    "Item Name": "Secret Master’s Mortar and Pestle",
     "Image": "",
     "Hidden Effect(s)": "For each potion succesfully brewed, 2 additonal potions will be brewed at no additonal ingredient cost. Potion strength is increased.",
     "Spec. Req.": "Any",
@@ -7064,13 +7294,13 @@
     "Other Notes": "Restored cut content",
     "EV": "",
     "Price": "",
-    "Effects": null,
+    "Effects": [],
     "Stats": {
       "Quality": "2"
     }
   },
   {
-    "Item Name": "Secret Master\u2019s Retort",
+    "Item Name": "Secret Master’s Retort",
     "Image": "",
     "Hidden Effect(s)": "For each potion succesfully brewed, 2 additonal potions will be brewed at no additonal ingredient cost. Potion strength is increased.",
     "Spec. Req.": "Any",
@@ -7081,7 +7311,7 @@
     "Other Notes": "Restored cut content",
     "EV": "",
     "Price": "",
-    "Effects": null,
+    "Effects": [],
     "Stats": {
       "Quality": "2"
     }
@@ -7126,7 +7356,7 @@
       "Fortify Attribute Personality 25 pts",
       "Fortify Attribute Luck 25 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Shattered Fang Axe",
@@ -7168,13 +7398,13 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Value; 3128",
       "Constant Effect",
       "Fortify Skill Unarmored 25 pts",
       "Fortify Skill Athletics 18 pts"
     ],
     "Stats": {
-      "Weighte": "2"
+      "Weighte": "2",
+      "Value": "3128"
     }
   },
   {
@@ -7300,13 +7530,13 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Condition; 900/900",
-      "Value; 3730",
       "Constant Effect",
       "KResist Poison 45%"
     ],
     "Stats": {
-      "Armor Rating": "48"
+      "Armor Rating": "48",
+      "Condition": "900/900",
+      "Value": "3730"
     }
   },
   {
@@ -7410,7 +7640,7 @@
       "Fortify Skill Short Blade 10 pts",
       "DFortify Skill Sneak 10 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Shrouded Left Pauldron",
@@ -7456,7 +7686,7 @@
   },
   {
     "Item Name": "Shrouded Right Hand Wrap",
-    "Image": "",
+    "Image": "images/Shrouded Right Hand Wrap.png",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
     "Lvl Req.": "",
@@ -7465,7 +7695,16 @@
     "Slot": "Right Glove",
     "Other Notes": "",
     "EV": "",
-    "Price": ""
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Skill Short Blade 10 pts",
+      "Fortify Skill Sneak 10 pts"
+    ],
+    "Stats": {
+      "Weight": "0.5",
+      "Value": "50"
+    }
   },
   {
     "Item Name": "Shrouded Right Pauldron",
@@ -7504,7 +7743,7 @@
       "Constant Effect",
       "Fortify Skill Destruction 15 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Silver-Blood Family Ring",
@@ -7522,7 +7761,7 @@
       "Constant Effect",
       "Fortify Skill Armorer 15 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Silverweave Choker",
@@ -7560,7 +7799,7 @@
     "Effects": [
       "Unique Effect"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Skull of Jherin",
@@ -7570,18 +7809,20 @@
     "Lvl Req.": "50",
     "Location/Boss/Event": "Tomb of the Dessicator",
     "Type": "Light Armor",
-    "Slot": "Shied",
+    "Slot": "Shield",
     "Other Notes": "",
     "EV": "",
     "Price": "",
     "Effects": [
-      "Constant Effect |",
+      "Constant Effect",
       "Fortify Magicka 175 pts",
       "Resist Poison 25%"
     ],
     "Stats": {
       "Armor Rating": "6",
-      "Condition": "2300/2300 :"
+      "Condition": "2300/2300",
+      "Weight": "5 (Light)",
+      "Value": "3666"
     }
   },
   {
@@ -7597,14 +7838,14 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Condition; 600/600",
       "Constant Effect",
       "Fortify Attribute Screngeh 10 p",
       "Fortify Attribute Willpower 10 _",
       "Resist Fire 13%"
     ],
     "Stats": {
-      "Armor Rating": "28"
+      "Armor Rating": "28",
+      "Condition": "600/600"
     }
   },
   {
@@ -7839,7 +8080,9 @@
     "Slot": "Left Pauldron",
     "Other Notes": "",
     "EV": "",
-    "Price": "x Dark Ebony Ingots, 1 Blue Diamond, 1 Armor Mold"
+    "Price": "x Dark Ebony Ingots, 1 Blue Diamond, 1 Armor Mold",
+    "Effects": [],
+    "Stats": {}
   },
   {
     "Item Name": "Skystrider Pauldron (Right)",
@@ -7879,7 +8122,7 @@
     "EV": "",
     "Price": "x Dark Ebony Ingots, 1 Blue Diamond, 1 Armor Mold",
     "Effects": [
-      "Gonseane Effect",
+      "Constant Effect",
       "Fortify Attribute Agility 45 pts",
       "Fortify Attribute Speed 15 pts",
       "Fortify Attribute Endurance 5 pts",
@@ -7903,7 +8146,7 @@
     "Other Notes": "",
     "EV": "",
     "Price": "",
-    "Effects": null,
+    "Effects": [],
     "Stats": {
       "Type": "Marksman",
       "Attack": "0-0",
@@ -7927,7 +8170,7 @@
       "Fortify Health 50 pts",
       "Fortify Magicka 50 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Soul Stealer Arrow",
@@ -7963,7 +8206,9 @@
     "Slot": "Weapon - 1 Hand",
     "Other Notes": "",
     "EV": "",
-    "Price": ""
+    "Price": "",
+    "Effects": [],
+    "Stats": {}
   },
   {
     "Item Name": "Staff of Aqueus Protection",
@@ -8088,7 +8333,7 @@
     "Other Notes": "",
     "EV": "",
     "Price": "",
-    "Effects": null,
+    "Effects": [],
     "Stats": {
       "Type": "Marksman",
       "Attack": "10 - 16"
@@ -8096,7 +8341,7 @@
   },
   {
     "Item Name": "Stalhrim Shortsword",
-    "Image": "",
+    "Image": "images/Stalhrim Shortsword.png",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
     "Lvl Req.": "",
@@ -8105,7 +8350,19 @@
     "Slot": "Weapon - 1 Hand",
     "Other Notes": "Restored cut content",
     "EV": "",
-    "Price": ""
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Type": "Short Blade, One Handed",
+      "Chop": "12 - 30",
+      "Slash": "11 - 30",
+      "Thrust": "14 - 28",
+      "Condition": "1600/1600",
+      "Range": "6 ft",
+      "Speed": "200%",
+      "Weight": "20",
+      "Value": "3000"
+    }
   },
   {
     "Item Name": "Sticky Cinnamon Taffy",
@@ -8120,7 +8377,6 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Attack 2-2",
       "Cast When Strikes",
       "Drain Fatigue 100 pts for 30 secs on Target",
       "Drain Attribute Speed 100 pts for 30 secs on Target",
@@ -8130,7 +8386,8 @@
     "Stats": {
       "Type": "Marksman",
       "Speed": "100%",
-      "Charge": "1"
+      "Charge": "1",
+      "Attack": "2-2"
     }
   },
   {
@@ -8144,7 +8401,9 @@
     "Slot": "Weapon - 2 Hand",
     "Other Notes": "",
     "EV": "",
-    "Price": ""
+    "Price": "",
+    "Effects": [],
+    "Stats": {}
   },
   {
     "Item Name": "Stormsoul",
@@ -8192,7 +8451,7 @@
       "Fortify Fatigue 450 pts",
       "Damage Magicka"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Strange Amulet",
@@ -8213,7 +8472,7 @@
       "Damage Health 75 pts",
       "Damage Fatigue 75 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Sunstar Ring",
@@ -8228,12 +8487,13 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Value; 1241",
       "Constant Effect",
       "Fortify Attribute Intelligence 6 pts",
       "Fortify Attribute Personality 10 pts"
     ],
-    "Stats": null
+    "Stats": {
+      "Value": "1241"
+    }
   },
   {
     "Item Name": "Sword of Lords",
@@ -8275,7 +8535,6 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Weight; 20",
       "Constant Effect",
       "Fortify Attribute Strength 25 pts",
       "Fortify Health 75 pts"
@@ -8287,7 +8546,8 @@
       "Thrust": "14 - 28",
       "Condition": "1742/1800",
       "Range": "6 ft",
-      "Speed": "135%"
+      "Speed": "135%",
+      "Weight": "20"
     }
   },
   {
@@ -8303,7 +8563,6 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Value; 2003",
       "Cast When Strikes",
       "Fire Damage 15 pts for 2 secs secs on Touch",
       "Damage Magicka 24 pts for 1 sec on Touch"
@@ -8316,7 +8575,8 @@
       "Condition": "3200/3200",
       "Range": "6 fr",
       "Speed": "200%",
-      "Charge": "3000"
+      "Charge": "3000",
+      "Value": "2003"
     }
   },
   {
@@ -8335,7 +8595,7 @@
       "Constant Effect",
       "Fortify Magicka 115 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Tainted Leggings",
@@ -8459,7 +8719,7 @@
   },
   {
     "Item Name": "The Longhammer",
-    "Image": "",
+    "Image": "images/The Longhammer.png",
     "Hidden Effect(s)": "Fastest Two Handed weapon",
     "Spec. Req.": "Any",
     "Lvl Req.": "",
@@ -8468,10 +8728,22 @@
     "Slot": "Weapon - 2 Hand",
     "Other Notes": "",
     "EV": "",
-    "Price": ""
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Type": "Blunt Weapon, Two Handed",
+      "Chop": "1 - 42",
+      "Slash": "1 - 36",
+      "Thrust": "1 - 2",
+      "Condition": "4000/4000",
+      "Range": "9 ft",
+      "Speed": "130%",
+      "Weight": "30.4",
+      "Value": "900"
+    }
   },
   {
-    "Item Name": "The Lover\u2019s Shirt",
+    "Item Name": "The Lover’s Shirt",
     "Image": "",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
@@ -8482,10 +8754,8 @@
     "Other Notes": "",
     "EV": "77",
     "Price": "5",
-    "Effects": [
-      "Weight"
-    ],
-    "Stats": null
+    "Effects": [],
+    "Stats": {}
   },
   {
     "Item Name": "The Rueful Axe",
@@ -8500,7 +8770,6 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Thrust; 1-3",
       "Cast When Strikes",
       "Damage Fatigue 20 pts for 1 sc on Touch",
       "Char gc:"
@@ -8512,7 +8781,8 @@
       "Condition": "1800/1800",
       "Range": "6 ft",
       "Speed": "100%",
-      "Valve": "1183"
+      "Valve": "1183",
+      "Thrust": "1-3"
     }
   },
   {
@@ -8554,7 +8824,7 @@
     "Other Notes": "",
     "EV": "",
     "Price": "",
-    "Effects": null,
+    "Effects": [],
     "Stats": {
       "Type": "Marksman",
       "Arceack": "2 - 2",
@@ -8605,7 +8875,7 @@
       "Fortify Attribute Intelligence 15 pts",
       "Fortify Magicka 40 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Transcendent Shield",
@@ -8678,7 +8948,7 @@
       "Fortify Attribute Agility 8 pts",
       "Fortify Attribute Personality 8 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "True Steel Cuirass",
@@ -8692,7 +8962,7 @@
     "Other Notes": "",
     "EV": "",
     "Price": "",
-    "Effects": null,
+    "Effects": [],
     "Stats": {
       "Armor Rating": "9",
       "Condition": "450/450"
@@ -8845,17 +9115,18 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Value; 7300",
       "Constant Effect",
       "Fortify Attribute Endurance 15 pts",
       "Fortify Attribute Agility 10 pts",
       "Fortify Health 100 pts",
       "Fortify Magicka 58 pts"
     ],
-    "Stats": null
+    "Stats": {
+      "Value": "7300"
+    }
   },
   {
-    "Item Name": "Tyrant\u2019s Bane",
+    "Item Name": "Tyrant’s Bane",
     "Image": "",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
@@ -8898,10 +9169,10 @@
       "Fortify Attribute Personality 12 pts",
       "Fortify Magicka 10 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
-    "Item Name": "Vannaka\u2019s Steel Zweihander",
+    "Item Name": "Vannaka’s Steel Zweihander",
     "Image": "",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
@@ -8913,7 +9184,6 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Condition; 4200/4200",
       "Constant Effect",
       "Fortify Attribute Strength 25 pts"
     ],
@@ -8923,7 +9193,8 @@
       "Slash": "1 - 50",
       "Thrust": "1 - 65",
       "Range": "6 ft",
-      "Speed": "125%"
+      "Speed": "125%",
+      "Condition": "4200/4200"
     }
   },
   {
@@ -8966,7 +9237,6 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Thrust 2-5",
       "Cast When Used",
       "Fortify Skill Athletics 15 pts for 60 secs on Self"
     ],
@@ -8977,7 +9247,8 @@
       "Condition": "600/",
       "Range": "10.8 ft",
       "Speed": "175%",
-      "Charge": "6"
+      "Charge": "6",
+      "Thrust": "2-5"
     }
   },
   {
@@ -8997,7 +9268,7 @@
       "Fortify Attribute Endurance 5 pts",
       "Ee Resist Frost 11%"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "White Wind Boots",
@@ -9084,7 +9355,6 @@
     "EV": "",
     "Price": "x Dark Ebony Ingots, 1 Dwemorblood Alloy, 1 Armor Mold",
     "Effects": [
-      "Value; 9000",
       "Constant Effect",
       "Fortify Attribute Willpower 50 pts",
       "Fortify Attribute Intelligence 15 pts",
@@ -9093,7 +9363,8 @@
     ],
     "Stats": {
       "Armor Rating": "95",
-      "Condition": "6000/6000"
+      "Condition": "6000/6000",
+      "Value": "9000"
     }
   },
   {
@@ -9205,7 +9476,6 @@
     "EV": "",
     "Price": "x Dark Ebony Ingots, 1 Dwemorblood Alloy, 1 Armor Mold",
     "Effects": [
-      "Condition; 6000/6000",
       "Constant Effect",
       "Fortify Attribute Agility 30 pts",
       "A) Fortify Attribute Endurance 10 pts",
@@ -9214,7 +9484,8 @@
       "Fortify Fatigue 50 pts"
     ],
     "Stats": {
-      "Armor Rating": "195"
+      "Armor Rating": "195",
+      "Condition": "6000/6000"
     }
   },
   {
@@ -9305,7 +9576,6 @@
     "EV": "",
     "Price": "x Dark Ebony Ingots, 1 Dwemorblood Alloy, 1 Armor Mold",
     "Effects": [
-      "Weight; 18 (Heavy)",
       "Constant Effect",
       "Fortify Attribute Strength 30 pts",
       "Fortify Attribute Endurance 10 pts",
@@ -9315,7 +9585,8 @@
     ],
     "Stats": {
       "Armor Rating": "195",
-      "Condition": "6000/6000"
+      "Condition": "6000/6000",
+      "Weight": "18 (Heavy)"
     }
   },
   {
@@ -9331,7 +9602,6 @@
     "EV": "",
     "Price": "x Dark Ebony Ingots, 1 Dwemorblood Alloy, 1 Armor Mold",
     "Effects": [
-      "Value; 9000",
       "Constant Effect",
       "Fortify Attribute Strength 30 pts",
       "Fortify Attribute Endurance 10 pts",
@@ -9341,7 +9611,8 @@
     ],
     "Stats": {
       "Armor Rating": "176",
-      "Condition": "6000/6000"
+      "Condition": "6000/6000",
+      "Value": "9000"
     }
   },
   {
@@ -9430,7 +9701,9 @@
     "Slot": "Weapon - 1 Hand",
     "Other Notes": "",
     "EV": "",
-    "Price": ""
+    "Price": "",
+    "Effects": [],
+    "Stats": {}
   },
   {
     "Item Name": "Wings of the Queen of Bats",
@@ -9471,8 +9744,8 @@
     "Other Notes": "",
     "EV": "52",
     "Price": "",
-    "Effects": null,
-    "Stats": null
+    "Effects": [],
+    "Stats": {}
   },
   {
     "Item Name": "Witches Robe",
@@ -9486,11 +9759,11 @@
     "Other Notes": "",
     "EV": "52",
     "Price": "",
-    "Effects": null,
-    "Stats": null
+    "Effects": [],
+    "Stats": {}
   },
   {
-    "Item Name": "Witches\u2019 Broom",
+    "Item Name": "Witches’ Broom",
     "Image": "",
     "Hidden Effect(s)": "Constant levitate effect, double magnitude during Morroween",
     "Spec. Req.": "Any",
@@ -9502,12 +9775,13 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Slash; 2 - 3",
       "Cast When Strikes",
-      "Pd Levirare 100 pts on Self",
-      "Charge: FEROS)"
+      "Pd Levirare 100 pts on Self"
     ],
-    "Stats": {}
+    "Stats": {
+      "Slash": "2 - 3",
+      "Charge": "FEROS)"
+    }
   },
   {
     "Item Name": "Wolf Fang Amulet",
@@ -9528,7 +9802,7 @@
       "Fortify Attribute Agility 12 pts",
       "Fortify Health 25 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Wooden Ring",
@@ -9547,7 +9821,7 @@
       "Fortify Attribute Strength 3 pts",
       "Fortify Attribute Willpower 3 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Yinsor Ring",
@@ -9566,7 +9840,7 @@
       "Fortify Attribute Agility 20 pts",
       "Fortify Magicka 100 pts"
     ],
-    "Stats": null
+    "Stats": {}
   },
   {
     "Item Name": "Zephyr",
@@ -9580,7 +9854,7 @@
     "Other Notes": "",
     "EV": "",
     "Price": "",
-    "Effects": null,
+    "Effects": [],
     "Stats": {
       "Type": "Marksman",
       "Attack": "2 - 20",
@@ -10994,7 +11268,7 @@
   {
     "Item Name": "Rahl's Robe",
     "Image": "images/Rahl's Robe.png",
-    "Hidden Effect(s)": "Unknown (Magic only, can\u2019t test it)",
+    "Hidden Effect(s)": "Unknown (Magic only, can’t test it)",
     "Spec. Req.": "Magic",
     "Lvl Req.": "60",
     "Location/Boss/Event": "Molag Amur Loot Crate (Fishing)",
@@ -11172,24 +11446,29 @@
   {
     "Item Name": "Ichorfang",
     "Image": "images/Ichorfang.png",
-    "Hidden Effect(s)": "",
-    "Spec. Req.": "",
-    "Lvl Req.": "",
-    "Location/Boss/Event": "Lil Snappa Fish Boss loot",
+    "Hidden Effect(s)": "Can proc 200 pts of Poison on hit.",
+    "Spec. Req.": "Combat/Stealth",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Lil-Snappa Drop (Fish-Boss)",
     "Type": "Axe",
-    "Slot": "weapon",
+    "Slot": "Weapon - 2 Hand",
     "Other Notes": "",
     "EV": "",
-    "Price": "7238",
-    "Effects": [],
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Health 200 pts"
+    ],
     "Stats": {
+      "Type": "Axe, Two Handed",
       "Chop": "1 - 84",
       "Slash": "1 - 56",
       "Thrust": "1 - 8",
-      "Condition": "387/3800",
-      "Range": "6 ft.",
+      "Condition": "3800/3800",
+      "Range": "6 ft",
       "Speed": "100%",
-      "Weight": "15"
+      "Weight": "15",
+      "Value": "7238"
     }
   },
   {
@@ -11361,46 +11640,48 @@
   {
     "Item Name": "Katana of Severing",
     "Image": "images/Katana of Severing.png",
-    "Hidden Effect(s)": "Can rarely proc 2000 points of Health Damage on hit (resistable, only did like 300 damage on a Tomb mob)",
+    "Hidden Effect(s)": "Can rarely proc 2000 points of Health Damage on hit (resistable; the submitter reported about 300 damage on a Tomb mob).",
     "Spec. Req.": "Combat/Stealth",
     "Lvl Req.": "60",
-    "Location/Boss/Event": "Dreughnaut Boss Drop",
-    "Type": "One-handed Longsword",
-    "Slot": "weapon",
+    "Location/Boss/Event": "Dreughnaught Boss Drop",
+    "Type": "Long Blade",
+    "Slot": "Weapon - 1 Hand",
     "Other Notes": "",
     "EV": "",
-    "Price": "9265",
+    "Price": "",
     "Effects": [],
     "Stats": {
-      "Chop": "6 -73",
-      "Slash": "1-38",
-      "Thrust": "1-11",
-      "Condition": "5600",
-      "Range": "6 ft.",
+      "Type": "Long Blade, One Handed",
+      "Chop": "6 - 73",
+      "Slash": "1 - 38",
+      "Thrust": "1 - 11",
+      "Condition": "5566/5600",
+      "Range": "6 ft",
       "Speed": "150%",
-      "Weight": "6"
+      "Weight": "6",
+      "Value": "9265"
     }
   },
   {
     "Item Name": "Ancient Dreugh Bow",
     "Image": "images/Ancient Dreugh Bow.png",
-    "Hidden Effect(s)": "CE is 0; procs 50 magicka/magical Damage (10% estimation) - needs more testing im tired, will be updated",
-    "Spec. Req.": "stealth",
+    "Hidden Effect(s)": "CE is 0; procs 50 Damage Magicka (drains mana, resistable; estimated about a 10% chance).",
+    "Spec. Req.": "Stealth",
     "Lvl Req.": "60",
     "Location/Boss/Event": "Dreughnaut Boss Drop",
     "Type": "Bow",
-    "Slot": "weapon",
+    "Slot": "Weapon - 2 Hand",
     "Other Notes": "",
     "EV": "",
-    "Price": "8236",
-    "Effects": [
-      "Type: Marksman"
-    ],
+    "Price": "",
+    "Effects": [],
     "Stats": {
+      "Type": "Marksman",
       "Attack": "6 - 76",
-      "Condition": "3150",
-      "Speed": "12.5%",
-      "Weight": "14"
+      "Condition": "3062/3150",
+      "Speed": "125%",
+      "Weight": "14",
+      "Value": "8256"
     }
   },
   {
@@ -11430,27 +11711,1403 @@
   {
     "Item Name": "Soulrender",
     "Image": "images/Soulrender.png",
-    "Hidden Effect(s)": "Can proc a \"dispel effect\" on hit (Unsure what it actually does or maybe it's bugged)",
+    "Hidden Effect(s)": "Can proc a \"dispel effect\" on hit (the submitter was unsure what it does or whether it is bugged).",
     "Spec. Req.": "",
-    "Lvl Req.": null,
+    "Lvl Req.": "",
     "Location/Boss/Event": "Skyrim Loot Cache",
-    "Type": "One handed Longsword",
-    "Slot": "weapon",
-    "Other Notes": "",
+    "Type": "Long Blade",
+    "Slot": "Weapon - 1 Hand",
+    "Other Notes": "No Trade",
     "EV": "",
     "Price": "",
     "Effects": [
-      "Absorb Magicka 15 pts for I see on Touch"
+      "Cast When Strikes",
+      "Absorb Magicka 15 pts for 1 sec on Touch"
     ],
     "Stats": {
+      "Type": "Long Blade, One Handed",
       "Chop": "5 - 18",
       "Slash": "4 - 16",
       "Thrust": "1 - 4",
       "Condition": "700/700",
-      "Range": "6 ft.",
+      "Range": "6 ft",
       "Speed": "140%",
-      "Weight": "10",
-      "Charge": "66/66"
+      "Weight": "10"
+    }
+  },
+  {
+    "Item Name": "Cindersilk Sandals",
+    "Image": "images/Cindersilk Sandals.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "Magic",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Cinder (Flame Atronach Camp Boss)",
+    "Type": "Clothing",
+    "Slot": "Shoes",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Magicka 225 pts",
+      "Fortify Attribute Intelligence 15 pts",
+      "Resist Fire 25%"
+    ],
+    "Stats": {
+      "Weight": "3",
+      "Value": "4062"
+    }
+  },
+  {
+    "Item Name": "Elder Chestguard",
+    "Image": "images/Elder Chestguard.png",
+    "Hidden Effect(s)": "?",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Dropped by Frost Giants; may be a universal drop (unconfirmed).",
+    "Type": "Heavy Armor",
+    "Slot": "Chest",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Endurance 15 pts",
+      "Fortify Attribute Willpower 30 pts",
+      "Fortify Magicka 50 pts"
+    ],
+    "Stats": {
+      "Armor Rating": "55",
+      "Condition": "1042/1042",
+      "Weight": "30 (Heavy)",
+      "Value": "6128"
+    }
+  },
+  {
+    "Item Name": "Flame Mail Boots",
+    "Image": "images/Flame Mail Boots.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "Stealth",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Infernal Flame Atronach",
+    "Type": "Medium Armor",
+    "Slot": "Boots",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Speed 10 pts",
+      "Fortify Skill Athletics 25 pts",
+      "Fortify Health 75 pts",
+      "Resist Fire 10%",
+      "Weakness to Frost 20%"
+    ],
+    "Stats": {
+      "Armor Rating": "300",
+      "Condition": "5600/5600",
+      "Weight": "15 (Medium)",
+      "Value": "4500"
+    }
+  },
+  {
+    "Item Name": "Flame Mail Greaves",
+    "Image": "images/Flame Mail Greaves.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "Stealth",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Infernal Flame Atronach",
+    "Type": "Medium Armor",
+    "Slot": "Greaves",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Speed 10 pts",
+      "Fortify Skill Medium Armor 25 pts",
+      "Fortify Health 75 pts",
+      "Resist Fire 10%",
+      "Weakness to Frost 20%"
+    ],
+    "Stats": {
+      "Armor Rating": "325",
+      "Condition": "5600/5600",
+      "Weight": "12 (Medium)",
+      "Value": "4500"
+    }
+  },
+  {
+    "Item Name": "Flame Mail Helm",
+    "Image": "images/Flame Mail Helm.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "Stealth",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Infernal Flame Atronach",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Endurance 10 pts",
+      "Fortify Skill Long Blade 25 pts",
+      "Fortify Health 75 pts",
+      "Resist Fire 10%",
+      "Weakness to Frost 20%"
+    ],
+    "Stats": {
+      "Armor Rating": "105",
+      "Condition": "5600/5600",
+      "Weight": "4 (Light)",
+      "Value": "4500"
+    }
+  },
+  {
+    "Item Name": "Flame Mail Left Gauntlet",
+    "Image": "images/Flame Mail Left Gauntlet.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "Stealth",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Infernal Flame Atronach",
+    "Type": "Medium Armor",
+    "Slot": "Left Bracer/Gauntlet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Agility 10 pts",
+      "Fortify Skill Short Blade 25 pts",
+      "Fortify Health 75 pts",
+      "Resist Fire 10%",
+      "Weakness to Frost 20%"
+    ],
+    "Stats": {
+      "Armor Rating": "275",
+      "Condition": "5600/5600",
+      "Weight": "4 (Medium)",
+      "Value": "4500"
+    }
+  },
+  {
+    "Item Name": "Flame Mail Right Gauntlet",
+    "Image": "images/Flame Mail Right Gauntlet.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "Stealth",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Raging Flame Atronach",
+    "Type": "Medium Armor",
+    "Slot": "Right Bracer/Gauntlet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Agility 10 pts",
+      "Fortify Skill Short Blade 25 pts",
+      "Fortify Health 75 pts",
+      "Resist Fire 10%",
+      "Weakness to Frost 20%"
+    ],
+    "Stats": {
+      "Armor Rating": "114",
+      "Condition": "5600/5600",
+      "Weight": "4 (Medium)",
+      "Value": "4500"
+    }
+  },
+  {
+    "Item Name": "Flame Mail Right Pauldron",
+    "Image": "images/Flame Mail Right Pauldron.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "Stealth",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Infernal Flame Atronach",
+    "Type": "Medium Armor",
+    "Slot": "Right Pauldron",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Speed 10 pts",
+      "Fortify Skill Marksman 25 pts",
+      "Fortify Magicka 75 pts",
+      "Resist Fire 10%",
+      "Weakness to Frost 20%"
+    ],
+    "Stats": {
+      "Armor Rating": "190",
+      "Condition": "5600/5600",
+      "Weight": "8 (Medium)",
+      "Value": "4500"
+    }
+  },
+  {
+    "Item Name": "Flame Woven Cuirass",
+    "Image": "images/Flame Woven Cuirass.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "Magic",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Raging Flame Atronach",
+    "Type": "Light Armor",
+    "Slot": "Chest",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Intelligence 10 pts",
+      "Fortify Skill Light Armor 25 pts",
+      "Fortify Magicka 75 pts",
+      "Resist Fire 10%",
+      "Weakness to Frost 20%"
+    ],
+    "Stats": {
+      "Armor Rating": "100",
+      "Condition": "4800/4800",
+      "Weight": "15 (Light)",
+      "Value": "4500"
+    }
+  },
+  {
+    "Item Name": "Flame Woven Helm",
+    "Image": "images/Flame Woven Helm.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "Magic",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "Drop location was not visible in the recording.",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Intelligence 10 pts",
+      "Fortify Skill Alchemy 25 pts",
+      "Fortify Health 75 pts",
+      "Resist Fire 10%",
+      "Weakness to Frost 20%"
+    ],
+    "Stats": {
+      "Armor Rating": "106",
+      "Condition": "4800/4800",
+      "Weight": "3 (Light)",
+      "Value": "4500"
+    }
+  },
+  {
+    "Item Name": "Flame Woven Left Pauldron",
+    "Image": "images/Flame Woven Left Pauldron.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "Magic",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Infernal Flame Atronach",
+    "Type": "Light Armor",
+    "Slot": "Left Pauldron",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Intelligence 10 pts",
+      "Fortify Skill Restoration 10 pts",
+      "Fortify Magicka 75 pts",
+      "Resist Fire 10%",
+      "Weakness to Frost 20%"
+    ],
+    "Stats": {
+      "Armor Rating": "59",
+      "Condition": "4800/4800",
+      "Weight": "5 (Light)",
+      "Value": "4500"
+    }
+  },
+  {
+    "Item Name": "Flame Woven Right Gauntlet",
+    "Image": "images/Flame Woven Right Gauntlet.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "Magic",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Infernal Flame Atronach",
+    "Type": "Light Armor",
+    "Slot": "Right Bracer/Gauntlet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Endurance 10 pts",
+      "Fortify Skill Destruction 25 pts",
+      "Fortify Magicka 75 pts",
+      "Resist Fire 10%",
+      "Weakness to Frost 20%"
+    ],
+    "Stats": {
+      "Armor Rating": "87",
+      "Condition": "4800/4800",
+      "Weight": "2 (Light)",
+      "Value": "4500"
+    }
+  },
+  {
+    "Item Name": "Glowing Heroic Band",
+    "Image": "images/Glowing Heroic Band.png",
+    "Hidden Effect(s)": "Enhancement 50 pts gives 50 Armor Rating.",
+    "Spec. Req.": "Combat",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Koal Cave - Dreugh Camp Boss",
+    "Type": "Clothing",
+    "Slot": "Ring",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Strength 28 pts",
+      "Fortify Attribute Speed 7 pts",
+      "Fortify Health 140 pts",
+      "Enhancement 50 pts"
+    ],
+    "Stats": {
+      "Weight": "0.1",
+      "Value": "9956"
+    }
+  },
+  {
+    "Item Name": "Griever",
+    "Image": "images/Griever.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Found at a Giant Camp; possibly a universal Solstheim drop (unconfirmed).",
+    "Type": "Long Blade",
+    "Slot": "Weapon - 1 Hand",
+    "Other Notes": "Aside from Daedric Katana, one of the few swords with 150% speed; useful for fire chaincasters.",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Endurance 20 pts",
+      "Fortify Attribute Agility 15 pts"
+    ],
+    "Stats": {
+      "Type": "Long Blade, One Handed",
+      "Chop": "3 - 22",
+      "Slash": "1 - 16",
+      "Thrust": "1 - 6",
+      "Condition": "2400/2400",
+      "Range": "6 ft",
+      "Speed": "150%",
+      "Weight": "18",
+      "Value": "8098"
+    }
+  },
+  {
+    "Item Name": "Icetear Amulet",
+    "Image": "images/Icetear Amulet.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Solstheim - Universal Drop (Piggy)",
+    "Type": "Clothing",
+    "Slot": "Amulet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Endurance 10 pts",
+      "Fortify Attribute Agility 5 pts",
+      "Resist Frost 5%"
+    ],
+    "Stats": {
+      "Weight": "1",
+      "Value": "638"
+    }
+  },
+  {
+    "Item Name": "Imbued Granite Helm",
+    "Image": "images/Imbued Granite Helm.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "Combat",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Cinder (Flame Atronach Camp Boss)",
+    "Type": "Heavy Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Health 210 pts",
+      "Drain Attribute Intelligence 40 pts"
+    ],
+    "Stats": {
+      "Armor Rating": "121",
+      "Condition": "2150/2150",
+      "Weight": "10 (Heavy)",
+      "Value": "5206"
+    }
+  },
+  {
+    "Item Name": "Incandescent Dagger",
+    "Image": "images/Incandescent Dagger.png",
+    "Hidden Effect(s)": "Can proc Incandescent Strike on hit (75 Fire Damage for 10 seconds).",
+    "Spec. Req.": "Stealth",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Blaze (Flame Atronach Camp Boss)",
+    "Type": "Short Blade",
+    "Slot": "Weapon - 1 Hand",
+    "Other Notes": "No Trade; uses Fang of Haynekhtnamet as its model.",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Agility 15 pts",
+      "Fortify Skill Short Blade 30 pts",
+      "Fortify Health 125 pts"
+    ],
+    "Stats": {
+      "Type": "Short Blade, One Handed",
+      "Chop": "4 - 46",
+      "Slash": "3 - 38",
+      "Thrust": "15 - 70",
+      "Condition": "8860/8860",
+      "Range": "6 ft",
+      "Speed": "225%",
+      "Weight": "5"
+    }
+  },
+  {
+    "Item Name": "Infernal Blade",
+    "Image": "images/Infernal Blade.png",
+    "Hidden Effect(s)": "Can proc 250 Fire Damage (resistable).",
+    "Spec. Req.": "Combat",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Flame Atronach Camp Boss",
+    "Type": "Long Blade",
+    "Slot": "Weapon - 1 Hand",
+    "Other Notes": "No Trade",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Strength 15 pts",
+      "Fortify Skill Long Blade 30 pts",
+      "Fortify Health 125 pts"
+    ],
+    "Stats": {
+      "Type": "Long Blade, One Handed",
+      "Chop": "40 - 72",
+      "Slash": "42 - 85",
+      "Thrust": "18 - 40",
+      "Condition": "8764/8860",
+      "Range": "6 ft",
+      "Speed": "125%",
+      "Weight": "20"
+    }
+  },
+  {
+    "Item Name": "Lava Etched Left Gauntlet",
+    "Image": "images/Lava Etched Left Gauntlet.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "Combat",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Infernal Flame Atronach",
+    "Type": "Heavy Armor",
+    "Slot": "Left Bracer/Gauntlet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Endurance 10 pts",
+      "Fortify Skill Long Blade 25 pts",
+      "Fortify Health 75 pts",
+      "Resist Fire 10%",
+      "Weakness to Frost 20%"
+    ],
+    "Stats": {
+      "Armor Rating": "105",
+      "Condition": "6400/6400",
+      "Weight": "8 (Heavy)",
+      "Value": "4500"
+    }
+  },
+  {
+    "Item Name": "Mask: Altmer",
+    "Image": "images/Mask - Altmer.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Morroween Event",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Armor Rating": "0",
+      "Condition": "20000/20000",
+      "Weight": "3 (Light)"
+    }
+  },
+  {
+    "Item Name": "Mask: Altmer Vampire",
+    "Image": "images/Mask - Altmer Vampire.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Morroween Event",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Armor Rating": "0",
+      "Condition": "20000/20000",
+      "Weight": "3 (Light)"
+    }
+  },
+  {
+    "Item Name": "Mask: Argonian",
+    "Image": "images/Mask - Argonian.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Morroween Event",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Armor Rating": "0",
+      "Condition": "20000/20000",
+      "Weight": "3 (Light)"
+    }
+  },
+  {
+    "Item Name": "Mask: Argonian Vampire",
+    "Image": "images/Mask - Argonian Vampire.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Morroween Event",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Armor Rating": "0",
+      "Condition": "20000/20000",
+      "Weight": "3 (Light)"
+    }
+  },
+  {
+    "Item Name": "Mask: Barenziah",
+    "Image": "images/Mask - Barenziah.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Morroween Event",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Armor Rating": "0",
+      "Condition": "20000/20000",
+      "Weight": "3 (Light)"
+    }
+  },
+  {
+    "Item Name": "Mask: Bone Skull",
+    "Image": "images/Mask - Bone Skull.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Morroween Event",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Armor Rating": "0",
+      "Condition": "20000/20000",
+      "Weight": "3 (Light)"
+    }
+  },
+  {
+    "Item Name": "Mask: Bonepile Skull",
+    "Image": "images/Mask - Bonepile Skull.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Morroween Event",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Armor Rating": "0",
+      "Condition": "20000/20000",
+      "Weight": "3 (Light)"
+    }
+  },
+  {
+    "Item Name": "Mask: Bosmer",
+    "Image": "images/Mask - Bosmer.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Morroween Event",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Armor Rating": "0",
+      "Condition": "20000/20000",
+      "Weight": "3 (Light)"
+    }
+  },
+  {
+    "Item Name": "Mask: Bosmer Vampire",
+    "Image": "images/Mask - Bosmer Vampire.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Morroween Event",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Armor Rating": "0",
+      "Condition": "20000/20000",
+      "Weight": "3 (Light)"
+    }
+  },
+  {
+    "Item Name": "Mask: Breton",
+    "Image": "images/Mask - Breton.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Morroween Event",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Armor Rating": "0",
+      "Condition": "20000/20000",
+      "Weight": "3 (Light)"
+    }
+  },
+  {
+    "Item Name": "Mask: Breton Vampire",
+    "Image": "images/Mask - Breton Vampire.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Morroween Event",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Armor Rating": "0",
+      "Condition": "20000/20000",
+      "Weight": "3 (Light)"
+    }
+  },
+  {
+    "Item Name": "Mask: Caius Cosades",
+    "Image": "images/Mask - Caius Cosades.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Morroween Event",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Armor Rating": "0",
+      "Condition": "20000/20000",
+      "Weight": "3 (Light)"
+    }
+  },
+  {
+    "Item Name": "Mask: Dhaunayne Aundae",
+    "Image": "images/Mask - Dhaunayne Aundae.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Morroween Event",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Armor Rating": "0",
+      "Condition": "20000/20000",
+      "Weight": "3 (Light)"
+    }
+  },
+  {
+    "Item Name": "Mask: Divayth Fyr",
+    "Image": "images/Mask - Divayth Fyr.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Morroween Event",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Armor Rating": "0",
+      "Condition": "20000/20000",
+      "Weight": "3 (Light)"
+    }
+  },
+  {
+    "Item Name": "Mask: Duke Vedam Dren",
+    "Image": "images/Mask - Duke Vedam Dren.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Morroween Event",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Armor Rating": "0",
+      "Condition": "20000/20000",
+      "Weight": "3 (Light)"
+    }
+  },
+  {
+    "Item Name": "Mask: Dunmer",
+    "Image": "images/Mask - Dunmer.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Morroween Event",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Armor Rating": "0",
+      "Condition": "20000/20000",
+      "Weight": "3 (Light)"
+    }
+  },
+  {
+    "Item Name": "Mask: Dunmer Vampire",
+    "Image": "images/Mask - Dunmer Vampire.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Morroween Event",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Armor Rating": "0",
+      "Condition": "20000/20000",
+      "Weight": "3 (Light)"
+    }
+  },
+  {
+    "Item Name": "Mask: Fargoth",
+    "Image": "images/Mask - Fargoth.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Morroween Event",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Armor Rating": "0",
+      "Condition": "20000/20000",
+      "Weight": "3 (Light)"
+    }
+  },
+  {
+    "Item Name": "Mask: Gaenor",
+    "Image": "images/Mask - Gaenor.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Morroween Event",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Armor Rating": "0",
+      "Condition": "20000/20000",
+      "Weight": "3 (Light)"
+    }
+  },
+  {
+    "Item Name": "Mask: Imperial",
+    "Image": "images/Mask - Imperial.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Morroween Event",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Armor Rating": "0",
+      "Condition": "20000/20000",
+      "Weight": "3 (Light)"
+    }
+  },
+  {
+    "Item Name": "Mask: Imperial Vampire",
+    "Image": "images/Mask - Imperial Vampire.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Morroween Event",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Armor Rating": "0",
+      "Condition": "20000/20000",
+      "Weight": "3 (Light)"
+    }
+  },
+  {
+    "Item Name": "Mask: Jim Stacey",
+    "Image": "images/Mask - Jim Stacey.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Morroween Event",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Armor Rating": "0",
+      "Condition": "20000/20000",
+      "Weight": "3 (Light)"
+    }
+  },
+  {
+    "Item Name": "Mask: Jiub",
+    "Image": "images/Mask - Jiub.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Morroween Event",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Armor Rating": "0",
+      "Condition": "20000/20000",
+      "Weight": "3 (Light)"
+    }
+  },
+  {
+    "Item Name": "Mask: Karrod",
+    "Image": "images/Mask - Karrod.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Morroween Event",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Armor Rating": "0",
+      "Condition": "20000/20000",
+      "Weight": "3 (Light)"
+    }
+  },
+  {
+    "Item Name": "Mask: Khajiit",
+    "Image": "images/Mask - Khajiit.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Morroween Event",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Armor Rating": "0",
+      "Condition": "20000/20000",
+      "Weight": "3 (Light)"
+    }
+  },
+  {
+    "Item Name": "Mask: Khajiit Vampire",
+    "Image": "images/Mask - Khajiit Vampire.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Morroween Event",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Armor Rating": "0",
+      "Condition": "20000/20000",
+      "Weight": "3 (Light)"
+    }
+  },
+  {
+    "Item Name": "Mask: King Helseth",
+    "Image": "images/Mask - King Helseth.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Morroween Event",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Armor Rating": "0",
+      "Condition": "20000/20000",
+      "Weight": "3 (Light)"
+    }
+  },
+  {
+    "Item Name": "Mask: Lord Cluttermonkey",
+    "Image": "images/Mask - Lord Cluttermonkey.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Morroween Event",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Armor Rating": "0",
+      "Condition": "20000/20000",
+      "Weight": "3 (Light)"
+    }
+  },
+  {
+    "Item Name": "Mask: M'Aiq the Liar",
+    "Image": "images/Mask - M'Aiq the Liar.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Morroween Event",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Armor Rating": "0",
+      "Condition": "20000/20000",
+      "Weight": "3 (Light)"
+    }
+  },
+  {
+    "Item Name": "Mask: Nord",
+    "Image": "images/Mask - Nord.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Morroween Event",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Armor Rating": "0",
+      "Condition": "20000/20000",
+      "Weight": "3 (Light)"
+    }
+  },
+  {
+    "Item Name": "Mask: Orc",
+    "Image": "images/Mask - Orc.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Morroween Event",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Armor Rating": "0",
+      "Condition": "20000/20000",
+      "Weight": "3 (Light)"
+    }
+  },
+  {
+    "Item Name": "Mask: Orc Vampire",
+    "Image": "images/Mask - Orc Vampire.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Morroween Event",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Armor Rating": "0",
+      "Condition": "20000/20000",
+      "Weight": "3 (Light)"
+    }
+  },
+  {
+    "Item Name": "Mask: Pretty Kitty",
+    "Image": "images/Mask - Pretty Kitty.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Morroween Event",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Armor Rating": "0",
+      "Condition": "20000/20000",
+      "Weight": "3 (Light)"
+    }
+  },
+  {
+    "Item Name": "Mask: Ra'Virr",
+    "Image": "images/Mask - Ra'Virr.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Morroween Event",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Armor Rating": "0",
+      "Condition": "20000/20000",
+      "Weight": "3 (Light)"
+    }
+  },
+  {
+    "Item Name": "Mask: Redguard",
+    "Image": "images/Mask - Redguard.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Morroween Event",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Armor Rating": "0",
+      "Condition": "20000/20000",
+      "Weight": "3 (Light)"
+    }
+  },
+  {
+    "Item Name": "Mask: Redguard Vampire",
+    "Image": "images/Mask - Redguard Vampire.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Morroween Event",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Armor Rating": "0",
+      "Condition": "20000/20000",
+      "Weight": "3 (Light)"
+    }
+  },
+  {
+    "Item Name": "Mask: Skull",
+    "Image": "images/Mask - Skull.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Morroween Event",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Armor Rating": "0",
+      "Condition": "20000/20000",
+      "Weight": "3 (Light)"
+    }
+  },
+  {
+    "Item Name": "Mask: Skull (Blazing)",
+    "Image": "images/Mask - Skull (Blazing).png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Morroween",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Light 5 pts"
+    ],
+    "Stats": {
+      "Armor Rating": "0",
+      "Condition": "20000"
+    }
+  },
+  {
+    "Item Name": "Mask: Skull (Bondage)",
+    "Image": "images/Mask - Skull (Bondage).png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Morroween",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Light 5 pts"
+    ],
+    "Stats": {
+      "Armor Rating": "0",
+      "Condition": "20000"
+    }
+  },
+  {
+    "Item Name": "Mask: Skull (Everflame)",
+    "Image": "images/Mask - Skull (Everflame).png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Morroween",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Light 5 pts"
+    ],
+    "Stats": {
+      "ARmor Rating": "0",
+      "Condition": "20000"
+    }
+  },
+  {
+    "Item Name": "Mask: Tarhiel",
+    "Image": "images/Mask - Tarhiel.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Morroween Event",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Armor Rating": "0",
+      "Condition": "20000/20000",
+      "Weight": "3 (Light)"
+    }
+  },
+  {
+    "Item Name": "Mask: Tienius Delitian",
+    "Image": "images/Mask - Tienius Delitian.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Morroween Event",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Armor Rating": "0",
+      "Condition": "20000/20000",
+      "Weight": "3 (Light)"
+    }
+  },
+  {
+    "Item Name": "Mask: Umbra",
+    "Image": "images/Mask - Umbra.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Morroween Event",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Armor Rating": "0",
+      "Condition": "20000/20000",
+      "Weight": "3 (Light)"
+    }
+  },
+  {
+    "Item Name": "Ring of Dread",
+    "Image": "images/Ring of Dread.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "50",
+    "Location/Boss/Event": "Crafted: Jewelrycraft",
+    "Type": "Clothing",
+    "Slot": "Ring",
+    "Other Notes": "Recipe costs 20 Master Crafters Marks",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Health 80 pts",
+      "Fortify Magicka 60 pts",
+      "Fortify Attribute Strength 50 pts",
+      "Drain Attribute Intelligence 50 pts",
+      "Resist Fire 30%"
+    ],
+    "Stats": {
+      "Weight": "0.1",
+      "Value": "7000"
+    }
+  },
+  {
+    "Item Name": "Scorched Right Pauldron",
+    "Image": "images/Scorched Right Pauldron.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "Combat",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Flame Atronach Camp Boss",
+    "Type": "Heavy Armor",
+    "Slot": "Right Pauldron",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Agility 50 pts",
+      "Weakness to Frost 25%"
+    ],
+    "Stats": {
+      "Armor Rating": "78",
+      "Condition": "1750/1750",
+      "Weight": "10 (Heavy)",
+      "Value": "4875"
     }
   }
 ]

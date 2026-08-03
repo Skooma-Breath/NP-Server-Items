@@ -3,39 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Items Table</title>
+    <meta name="description" content="Searchable Nerevarine Prophecies server item catalog.">
+    <title>NP Server Items</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        /* Align links next to each other */
-        .heading-container {
-            display: flex;
-            justify-content: flex-start;
-            align-items: baseline;
-            gap: 15px; /* Optional: Adds space between links */
-            margin-top: 10px;
-            flex-direction: row
-        }
-
-        .heading-container a {
-            text-decoration: none;
-            color: inherit; /* Use the existing text color */
-
-        }
-    </style>
+    <style id="column-visibility-style"></style>
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <div class="heading-container">
+    <nav class="heading-container" aria-label="Related resources">
         <a href="https://wiki.nerevarineprophecies.com" class="npmp-wiki">Wiki</a>
         <a href="https://skooma-breath.github.io/NP-Server-Items/droppers_tool" class="np-calculators-link">Droppers Spell Chance Calculator</a>
         <a href="https://tes3recipes.sidke.com/" class="alchemie">Alchemie's Recipe Finder</a>
         <a href="https://docs.google.com/spreadsheets/d/1BPN-lTB6jWvC9VB4u3OEQ06jYb2OL6iBxaXmuAMHs6s/edit?gid=1604437225#gid=1604437225" class="spreadsheet">Spreadsheet Calculators</a>
         <a href="https://skooma-breath.github.io/Morrowind_Item_Finder/" class="item_finder">Item Finder</a>
+    </nav>
 
-    </div>
+    <header class="site-header">
+        <h1>NP Server Items</h1>
+    </header>
 
-    <h1>Items Table</h1>
+    <main class="container">
+        <section class="controls" aria-label="Item table controls">
+            <div class="primary-controls">
+                <label for="item-search">Search</label>
+                <input id="item-search" class="search-bar" type="search" placeholder="Name, effect, location, statsâ€¦" autocomplete="off">
 
-    <!-- Your existing content here -->
-    <script src="script.js"></script>
+                <label for="page-size">Rows per page</label>
+                <select id="page-size">
+                    <option value="25">25</option>
+                    <option value="50" selected>50</option>
+                    <option value="100">100</option>
+                    <option value="all">All</option>
+                </select>
+
+                <button id="toggle-columns" class="toggle-button" type="button">Show All Columns</button>
+                <button id="basic-view" class="toggle-button preset-button" type="button" aria-pressed="true">Basic View</button>
+                <span id="table-status" class="table-status" role="status" aria-live="polite">Loading item dataâ€¦</span>
+            </div>
+
+            <details class="column-picker">
+                <summary>Choose columns</summary>
+                <div id="checkbox-container"></div>
+            </details>
+        </section>
+
+        <nav id="pagination-top" class="pagination" aria-label="Top table pagination"></nav>
+
+        <div id="table-scrollbar" class="table-scrollbar" aria-label="Horizontal table scrollbar" tabindex="0">
+            <div id="table-scrollbar-spacer" class="table-scrollbar-spacer"></div>
+        </div>
+
+        <div id="table-scroll-container" class="scroll-container" tabindex="0" aria-label="Scrollable item table">
+            <table id="itemsTable">
+                <thead></thead>
+                <tbody></tbody>
+            </table>
+        </div>
+
+        <nav id="pagination-bottom" class="pagination" aria-label="Bottom table pagination"></nav>
+
+        <noscript>This catalog requires JavaScript to load and filter the item data.</noscript>
+    </main>
 </body>
 </html>
