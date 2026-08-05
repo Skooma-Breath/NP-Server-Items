@@ -11977,13 +11977,13 @@
   {
     "Item Name": "Flame Woven Helm",
     "Image": "images/Flame Woven Helm.png",
-    "Hidden Effect(s)": "",
+    "Hidden Effect(s)": "Unknown",
     "Spec. Req.": "Magic",
     "Lvl Req.": "60",
-    "Location/Boss/Event": "",
+    "Location/Boss/Event": "Infernal Flame Atronach Camp - Cinder (Boss)",
     "Type": "Light Armor",
     "Slot": "Helmet",
-    "Other Notes": "Drop location was not visible in the recording.",
+    "Other Notes": "",
     "EV": "",
     "Price": "",
     "Effects": [
@@ -11995,7 +11995,7 @@
       "Weakness to Frost 20%"
     ],
     "Stats": {
-      "Armor Rating": "106",
+      "Armor Rating": "91",
       "Condition": "4800/4800",
       "Weight": "3 (Light)",
       "Value": "4500"
@@ -13189,6 +13189,245 @@
       "Condition": "6520/6520",
       "Weight": "18 (Heavy)",
       "Value": "5082"
+    }
+  },
+  {
+    "Item Name": "Diviner's Vestment",
+    "Image": "images/Diviner's Vestment.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "Magic",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Flame Atronach Camp - Cinder (Boss)",
+    "Type": "Clothing",
+    "Slot": "Robe",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Willpower 25 pts",
+      "Fortify Magicka 125 pts",
+      "Fortify Skill Restoration 5 pts",
+      "Resist Magicka 20%"
+    ],
+    "Stats": {
+      "Weight": "3",
+      "Value": "5860"
+    }
+  },
+  {
+    "Item Name": "Reaver's Blade",
+    "Image": "images/Reaver's Blade.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "Combat/Stealth",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Flame Atronach Camp - Cinder (Boss)",
+    "Type": "Long Blade",
+    "Slot": "Weapon - 2 Hand",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Health 150 pts",
+      "Fortify Attribute Strength 20 pts"
+    ],
+    "Stats": {
+      "Type": "Long Blade, Two Handed",
+      "Chop": "7 - 78",
+      "Slash": "3 - 41",
+      "Thrust": "1 - 13",
+      "Condition": "5800/5800",
+      "Range": "7.5 ft",
+      "Speed": "135%",
+      "Weight": "6",
+      "Value": "9265"
+    }
+  },
+  {
+    "Item Name": "Sorcerous Staff",
+    "Image": "images/Sorcerous Staff.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "Magic",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Infernal Flame Atronach Camp - Blaze (Boss)",
+    "Type": "Blunt Weapon",
+    "Slot": "Weapon - 2 Hand",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Skill Destruction 50 pts",
+      "Fortify Attribute Intelligence 20 pts",
+      "Fortify Magicka 125 pts"
+    ],
+    "Stats": {
+      "Type": "Blunt Weapon, Two Handed",
+      "Chop": "5 - 52",
+      "Slash": "6 - 52",
+      "Thrust": "1 - 18",
+      "Condition": "3970/3970",
+      "Range": "10.8 ft",
+      "Speed": "175%",
+      "Weight": "25",
+      "Value": "6450"
+    }
+  },
+  {
+    "Item Name": "Flame Woven Boots",
+    "Image": "images/Flame Woven Boots.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "Magic",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Infernal Flame Atronach Camp - Cinder (Boss)",
+    "Type": "Light Armor",
+    "Slot": "Boots",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Willpower 10 pts",
+      "Fortify Skill Athletics 25 pts",
+      "Fortify Magicka 75 pts",
+      "Resist Fire 10%",
+      "Weakness to Frost 20%"
+    ],
+    "Stats": {
+      "Armor Rating": "91",
+      "Condition": "4800/4800",
+      "Weight": "12 (Light)",
+      "Value": "4500"
+    }
+  },
+  {
+    "Item Name": "Gauntlet of Burning Might",
+    "Image": "images/Gauntlet of Burning Might.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "Stealth",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Infernal Flame Atronach Camp - Cinder (Boss)",
+    "Type": "Medium Armor",
+    "Slot": "Gauntlet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Strength 40 pts",
+      "Resist Fire 15%"
+    ],
+    "Stats": {
+      "Armor Rating": "129",
+      "Condition": "1650/1650",
+      "Weight": "4 (Medium)",
+      "Value": "4235"
+    }
+  },
+  {
+    "Item Name": "Left Firepit Insignia",
+    "Image": "images/Left Firepit Insignia.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Infernal Flame Atronach Camp - Cinder (Boss)",
+    "Type": "Light Armor",
+    "Slot": "Left Bracer/Gauntlet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Agility 50 pts",
+      "Fortify Health 50 pts"
+    ],
+    "Stats": {
+      "Armor Rating": "0",
+      "Condition": "1125/1125",
+      "Weight": "1.5 (Light)",
+      "Value": "4120"
+    }
+  },
+  {
+    "Item Name": "Obsidian Left Bracer",
+    "Image": "images/Obsidian Left Bracer.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "Stealth/Magic",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Infernal Flame Atronach Camp - Blaze (Boss)",
+    "Type": "Heavy Armor",
+    "Slot": "Left Bracer/Gauntlet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Endurance 10 pts",
+      "Fortify Skill Athletics 25 pts",
+      "Fortify Magicka 75 pts",
+      "Fortify Health 25 pts"
+    ],
+    "Stats": {
+      "Armor Rating": "162",
+      "Condition": "1475/1475",
+      "Weight": "5 (Heavy)",
+      "Value": "4120"
+    }
+  },
+  {
+    "Item Name": "Chest of Scorched Links",
+    "Image": "images/Chest of Scorched Links.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "Combat/Stealth",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Flame Atronach Camp - Cinder (Boss)",
+    "Type": "Medium Armor",
+    "Slot": "Chest",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Health 175 pts",
+      "Fortify Attribute Agility 30 pts",
+      "Resist Fire 25%"
+    ],
+    "Stats": {
+      "Armor Rating": "108",
+      "Condition": "2235/2235",
+      "Weight": "26 (Medium)",
+      "Value": "4274"
+    }
+  },
+  {
+    "Item Name": "Obsidian Blade",
+    "Image": "images/Obsidian Blade.png",
+    "Hidden Effect(s)": "Unknown (not tested)",
+    "Spec. Req.": "Magic",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Flame Atronach Camp - Blaze (Boss)",
+    "Type": "Long Blade",
+    "Slot": "Weapon - 2 Hand",
+    "Other Notes": "No Trade",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Intelligence 15 pts",
+      "Fortify Skill Destruction 30 pts",
+      "Fortify Health 100 pts",
+      "Fortify Magicka 175 pts"
+    ],
+    "Stats": {
+      "Type": "Long Blade, Two Handed",
+      "Chop": "25 - 60",
+      "Slash": "30 - 72",
+      "Thrust": "14 - 32",
+      "Condition": "8860/8860",
+      "Range": "6 ft",
+      "Speed": "150%",
+      "Weight": "20"
     }
   }
 ]

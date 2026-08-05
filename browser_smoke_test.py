@@ -228,6 +228,8 @@ def main() -> None:
                 "Aurabound Mace": 51,
                 "Chillrend": 36,
                 "The Rueful Axe": 36,
+                "Reaver's Blade": 78,
+                "Obsidian Blade": 72,
             }
             actual_damage_samples = {
                 name: browser_max_damage.get(name) for name in expected_damage_samples
@@ -235,7 +237,21 @@ def main() -> None:
             if actual_damage_samples != expected_damage_samples:
                 raise AssertionError(f"Unexpected corrected max damage samples: {actual_damage_samples}")
 
-            for new_name in ("Flame Woven Greaves", "Flame Mail Chestpiece", "Lavasteel Tower"):
+            new_video_names = (
+                "Flame Woven Greaves",
+                "Flame Mail Chestpiece",
+                "Lavasteel Tower",
+                "Diviner's Vestment",
+                "Reaver's Blade",
+                "Sorcerous Staff",
+                "Flame Woven Boots",
+                "Gauntlet of Burning Might",
+                "Left Firepit Insignia",
+                "Obsidian Left Bracer",
+                "Chest of Scorched Links",
+                "Obsidian Blade",
+            )
+            for new_name in new_video_names:
                 if new_name not in browser_max_damage:
                     raise AssertionError(f"New video item is missing: {new_name}")
                 image_path = ROOT / "images" / f"{new_name}.png"
