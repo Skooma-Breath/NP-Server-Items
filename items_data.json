@@ -13403,7 +13403,7 @@
   {
     "Item Name": "Obsidian Blade",
     "Image": "images/Obsidian Blade.png",
-    "Hidden Effect(s)": "Unknown (not tested)",
+    "Hidden Effect(s)": "Light effect; Obsidian Strike (100% Weakness to Fire, unresistable, 30 sec duration).",
     "Spec. Req.": "Magic",
     "Lvl Req.": "60",
     "Location/Boss/Event": "Flame Atronach Camp - Blaze (Boss)",
@@ -13428,6 +13428,220 @@
       "Range": "6 ft",
       "Speed": "150%",
       "Weight": "20"
+    }
+  },
+  {
+    "Item Name": "Firegold Necklace",
+    "Image": "images/Firegold Necklace.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Flame Atronach Camp - Cinder (Boss)",
+    "Type": "Clothing",
+    "Slot": "Amulet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Resist Fire 35%"
+    ],
+    "Stats": {
+      "Weight": "0.1",
+      "Value": "4350"
+    }
+  },
+  {
+    "Item Name": "Sash of Fire",
+    "Image": "images/Sash of Fire.png",
+    "Hidden Effect(s)": "Turns you into a fire atronach for 60 seconds when hit; +50% Fire Resistance during the duration.",
+    "Spec. Req.": "",
+    "Lvl Req.": "50",
+    "Location/Boss/Event": "Flame Atronach Camp - Blaze (Boss)",
+    "Type": "Clothing",
+    "Slot": "Belt",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Health 75 pts",
+      "Fortify Magicka 75 pts"
+    ],
+    "Stats": {
+      "Weight": "1"
+    }
+  },
+  {
+    "Item Name": "Lava Etched Right Pauldron",
+    "Image": "images/Lava Etched Right Pauldron.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "Combat",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Flame Atronach Camp",
+    "Type": "Heavy Armor",
+    "Slot": "Right Pauldron",
+    "Other Notes": "Interesting piece of gear for dedicated miners/wood choppers.",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Strength 10 pts",
+      "Fortify Skill Axe 25 pts",
+      "Fortify Health 75 pts",
+      "Resist Fire 10%",
+      "Weakness to Frost 20%"
+    ],
+    "Stats": {
+      "Armor Rating": "84",
+      "Condition": "6400/6400",
+      "Weight": "10 (Heavy)",
+      "Value": "4500"
+    }
+  },
+  {
+    "Item Name": "Lava Etched Boots",
+    "Image": "images/Lava Etched Boots.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "Combat",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Flame Atronach Camp",
+    "Type": "Heavy Armor",
+    "Slot": "Boots",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Agility 10 pts",
+      "Fortify Skill Athletics 25 pts",
+      "Fortify Health 75 pts",
+      "Resist Fire 10%",
+      "Weakness to Frost 20%"
+    ],
+    "Stats": {
+      "Armor Rating": "113",
+      "Condition": "6400/6400",
+      "Weight": "25 (Heavy)",
+      "Value": "4500"
+    }
+  },
+  {
+    "Item Name": "Right Firepit Insignia",
+    "Image": "images/Right Firepit Insignia.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Flame Atronach Camp - Blaze (Boss)",
+    "Type": "Light Armor",
+    "Slot": "Right Pauldron",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Agility 50 pts",
+      "Fortify Health 50 pts"
+    ],
+    "Stats": {
+      "Armor Rating": "0",
+      "Condition": "1125/1125",
+      "Weight": "1.5 (Light)",
+      "Value": "4120"
+    }
+  },
+  {
+    "Item Name": "Thorned Belt",
+    "Image": "images/Thorned Belt.png",
+    "Hidden Effect(s)": "100% chance of 19 pts Health Damage when hit (possibly unresistable; Magic Resistance did not change the impact).",
+    "Spec. Req.": "",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "World drop (found on a nix hound; reported as very rare)",
+    "Type": "Clothing",
+    "Slot": "Belt",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Speed 5 pts",
+      "Fortify Attribute Agility 6 pts"
+    ],
+    "Stats": {
+      "Weight": "1",
+      "Value": "3041"
+    }
+  },
+  {
+    "Item Name": "Scorched Left Pauldron",
+    "Image": "images/Scorched Left Pauldron.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "Combat",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Infernal Flame Atronach Camp - one of the bosses",
+    "Type": "Heavy Armor",
+    "Slot": "Left Pauldron",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Health 100 pts",
+      "Weakness to Frost 25%"
+    ],
+    "Stats": {
+      "Armor Rating": "75",
+      "Condition": "1750/1750",
+      "Weight": "10 (Heavy)",
+      "Value": "4875"
+    }
+  },
+  {
+    "Item Name": "Belt of Fire",
+    "Image": "images/Belt of Fire.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Flame Atronach Camp - Cinder (Boss)",
+    "Type": "Clothing",
+    "Slot": "Belt",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Agility 35 pts",
+      "Fortify Health 170 pts"
+    ],
+    "Stats": {
+      "Weight": "1",
+      "Value": "4016"
+    }
+  },
+  {
+    "Item Name": "Obsidian Right Bracer",
+    "Image": "images/Obsidian Right Bracer.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "Stealth/Magic",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Infernal Flame Atronach Camp - Cinder (Boss)",
+    "Type": "Heavy Armor",
+    "Slot": "Right Bracer/Gauntlet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Endurance 10 pts",
+      "Fortify Skill Athletics 25 pts",
+      "Fortify Magicka 75 pts",
+      "Fortify Health 25 pts"
+    ],
+    "Stats": {
+      "Armor Rating": "162",
+      "Condition": "1475/1475",
+      "Weight": "5 (Heavy)",
+      "Value": "4120"
     }
   }
 ]

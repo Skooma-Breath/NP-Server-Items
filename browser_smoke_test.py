@@ -250,6 +250,15 @@ def main() -> None:
                 "Obsidian Left Bracer",
                 "Chest of Scorched Links",
                 "Obsidian Blade",
+                "Firegold Necklace",
+                "Sash of Fire",
+                "Lava Etched Right Pauldron",
+                "Lava Etched Boots",
+                "Right Firepit Insignia",
+                "Thorned Belt",
+                "Scorched Left Pauldron",
+                "Belt of Fire",
+                "Obsidian Right Bracer",
             )
             for new_name in new_video_names:
                 if new_name not in browser_max_damage:
@@ -257,6 +266,12 @@ def main() -> None:
                 image_path = ROOT / "images" / f"{new_name}.png"
                 if not image_path.is_file() or image_path.stat().st_size == 0:
                     raise AssertionError(f"New video item image is missing: {image_path}")
+
+            obsidian_hidden = cdp.evaluate(
+                "state.items.find(item => item['Item Name'] === 'Obsidian Blade')['Hidden Effect(s)']"
+            )
+            if "Obsidian Strike" not in obsidian_hidden or "100% Weakness to Fire" not in obsidian_hidden:
+                raise AssertionError(f"Obsidian Blade hidden effect was not updated: {obsidian_hidden}")
 
             cdp.evaluate("document.querySelector('th[data-column=\"2\"]').click()")
             cdp.evaluate("document.querySelector('th[data-column=\"2\"]').click()")
