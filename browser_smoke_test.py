@@ -267,6 +267,44 @@ def main() -> None:
                 if not image_path.is_file() or image_path.stat().st_size == 0:
                     raise AssertionError(f"New video item image is missing: {image_path}")
 
+            report_import_names = (
+                "Blade of Woe",
+                "Depth Dweller Boots",
+                "Aurabound Necklace",
+                "Cruel Firestorm Arrow (18)",
+                "Kwama Sundas Glove Left [No Trade]",
+                "Mask: Nord Vampire",
+                "Secret Master's Hammer [No Trade]",
+                "Shrouded Left Glove",
+                "Steel Battleaxe of Fiery Souls",
+            )
+            for report_name in report_import_names:
+                if report_name not in browser_max_damage:
+                    raise AssertionError(f"Report-import item is missing: {report_name}")
+                image_src = cdp.evaluate(
+                    f"state.items.find(item => item['Item Name'] === {report_name!r}).Image"
+                )
+                image_path = ROOT / image_src
+                if not image_src or not image_path.is_file() or image_path.stat().st_size == 0:
+                    raise AssertionError(f"Report-import item image is missing: {report_name} -> {image_src}")
+
+            false_report_names = (
+                "Snowman Balls",
+                "Stalrihm Shortsword",
+                "Witch's Broom",
+                "Amulet Of Anguish",
+                "Belt of the Desiccator",
+                "Robe of Thormanil",
+                "Black Flamed Candle",
+                "Savos Aren Amulet",
+                "Seer's Right Bracer",
+                "Shrouded Hand Wraps",
+                "Witch's Robe",
+            )
+            false_duplicates = [name for name in false_report_names if name in browser_max_damage]
+            if false_duplicates:
+                raise AssertionError(f"False-positive report aliases were imported: {false_duplicates}")
+
             obsidian_hidden = cdp.evaluate(
                 "state.items.find(item => item['Item Name'] === 'Obsidian Blade')['Hidden Effect(s)']"
             )

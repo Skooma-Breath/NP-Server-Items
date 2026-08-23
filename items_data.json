@@ -1699,14 +1699,14 @@
   },
   {
     "Item Name": "Belt of the Dessicator",
-    "Image": "",
+    "Image": "images/Belt of the Dessicator.png",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Magic",
     "Lvl Req.": "50",
     "Location/Boss/Event": "Tomb of the Dessicator",
     "Type": "Clothing",
     "Slot": "Belt",
-    "Other Notes": "",
+    "Other Notes": "Found on Zin the Desiccator (ash vampire boss).",
     "EV": "",
     "Price": "",
     "Effects": [
@@ -1717,7 +1717,10 @@
       "Resist Fire 8%",
       "Resist Frost 7%"
     ],
-    "Stats": {}
+    "Stats": {
+      "Weight": "1",
+      "Value": "4800"
+    }
   },
   {
     "Item Name": "Belt of the Spider",
@@ -1765,7 +1768,7 @@
   },
   {
     "Item Name": "Black Flame Candle",
-    "Image": "",
+    "Image": "images/Black Flame Candle.png",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
     "Lvl Req.": "",
@@ -1776,7 +1779,9 @@
     "EV": "",
     "Price": "",
     "Effects": [],
-    "Stats": {}
+    "Stats": {
+      "Weight": "2"
+    }
   },
   {
     "Item Name": "Black Scale Ring",
@@ -2673,7 +2678,7 @@
   },
   {
     "Item Name": "Crimson Robe",
-    "Image": "",
+    "Image": "images/Crimson Robe.png",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Magic",
     "Lvl Req.": "",
@@ -2689,7 +2694,10 @@
       "Fortify Magicka 175 pts",
       "Resist Frost 17%"
     ],
-    "Stats": {}
+    "Stats": {
+      "Weight": "3",
+      "Value": "20"
+    }
   },
   {
     "Item Name": "Crushing Edge",
@@ -7089,7 +7097,7 @@
   },
   {
     "Item Name": "Robe of Thornamil",
-    "Image": "",
+    "Image": "images/Robe of Thornamil.png",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
     "Lvl Req.": "",
@@ -7103,7 +7111,10 @@
       "Constant Effect",
       "Fortify Attribute Intelligence 15 pts"
     ],
-    "Stats": {}
+    "Stats": {
+      "Weight": "3",
+      "Value": "4026"
+    }
   },
   {
     "Item Name": "Rotweave Tunic",
@@ -7196,7 +7207,7 @@
   },
   {
     "Item Name": "Savos Aren’s Amulet",
-    "Image": "",
+    "Image": "images/Savos Aren’s Amulet.png",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
     "Lvl Req.": "",
@@ -7210,7 +7221,10 @@
       "Constant Effect",
       "Fortify Magicka 50 pts"
     ],
-    "Stats": {}
+    "Stats": {
+      "Weight": "1",
+      "Value": "818"
+    }
   },
   {
     "Item Name": "Scorpion Band",
@@ -7320,7 +7334,7 @@
   },
   {
     "Item Name": "Seer's Right Bracelet",
-    "Image": "",
+    "Image": "images/Seer's Right Bracelet.png",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
     "Lvl Req.": "",
@@ -7338,7 +7352,8 @@
     ],
     "Stats": {
       "Armor Rating": "8",
-      "Condition": "525/525"
+      "Condition": "525/525",
+      "Weight": "1.5"
     }
   },
   {
@@ -8138,7 +8153,7 @@
   },
   {
     "Item Name": "Snowball",
-    "Image": "",
+    "Image": "images/Snowball.png",
     "Hidden Effect(s)": "No damage",
     "Spec. Req.": "Any",
     "Lvl Req.": "",
@@ -8152,7 +8167,8 @@
     "Stats": {
       "Type": "Marksman",
       "Attack": "0-0",
-      "Speed": "400%"
+      "Speed": "400%",
+      "Weight": "0.2"
     }
   },
   {
@@ -9751,23 +9767,25 @@
   },
   {
     "Item Name": "Witches Robe",
-    "Image": "",
+    "Image": "images/Witches Robe.png",
     "Hidden Effect(s)": "higher EV than Exquisite Robe",
     "Spec. Req.": "Any",
     "Lvl Req.": "",
     "Location/Boss/Event": "Jack (Morroween Boss Reward Crate)",
     "Type": "Clothing",
     "Slot": "Robe",
-    "Other Notes": "",
+    "Other Notes": "Altered version of the vanilla item with extra enchant value; report describes the drop as rare.",
     "EV": "52",
     "Price": "",
     "Effects": [],
-    "Stats": {}
+    "Stats": {
+      "Weight": "3"
+    }
   },
   {
     "Item Name": "Witches’ Broom",
-    "Image": "",
-    "Hidden Effect(s)": "Constant levitate effect, double magnitude during Morroween",
+    "Image": "images/Witches’ Broom.png",
+    "Hidden Effect(s)": "Grants a constant-effect Levitate effect on self; magnitude is doubled during Morroween.",
     "Spec. Req.": "Any",
     "Lvl Req.": "",
     "Location/Boss/Event": "Jack (Morroween Boss Reward Crate)",
@@ -9777,12 +9795,15 @@
     "EV": "",
     "Price": "",
     "Effects": [
-      "Cast When Strikes",
-      "Pd Levirare 100 pts on Self"
+      "Constant Effect",
+      "Levitate 100 pts on Self"
     ],
     "Stats": {
       "Slash": "2 - 3",
-      "Charge": "FEROS)"
+      "Condition": "1031/1031",
+      "Weight": "3",
+      "Chop": "1 - 1",
+      "Thrust": "1 - 2"
     }
   },
   {
@@ -13642,6 +13663,1330 @@
       "Condition": "1475/1475",
       "Weight": "5 (Heavy)",
       "Value": "4120"
+    }
+  },
+  {
+    "Item Name": "Depth Dweller Boots",
+    "Image": "images/Depth Dweller Boots.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Dreughnaught Boss Drop",
+    "Type": "Medium Armor",
+    "Slot": "Boots",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Swift Swim 25 pts",
+      "Fortify Skill Medium Armor 25 pts",
+      "Fortify Skill Athletics 20 pts",
+      "Resist Shock 22%",
+      "Resist Poison 16%",
+      "Fortify Health 130 pts",
+      "Drain Attribute Personality 50 pts"
+    ],
+    "Stats": {
+      "Armor Rating": "123",
+      "Condition": "1250/1250",
+      "Weight": "14"
+    }
+  },
+  {
+    "Item Name": "Shrouded Anklet",
+    "Image": "images/Shrouded Anklet.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "",
+    "Type": "Light Armor",
+    "Slot": "Boots (beast)",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Armor Rating": "29",
+      "Weight": "2"
+    }
+  },
+  {
+    "Item Name": "Shrouded Cowl (Maskless)",
+    "Image": "images/Shrouded Cowl (Maskless).png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Armor Rating": "38",
+      "Weight": "1"
+    }
+  },
+  {
+    "Item Name": "Visage of Mzund",
+    "Image": "",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "",
+    "Type": "Heavy Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Fatigue 60 pts"
+    ],
+    "Stats": {
+      "Armor Rating": "39",
+      "Weight": "5"
+    }
+  },
+  {
+    "Item Name": "Diviner's Leggings",
+    "Image": "images/Diviner's Leggings.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "Magic",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "dreughnaut's remains cache",
+    "Type": "Clothing",
+    "Slot": "Greaves",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Intelligence 30 pts",
+      "Fortify Magicka 150 pts"
+    ],
+    "Stats": {
+      "Weight": "3",
+      "Value": "8000"
+    }
+  },
+  {
+    "Item Name": "Falmen Trousers",
+    "Image": "images/Falmen Trousers.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "",
+    "Type": "Clothing",
+    "Slot": "Pants",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Strength 29 pts"
+    ],
+    "Stats": {
+      "Weight": "2"
+    }
+  },
+  {
+    "Item Name": "Finely Tailored Robes",
+    "Image": "",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "",
+    "Type": "Clothing",
+    "Slot": "Robe",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Speed 17 pts"
+    ],
+    "Stats": {
+      "Weight": "3"
+    }
+  },
+  {
+    "Item Name": "Aurabound Necklace",
+    "Image": "images/Aurabound Necklace.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "druid camp boss",
+    "Type": "Clothing",
+    "Slot": "Amulet",
+    "Other Notes": "rarity: uncommon",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Endurance 3 pts",
+      "Fortify Attribute Speed 3 pts",
+      "Fortify Attribute Willpower 15 pts",
+      "Fortify Attribute Personality 3 pts",
+      "Resist Common Disease 5%",
+      "Resist Blight Disease 5%",
+      "Resist Shock 5%",
+      "Resist Magicka 5%"
+    ],
+    "Stats": {
+      "Weight": "1",
+      "Value": "4073"
+    }
+  },
+  {
+    "Item Name": "Enchanted Ring",
+    "Image": "images/Enchanted Ring.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Skyrim Loot Cache",
+    "Type": "Clothing",
+    "Slot": "Ring",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Health 20 pts"
+    ],
+    "Stats": {
+      "Weight": "0.1",
+      "Value": "207"
+    }
+  },
+  {
+    "Item Name": "Ring of Pure Mixtures",
+    "Image": "images/Ring of Pure Mixtures.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Skyrim Loot Cache",
+    "Type": "Clothing",
+    "Slot": "Ring",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Skill Alchemy 15 pts"
+    ],
+    "Stats": {
+      "Weight": "0.1",
+      "Value": "868"
+    }
+  },
+  {
+    "Item Name": "Saarthal Amulet",
+    "Image": "images/Saarthal Amulet.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Skyrim Loot Cache",
+    "Type": "Clothing",
+    "Slot": "Amulet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Skill Conjuration 3 pts",
+      "Fortify Skill Destruction 3 pts",
+      "Fortify Skill Illusion 3 pts",
+      "Fortify Skill Restoration 3 pts"
+    ],
+    "Stats": {
+      "Weight": "0.75",
+      "Value": "184"
+    }
+  },
+  {
+    "Item Name": "Talisman of Troka",
+    "Image": "images/Talisman of Troka.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Last Werehunter Quest Reward (Stealth Specialization)",
+    "Type": "Clothing",
+    "Slot": "Amulet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Intelligence 30 pts",
+      "Fortify Attribute Agility 15 pts"
+    ],
+    "Stats": {
+      "Weight": "1"
+    }
+  },
+  {
+    "Item Name": "Twinkling Amulet",
+    "Image": "images/Twinkling Amulet.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "Magic",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Dreughnaut's remains cache",
+    "Type": "Clothing",
+    "Slot": "Amulet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Drain Attribute Strength 50 pts",
+      "Fortify Health 225 pts",
+      "Fortify Skill Destruction 10 pts",
+      "Fortify Skill Restoration 10 pts"
+    ],
+    "Stats": {
+      "Weight": "1",
+      "Value": "7600"
+    }
+  },
+  {
+    "Item Name": "Ancient Helm of the Unburned",
+    "Image": "images/Ancient Helm of the Unburned.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Skyrim Loot Cache",
+    "Type": "Heavy Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Resist Fire 40%"
+    ],
+    "Stats": {
+      "Armor Rating": "29",
+      "Condition": "640/640",
+      "Weight": "8",
+      "Value": "841"
+    }
+  },
+  {
+    "Item Name": "Basic Left Fishing Glove [No Trade]",
+    "Image": "images/Basic Left Fishing Glove [No Trade].png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Tailoring",
+    "Type": "Glove",
+    "Slot": "Left Glove",
+    "Other Notes": "Materials Needed: 1 Glove Pattern, 4 Waterproof cloth, 1 Spool",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Weight": "1"
+    }
+  },
+  {
+    "Item Name": "Cruel Firestorm Arrow (18)",
+    "Image": "images/Cruel Firestorm Arrow (18).png",
+    "Hidden Effect(s)": "N/A",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "New Life Festival Gift Crate",
+    "Type": "Arrow",
+    "Slot": "Ammunition",
+    "Other Notes": "Loot Chance: Comon-Rare (as written); Other Info: Restored Plugin Content",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Cast When Strikes",
+      "Fire Damage 3 to 7 pts for 1 sec in 10 ft on Touch"
+    ],
+    "Stats": {
+      "Weight": "0.1",
+      "Value": "5",
+      "Charge": "30"
+    }
+  },
+  {
+    "Item Name": "Cruel Firestorm Bolt (6)",
+    "Image": "images/Cruel Firestorm Bolt (6).png",
+    "Hidden Effect(s)": "N/A",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "New Life Festival Gift Crate",
+    "Type": "Bolt",
+    "Slot": "Ammunition",
+    "Other Notes": "Loot Chance: Comon-Rare (as written); Other Info: Restored Plugin Content",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Cast When Strikes",
+      "Fire Damage 3 to 7 pts for 1 sec in 10 ft on Touch"
+    ],
+    "Stats": {
+      "Weight": "0.1",
+      "Value": "5",
+      "Charge": "30"
+    }
+  },
+  {
+    "Item Name": "Cruel Firestorm Dart (12)",
+    "Image": "images/Cruel Firestorm Dart (12).png",
+    "Hidden Effect(s)": "N/A",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "New Life Festival Gift Crate",
+    "Type": "Thrown",
+    "Slot": "Ammunition",
+    "Other Notes": "Loot Chance: Comon-Rare (as written); Other Info: Restored Plugin Content",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Cast When Strikes",
+      "Fire Damage 3 to 7 pts for 1 sec in 10 ft on Touch"
+    ],
+    "Stats": {
+      "Weight": "0.2",
+      "Value": "8",
+      "Charge": "30"
+    }
+  },
+  {
+    "Item Name": "Cruel Firestorm Star (18)",
+    "Image": "images/Cruel Firestorm Star (18).png",
+    "Hidden Effect(s)": "N/A",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "New Life Festival Gift Crate",
+    "Type": "Thrown",
+    "Slot": "Ammunition",
+    "Other Notes": "Loot Chance: Comon-Rare (as written); Other Info: Restored Plugin Content",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Cast When Strikes",
+      "Fire Damage 3 to 7 pts for 1 sec in 10 ft on Touch"
+    ],
+    "Stats": {
+      "Weight": "0.1",
+      "Value": "5",
+      "Charge": "30"
+    }
+  },
+  {
+    "Item Name": "Cruel Frostbloom Arrow (30)",
+    "Image": "images/Cruel Frostbloom Arrow (30).png",
+    "Hidden Effect(s)": "N/A",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "New Life Festival Gift Crate",
+    "Type": "Arrow",
+    "Slot": "Ammunition",
+    "Other Notes": "Loot Chance: Comon-Rare (as written); Other Info: Restored Plugin Content",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Cast When Strikes",
+      "Frost Damage 3 to 7 pts for 1 sec in 10 ft on Touch"
+    ],
+    "Stats": {
+      "Weight": "0.1",
+      "Value": "5",
+      "Charge": "30"
+    }
+  },
+  {
+    "Item Name": "Cruel Frostbloom Bolt (30)",
+    "Image": "images/Cruel Frostbloom Bolt (30).png",
+    "Hidden Effect(s)": "N/A",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "New Life Festival Gift Crate",
+    "Type": "Bolt",
+    "Slot": "Ammunition",
+    "Other Notes": "Loot Chance: Comon-Rare (as written); Other Info: Restored Plugin Content",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Cast When Strikes",
+      "Frost Damage 3 to 7 pts for 1 sec in 10 ft on Touch"
+    ],
+    "Stats": {
+      "Weight": "0.1",
+      "Value": "5",
+      "Charge": "30"
+    }
+  },
+  {
+    "Item Name": "Cruel Frostbloom Dart (12)",
+    "Image": "images/Cruel Frostbloom Dart (12).png",
+    "Hidden Effect(s)": "N/A",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "New Life Festival Gift Crate",
+    "Type": "Thrown",
+    "Slot": "Ammunition",
+    "Other Notes": "Loot Chance: Comon-Rare (as written); Other Info: Restored Plugin Content",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Cast When Strikes",
+      "Frost Damage 3 to 7 pts for 1 sec in 10 ft on Touch"
+    ],
+    "Stats": {
+      "Weight": "0.2",
+      "Value": "8",
+      "Charge": "30"
+    }
+  },
+  {
+    "Item Name": "Cruel Frostbloom Star (12)",
+    "Image": "images/Cruel Frostbloom Star (12).png",
+    "Hidden Effect(s)": "N/A",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "New Life Festival Gift Crate",
+    "Type": "Thrown",
+    "Slot": "Ammunition",
+    "Other Notes": "Loot Chance: Comon-Rare (as written); Other Info: Restored Plugin Content",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Cast When Strikes",
+      "Frost Damage 3 to 7 pts for 1 sec in 10 ft on Touch"
+    ],
+    "Stats": {
+      "Weight": "0.1",
+      "Value": "5",
+      "Charge": "30"
+    }
+  },
+  {
+    "Item Name": "Cruel Poisonbloom Arrow (18)",
+    "Image": "images/Cruel Poisonbloom Arrow (18).png",
+    "Hidden Effect(s)": "N/A",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "New Life Festival Gift Crate",
+    "Type": "Arrow",
+    "Slot": "Ammunition",
+    "Other Notes": "Loot Chance: Comon-Rare (as written); Other Info: Restored Plugin Content",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Cast When Strikes",
+      "Poison 3 to 7 pts for 1 sec in 10 ft on Touch"
+    ],
+    "Stats": {
+      "Weight": "0.1",
+      "Value": "5",
+      "Charge": "50"
+    }
+  },
+  {
+    "Item Name": "Cruel Poisonbloom Star (24)",
+    "Image": "images/Cruel Poisonbloom Star (24).png",
+    "Hidden Effect(s)": "N/A",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "New Life Festival Gift Crate",
+    "Type": "Thrown",
+    "Slot": "Ammunition",
+    "Other Notes": "Loot Chance: Comon-Rare (as written); Other Info: Restored Plugin Content",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Cast When Strikes",
+      "Poison 3 to 7 pts for 1 sec in 10 ft on Touch"
+    ],
+    "Stats": {
+      "Weight": "0.1",
+      "Value": "5",
+      "Charge": "50"
+    }
+  },
+  {
+    "Item Name": "Cruel Shockbloom Arrow (12)",
+    "Image": "images/Cruel Shockbloom Arrow (12).png",
+    "Hidden Effect(s)": "N/A",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "New Life Festival Gift Crate",
+    "Type": "Arrow",
+    "Slot": "Ammunition",
+    "Other Notes": "Loot Chance: Comon-Rare (as written); Other Info: Restored Plugin Content",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Cast When Strikes",
+      "Shock Damage 3 to 7 pts for 1 sec in 10 ft on Touch"
+    ],
+    "Stats": {
+      "Weight": "0.1",
+      "Value": "5",
+      "Charge": "40"
+    }
+  },
+  {
+    "Item Name": "Cruel Shockbloom Bolt (12)",
+    "Image": "images/Cruel Shockbloom Bolt (12).png",
+    "Hidden Effect(s)": "N/A",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "New Life Festival Gift Crate",
+    "Type": "Bolt",
+    "Slot": "Ammunition",
+    "Other Notes": "Loot Chance: Comon-Rare (as written); Other Info: Restored Plugin Content",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Cast When Strikes",
+      "Shock Damage 3 to 7 pts for 1 sec in 10 ft on Touch"
+    ],
+    "Stats": {
+      "Weight": "0.1",
+      "Value": "5",
+      "Charge": "40"
+    }
+  },
+  {
+    "Item Name": "Cruel Shockbloom Dart (12)",
+    "Image": "images/Cruel Shockbloom Dart (12).png",
+    "Hidden Effect(s)": "N/A",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "New Life Festival Gift Crate",
+    "Type": "Thrown",
+    "Slot": "Ammunition",
+    "Other Notes": "Loot Chance: Comon-Rare (as written); Other Info: Restored Plugin Content",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Cast When Strikes",
+      "Shock Damage 3 to 7 pts for 1 sec in 10 ft on Touch"
+    ],
+    "Stats": {
+      "Weight": "0.2",
+      "Value": "8",
+      "Charge": "40"
+    }
+  },
+  {
+    "Item Name": "Cruel Shockbloom Star (24)",
+    "Image": "images/Cruel Shockbloom Star (24).png",
+    "Hidden Effect(s)": "N/A",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "New Life Festival Gift Crate",
+    "Type": "Thrown",
+    "Slot": "Ammunition",
+    "Other Notes": "Loot Chance: Comon-Rare (as written); Other Info: Restored Plugin Content",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Cast When Strikes",
+      "Shock Damage 3 to 7 pts for 1 sec in 10 ft on Touch"
+    ],
+    "Stats": {
+      "Weight": "0.1",
+      "Value": "5",
+      "Charge": "40"
+    }
+  },
+  {
+    "Item Name": "Dire Firestorm Arrow (18)",
+    "Image": "images/Dire Firestorm Arrow (18).png",
+    "Hidden Effect(s)": "N/A",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "New Life Festival Gift Crate",
+    "Type": "Arrow",
+    "Slot": "Ammunition",
+    "Other Notes": "Loot Chance: Comon-Rare (as written); Other Info: Restored Plugin Content",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Cast When Strikes",
+      "Fire Damage 6 to 14 pts for 1 sec in 20 ft on Touch"
+    ],
+    "Stats": {
+      "Weight": "0.1",
+      "Value": "7",
+      "Charge": "50"
+    }
+  },
+  {
+    "Item Name": "Dire Firestorm Bolt (18)",
+    "Image": "images/Dire Firestorm Bolt (18).png",
+    "Hidden Effect(s)": "N/A",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "New Life Festival Gift Crate",
+    "Type": "Bolt",
+    "Slot": "Ammunition",
+    "Other Notes": "Loot Chance: Comon-Rare (as written); Other Info: Restored Plugin Content",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Cast When Strikes",
+      "Fire Damage 6 to 14 pts for 1 sec in 20 ft on Touch"
+    ],
+    "Stats": {
+      "Weight": "0.1",
+      "Value": "9",
+      "Charge": "50"
+    }
+  },
+  {
+    "Item Name": "Dire Firestorm Dart (9)",
+    "Image": "images/Dire Firestorm Dart (9).png",
+    "Hidden Effect(s)": "N/A",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "New Life Festival Gift Crate",
+    "Type": "Thrown",
+    "Slot": "Ammunition",
+    "Other Notes": "Loot Chance: Comon-Rare (as written); Other Info: Restored Plugin Content",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Cast When Strikes",
+      "Fire Damage 6 to 14 pts for 1 sec in 20 ft on Touch"
+    ],
+    "Stats": {
+      "Weight": "0.2",
+      "Value": "8",
+      "Charge": "50"
+    }
+  },
+  {
+    "Item Name": "Dire Firestorm Star (27)",
+    "Image": "images/Dire Firestorm Star (27).png",
+    "Hidden Effect(s)": "N/A",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "New Life Festival Gift Crate",
+    "Type": "Thrown",
+    "Slot": "Ammunition",
+    "Other Notes": "Loot Chance: Comon-Rare (as written); Other Info: Restored Plugin Content",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Cast When Strikes",
+      "Fire Damage 6 to 14 pts for 1 sec in 20 ft on Touch"
+    ],
+    "Stats": {
+      "Weight": "0.2",
+      "Value": "18",
+      "Charge": "50"
+    }
+  },
+  {
+    "Item Name": "Dire Frostbloom Arrow (54)",
+    "Image": "images/Dire Frostbloom Arrow (54).png",
+    "Hidden Effect(s)": "N/A",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "New Life Festival Gift Crate",
+    "Type": "Arrow",
+    "Slot": "Ammunition",
+    "Other Notes": "Loot Chance: Comon-Rare (as written); Other Info: Restored Plugin Content",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Cast When Strikes",
+      "Frost Damage 6 to 14 pts for 1 sec in 20 ft on Touch"
+    ],
+    "Stats": {
+      "Weight": "0.1",
+      "Value": "7",
+      "Charge": "50"
+    }
+  },
+  {
+    "Item Name": "Dire Frostbloom Bolt (9)",
+    "Image": "images/Dire Frostbloom Bolt (9).png",
+    "Hidden Effect(s)": "N/A",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "New Life Festival Gift Crate",
+    "Type": "Bolt",
+    "Slot": "Ammunition",
+    "Other Notes": "Loot Chance: Comon-Rare (as written); Other Info: Restored Plugin Content",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Cast When Strikes",
+      "Frost Damage 6 to 14 pts for 1 sec in 20 ft on Touch"
+    ],
+    "Stats": {
+      "Weight": "0.1",
+      "Value": "9",
+      "Charge": "50"
+    }
+  },
+  {
+    "Item Name": "Dire Shockbloom Bolt (27)",
+    "Image": "images/Dire Shockbloom Bolt (27).png",
+    "Hidden Effect(s)": "N/A",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "New Life Festival Gift Crate",
+    "Type": "Bolt",
+    "Slot": "Ammunition",
+    "Other Notes": "Loot Chance: Comon-Rare (as written); Other Info: Restored Plugin Content",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Cast When Strikes",
+      "Shock Damage 6 to 14 pts for 1 sec in 20 ft on Touch"
+    ],
+    "Stats": {
+      "Weight": "0.1",
+      "Value": "9",
+      "Charge": "70"
+    }
+  },
+  {
+    "Item Name": "Dread Firestorm Arrow (360)",
+    "Image": "images/Dread Firestorm Arrow (360).png",
+    "Hidden Effect(s)": "N/A",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "New Life Festival Gift Crate",
+    "Type": "Arrow",
+    "Slot": "Ammunition",
+    "Other Notes": "Loot Chance: Comon-Rare (as written); Other Info: Restored Plugin Content",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Cast When Strikes",
+      "Fire Damage 5 to 15 pts for 5 secs in 20 ft on Touch"
+    ],
+    "Stats": {
+      "Weight": "0.2",
+      "Value": "20",
+      "Charge": "150"
+    }
+  },
+  {
+    "Item Name": "Dread Poisonbloom Arrow (258)",
+    "Image": "images/Dread Poisonbloom Arrow (258).png",
+    "Hidden Effect(s)": "N/A",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "New Life Festival Gift Crate",
+    "Type": "Arrow",
+    "Slot": "Ammunition",
+    "Other Notes": "Loot Chance: Comon-Rare (as written); Other Info: Restored Plugin Content",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Cast When Strikes",
+      "Poison 5 to 15 pts for 5 secs in 20 ft on Touch"
+    ],
+    "Stats": {
+      "Weight": "0.2",
+      "Value": "20",
+      "Charge": "270"
+    }
+  },
+  {
+    "Item Name": "Dread Shockbloom Arrow (366)",
+    "Image": "images/Dread Shockbloom Arrow (366).png",
+    "Hidden Effect(s)": "N/A",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "New Life Festival Gift Crate",
+    "Type": "Arrow",
+    "Slot": "Ammunition",
+    "Other Notes": "Loot Chance: Comon-Rare (as written); Other Info: Restored Plugin Content",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Cast When Strikes",
+      "Shock Damage 5 to 15 pts for 5 secs in 20 ft on Touch"
+    ],
+    "Stats": {
+      "Weight": "0.2",
+      "Value": "20",
+      "Charge": "210"
+    }
+  },
+  {
+    "Item Name": "Flame Etched Chestguard",
+    "Image": "images/Flame Etched Chestguard.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Easter Event (Thanks for the info, @FrostscaleLizard!)",
+    "Type": "Heavy Armor",
+    "Slot": "Chest",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Resist Fire 15%",
+      "Fortify Attribute Endurance 20 pts",
+      "Fortify Attribute Strength 17 pts"
+    ],
+    "Stats": {
+      "Armor Rating": "52",
+      "Condition": "1250/1250",
+      "Weight": "35",
+      "Value": "7648"
+    }
+  },
+  {
+    "Item Name": "Kwama Sundas Glove Left [No Trade]",
+    "Image": "images/Kwama Sundas Glove Left [No Trade].png",
+    "Hidden Effect(s)": "32 EV",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Easter Event",
+    "Type": "Clothing",
+    "Slot": "Left Glove",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Weight": "1"
+    }
+  },
+  {
+    "Item Name": "Longwind Right Bracer",
+    "Image": "images/Longwind Right Bracer.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Solstheim (poster uncertain: \"solsthiem drop i think\")",
+    "Type": "Light Armor",
+    "Slot": "Right Bracer/Gauntlet",
+    "Other Notes": "Poster asking if anyone has seen more pieces of this set; believed to be a Solstheim drop but unconfirmed (\"i think\").",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Agility 10 pts",
+      "Fortify Health 25 pts",
+      "Resist Fire 12%",
+      "Resist Frost 6%",
+      "Resist Shock 3%"
+    ],
+    "Stats": {
+      "Armor Rating": "90",
+      "Condition": "1625/1625",
+      "Weight": "4.4",
+      "Value": "5019"
+    }
+  },
+  {
+    "Item Name": "Mask: Nord Vampire",
+    "Image": "images/Mask - Nord Vampire.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "",
+    "Type": "Light Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Armor Rating": "0",
+      "Condition": "20000/20000",
+      "Weight": "3"
+    }
+  },
+  {
+    "Item Name": "Master Right Fishing Glove",
+    "Image": "images/Master Right Fishing Glove.png",
+    "Hidden Effect(s)": "Fishing Benefits (quicker reel-times?)",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Craftable, Recipe found in Crate",
+    "Type": "Glove",
+    "Slot": "Right Glove",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Weight": "1",
+      "Value": "16"
+    }
+  },
+  {
+    "Item Name": "Secret Master's Hammer [No Trade]",
+    "Image": "images/Secret Master's Hammer [No Trade].png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Jiubsmas Imports",
+    "Type": "Miscellaneous",
+    "Slot": "",
+    "Other Notes": "Poster describes it as 'a high quality repair tool with 500 uses.'",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Weight": "1"
+    }
+  },
+  {
+    "Item Name": "Shiny Leather Right Bracer",
+    "Image": "images/Shiny Leather Right Bracer.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "found anywhere",
+    "Type": "Light Armor",
+    "Slot": "Right Bracer/Gauntlet",
+    "Other Notes": "rarity: common",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Willpower 2 pts",
+      "Resist Common Disease 1%"
+    ],
+    "Stats": {
+      "Armor Rating": "11",
+      "Condition": "260/260",
+      "Weight": "1.5",
+      "Value": "81"
+    }
+  },
+  {
+    "Item Name": "Shrouded Left Glove",
+    "Image": "images/Shrouded Left Glove.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Skyrim Crates",
+    "Type": "Light Armor",
+    "Slot": "Left Bracer/Gauntlet",
+    "Other Notes": "Rarity: mostly common - post text notes maskless and anklet variants are very rare, but no maskless/anklet tooltip images appear among this post's 9 attachments (those appear instead in the separate 'Ancient Shrouded collection' post).",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Skill Short Blade 10 pts"
+    ],
+    "Stats": {
+      "Armor Rating": "29.5",
+      "Condition": "300/300",
+      "Weight": "1",
+      "Value": "1250"
+    }
+  },
+  {
+    "Item Name": "Shrouded Shoes",
+    "Image": "images/Shrouded Shoes.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Skyrim Loot Cache",
+    "Type": "Clothing",
+    "Slot": "Shoes",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Skill Sneak 15 pts"
+    ],
+    "Stats": {
+      "Weight": "0.5",
+      "Value": "150"
+    }
+  },
+  {
+    "Item Name": "Skyfaith Left Glove",
+    "Image": "images/Skyfaith Left Glove.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "found anywhere",
+    "Type": "Light Armor",
+    "Slot": "Left Bracer/Gauntlet",
+    "Other Notes": "rarity: common",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Strength 4 pts",
+      "Fortify Attribute Willpower 4 pts",
+      "Fortify Health 25 pts"
+    ],
+    "Stats": {
+      "Armor Rating": "27.5",
+      "Condition": "300/300",
+      "Weight": "1",
+      "Value": "648"
+    }
+  },
+  {
+    "Item Name": "Blade of Woe",
+    "Image": "images/Blade of Woe.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Skyrim Loot Cache",
+    "Type": "Short Blade",
+    "Slot": "Weapon - 1 Hand",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Cast When Strikes",
+      "Absorb Health 10 pts for 1 sec on Touch"
+    ],
+    "Stats": {
+      "Condition": "1200/1200",
+      "Weight": "16",
+      "Value": "12000",
+      "Chop": "10 - 20",
+      "Slash": "10 - 22",
+      "Thrust": "15 - 25"
+    }
+  },
+  {
+    "Item Name": "Book of Legends",
+    "Image": "images/Book of Legends.png",
+    "Hidden Effect(s)": "None (?)",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Storyteller",
+    "Type": "Blunt Weapon",
+    "Slot": "Weapon - 1 Hand",
+    "Other Notes": "Purchased for 200 Commendations from Storyteller vendor. Flavor text: \"A book often sought after by magicians.\"",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Cast When Used",
+      "Fortify Attribute Agility 10 pts for 65 secs on Self",
+      "Fortify Attribute Intelligence 10 pts",
+      "Fortify Magicka 25 pts",
+      "Resist Magicka 12%"
+    ],
+    "Stats": {
+      "Condition": "270/270",
+      "Weight": "3",
+      "Chop": "1 - 20",
+      "Slash": "1 - 1",
+      "Thrust": "1 - 1"
+    }
+  },
+  {
+    "Item Name": "Book of Myths",
+    "Image": "images/Book of Myths.png",
+    "Hidden Effect(s)": "None (?)",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Storyteller",
+    "Type": "Blunt Weapon",
+    "Slot": "Weapon - 1 Hand",
+    "Other Notes": "Purchased for 200 Commendations from Storyteller vendor. Flavor text: \"A book often sought after by druids.\"",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Cast When Used",
+      "Fortify Attribute Luck 10 pts for 65 secs on Self",
+      "Fortify Attribute Willpower 10 pts",
+      "Fortify Magicka 25 pts",
+      "Resist Magicka 12%"
+    ],
+    "Stats": {
+      "Condition": "270/270",
+      "Weight": "3",
+      "Chop": "1 - 20",
+      "Slash": "1 - 1",
+      "Thrust": "1 - 1"
+    }
+  },
+  {
+    "Item Name": "Book of Sagas",
+    "Image": "images/Book of Sagas.png",
+    "Hidden Effect(s)": "None (?)",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Storyteller",
+    "Type": "Blunt Weapon",
+    "Slot": "Weapon - 1 Hand",
+    "Other Notes": "Purchased for 200 Commendations from Storyteller vendor. Flavor text: \"A book often sought after by necromancers.\"",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Cast When Used",
+      "Fortify Attribute Endurance 10 pts for 65 secs on Self",
+      "Fortify Attribute Intelligence 10 pts",
+      "Fortify Magicka 25 pts",
+      "Resist Magicka 12%"
+    ],
+    "Stats": {
+      "Condition": "270/270",
+      "Weight": "3",
+      "Chop": "1 - 20",
+      "Slash": "1 - 1",
+      "Thrust": "1 - 1"
+    }
+  },
+  {
+    "Item Name": "Cyrus' Saber",
+    "Image": "images/Cyrus' Saber.png",
+    "Hidden Effect(s)": "Chance to proc Fortify Attack 35 pts for 5 seconds when hitting an enemy",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Jiubsmas",
+    "Type": "Long Blade",
+    "Slot": "Weapon - 1 Hand",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Condition": "1400/1400",
+      "Weight": "16",
+      "Value": "4478",
+      "Chop": "5 - 20",
+      "Slash": "4 - 18",
+      "Thrust": "1 - 5"
+    }
+  },
+  {
+    "Item Name": "Gauldur Blackblade",
+    "Image": "images/Gauldur Blackblade.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Skyrim Loot Cache",
+    "Type": "Long Blade",
+    "Slot": "Weapon - 1 Hand",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Cast When Strikes",
+      "Absorb Health 5 to 25 pts for 1 sec on Touch"
+    ],
+    "Stats": {
+      "Condition": "800/800",
+      "Weight": "15",
+      "Value": "1286",
+      "Chop": "6 - 18",
+      "Slash": "2 - 18",
+      "Thrust": "2 - 18"
+    }
+  },
+  {
+    "Item Name": "Hoarfrost",
+    "Image": "images/Hoarfrost.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Skyrim Loot Cache",
+    "Type": "Axe",
+    "Slot": "Weapon - 1 Hand",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Cast When Strikes",
+      "Frost Damage 15 pts for 1 sec on Touch",
+      "Drain Attribute Speed 50 pts for 3 secs on Touch",
+      "Paralyze for 5 secs on Touch"
+    ],
+    "Stats": {
+      "Condition": "400/400",
+      "Weight": "20",
+      "Value": "946",
+      "Chop": "2 - 14",
+      "Slash": "1 - 9",
+      "Thrust": "1 - 3"
+    }
+  },
+  {
+    "Item Name": "Horksbane",
+    "Image": "images/Horksbane.png",
+    "Hidden Effect(s)": "Deals additional 20 damage to Horkers",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Skyrim Loot Cache",
+    "Type": "Blunt Weapon",
+    "Slot": "Weapon - 1 Hand",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Condition": "1800/1800",
+      "Weight": "14",
+      "Value": "250",
+      "Chop": "6 - 18",
+      "Slash": "6 - 18",
+      "Thrust": "2 - 4"
+    }
+  },
+  {
+    "Item Name": "Staff of Worms",
+    "Image": "images/Staff of Worms.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Jiubsmas",
+    "Type": "Blunt Weapon",
+    "Slot": "Weapon - 2 Hand",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Cast When Used",
+      "Summon Greater Bonewalker for 300 secs on Self"
+    ],
+    "Stats": {
+      "Condition": "540/540",
+      "Weight": "8",
+      "Value": "2440",
+      "Chop": "2 - 4",
+      "Slash": "3 - 5",
+      "Thrust": "1 - 3"
+    }
+  },
+  {
+    "Item Name": "Steel Battleaxe of Fiery Souls",
+    "Image": "images/Steel Battleaxe of Fiery Souls.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Skyrim Loot Cache",
+    "Type": "Axe",
+    "Slot": "Weapon - 2 Hand",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Cast When Strikes",
+      "Soultrap for 5 secs on Touch",
+      "Fire Damage 10 pts for 1 sec on Touch",
+      "Weakness to Fire 10%"
+    ],
+    "Stats": {
+      "Condition": "1800/1800",
+      "Weight": "30",
+      "Value": "320",
+      "Chop": "1 - 36",
+      "Slash": "1 - 27",
+      "Thrust": "1 - 4"
     }
   }
 ]
