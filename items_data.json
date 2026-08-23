@@ -1119,21 +1119,6 @@
     }
   },
   {
-    "Item Name": "Area Effect Ammunition",
-    "Image": "",
-    "Hidden Effect(s)": "",
-    "Spec. Req.": "Any",
-    "Lvl Req.": "",
-    "Location/Boss/Event": "New Life Festival Gift Crate",
-    "Type": "Arrow",
-    "Slot": "Ammunition",
-    "Other Notes": "Normally found in the official plugin “Area Effect Arrows”",
-    "EV": "",
-    "Price": "",
-    "Effects": [],
-    "Stats": {}
-  },
-  {
     "Item Name": "Arm of the Moon",
     "Image": "",
     "Hidden Effect(s)": "Frenzy on hit (% chance)",
@@ -2449,25 +2434,50 @@
   },
   {
     "Item Name": "Charlatan's Left Glove",
-    "Image": "",
+    "Image": "images/Charlatan's Left Glove.png",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
     "Lvl Req.": "",
     "Location/Boss/Event": "Storyteller",
     "Type": "Medium Armor",
     "Slot": "Left Bracer/Gauntlet",
-    "Other Notes": "",
+    "Other Notes": "No Trade",
     "EV": "",
     "Price": "",
     "Effects": [
       "Constant Effect",
       "Fortify Attribute Endurance 8 pts",
-      "Fortify Attribute Agility & pts",
+      "Fortify Attribute Agility 8 pts",
       "Fortify Health 15 pts"
     ],
     "Stats": {
       "Armor Rating": "58",
-      "Condition": "725/725"
+      "Condition": "725/725",
+      "Weight": "4.5 (Medium)"
+    }
+  },
+  {
+    "Item Name": "Charlatan's Right Glove",
+    "Image": "",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Storyteller",
+    "Type": "Medium Armor",
+    "Slot": "Right Bracer/Gauntlet",
+    "Other Notes": "No Trade; stats/effects confirmed from the matching glove pair",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Endurance 8 pts",
+      "Fortify Attribute Agility 8 pts",
+      "Fortify Health 15 pts"
+    ],
+    "Stats": {
+      "Armor Rating": "58",
+      "Condition": "725/725",
+      "Weight": "4.5 (Medium)"
     }
   },
   {
@@ -5993,21 +6003,6 @@
     "Stats": {}
   },
   {
-    "Item Name": "Potion of Mastery",
-    "Image": "",
-    "Hidden Effect(s)": "",
-    "Spec. Req.": "Any",
-    "Lvl Req.": "",
-    "Location/Boss/Event": "Du'Haar, Suran (Login and Reward Point Vendor)",
-    "Type": "Consumable",
-    "Slot": "Potion",
-    "Other Notes": "Price is for single potion or Jiub Care Package, which include Potion of Alacrity, Potion of Productivity, Potion of Traversing, and Potion of Mastery",
-    "EV": "",
-    "Price": "70/140",
-    "Effects": [],
-    "Stats": {}
-  },
-  {
     "Item Name": "Potion of Productivity",
     "Image": "",
     "Hidden Effect(s)": "",
@@ -6314,7 +6309,7 @@
   },
   {
     "Item Name": "Red Wolf Left Bracer",
-    "Image": "",
+    "Image": "images/Red Wolf Left Bracer.png",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
     "Lvl Req.": "",
@@ -6324,12 +6319,23 @@
     "Other Notes": "",
     "EV": "",
     "Price": "",
-    "Effects": [],
-    "Stats": {}
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Agility 8 pts",
+      "Fortify Attribute Willpower 5 pts",
+      "Fortify Health 15 pts",
+      "Fortify Magicka 15 pts"
+    ],
+    "Stats": {
+      "Armor Rating": "13",
+      "Condition": "320/320",
+      "Weight": "1.5 (Light)",
+      "Value": "1425"
+    }
   },
   {
     "Item Name": "Red Wolf Right Bracer",
-    "Image": "",
+    "Image": "images/Red Wolf Right Bracer.png",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
     "Lvl Req.": "",
@@ -6342,13 +6348,15 @@
     "Effects": [
       "Constant Effect",
       "Fortify Attribute Agility 8 pts",
-      "Fortify Aecriburce Willpower 5 pts",
+      "Fortify Attribute Willpower 5 pts",
       "Fortify Health 15 pts",
       "Fortify Magicka 15 pts"
     ],
     "Stats": {
-      "Armor Raring": "0",
-      "Condition": "320"
+      "Armor Rating": "0",
+      "Condition": "320/320",
+      "Weight": "1.5 (Light)",
+      "Value": "1425"
     }
   },
   {
@@ -6490,6 +6498,30 @@
     "Stats": {
       "Armor Rating": "46",
       "Condition": "1260"
+    }
+  },
+  {
+    "Item Name": "Left Glove of Divination",
+    "Image": "",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Storyteller",
+    "Type": "Light Armor",
+    "Slot": "Left Bracer/Gauntlet",
+    "Other Notes": "Price is for pair; No Trade; stats/effects confirmed from the matching glove pair",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Willpower 8 pts",
+      "Fortify Attribute Intelligence 8 pts",
+      "Fortify Health 15 pts"
+    ],
+    "Stats": {
+      "Armor Rating": "14",
+      "Condition": "375/375",
+      "Weight": "1 (Light)"
     }
   },
   {
@@ -10906,7 +10938,7 @@
     "Location/Boss/Event": "Message in a Bottle",
     "Type": "Recipe",
     "Slot": "Gloves",
-    "Other Notes": "",
+    "Other Notes": "Required Tradeskill: Tailor; Crafting Category: Fishing Recipe",
     "EV": "",
     "Price": "",
     "Effects": [
@@ -13700,15 +13732,15 @@
     }
   },
   {
-    "Item Name": "Visage of Mzund",
-    "Image": "",
-    "Hidden Effect(s)": "Unknown",
+    "Item Name": "Visage of Mzund [No Trade]",
+    "Image": "images/Visage of Mzund _No Trade_.png",
+    "Hidden Effect(s)": "Gives you the \"Breath of Nchuak\" Power when equipped.",
     "Spec. Req.": "Any",
     "Lvl Req.": "",
-    "Location/Boss/Event": "",
-    "Type": "Heavy Armor",
+    "Location/Boss/Event": "Skyrim Loot Crate (extremely rare)",
+    "Type": "Helm",
     "Slot": "Helmet",
-    "Other Notes": "",
+    "Other Notes": "Breath of Nchuak: Fire Damage 15 pts for 3 secs on Target; Damage Fatigue 25 pts for 3 secs on Self.",
     "EV": "",
     "Price": "",
     "Effects": [
@@ -13716,8 +13748,9 @@
       "Fortify Fatigue 60 pts"
     ],
     "Stats": {
-      "Armor Rating": "39",
-      "Weight": "5"
+      "Armor Rating": "48",
+      "Condition": "880/880",
+      "Weight": "5 (Heavy)"
     }
   },
   {
@@ -13760,26 +13793,6 @@
     ],
     "Stats": {
       "Weight": "2"
-    }
-  },
-  {
-    "Item Name": "Finely Tailored Robes",
-    "Image": "",
-    "Hidden Effect(s)": "Unknown",
-    "Spec. Req.": "Any",
-    "Lvl Req.": "",
-    "Location/Boss/Event": "",
-    "Type": "Clothing",
-    "Slot": "Robe",
-    "Other Notes": "",
-    "EV": "",
-    "Price": "",
-    "Effects": [
-      "Constant Effect",
-      "Fortify Attribute Speed 17 pts"
-    ],
-    "Stats": {
-      "Weight": "3"
     }
   },
   {

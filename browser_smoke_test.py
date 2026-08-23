@@ -305,6 +305,52 @@ def main() -> None:
             if false_duplicates:
                 raise AssertionError(f"False-positive report aliases were imported: {false_duplicates}")
 
+            review_verified_names = (
+                "Charlatan's Left Glove",
+                "Charlatan's Right Glove",
+                "Left Glove of Divination",
+                "Right Glove of Divination",
+                "Red Wolf Left Bracer",
+                "Red Wolf Right Bracer",
+                "[Tradeskill Tailor Recipe]: Advanced Fishing Gloves [No Trade]",
+                "Visage of Mzund [No Trade]",
+            )
+            missing_review_items = [name for name in review_verified_names if name not in browser_max_damage]
+            if missing_review_items:
+                raise AssertionError(f"Review-verified items are missing: {missing_review_items}")
+
+            review_image_names = (
+                "Charlatan's Left Glove",
+                "Right Glove of Divination",
+                "Red Wolf Left Bracer",
+                "Red Wolf Right Bracer",
+                "[Tradeskill Tailor Recipe]: Advanced Fishing Gloves [No Trade]",
+                "Visage of Mzund [No Trade]",
+            )
+            for review_name in review_image_names:
+                image_src = cdp.evaluate(
+                    f"state.items.find(item => item['Item Name'] === {review_name!r}).Image"
+                )
+                image_path = ROOT / image_src
+                if not image_src or not image_path.is_file() or image_path.stat().st_size == 0:
+                    raise AssertionError(f"Review-verified image is missing: {review_name} -> {image_src}")
+
+            removed_review_names = (
+                "Area Effect Ammunition",
+                "Potion of Mastery",
+                "Finely Tailored Robes",
+                "Visage of Mzund",
+            )
+            lingering_review_items = [name for name in removed_review_names if name in browser_max_damage]
+            if lingering_review_items:
+                raise AssertionError(f"Removed/renamed review items are still present: {lingering_review_items}")
+
+            visage_hidden = cdp.evaluate(
+                "state.items.find(item => item['Item Name'] === 'Visage of Mzund [No Trade]')['Hidden Effect(s)']"
+            )
+            if "Breath of Nchuak" not in visage_hidden:
+                raise AssertionError(f"Visage of Mzund hidden effect was not updated: {visage_hidden}")
+
             obsidian_hidden = cdp.evaluate(
                 "state.items.find(item => item['Item Name'] === 'Obsidian Blade')['Hidden Effect(s)']"
             )
