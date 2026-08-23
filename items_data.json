@@ -2471,21 +2471,6 @@
     }
   },
   {
-    "Item Name": "Charlatan's Right Glove",
-    "Image": "",
-    "Hidden Effect(s)": "",
-    "Spec. Req.": "Any",
-    "Lvl Req.": "",
-    "Location/Boss/Event": "Storyteller",
-    "Type": "Medium Armor",
-    "Slot": "Right Bracer/Gauntlet",
-    "Other Notes": "",
-    "EV": "",
-    "Price": "",
-    "Effects": [],
-    "Stats": {}
-  },
-  {
     "Item Name": "Charmed Necklace",
     "Image": "",
     "Hidden Effect(s)": "",
@@ -5117,21 +5102,6 @@
       "Armor Rating": "46",
       "Condition": "1260/1260"
     }
-  },
-  {
-    "Item Name": "Left Glove of Divination",
-    "Image": "",
-    "Hidden Effect(s)": "",
-    "Spec. Req.": "Any",
-    "Lvl Req.": "",
-    "Location/Boss/Event": "Storyteller",
-    "Type": "Clothing",
-    "Slot": "Left Glove",
-    "Other Notes": "Price is for pair",
-    "EV": "",
-    "Price": "",
-    "Effects": [],
-    "Stats": {}
   },
   {
     "Item Name": "Left Glove of the Pugilist",
