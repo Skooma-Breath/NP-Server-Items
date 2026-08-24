@@ -2458,14 +2458,14 @@
   },
   {
     "Item Name": "Charlatan's Right Glove",
-    "Image": "",
+    "Image": "images/Charlatan's Right Glove.png",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
     "Lvl Req.": "",
     "Location/Boss/Event": "Storyteller",
     "Type": "Medium Armor",
     "Slot": "Right Bracer/Gauntlet",
-    "Other Notes": "No Trade; stats/effects confirmed from the matching glove pair",
+    "Other Notes": "No Trade",
     "EV": "",
     "Price": "",
     "Effects": [
@@ -6502,14 +6502,14 @@
   },
   {
     "Item Name": "Left Glove of Divination",
-    "Image": "",
+    "Image": "images/Left Glove of Divination.png",
     "Hidden Effect(s)": "",
     "Spec. Req.": "Any",
     "Lvl Req.": "",
     "Location/Boss/Event": "Storyteller",
     "Type": "Light Armor",
     "Slot": "Left Bracer/Gauntlet",
-    "Other Notes": "Price is for pair; No Trade; stats/effects confirmed from the matching glove pair",
+    "Other Notes": "Price is for pair; No Trade",
     "EV": "",
     "Price": "",
     "Effects": [
@@ -6519,7 +6519,7 @@
       "Fortify Health 15 pts"
     ],
     "Stats": {
-      "Armor Rating": "14",
+      "Armor Rating": "33",
       "Condition": "375/375",
       "Weight": "1 (Light)"
     }
@@ -11814,7 +11814,7 @@
     "Hidden Effect(s)": "",
     "Spec. Req.": "Stealth",
     "Lvl Req.": "60",
-    "Location/Boss/Event": "Infernal Flame Atronach",
+    "Location/Boss/Event": "Fire Atronach Camp",
     "Type": "Medium Armor",
     "Slot": "Boots",
     "Other Notes": "",
@@ -11829,7 +11829,7 @@
       "Weakness to Frost 20%"
     ],
     "Stats": {
-      "Armor Rating": "300",
+      "Armor Rating": "100",
       "Condition": "5600/5600",
       "Weight": "15 (Medium)",
       "Value": "4500"
@@ -11841,7 +11841,7 @@
     "Hidden Effect(s)": "",
     "Spec. Req.": "Stealth",
     "Lvl Req.": "60",
-    "Location/Boss/Event": "Infernal Flame Atronach",
+    "Location/Boss/Event": "Fire Atronach Camp",
     "Type": "Medium Armor",
     "Slot": "Greaves",
     "Other Notes": "",
@@ -11856,7 +11856,7 @@
       "Weakness to Frost 20%"
     ],
     "Stats": {
-      "Armor Rating": "325",
+      "Armor Rating": "108",
       "Condition": "5600/5600",
       "Weight": "12 (Medium)",
       "Value": "4500"
@@ -11868,8 +11868,8 @@
     "Hidden Effect(s)": "",
     "Spec. Req.": "Stealth",
     "Lvl Req.": "60",
-    "Location/Boss/Event": "Infernal Flame Atronach",
-    "Type": "Light Armor",
+    "Location/Boss/Event": "Fire Atronach Camp",
+    "Type": "Medium Armor",
     "Slot": "Helmet",
     "Other Notes": "",
     "EV": "",
@@ -11883,9 +11883,9 @@
       "Weakness to Frost 20%"
     ],
     "Stats": {
-      "Armor Rating": "105",
+      "Armor Rating": "100",
       "Condition": "5600/5600",
-      "Weight": "4 (Light)",
+      "Weight": "4 (Medium)",
       "Value": "4500"
     }
   },
@@ -11895,7 +11895,7 @@
     "Hidden Effect(s)": "",
     "Spec. Req.": "Stealth",
     "Lvl Req.": "60",
-    "Location/Boss/Event": "Infernal Flame Atronach",
+    "Location/Boss/Event": "Fire Atronach Camp",
     "Type": "Medium Armor",
     "Slot": "Left Bracer/Gauntlet",
     "Other Notes": "",
@@ -11910,7 +11910,7 @@
       "Weakness to Frost 20%"
     ],
     "Stats": {
-      "Armor Rating": "275",
+      "Armor Rating": "91",
       "Condition": "5600/5600",
       "Weight": "4 (Medium)",
       "Value": "4500"
@@ -11922,7 +11922,7 @@
     "Hidden Effect(s)": "",
     "Spec. Req.": "Stealth",
     "Lvl Req.": "60",
-    "Location/Boss/Event": "Raging Flame Atronach",
+    "Location/Boss/Event": "Fire Atronach Camp",
     "Type": "Medium Armor",
     "Slot": "Right Bracer/Gauntlet",
     "Other Notes": "",
@@ -11937,7 +11937,7 @@
       "Weakness to Frost 20%"
     ],
     "Stats": {
-      "Armor Rating": "114",
+      "Armor Rating": "91",
       "Condition": "5600/5600",
       "Weight": "4 (Medium)",
       "Value": "4500"
@@ -11949,7 +11949,7 @@
     "Hidden Effect(s)": "",
     "Spec. Req.": "Stealth",
     "Lvl Req.": "60",
-    "Location/Boss/Event": "Infernal Flame Atronach",
+    "Location/Boss/Event": "Fire Atronach Camp",
     "Type": "Medium Armor",
     "Slot": "Right Pauldron",
     "Other Notes": "",
@@ -11964,7 +11964,7 @@
       "Weakness to Frost 20%"
     ],
     "Stats": {
-      "Armor Rating": "190",
+      "Armor Rating": "63",
       "Condition": "5600/5600",
       "Weight": "8 (Medium)",
       "Value": "4500"
@@ -11976,7 +11976,7 @@
     "Hidden Effect(s)": "",
     "Spec. Req.": "Magic",
     "Lvl Req.": "60",
-    "Location/Boss/Event": "Raging Flame Atronach",
+    "Location/Boss/Event": "Fire Atronach Camp",
     "Type": "Light Armor",
     "Slot": "Chest",
     "Other Notes": "",
@@ -12003,7 +12003,7 @@
     "Hidden Effect(s)": "Unknown",
     "Spec. Req.": "Magic",
     "Lvl Req.": "60",
-    "Location/Boss/Event": "Infernal Flame Atronach Camp - Cinder (Boss)",
+    "Location/Boss/Event": "Fire Atronach Camp",
     "Type": "Light Armor",
     "Slot": "Helmet",
     "Other Notes": "",
@@ -12030,7 +12030,7 @@
     "Hidden Effect(s)": "",
     "Spec. Req.": "Magic",
     "Lvl Req.": "60",
-    "Location/Boss/Event": "Infernal Flame Atronach",
+    "Location/Boss/Event": "Fire Atronach Camp",
     "Type": "Light Armor",
     "Slot": "Left Pauldron",
     "Other Notes": "",
@@ -12045,7 +12045,7 @@
       "Weakness to Frost 20%"
     ],
     "Stats": {
-      "Armor Rating": "59",
+      "Armor Rating": "56",
       "Condition": "4800/4800",
       "Weight": "5 (Light)",
       "Value": "4500"
@@ -12057,7 +12057,7 @@
     "Hidden Effect(s)": "",
     "Spec. Req.": "Magic",
     "Lvl Req.": "60",
-    "Location/Boss/Event": "Infernal Flame Atronach",
+    "Location/Boss/Event": "Fire Atronach Camp",
     "Type": "Light Armor",
     "Slot": "Right Bracer/Gauntlet",
     "Other Notes": "",
@@ -12072,7 +12072,7 @@
       "Weakness to Frost 20%"
     ],
     "Stats": {
-      "Armor Rating": "87",
+      "Armor Rating": "83",
       "Condition": "4800/4800",
       "Weight": "2 (Light)",
       "Value": "4500"
@@ -12172,7 +12172,7 @@
       "Drain Attribute Intelligence 40 pts"
     ],
     "Stats": {
-      "Armor Rating": "121",
+      "Armor Rating": "146",
       "Condition": "2150/2150",
       "Weight": "10 (Heavy)",
       "Value": "5206"
@@ -12213,7 +12213,7 @@
     "Hidden Effect(s)": "Can proc 250 Fire Damage (resistable).",
     "Spec. Req.": "Combat",
     "Lvl Req.": "60",
-    "Location/Boss/Event": "Flame Atronach Camp Boss",
+    "Location/Boss/Event": "Blaze (Flame Atronach Camp Boss)",
     "Type": "Long Blade",
     "Slot": "Weapon - 1 Hand",
     "Other Notes": "No Trade",
@@ -12230,7 +12230,7 @@
       "Chop": "40 - 72",
       "Slash": "42 - 85",
       "Thrust": "18 - 40",
-      "Condition": "8764/8860",
+      "Condition": "8860/8860",
       "Range": "6 ft",
       "Speed": "125%",
       "Weight": "20"
@@ -12242,7 +12242,7 @@
     "Hidden Effect(s)": "",
     "Spec. Req.": "Combat",
     "Lvl Req.": "60",
-    "Location/Boss/Event": "Infernal Flame Atronach",
+    "Location/Boss/Event": "Fire Atronach Camp",
     "Type": "Heavy Armor",
     "Slot": "Left Bracer/Gauntlet",
     "Other Notes": "",
@@ -12257,7 +12257,7 @@
       "Weakness to Frost 20%"
     ],
     "Stats": {
-      "Armor Rating": "105",
+      "Armor Rating": "120",
       "Condition": "6400/6400",
       "Weight": "8 (Heavy)",
       "Value": "4500"
@@ -13117,7 +13117,7 @@
     "Hidden Effect(s)": "Unknown",
     "Spec. Req.": "Combat",
     "Lvl Req.": "60",
-    "Location/Boss/Event": "Flame Atronach Camp Boss",
+    "Location/Boss/Event": "Blaze (Flame Atronach Camp Boss)",
     "Type": "Heavy Armor",
     "Slot": "Right Pauldron",
     "Other Notes": "",
@@ -13129,7 +13129,7 @@
       "Weakness to Frost 25%"
     ],
     "Stats": {
-      "Armor Rating": "78",
+      "Armor Rating": "90",
       "Condition": "1750/1750",
       "Weight": "10 (Heavy)",
       "Value": "4875"
@@ -13141,7 +13141,7 @@
     "Hidden Effect(s)": "",
     "Spec. Req.": "Magic",
     "Lvl Req.": "60",
-    "Location/Boss/Event": "Flame Atronach Camp",
+    "Location/Boss/Event": "Fire Atronach Camp",
     "Type": "Light Armor",
     "Slot": "Greaves",
     "Other Notes": "",
@@ -13156,7 +13156,7 @@
       "Weakness to Frost 20%"
     ],
     "Stats": {
-      "Armor Rating": "105",
+      "Armor Rating": "100",
       "Condition": "4800/4800",
       "Weight": "8 (Light)",
       "Value": "4500"
@@ -13168,7 +13168,7 @@
     "Hidden Effect(s)": "",
     "Spec. Req.": "Stealth",
     "Lvl Req.": "60",
-    "Location/Boss/Event": "Flame Atronach Camp",
+    "Location/Boss/Event": "Fire Atronach Camp",
     "Type": "Medium Armor",
     "Slot": "Chest",
     "Other Notes": "",
@@ -13183,7 +13183,7 @@
       "Weakness to Frost 20%"
     ],
     "Stats": {
-      "Armor Rating": "325",
+      "Armor Rating": "108",
       "Condition": "5600/5600",
       "Weight": "25 (Medium)",
       "Value": "4500"
@@ -13195,7 +13195,7 @@
     "Hidden Effect(s)": "",
     "Spec. Req.": "Combat/Magic",
     "Lvl Req.": "60",
-    "Location/Boss/Event": "Flame Atronach Camp - Blaze (Boss)",
+    "Location/Boss/Event": "Blaze (Flame Atronach Camp Boss)",
     "Type": "Heavy Armor",
     "Slot": "Shield",
     "Other Notes": "",
@@ -13208,7 +13208,7 @@
       "Fortify Health 100 pts"
     ],
     "Stats": {
-      "Armor Rating": "173",
+      "Armor Rating": "198",
       "Condition": "6520/6520",
       "Weight": "18 (Heavy)",
       "Value": "5082"
@@ -13220,7 +13220,7 @@
     "Hidden Effect(s)": "Unknown",
     "Spec. Req.": "Magic",
     "Lvl Req.": "60",
-    "Location/Boss/Event": "Flame Atronach Camp - Cinder (Boss)",
+    "Location/Boss/Event": "Cinder (Flame Atronach Camp Boss)",
     "Type": "Clothing",
     "Slot": "Robe",
     "Other Notes": "",
@@ -13244,7 +13244,7 @@
     "Hidden Effect(s)": "Unknown",
     "Spec. Req.": "Combat/Stealth",
     "Lvl Req.": "60",
-    "Location/Boss/Event": "Flame Atronach Camp - Cinder (Boss)",
+    "Location/Boss/Event": "Cinder (Flame Atronach Camp Boss)",
     "Type": "Long Blade",
     "Slot": "Weapon - 2 Hand",
     "Other Notes": "",
@@ -13263,7 +13263,7 @@
       "Condition": "5800/5800",
       "Range": "7.5 ft",
       "Speed": "135%",
-      "Weight": "6",
+      "Weight": "36",
       "Value": "9265"
     }
   },
@@ -13273,7 +13273,7 @@
     "Hidden Effect(s)": "",
     "Spec. Req.": "Magic",
     "Lvl Req.": "60",
-    "Location/Boss/Event": "Infernal Flame Atronach Camp - Blaze (Boss)",
+    "Location/Boss/Event": "Blaze (Flame Atronach Camp Boss)",
     "Type": "Blunt Weapon",
     "Slot": "Weapon - 2 Hand",
     "Other Notes": "",
@@ -13303,7 +13303,7 @@
     "Hidden Effect(s)": "Unknown",
     "Spec. Req.": "Magic",
     "Lvl Req.": "60",
-    "Location/Boss/Event": "Infernal Flame Atronach Camp - Cinder (Boss)",
+    "Location/Boss/Event": "Fire Atronach Camp",
     "Type": "Light Armor",
     "Slot": "Boots",
     "Other Notes": "",
@@ -13330,7 +13330,7 @@
     "Hidden Effect(s)": "Unknown",
     "Spec. Req.": "Stealth",
     "Lvl Req.": "60",
-    "Location/Boss/Event": "Infernal Flame Atronach Camp - Cinder (Boss)",
+    "Location/Boss/Event": "Cinder (Flame Atronach Camp Boss)",
     "Type": "Medium Armor",
     "Slot": "Gauntlet",
     "Other Notes": "",
@@ -13342,7 +13342,7 @@
       "Resist Fire 15%"
     ],
     "Stats": {
-      "Armor Rating": "129",
+      "Armor Rating": "103",
       "Condition": "1650/1650",
       "Weight": "4 (Medium)",
       "Value": "4235"
@@ -13354,7 +13354,7 @@
     "Hidden Effect(s)": "Unknown",
     "Spec. Req.": "",
     "Lvl Req.": "60",
-    "Location/Boss/Event": "Infernal Flame Atronach Camp - Cinder (Boss)",
+    "Location/Boss/Event": "Cinder (Flame Atronach Camp Boss)",
     "Type": "Light Armor",
     "Slot": "Left Bracer/Gauntlet",
     "Other Notes": "",
@@ -13378,7 +13378,7 @@
     "Hidden Effect(s)": "Unknown",
     "Spec. Req.": "Stealth/Magic",
     "Lvl Req.": "60",
-    "Location/Boss/Event": "Infernal Flame Atronach Camp - Blaze (Boss)",
+    "Location/Boss/Event": "Blaze (Flame Atronach Camp Boss)",
     "Type": "Heavy Armor",
     "Slot": "Left Bracer/Gauntlet",
     "Other Notes": "",
@@ -13404,7 +13404,7 @@
     "Hidden Effect(s)": "Unknown",
     "Spec. Req.": "Combat/Stealth",
     "Lvl Req.": "60",
-    "Location/Boss/Event": "Flame Atronach Camp - Cinder (Boss)",
+    "Location/Boss/Event": "Cinder (Flame Atronach Camp Boss)",
     "Type": "Medium Armor",
     "Slot": "Chest",
     "Other Notes": "",
@@ -13417,7 +13417,7 @@
       "Resist Fire 25%"
     ],
     "Stats": {
-      "Armor Rating": "108",
+      "Armor Rating": "103",
       "Condition": "2235/2235",
       "Weight": "26 (Medium)",
       "Value": "4274"
@@ -13429,7 +13429,7 @@
     "Hidden Effect(s)": "Light effect; Obsidian Strike (100% Weakness to Fire, unresistable, 30 sec duration).",
     "Spec. Req.": "Magic",
     "Lvl Req.": "60",
-    "Location/Boss/Event": "Flame Atronach Camp - Blaze (Boss)",
+    "Location/Boss/Event": "Blaze (Flame Atronach Camp Boss)",
     "Type": "Long Blade",
     "Slot": "Weapon - 2 Hand",
     "Other Notes": "No Trade",
@@ -13450,7 +13450,7 @@
       "Condition": "8860/8860",
       "Range": "6 ft",
       "Speed": "150%",
-      "Weight": "20"
+      "Weight": "38"
     }
   },
   {
@@ -13459,7 +13459,7 @@
     "Hidden Effect(s)": "",
     "Spec. Req.": "",
     "Lvl Req.": "60",
-    "Location/Boss/Event": "Flame Atronach Camp - Cinder (Boss)",
+    "Location/Boss/Event": "Blaze (Flame Atronach Camp Boss)",
     "Type": "Clothing",
     "Slot": "Amulet",
     "Other Notes": "",
@@ -13480,7 +13480,7 @@
     "Hidden Effect(s)": "Turns you into a fire atronach for 60 seconds when hit; +50% Fire Resistance during the duration.",
     "Spec. Req.": "",
     "Lvl Req.": "50",
-    "Location/Boss/Event": "Flame Atronach Camp - Blaze (Boss)",
+    "Location/Boss/Event": "Blaze (Flame Atronach Camp Boss)",
     "Type": "Clothing",
     "Slot": "Belt",
     "Other Notes": "",
@@ -13501,7 +13501,7 @@
     "Hidden Effect(s)": "",
     "Spec. Req.": "Combat",
     "Lvl Req.": "60",
-    "Location/Boss/Event": "Flame Atronach Camp",
+    "Location/Boss/Event": "Fire Atronach Camp",
     "Type": "Heavy Armor",
     "Slot": "Right Pauldron",
     "Other Notes": "Interesting piece of gear for dedicated miners/wood choppers.",
@@ -13528,7 +13528,7 @@
     "Hidden Effect(s)": "",
     "Spec. Req.": "Combat",
     "Lvl Req.": "60",
-    "Location/Boss/Event": "Flame Atronach Camp",
+    "Location/Boss/Event": "Fire Atronach Camp",
     "Type": "Heavy Armor",
     "Slot": "Boots",
     "Other Notes": "",
@@ -13543,7 +13543,7 @@
       "Weakness to Frost 20%"
     ],
     "Stats": {
-      "Armor Rating": "113",
+      "Armor Rating": "130",
       "Condition": "6400/6400",
       "Weight": "25 (Heavy)",
       "Value": "4500"
@@ -13555,9 +13555,9 @@
     "Hidden Effect(s)": "",
     "Spec. Req.": "",
     "Lvl Req.": "60",
-    "Location/Boss/Event": "Flame Atronach Camp - Blaze (Boss)",
+    "Location/Boss/Event": "Blaze (Flame Atronach Camp Boss)",
     "Type": "Light Armor",
-    "Slot": "Right Bracer",
+    "Slot": "Right Bracer/Gauntlet",
     "Other Notes": "",
     "EV": "",
     "Price": "",
@@ -13601,7 +13601,7 @@
     "Hidden Effect(s)": "Unknown",
     "Spec. Req.": "Combat",
     "Lvl Req.": "60",
-    "Location/Boss/Event": "Infernal Flame Atronach Camp - one of the bosses",
+    "Location/Boss/Event": "Cinder (Flame Atronach Camp Boss)",
     "Type": "Heavy Armor",
     "Slot": "Left Pauldron",
     "Other Notes": "",
@@ -13613,7 +13613,7 @@
       "Weakness to Frost 25%"
     ],
     "Stats": {
-      "Armor Rating": "75",
+      "Armor Rating": "90",
       "Condition": "1750/1750",
       "Weight": "10 (Heavy)",
       "Value": "4875"
@@ -13647,7 +13647,7 @@
     "Hidden Effect(s)": "Unknown",
     "Spec. Req.": "Stealth/Magic",
     "Lvl Req.": "60",
-    "Location/Boss/Event": "Infernal Flame Atronach Camp - Cinder (Boss)",
+    "Location/Boss/Event": "Cinder (Flame Atronach Camp Boss)",
     "Type": "Heavy Armor",
     "Slot": "Right Bracer/Gauntlet",
     "Other Notes": "",
@@ -14970,6 +14970,239 @@
       "Chop": "1 - 36",
       "Slash": "1 - 27",
       "Thrust": "1 - 4"
+    }
+  },
+  {
+    "Item Name": "Lava Etched Helm",
+    "Image": "images/Lava Etched Helm.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "Combat",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Fire Atronach Camp",
+    "Type": "Heavy Armor",
+    "Slot": "Helmet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Willpower 10 pts",
+      "Fortify Skill Restoration 25 pts",
+      "Fortify Magicka 75 pts",
+      "Resist Fire 10%",
+      "Weakness to Frost 20%"
+    ],
+    "Stats": {
+      "Armor Rating": "130",
+      "Condition": "6400/6400",
+      "Weight": "8 (Heavy)",
+      "Value": "4500"
+    }
+  },
+  {
+    "Item Name": "Lava Etched Right Gauntlet",
+    "Image": "images/Lava Etched Right Gauntlet.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "Combat",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Fire Atronach Camp",
+    "Type": "Heavy Armor",
+    "Slot": "Right Bracer/Gauntlet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Endurance 10 pts",
+      "Fortify Skill Long Blade 25 pts",
+      "Fortify Health 75 pts",
+      "Resist Fire 10%",
+      "Weakness to Frost 20%"
+    ],
+    "Stats": {
+      "Armor Rating": "120",
+      "Condition": "6400/6400",
+      "Weight": "8 (Heavy)",
+      "Value": "4500"
+    }
+  },
+  {
+    "Item Name": "Lava Etched Left Pauldron",
+    "Image": "images/Lava Etched Left Pauldron.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "Combat",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Fire Atronach Camp",
+    "Type": "Heavy Armor",
+    "Slot": "Left Pauldron",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Strength 10 pts",
+      "Fortify Skill Axe 25 pts",
+      "Fortify Health 75 pts",
+      "Resist Fire 10%",
+      "Weakness to Frost 20%"
+    ],
+    "Stats": {
+      "Armor Rating": "84",
+      "Condition": "6400/6400",
+      "Weight": "10 (Heavy)",
+      "Value": "4500"
+    }
+  },
+  {
+    "Item Name": "Lava Etched Chestguard",
+    "Image": "images/Lava Etched Chestguard.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "Combat",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Fire Atronach Camp",
+    "Type": "Heavy Armor",
+    "Slot": "Chest",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Endurance 10 pts",
+      "Fortify Skill Blunt Weapon 25 pts",
+      "Fortify Health 75 pts",
+      "Resist Fire 10%",
+      "Weakness to Frost 20%"
+    ],
+    "Stats": {
+      "Armor Rating": "140",
+      "Condition": "6400/6400",
+      "Weight": "30 (Heavy)",
+      "Value": "4500"
+    }
+  },
+  {
+    "Item Name": "Lava Etched Greaves",
+    "Image": "images/Lava Etched Greaves.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "Combat",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Fire Atronach Camp",
+    "Type": "Heavy Armor",
+    "Slot": "Greaves",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Strength 10 pts",
+      "Fortify Skill Heavy Armor 25 pts",
+      "Fortify Health 75 pts",
+      "Resist Fire 10%",
+      "Weakness to Frost 20%"
+    ],
+    "Stats": {
+      "Armor Rating": "140",
+      "Condition": "6400/6400",
+      "Weight": "25 (Heavy)",
+      "Value": "4500"
+    }
+  },
+  {
+    "Item Name": "Flame Mail Left Pauldron",
+    "Image": "images/Flame Mail Left Pauldron.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "Stealth",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Fire Atronach Camp",
+    "Type": "Medium Armor",
+    "Slot": "Left Pauldron",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Speed 10 pts",
+      "Fortify Skill Marksman 25 pts",
+      "Fortify Magicka 75 pts",
+      "Resist Fire 10%",
+      "Weakness to Frost 20%"
+    ],
+    "Stats": {
+      "Armor Rating": "63",
+      "Condition": "5600/5600",
+      "Weight": "8 (Medium)",
+      "Value": "4500"
+    }
+  },
+  {
+    "Item Name": "Flame Woven Right Pauldron",
+    "Image": "images/Flame Woven Right Pauldron.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "Magic",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Fire Atronach Camp",
+    "Type": "Light Armor",
+    "Slot": "Right Pauldron",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Intelligence 10 pts",
+      "Fortify Skill Restoration 10 pts",
+      "Fortify Magicka 75 pts",
+      "Resist Fire 10%",
+      "Weakness to Frost 20%"
+    ],
+    "Stats": {
+      "Armor Rating": "56",
+      "Condition": "4800/4800",
+      "Weight": "5 (Light)",
+      "Value": "4500"
+    }
+  },
+  {
+    "Item Name": "Flame Woven Left Gauntlet",
+    "Image": "images/Flame Woven Left Gauntlet.png",
+    "Hidden Effect(s)": "",
+    "Spec. Req.": "Magic",
+    "Lvl Req.": "60",
+    "Location/Boss/Event": "Fire Atronach Camp",
+    "Type": "Light Armor",
+    "Slot": "Left Bracer/Gauntlet",
+    "Other Notes": "",
+    "EV": "",
+    "Price": "",
+    "Effects": [
+      "Constant Effect",
+      "Fortify Attribute Endurance 10 pts",
+      "Fortify Skill Destruction 25 pts",
+      "Fortify Magicka 75 pts",
+      "Resist Fire 10%",
+      "Weakness to Frost 20%"
+    ],
+    "Stats": {
+      "Armor Rating": "83",
+      "Condition": "4800/4800",
+      "Weight": "2 (Light)",
+      "Value": "4500"
+    }
+  },
+  {
+    "Item Name": "Effigy: Flame Atronach",
+    "Image": "images/Effigy - Flame Atronach.png",
+    "Hidden Effect(s)": "Unknown",
+    "Spec. Req.": "Any",
+    "Lvl Req.": "",
+    "Location/Boss/Event": "Cinder and Blaze (Flame Atronach Camp Bosses)",
+    "Type": "Miscellaneous",
+    "Slot": "Miscellaneous",
+    "Other Notes": "Blaze's boss-drop post explicitly notes that it also drops this effigy.",
+    "EV": "",
+    "Price": "",
+    "Effects": [],
+    "Stats": {
+      "Weight": "0.5"
     }
   }
 ]

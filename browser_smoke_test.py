@@ -288,6 +288,27 @@ def main() -> None:
                 if not image_src or not image_path.is_file() or image_path.stat().st_size == 0:
                     raise AssertionError(f"Report-import item image is missing: {report_name} -> {image_src}")
 
+            discord_dump_names = (
+                "Lava Etched Helm",
+                "Lava Etched Right Gauntlet",
+                "Lava Etched Left Pauldron",
+                "Lava Etched Chestguard",
+                "Lava Etched Greaves",
+                "Flame Mail Left Pauldron",
+                "Flame Woven Right Pauldron",
+                "Flame Woven Left Gauntlet",
+                "Effigy: Flame Atronach",
+            )
+            for discord_name in discord_dump_names:
+                if discord_name not in browser_max_damage:
+                    raise AssertionError(f"Discord-dump item is missing: {discord_name}")
+                image_src = cdp.evaluate(
+                    f"state.items.find(item => item['Item Name'] === {discord_name!r}).Image"
+                )
+                image_path = ROOT / image_src
+                if not image_src or not image_path.is_file() or image_path.stat().st_size == 0:
+                    raise AssertionError(f"Discord-dump item image is missing: {discord_name} -> {image_src}")
+
             false_report_names = (
                 "Snowman Balls",
                 "Stalrihm Shortsword",

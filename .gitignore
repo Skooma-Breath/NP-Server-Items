@@ -5,3 +5,10 @@
 # Python runtime artifacts
 __pycache__/
 *.py[cod]
+
+# Local Discord manual-download/import workspace
+/discord_drop/
+/discord_review/
+
+# Local helper scripts
+/scripts/
